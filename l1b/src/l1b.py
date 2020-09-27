@@ -44,7 +44,7 @@ class l1b(initL1b):
             self.logger.info("EODP-ALG-L1B-1020: Absolute radiometric gain application (restoration)")
             toa = self.restoration(toa, self.l1bConfig.gain[getIndexBand(band)])
 
-            # Write output TOA
+
             # -------------------------------------------------------------------------------
             writeToa(self.outdir, self.globalConfig.l1b_toa + band, toa)
 

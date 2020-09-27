@@ -1,0 +1,81 @@
+# Compilation files
+\.gradle
+gradle*\.*
+gradle.*
+build/
+cots/
+
+#Installation directories
+bin/
+lib/
+
+# Tools outputs
+*.nc
+*.png
+*.txt
+*.log
+
+# Test outputs
+**/output*
+*.csv
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# CMake files
+*.cmake
+!cmake/
+!cmake/*.cmake
+Makefile*
+CMakeCache*
+CMakeFiles/
+!CMakeLists.txt
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Eclipse generated files
+tmp/
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Eclipse CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# Eclipse CDT-autotools
+.autotools
+
+# Eclipse Code Recommenders
+.recommenders/
+
+# Python Eclipse 
+.pydevproject
+**/__pycache__/
+.idea/
