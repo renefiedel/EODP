@@ -4,9 +4,9 @@
 from ism.src.ism import ism
 
 # Directory - this is the common directory for the execution of the E2E, all modules
-auxdir = '/home/luss/EODP/eodp/auxiliary'
-indir = '/home/luss/my_shared_folder/sgm_out/gradient_alt100_act150/' # small scene
-outdir = '/home/luss/EODP/eodp/ism/test/ut02/output'
+auxdir = '/home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/auxiliary'
+indir = '/home/renefiedel/Documents/EO DATA PROCESSING/EODP_TER-20200917T082333Z-001/EODP_TER/EODP-TS-ISM/input'  # small scene
+outdir = '/home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output'
 
 # Initialise the ISM
 myIsm = ism(auxdir, indir, outdir)

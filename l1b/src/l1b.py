@@ -65,16 +65,25 @@ class l1b(initL1b):
         # Equalisation
         # TODO
 
+        toa_out = np.zeros(toa.shape)
+        for ii in range(toa.shape[0]):
+
+            toa_out[ii, :] = (toa[ii, :] - eq_add)/eq_mult
+
         return toa_out
 
     def restoration(self,toa,gain):
+
+        #gain = np.array([0.09209303, 0.06787323, 0.052162305, 0.047756273])  # [mW/m2/sr/DN]
         """
         Absolute Radiometric Gain - restore back to radiances
         :param toa: TOA in DN
         :param gain: gain in [rad/DN]
         :return: TOA in radiances [mW/sr/m2]
         """
-        # TODO
+        # TODO TOA L1B [alt, act] = TOA eq [alt, act] ∗ Gain
+
+        toa = toa * gain
 
         self.logger.debug('Sanity check. TOA in radiances after gain application ' + str(toa[1,-1]) + ' [mW/m2/sr]')
 
