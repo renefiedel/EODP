@@ -1,5 +1,7 @@
 import os
 
+import scipy
+
 from ism.src.initIsm import initIsm
 from math import pi
 from ism.src.mtf import mtf
@@ -121,13 +123,14 @@ class opticalPhase(initIsm):
         isrf, wv_isrf = readIsrf(self.auxdir + os.path.sep + self.ismConfig.isrffile, band)
         wv_isrf = wv_isrf * 1e3  # [nm] same as the input
 
-        for ii in range[isrf]:
-            for every pixel act:
+        toa = np.zeros((sgm_toa.shape[0], sgm_toa.shape[1]))
+        for ii in range[sgm_toa.shape(0)]:
+            for jj in range[sgm_toa.shape(1)]:
                 cs = scipy.interpolate.interp1d(sgm_wv, sgm_toa[ialt, iact, :], fill_value=(0, 0),bounds_error=False)
-        toa_interp = cs(wv_isrf)
-        toa[iact, ialt] = toa_interp + isrf_norm
+                toa_interp = cs(wv_isrf)
 
-        toa np.zeros((sgm_toa.shape[0], sgm_toa.shape[]]))
-        for iact in range()
+                toa[iact, ialt] = toa_interp * isrf_norm
+
+        #for iact in range()
         toa = sgm_toa[:, :, 0]
         return toa
