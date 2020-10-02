@@ -94,6 +94,12 @@ class opticalPhase(initIsm):
         :return: TOA image in irradiances [mW/m2]
         """
         # TODO
+        # input image
+        input(toa)
+        solid = pi/4 * ((D/f)**2)
+        irrad = solid * toa #input image
+        toa = irrad*Tr
+
         return toa
 
 
@@ -105,6 +111,9 @@ class opticalPhase(initIsm):
         :return: TOA image in irradiances [mW/m2]
         """
         # TODO
+        input(toa)
+
+        toa_ft = toa*Hsys
 
         return toa_ft
 
@@ -131,7 +140,7 @@ class opticalPhase(initIsm):
                 cs = scipy.interpolate.interp1d(sgm_wv, sgm_toa[ialt, iact, :], fill_value=(0, 0),bounds_error=False)
                 toa_interp = cs(wv_isrf)
 
-                toa[ialt, iact] = np.sum(toa_interp * isrf_norm)
+                toa[ialt, iact] = sum(toa_interp * isrf_norm)
 
         toa = sgm_toa[:, :, 0]
         return toa
