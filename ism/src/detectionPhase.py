@@ -1,3 +1,4 @@
+from scipy.constants import c, Planck
 
 from ism.src.initIsm import initIsm
 import numpy as np
@@ -105,6 +106,12 @@ class detectionPhase(initIsm):
         :return: Toa in photons
         """
         # TODO
+
+        toa = self.irrad2Phot([])
+        Ein = area_pix*tint
+        Ephoton = (Planck*c)/wv
+        toa_ph = Ein/Ephoton
+
         return toa_ph
 
     def phot2Electr(self, toa, QE):
@@ -115,6 +122,7 @@ class detectionPhase(initIsm):
         :return: toa in electrons
         """
         # TODO
+        toae = toa*QE
 
         return toae
 
@@ -141,9 +149,13 @@ class detectionPhase(initIsm):
         """
         # Calculate the 1D PRNU ACT
         # TODO
+        np.random.seed(self.ismConfig.seed)
+        prnu_eff = kprnu * np.random.normal(0, 1, toa.shape[1])
 
         # Apply PRNU to the input TOA
         # TODO
+        for ialt in range(toa.shape[0]):
+            toa[ialt, :] = toa[ialt, :] * (1 + prnu_eff) # check for errors
 
         return toa
 

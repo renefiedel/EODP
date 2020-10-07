@@ -104,17 +104,17 @@ class mtf:
         fAct = np.arange(-1 / (2 * w), 1 / (2 * w) - eps, fstepAct)
         if ncolumns != len(fAct):
             raise Exception('Error in the frequency calculation. Columns TOA ' + str(
-                ncolumns) + 'Sizes of the freuencies ACT' + str(len(fAct)))
+                ncolumns) + 'Sizes of the frequencies ACT' + str(len(fAct)))
 
-        #[fnAltii, fnActjj] = np.meshgrid(fnAlt, fnAct, indexing='ij')  # Please use ‘ij’ indexing or
-        #fn2D = np.sqrt(fnAltxx * fnAltxx + fnActxx * fnActxx)
+        [fnAltxx, fnActxx] = np.meshgrid(fAlt, fAct, indexing='ij')
+        fn2D = np.sqrt(fnAltxx * fnAltxx + fnActxx * fnActxx)
 
-        #[frAltxx,frActxx] = np.meshgrid(fnAlt*(1/w)/fc,fnAct*(1/w)/fc,indexing='ij');
-        #fr2D=np.sqrt(frAltxx*frAltxx + frActxx*frActxx)
+        [frAltxx,frActxx] = np.meshgrid(fAlt*(1/w)/focal, fAct*(1/w)/focal, indexing='ij')
+        fr2D=np.sqrt(frAltxx*frAltxx + frActxx*frActxx)
 
-        fn2D = focal/(1/w)
-        E_cutoff = D/(lambd*focal)
-        fr2D = focal/(D/E_cutoff)
+        #fn2D = focal/(1/w)
+        # E_cutoff = D/(lambd*focal)
+        #fr2D = focal/(D/E_cutoff)
         fnAct = focal/(1/w)
         fnAlt = focal/(1/w)
 
