@@ -1,4 +1,8 @@
 from math import pi
+
+import scipy
+from numpy import sinc
+
 from config.ismConfig import ismConfig
 import numpy as np
 import math
@@ -68,7 +72,7 @@ class mtf:
         # Calculate the System MTF
         self.logger.debug("Calculation of the Sysmtem MTF by multiplying the different contributors")
         # TODO
-        # Hsys = ...
+        Hsys = Hdiff*Hwfe*Hdefoc*Hdet*Hsmear*Hmotion
 
         # Plot cuts ACT/ALT of the MTF
         self.plotMtf(Hdiff, Hdefoc, Hwfe, Hdet, Hsmear, Hmotion, Hsys, nlines, ncolumns, fnAct, fnAlt, directory, band)
@@ -91,6 +95,28 @@ class mtf:
         """
 
         # TODO
+        fstepAlt = 1/nlines/w
+        fstepAct = 1/ncolumns/w
+        fAlt = np.arange(-1 / (2 * w), 1 / (2 * w) - eps, fstepAlt)
+        if nlines != len(fAlt):
+            raise Exception('Error in the frequency calculation. Lines TOA ' + str(nlines) + ' Sizes of the frequencies ALT' + str(len(fAlt)) )
+
+        fAct = np.arange(-1 / (2 * w), 1 / (2 * w) - eps, fstepAct)
+        if ncolumns != len(fAct):
+            raise Exception('Error in the frequency calculation. Columns TOA ' + str(
+                ncolumns) + 'Sizes of the freuencies ACT' + str(len(fAct)))
+
+        #[fnAltii, fnActjj] = np.meshgrid(fnAlt, fnAct, indexing='ij')  # Please use ‘ij’ indexing or
+        #fn2D = np.sqrt(fnAltxx * fnAltxx + fnActxx * fnActxx)
+
+        #[frAltxx,frActxx] = np.meshgrid(fnAlt*(1/w)/fc,fnAct*(1/w)/fc,indexing='ij');
+        #fr2D=np.sqrt(frAltxx*frAltxx + frActxx*frActxx)
+
+        fn2D = focal/(1/w)
+        E_cutoff = D/(lambd*focal)
+        fr2D = focal/(D/E_cutoff)
+        fnAct = focal/(1/w)
+        fnAlt = focal/(1/w)
 
         return fn2D, fr2D, fnAct, fnAlt
 
@@ -105,6 +131,8 @@ class mtf:
             return math.acos(x)
         acosv = np.vectorize(acosf)
         # TODO
+        Hdiff = (2 / pi) * (acosv(fr2D) - fr2D * np.sqrt(1 - fr2D * fr2D))
+        Hdiff[fr2D*fr2D > 1] = 0
         return Hdiff
 
 
@@ -118,6 +146,10 @@ class mtf:
         :return: Defocus MTF
         """
         # TODO
+        x = pi * (defocus / (focal / D)) * fr2D * (1 - fr2D)
+        scipy.special.j1(x)
+        Hdefoc = 2*j1(x) / x
+
         return Hdefoc
 
     def mtfWfeAberrations(self, fr2D, lambd, kLF, wLF, kHF, wHF):
@@ -132,6 +164,10 @@ class mtf:
         :return: WFE Aberrations MTF
         """
         # TODO
+        a = -fr2D(1-fr2D)
+        b = kLF(wLF/lambd)**2 + kHF(wHF/lambd)**2
+        Hwfe = np.exp(a * b)
+
         return Hwfe
 
     def mtfDetector(self,fn2D):
@@ -141,6 +177,7 @@ class mtf:
         :return: detector MTF
         """
         # TODO
+        Hdet = sinc(fn2D)
         return Hdet
 
     def mtfSmearing(self, fnAlt, ncolumns, ksmear):
@@ -152,6 +189,9 @@ class mtf:
         :return: Smearing MTF
         """
         # TODO
+        smearAlt = np.zeros((len(fnAlt),1))
+        smearAlt[:, 0] = np.sinc(fnAlt*ksmear)
+        Hsmear = repmat(smearAlt, 1, ncolumns)
         return Hsmear
 
     def mtfMotion(self, fn2D, kmotion):
@@ -162,6 +202,7 @@ class mtf:
         :return: detector MTF
         """
         # TODO
+        Hmotion = sinc(kmotion*fn2D)
         return Hmotion
 
     def plotMtf(self,Hdiff, Hdefoc, Hwfe, Hdet, Hsmear, Hmotion, Hsys, nlines, ncolumns, fnAct, fnAlt, directory, band):
