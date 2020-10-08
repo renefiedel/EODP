@@ -3,12 +3,12 @@ from netCDF4 import Dataset
 import numpy as np
 import os
 import sys
-from common.io.outputdir import mkdirOutputdir
+#from common.io.outputdir import mkdirOutputdir
 
 def writeToa(outputdir, name, toa):
 
     # Check output directory
-    mkdirOutputdir(outputdir)
+   # mkdirOutputdir(outputdir)
 
     # TOA filename
     savetostr = os.path.join(outputdir, name + '.nc')

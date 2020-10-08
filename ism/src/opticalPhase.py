@@ -1,3 +1,6 @@
+import os
+
+import scipy
 
 from ism.src.initIsm import initIsm
 from math import pi
@@ -91,6 +94,7 @@ class opticalPhase(initIsm):
         :return: TOA image in irradiances [mW/m2]
         """
         # TODO
+
         return toa
 
 
@@ -106,6 +110,8 @@ class opticalPhase(initIsm):
         return toa_ft
 
     def spectralIntegration(self, sgm_toa, sgm_wv, band):
+
+
         """
         Integration with the ISRF to retrieve one band
         :param sgm_toa: Spectrally oversampled TOA cube 3D in irradiances [mW/m2]
@@ -114,4 +120,19 @@ class opticalPhase(initIsm):
         :return: TOA image 2D in radiances [mW/m2]
         """
         # TODO
+
+        isrf, wv_isrf = readIsrf(self.auxdir + os.path.sep + self.ismConfig.isrffile, band)
+        wv_isrf = wv_isrf * 1e3  # [nm] same as the input
+
+        isrf_norm = isrf / (np.sum(isrf))
+
+        toa = np.zeros((sgm_toa.shape[0], sgm_toa.shape[1]))
+        for ialt in range[sgm_toa.shape(0)]:
+            for iact in range[sgm_toa.shape(1)]:
+                cs = scipy.interpolate.interp1d(sgm_wv, sgm_toa[ialt, iact, :], fill_value=(0, 0),bounds_error=False)
+                toa_interp = cs(wv_isrf)
+
+                toa[ialt, iact] = sum(toa_interp * isrf_norm)
+
+        toa = sgm_toa[:, :, 0]
         return toa
