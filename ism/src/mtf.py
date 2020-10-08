@@ -14,11 +14,13 @@ from scipy.interpolate import interp2d
 from numpy.fft import fftshift, ifft2
 import os
 
+
 class mtf:
     """
     Class MTF. Collects the analytical modelling of the different contributions
     for the system MTF
     """
+
     def __init__(self, logger):
         self.ismConfig = ismConfig()
         self.logger = logger
@@ -61,7 +63,7 @@ class mtf:
         Hwfe = self.mtfWfeAberrations(fr2D, lambd, kLF, wLF, kHF, wHF)
 
         # Detector
-        Hdet  = self. mtfDetector(fn2D)
+        Hdet = self.mtfDetector(fn2D)
 
         # Smearing MTF
         Hsmear = self.mtfSmearing(fnAlt, ncolumns, ksmear)
@@ -72,14 +74,14 @@ class mtf:
         # Calculate the System MTF
         self.logger.debug("Calculation of the Sysmtem MTF by multiplying the different contributors")
         # TODO
-        Hsys = Hdiff*Hwfe*Hdefoc*Hdet*Hsmear*Hmotion
+        Hsys = Hdiff * Hwfe * Hdefoc * Hdet * Hsmear * Hmotion
 
         # Plot cuts ACT/ALT of the MTF
         self.plotMtf(Hdiff, Hdefoc, Hwfe, Hdet, Hsmear, Hmotion, Hsys, nlines, ncolumns, fnAct, fnAlt, directory, band)
 
         return Hsys
 
-    def freq2d(self,nlines, ncolumns, D, lambd, focal, w):
+    def freq2d(self, nlines, ncolumns, D, lambd, focal, w):
         """
         Calculate the relative frequencies 2D (for the diffraction MTF)
         :param nlines: Lines of the TOA
@@ -95,46 +97,45 @@ class mtf:
         """
 
         # TODO
-        fstepAlt = 1/nlines/w
-        fstepAct = 1/ncolumns/w
+        fstepAlt = 1 / nlines / w
+        fstepAct = 1 / ncolumns / w
+        eps = fstepAlt/2  # smaller than fstepAlt and fstepAct
+        fc = D / (lambd * focal)
         fAlt = np.arange(-1 / (2 * w), 1 / (2 * w) - eps, fstepAlt)
-        if nlines != len(fAlt):
-            raise Exception('Error in the frequency calculation. Lines TOA ' + str(nlines) + ' Sizes of the frequencies ALT' + str(len(fAlt)) )
+        if nlines != len(fAlt): raise Exception('Error in the frequency calculation. Lines TOA ' + str(nlines)
+                                                + ' Sizes of the frequencies ALT' + str(len(fAlt)))
 
         fAct = np.arange(-1 / (2 * w), 1 / (2 * w) - eps, fstepAct)
-        if ncolumns != len(fAct):
-            raise Exception('Error in the frequency calculation. Columns TOA ' + str(
-                ncolumns) + 'Sizes of the frequencies ACT' + str(len(fAct)))
+        if ncolumns != len(fAct):raise Exception('Error in the frequency calculation. Columns TOA ' + str(ncolumns)
+                                                 + 'Sizes of the frequencies ACT' + str(len(fAct)))
 
-        [fnAltxx, fnActxx] = np.meshgrid(fAlt, fAct, indexing='ij')
+        fnAct = fAct / (1 / w)
+        fnAlt = fAlt / (1 / w)
+
+        [fnAltxx, fnActxx] = np.meshgrid(fnAlt, fnAct, indexing='ij')
         fn2D = np.sqrt(fnAltxx * fnAltxx + fnActxx * fnActxx)
 
-        [frAltxx,frActxx] = np.meshgrid(fAlt*(1/w)/focal, fAct*(1/w)/focal, indexing='ij')
-        fr2D=np.sqrt(frAltxx*frAltxx + frActxx*frActxx)
-
-        #fn2D = focal/(1/w)
-        # E_cutoff = D/(lambd*focal)
-        #fr2D = focal/(D/E_cutoff)
-        fnAct = focal/(1/w)
-        fnAlt = focal/(1/w)
+        [frAltxx, frActxx] = np.meshgrid(fnAlt * (1 / w) / fc, fnAct * (1 / w) / fc, indexing='ij')
+        fr2D = np.sqrt(frAltxx * frAltxx + frActxx * frActxx)
 
         return fn2D, fr2D, fnAct, fnAlt
 
-    def mtfDiffract(self,fr2D):
+    def mtfDiffract(self, fr2D):
         """
         Optics Diffraction MTF
         :param fr2D: 2D relative frequencies (f/fc), where fc is the optics cut-off frequency
         :return: diffraction MTF
         """
+
         # Optics diffraction MTF
         def acosf(x):
             return math.acos(x)
+
         acosv = np.vectorize(acosf)
         # TODO
         Hdiff = (2 / pi) * (acosv(fr2D) - fr2D * np.sqrt(1 - fr2D * fr2D))
-        Hdiff[fr2D*fr2D > 1] = 0
+        Hdiff[fr2D * fr2D > 1] = 0
         return Hdiff
-
 
     def mtfDefocus(self, fr2D, defocus, focal, D):
         """
@@ -148,7 +149,7 @@ class mtf:
         # TODO
         x = pi * (defocus / (focal / D)) * fr2D * (1 - fr2D)
         scipy.special.j1(x)
-        Hdefoc = 2*j1(x) / x
+        Hdefoc = 2 * j1(x) / x
 
         return Hdefoc
 
@@ -164,16 +165,17 @@ class mtf:
         :return: WFE Aberrations MTF
         """
         # TODO
-        a = -fr2D(1-fr2D)
-        b = kLF(wLF/lambd)**2 + kHF(wHF/lambd)**2
+
+        #a = -fr2D[1 - fr2D]
+        b = kLF(wLF / lambd) ** 2 + kHF(wHF / lambd) ** 2
         Hwfe = np.exp(a * b)
 
         return Hwfe
 
-    def mtfDetector(self,fn2D):
+    def mtfDetector(self, fn2D):
         """
         Detector MTF
-        :param fnD: 2D normalised frequencies (f/(1/w))), where w is the pixel width
+        :param fn2D: 2D normalised frequencies (f/(1/w))), where w is the pixel width
         :return: detector MTF
         """
         # TODO
@@ -189,23 +191,24 @@ class mtf:
         :return: Smearing MTF
         """
         # TODO
-        smearAlt = np.zeros((len(fnAlt),1))
-        smearAlt[:, 0] = np.sinc(fnAlt*ksmear)
+        smearAlt = np.zeros((len(fnAlt), 1))
+        smearAlt[:, 0] = np.sinc(fnAlt * ksmear)
         Hsmear = repmat(smearAlt, 1, ncolumns)
         return Hsmear
 
     def mtfMotion(self, fn2D, kmotion):
         """
         Motion blur MTF
-        :param fnD: 2D normalised frequencies (f/(1/w))), where w is the pixel width
+        :param fn2D: 2D normalised frequencies (f/(1/w))), where w is the pixel width
         :param kmotion: Amplitude of high-frequency component for the motion smear MTF in ALT and ACT
         :return: detector MTF
         """
         # TODO
-        Hmotion = sinc(kmotion*fn2D)
+        Hmotion = sinc(kmotion * fn2D)
         return Hmotion
 
-    def plotMtf(self,Hdiff, Hdefoc, Hwfe, Hdet, Hsmear, Hmotion, Hsys, nlines, ncolumns, fnAct, fnAlt, directory, band):
+    def plotMtf(self, Hdiff, Hdefoc, Hwfe, Hdet, Hsmear, Hmotion, Hsys, nlines, ncolumns, fnAct, fnAlt, directory,
+                band):
         """
         Plotting the system MTF and all of its contributors
         :param Hdiff: Diffraction MTF
@@ -224,52 +227,51 @@ class mtf:
         :return: N/A
         """
         # Plot cuts of the MTF ACT
-        mAlt=int(nlines/2.0)
-        mAct=int(ncolumns/2.0)
+        mAlt = int(nlines / 2.0)
+        mAct = int(ncolumns / 2.0)
 
-        fig = plt.figure(figsize=(20,10))
-        plt.plot(-fnAct[0:mAct], abs(Hdiff[mAlt,0:mAct]),label='Diffraction MTF')
-        plt.plot(-fnAct[0:mAct], abs(Hdefoc[mAlt,0:mAct]),label='Defocus MTF')
-        plt.plot(-fnAct[0:mAct], abs(Hwfe[mAlt,0:mAct]),label='WFE Aberrations MTF')
-        plt.plot(-fnAct[0:mAct], abs(Hdet[mAlt,0:mAct]),label='Detector MTF')
-        plt.plot(-fnAct[0:mAct], abs(Hsmear[mAlt,0:mAct]),label='Smearing MTF')
-        plt.plot(-fnAct[0:mAct], abs(Hmotion[mAlt,0:mAct]),label='Motion blur MTF')
-        plt.plot(-fnAct[0:mAct], abs(Hsys[mAlt,0:mAct]),'k',linewidth=3,label='System MTF')
-        auxv = np.arange(0,1.1,0.1)
-        plt.plot(0.5*np.ones(auxv.shape),auxv,'--k',linewidth=3,label='f Nyquist')
-        plt.title('System MTF slice ACT for '+band, fontsize=20)
+        fig = plt.figure(figsize=(20, 10))
+        plt.plot(-fnAct[0:mAct], abs(Hdiff[mAlt, 0:mAct]), label='Diffraction MTF')
+        plt.plot(-fnAct[0:mAct], abs(Hdefoc[mAlt, 0:mAct]), label='Defocus MTF')
+        plt.plot(-fnAct[0:mAct], abs(Hwfe[mAlt, 0:mAct]), label='WFE Aberrations MTF')
+        plt.plot(-fnAct[0:mAct], abs(Hdet[mAlt, 0:mAct]), label='Detector MTF')
+        plt.plot(-fnAct[0:mAct], abs(Hsmear[mAlt, 0:mAct]), label='Smearing MTF')
+        plt.plot(-fnAct[0:mAct], abs(Hmotion[mAlt, 0:mAct]), label='Motion blur MTF')
+        plt.plot(-fnAct[0:mAct], abs(Hsys[mAlt, 0:mAct]), 'k', linewidth=3, label='System MTF')
+        auxv = np.arange(0, 1.1, 0.1)
+        plt.plot(0.5 * np.ones(auxv.shape), auxv, '--k', linewidth=3, label='f Nyquist')
+        plt.title('System MTF slice ACT for ' + band, fontsize=20)
         plt.xlabel('Spatial frequencies f/(1/w) [-]', fontsize=16)
         plt.ylabel('MTF', fontsize=16)
         plt.grid()
         plt.legend()
-        saveas_str = 'system_mtf_cutAct_'+band
+        saveas_str = 'system_mtf_cutAct_' + band
         savestr = directory + os.path.sep + saveas_str
         plt.savefig(savestr)
         plt.close(fig)
         self.logger.debug("Saved image " + savestr)
 
         # Plot cuts of the MTF ALT
-        fig = plt.figure(figsize=(20,10))
-        plt.plot(-fnAlt[0:mAlt], abs(Hdiff[0:mAlt,mAct]),label='Diffraction MTF')
-        plt.plot(-fnAlt[0:mAlt], abs(Hdefoc[0:mAlt,mAct]),label='Defocus MTF')
-        plt.plot(-fnAlt[0:mAlt], abs(Hwfe[0:mAlt,mAct]),label='WFE Aberrations MTF')
-        plt.plot(-fnAlt[0:mAlt], abs(Hdet[0:mAlt,mAct]),label='Detector MTF')
-        plt.plot(-fnAlt[0:mAlt], abs(Hsmear[0:mAlt,mAct]),label='Smearing MTF')
-        plt.plot(-fnAlt[0:mAlt], abs(Hmotion[0:mAlt,mAct]),label='Motion blur MTF')
-        plt.plot(-fnAlt[0:mAlt], abs(Hsys[0:mAlt,mAct]),'k',linewidth=3,label='System MTF')
-        auxv = np.arange(0,1.1,0.1)
-        plt.plot(0.5*np.ones(auxv.shape),auxv,'--k',linewidth=3,label='f Nyquist')
-        plt.title('System MTF slice ALT for '+band, fontsize=20)
+        fig = plt.figure(figsize=(20, 10))
+        plt.plot(-fnAlt[0:mAlt], abs(Hdiff[0:mAlt, mAct]), label='Diffraction MTF')
+        plt.plot(-fnAlt[0:mAlt], abs(Hdefoc[0:mAlt, mAct]), label='Defocus MTF')
+        plt.plot(-fnAlt[0:mAlt], abs(Hwfe[0:mAlt, mAct]), label='WFE Aberrations MTF')
+        plt.plot(-fnAlt[0:mAlt], abs(Hdet[0:mAlt, mAct]), label='Detector MTF')
+        plt.plot(-fnAlt[0:mAlt], abs(Hsmear[0:mAlt, mAct]), label='Smearing MTF')
+        plt.plot(-fnAlt[0:mAlt], abs(Hmotion[0:mAlt, mAct]), label='Motion blur MTF')
+        plt.plot(-fnAlt[0:mAlt], abs(Hsys[0:mAlt, mAct]), 'k', linewidth=3, label='System MTF')
+        auxv = np.arange(0, 1.1, 0.1)
+        plt.plot(0.5 * np.ones(auxv.shape), auxv, '--k', linewidth=3, label='f Nyquist')
+        plt.title('System MTF slice ALT for ' + band, fontsize=20)
         plt.xlabel('Spatial frequencies f/(1/w) [-]', fontsize=16)
         plt.ylabel('MTF', fontsize=16)
         plt.grid()
         plt.legend()
-        saveas_str = 'system_mtf_cutAlt_'+band
+        saveas_str = 'system_mtf_cutAlt_' + band
         savestr = directory + os.path.sep + saveas_str
         plt.savefig(savestr)
         plt.close(fig)
         self.logger.debug("Saved image " + savestr)
 
         # Plot 2D system MTF
-        plotMat2D(Hsys, "System MTF for " +band, "ACT", "ALT", directory, "system_mtf_2d_"+band)
-
+        plotMat2D(Hsys, "System MTF for " + band, "ACT", "ALT", directory, "system_mtf_2d_" + band)

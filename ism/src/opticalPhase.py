@@ -126,8 +126,8 @@ class opticalPhase(initIsm):
         isrf_norm = isrf / (np.sum(isrf))
 
         toa = np.zeros((sgm_toa.shape[0], sgm_toa.shape[1]))
-        for ialt in range[sgm_toa.shape(0)]:
-            for iact in range[sgm_toa.shape(1)]:
+        for ialt in range(sgm_toa.shape[0]):
+            for iact in range(sgm_toa.shape[1]):
                 cs = scipy.interpolate.interp1d(sgm_wv, sgm_toa[ialt, iact, :], fill_value=(0, 0),bounds_error=False)
                 toa_interp = cs(wv_isrf)
 
