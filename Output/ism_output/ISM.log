@@ -17,3 +17,44 @@
 2020-10-04 17:52:57,867 - ISM - INFO     - Start of the Instrument Module
 2020-10-06 15:34:35,004 - ISM - INFO     - Start of the Instrument Module
 2020-10-07 14:20:55,210 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 17:57:11,436 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 17:59:56,525 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:03:38,690 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:04:46,216 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:08:21,781 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:14:09,478 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:17:00,353 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:22:37,629 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:22:37,893 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-08 18:22:37,898 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-08 18:22:37,898 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-08 18:25:42,739 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:25:42,846 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-08 18:25:42,851 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-08 18:25:42,851 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-08 18:27:42,295 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:27:42,394 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-08 18:27:42,399 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-08 18:27:42,399 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-08 18:31:08,830 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:31:09,042 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-08 18:31:09,048 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-08 18:31:09,049 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-08 18:33:13,006 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:33:13,200 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-08 18:33:13,205 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-08 18:33:13,206 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-08 18:33:35,817 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-08 18:33:35,827 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-08 18:33:47,364 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:33:47,742 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-08 18:33:47,747 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-08 18:33:47,748 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-08 18:34:09,865 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-08 18:34:09,874 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-08 18:50:01,345 - ISM - INFO     - Start of the Instrument Module
+2020-10-08 18:50:01,524 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-08 18:50:01,528 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-08 18:50:01,529 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-08 18:50:22,684 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-08 18:50:22,691 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
