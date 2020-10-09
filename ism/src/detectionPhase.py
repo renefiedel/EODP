@@ -107,22 +107,22 @@ class detectionPhase(initIsm):
         """
         # TODO
 
-        toa = self.irrad2Phot([])
-        Ein = area_pix*tint
+        toa = self.irrad2Phot([0])
+        Ein = toa*area_pix*tint
         Ephoton = (Planck*c)/wv
-        toa_ph = Ein/Ephoton
+        toa_ph = Ein/Ephoton  # units in photons
 
         return toa_ph
 
     def phot2Electr(self, toa, QE):
         """
         Conversion of photons to electrons
-        :param toa: input TOA in irradiances [W/m2]
+        :param toa: input TOA in irradiances [photons]
         :param QE: Quantum efficiency [e-/ph]
         :return: toa in electrons
         """
         # TODO
-        toae = toa*QE
+        toae = toa*QE  # electrons
 
         return toae
 
@@ -137,6 +137,11 @@ class detectionPhase(initIsm):
         :return: toa in e- including bad & dead pixels
         """
         # TODO
+        step_bad = int(toa_act / n_bad)
+        idx_bad = range(5, toa_act, step_bad)  # distribute evenly in the CCD
+
+        step_dead = int(toa_act / n_dead)
+        idx_dead = range(0, toa_act, step_dead)
 
         return toa
 
@@ -155,7 +160,7 @@ class detectionPhase(initIsm):
         # Apply PRNU to the input TOA
         # TODO
         for ialt in range(toa.shape[0]):
-            toa[ialt, :] = toa[ialt, :] * (1 + prnu_eff) # check for errors
+            toa[ialt, :] = toa[ialt, :] * (1 + prnu_eff)  # check for errors
 
         return toa
 

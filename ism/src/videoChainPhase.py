@@ -56,6 +56,8 @@ class videoChainPhase(initIsm):
         :return: output toa in [V]
         """
         # TODO
+        toa = toa*OCF*gain_adc
+
         return toa
 
     def digitisation(self, toa, bit_depth, min_voltage, max_voltage):
@@ -68,9 +70,25 @@ class videoChainPhase(initIsm):
         :return: toa in digital counts
         """
         # TODO
+        toa_dn = round((toa / (max_voltage - min_voltage)) * (2 ** bit_depth - 1))
 
         # Make sure DN is not above the saturation level
         # TODO
+        # Given range
+        X = 2
+        Y = 0
+
+        def checkRange(toa_dh):
+            # using comaparision operator
+            if X <= toa_dh <= Y:
+                print('The number {} is in range ({}, {})'.format(toa_dh, X, Y))
+            else:
+                print('The number {} is not in range ({}, {})'.format(toa_dh, X, Y))
+                # Test Input List
+                testInput = [X - 1, X, X + 1, Y + 1, Y, Y - 1]
+
+                for eachItem in testInput:
+                    checkRange(eachItem)
 
         return toa_dn
 
