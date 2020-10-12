@@ -165,15 +165,13 @@ class mtf:
         :return: WFE Aberrations MTF
         """
         # TODO
-        def myfunc(a, b):
-            a = int(-fr2D[1 - fr2D])
-            return a
-            b = kLF(wLF / lambd) ** 2 + kHF(wHF / lambd) ** 2
-            return b
+        float(kLF)
+        float(kHF)
 
-        vfunc = np.vectorize(myfunc)
+        a = -fr2D + fr2D**2
+        b = kLF*[(wLF/lambd)**2] + kHF*[(wHF/lambd)**2]
 
-        Hwfe = np.exp(vfunc)
+        Hwfe = math.exp(a.dot(b))
 
         return Hwfe
 
