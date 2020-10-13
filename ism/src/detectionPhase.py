@@ -1,3 +1,4 @@
+from scipy.constants import c, Planck
 
 from ism.src.initIsm import initIsm
 import numpy as np
@@ -105,16 +106,23 @@ class detectionPhase(initIsm):
         :return: Toa in photons
         """
         # TODO
+
+        toa = self.irrad2Phot(toa, area_pix, self.ismConfig.t_int, self.ismConfig.wv[int[-1]])
+        Ein = toa*area_pix*tint
+        Ephoton = (Planck*c)/wv
+        toa_ph = Ein/Ephoton  # units in photons
+
         return toa_ph
 
     def phot2Electr(self, toa, QE):
         """
         Conversion of photons to electrons
-        :param toa: input TOA in irradiances [W/m2]
+        :param toa: input TOA in irradiances [photons]
         :param QE: Quantum efficiency [e-/ph]
         :return: toa in electrons
         """
         # TODO
+        toae = toa*QE  # electrons
 
         return toae
 
@@ -129,6 +137,18 @@ class detectionPhase(initIsm):
         :return: toa in e- including bad & dead pixels
         """
         # TODO
+        toa = self.badDeadPixels()
+
+        step_bad = int(toa_act / n_bad)
+        bad_pix = range(5, toa_act, step_bad)  # distribute evenly in the CCD idx_bad
+        bad_pix [5]           #Number of bad pixels 1 & dead pixels 0
+
+
+        step_dead = int(toa_act / n_dead)
+        idx_dead = range(0, toa_act, step_dead)
+        idx_dead [0]
+
+        toa =
 
         return toa
 
@@ -141,9 +161,13 @@ class detectionPhase(initIsm):
         """
         # Calculate the 1D PRNU ACT
         # TODO
+        np.random.seed(self.ismConfig.seed)
+        prnu_eff = kprnu * np.random.normal(0, 1, toa.shape[1])
 
         # Apply PRNU to the input TOA
         # TODO
+        for ialt in range(toa.shape[0]):
+            toa[ialt, :] = toa[ialt, :] * (1 + prnu_eff)  # check for errors
 
         return toa
 
@@ -163,8 +187,12 @@ class detectionPhase(initIsm):
         # TODO
 
         self.logger.debug("Dark signal Sd " + str(ds) + " [e-]")
+        DSNU =
+        Sd = ds_A_coeff(T/Tref) ** 3 * np.exp(-ds_B_coeff*(1/T - 1/Tref))
 
         # Apply DSNU to the input TOA
         # TODO
+        DS = Sd*(1+DSNU)
+        toa = Ne (:, toa_act) + DS
 
         return toa

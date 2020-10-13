@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+common/io/__pycache__/readCube.cpython-38.pyc
+common/io/__pycache__/readIsrf.cpython-38.pyc
+config/__pycache__/ismConfig.cpython-38.pyc
+ism/__pycache__/
+ism/src/__pycache__/
