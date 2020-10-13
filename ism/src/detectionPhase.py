@@ -107,7 +107,7 @@ class detectionPhase(initIsm):
         """
         # TODO
 
-        toa = self.irrad2Phot([0])
+        toa = self.irrad2Phot(toa, area_pix, self.ismConfig.t_int, self.ismConfig.wv[int[-1]])
         Ein = toa*area_pix*tint
         Ephoton = (Planck*c)/wv
         toa_ph = Ein/Ephoton  # units in photons
@@ -137,15 +137,18 @@ class detectionPhase(initIsm):
         :return: toa in e- including bad & dead pixels
         """
         # TODO
+        toa = self.badDeadPixels()
 
         step_bad = int(toa_act / n_bad)
-        idx_bad = range(5, toa_act, step_bad)  # distribute evenly in the CCD
-        #Number of bad pixels 1 & dead pixels 0
-        idx_bad [5]
+        bad_pix = range(5, toa_act, step_bad)  # distribute evenly in the CCD idx_bad
+        bad_pix [5]           #Number of bad pixels 1 & dead pixels 0
+
 
         step_dead = int(toa_act / n_dead)
         idx_dead = range(0, toa_act, step_dead)
         idx_dead [0]
+
+        toa =
 
         return toa
 
@@ -184,8 +187,12 @@ class detectionPhase(initIsm):
         # TODO
 
         self.logger.debug("Dark signal Sd " + str(ds) + " [e-]")
+        DSNU =
+        Sd = ds_A_coeff(T/Tref) ** 3 * np.exp(-ds_B_coeff*(1/T - 1/Tref))
 
         # Apply DSNU to the input TOA
         # TODO
+        DS = Sd*(1+DSNU)
+        toa = Ne (:, toa_act) + DS
 
         return toa
