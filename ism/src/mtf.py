@@ -165,13 +165,19 @@ class mtf:
         :return: WFE Aberrations MTF
         """
         # TODO
-        float(kLF)
-        float(kHF)
+        #float(kLF)
+        #float(kHF)
 
         a = -fr2D + fr2D**2
-        b = kLF*[(wLF/lambd)**2] + kHF*[(wHF/lambd)**2]
+        b = kLF*((wLF/lambd)**2) + kHF*((wHF/lambd)**2)
 
-        Hwfe = math.exp(a.dot(b))
+
+        # Hwfe = math.exp(a*b)
+        def expf(x):
+            return math.exp(x)
+
+        expv = np.vectorize(expf)
+        Hwfe = expv(a*b)
 
         return Hwfe
 
