@@ -276,3 +276,131 @@
 2020-10-12 22:50:38,585 - ISM - INFO     - Calculation of the System MTF
 2020-10-12 22:50:38,585 - ISM - DEBUG    - Calculation of 2D relative frequencies
 2020-10-12 22:50:38,585 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:07:18,480 - ISM - INFO     - Start of the Instrument Module
+2020-10-13 12:07:18,620 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-13 12:07:18,622 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:07:18,622 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:07:21,968 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:07:21,973 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:07:21,973 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:07:21,973 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:07:21,974 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:07:21,974 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:07:21,974 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:12:41,266 - ISM - INFO     - Start of the Instrument Module
+2020-10-13 12:12:41,333 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-13 12:12:41,338 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:12:41,338 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:12:47,652 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:12:47,655 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:12:47,655 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:12:47,655 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:12:47,656 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:12:47,656 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:12:47,657 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:35:51,460 - ISM - INFO     - Start of the Instrument Module
+2020-10-13 12:35:51,806 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-13 12:35:51,824 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:35:51,825 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:36:11,104 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:36:11,125 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:36:11,126 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:36:11,127 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:36:11,128 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:36:11,128 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:36:11,130 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:37:36,599 - ISM - INFO     - Start of the Instrument Module
+2020-10-13 12:37:36,851 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-13 12:37:36,877 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:37:36,877 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:37:54,829 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:37:54,843 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:37:54,844 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:37:54,845 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:37:54,845 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:37:54,852 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:37:54,853 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:39:29,135 - ISM - INFO     - Start of the Instrument Module
+2020-10-13 12:39:29,222 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-13 12:39:29,229 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:39:29,230 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:39:48,658 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:39:48,665 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:39:48,666 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:39:48,667 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:39:48,669 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:39:48,670 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:39:48,672 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:51:34,698 - ISM - INFO     - Start of the Instrument Module
+2020-10-13 12:51:34,822 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-13 12:51:34,846 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:51:34,846 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:51:53,117 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:51:53,126 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:51:53,127 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:51:53,128 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:51:53,129 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:51:53,130 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:51:53,135 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:52:45,104 - ISM - INFO     - Start of the Instrument Module
+2020-10-13 12:52:45,240 - ISM - INFO     - Start of BAND VNIR-0
+2020-10-13 12:52:45,245 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:52:45,246 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:52:54,978 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:52:54,983 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:52:54,984 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:52:54,984 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:52:54,984 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:52:54,984 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:52:54,985 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:52:55,044 - ISM - DEBUG    - Calculation of the Sysmtem MTF by multiplying the different contributors
+2020-10-13 12:52:56,435 - ISM - DEBUG    - Saved image /home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output//system_mtf_cutAct_VNIR-0
+2020-10-13 12:52:57,400 - ISM - DEBUG    - Saved image /home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output//system_mtf_cutAlt_VNIR-0
+2020-10-13 12:52:58,600 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:00,106 - ISM - INFO     - End of BAND VNIR-0
+2020-10-13 12:53:00,106 - ISM - INFO     - Start of BAND VNIR-1
+2020-10-13 12:53:00,110 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:53:00,111 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:53:09,304 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:09,308 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:53:09,308 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:09,309 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:53:09,309 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:53:09,309 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:53:09,310 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:53:09,325 - ISM - DEBUG    - Calculation of the Sysmtem MTF by multiplying the different contributors
+2020-10-13 12:53:10,145 - ISM - DEBUG    - Saved image /home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output//system_mtf_cutAct_VNIR-1
+2020-10-13 12:53:10,955 - ISM - DEBUG    - Saved image /home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output//system_mtf_cutAlt_VNIR-1
+2020-10-13 12:53:11,921 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:13,706 - ISM - INFO     - End of BAND VNIR-1
+2020-10-13 12:53:13,707 - ISM - INFO     - Start of BAND VNIR-2
+2020-10-13 12:53:13,713 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:53:13,713 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:53:25,124 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:25,128 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:53:25,129 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:25,130 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:53:25,130 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:53:25,130 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:53:25,132 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:53:25,184 - ISM - DEBUG    - Calculation of the Sysmtem MTF by multiplying the different contributors
+2020-10-13 12:53:26,372 - ISM - DEBUG    - Saved image /home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output//system_mtf_cutAct_VNIR-2
+2020-10-13 12:53:27,232 - ISM - DEBUG    - Saved image /home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output//system_mtf_cutAlt_VNIR-2
+2020-10-13 12:53:28,166 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:29,723 - ISM - INFO     - End of BAND VNIR-2
+2020-10-13 12:53:29,723 - ISM - INFO     - Start of BAND VNIR-3
+2020-10-13 12:53:29,726 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-10-13 12:53:29,727 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-10-13 12:53:44,212 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:44,217 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
+2020-10-13 12:53:44,217 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:44,218 - ISM - INFO     - EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF
+2020-10-13 12:53:44,218 - ISM - INFO     - Calculation of the System MTF
+2020-10-13 12:53:44,218 - ISM - DEBUG    - Calculation of 2D relative frequencies
+2020-10-13 12:53:44,219 - ISM - DEBUG    - Calculation of the diffraction MTF
+2020-10-13 12:53:44,239 - ISM - DEBUG    - Calculation of the Sysmtem MTF by multiplying the different contributors
+2020-10-13 12:53:46,087 - ISM - DEBUG    - Saved image /home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output//system_mtf_cutAct_VNIR-3
+2020-10-13 12:53:47,967 - ISM - DEBUG    - Saved image /home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output//system_mtf_cutAlt_VNIR-3
+2020-10-13 12:53:50,285 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-10-13 12:53:52,643 - ISM - INFO     - End of BAND VNIR-3
+2020-10-13 12:53:52,643 - ISM - INFO     - End of the Instrument Module!

@@ -137,11 +137,15 @@ class detectionPhase(initIsm):
         :return: toa in e- including bad & dead pixels
         """
         # TODO
+
         step_bad = int(toa_act / n_bad)
         idx_bad = range(5, toa_act, step_bad)  # distribute evenly in the CCD
+        #Number of bad pixels 1 & dead pixels 0
+        idx_bad [5]
 
         step_dead = int(toa_act / n_dead)
         idx_dead = range(0, toa_act, step_dead)
+        idx_dead [0]
 
         return toa
 
