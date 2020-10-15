@@ -77,6 +77,7 @@ class detectionPhase(initIsm):
                                self.ismConfig.dead_pix_red)
 
 
+
         # Write output TOA
         # -------------------------------------------------------------------------------
         if self.ismConfig.save_detection_stage:
@@ -136,19 +137,21 @@ class detectionPhase(initIsm):
         :param dead_pix_red: Reduction in the quantum efficiency for the dead pixels [-, over 1]
         :return: toa in e- including bad & dead pixels
         """
+        # steps
+        # ❑ Calculate the number of pixels affected
+        # ❑ Assign either random index locations or equi-spaced in the bands.
+        # ❑ Apply the factor to the DNs
+        # ❑ Save to file (an ASCII txt file for example), the indexes, for validation purposes.
         # TODO
-        toa = self.badDeadPixels()
+        step_bad = int(toa/bad_pix)
+        idxbad = range(5, toa, step_bad)
+        # redbad = idxbad - bad_pix_red
 
-        step_bad = int(toa_act / n_bad)
-        bad_pix = range(5, toa_act, step_bad)  # distribute evenly in the CCD idx_bad
-        bad_pix [5]           #Number of bad pixels 1 & dead pixels 0
+        step_dead = int(toa/dead_pix)
+        idxdead = range(0, toa, step_dead)
+        #reddead =
 
-
-        step_dead = int(toa_act / n_dead)
-        idx_dead = range(0, toa_act, step_dead)
-        idx_dead [0]
-
-        toa =
+        #toa =
 
         return toa
 
@@ -186,13 +189,13 @@ class detectionPhase(initIsm):
         # Calculate the 1D DS ACT
         # TODO
 
-        self.logger.debug("Dark signal Sd " + str(ds) + " [e-]")
-        DSNU =
+        self.logger.debug("Dark signal Sd " + str(toa) + " [e-]")
+        DSNU = toa*kdsnu
         Sd = ds_A_coeff(T/Tref) ** 3 * np.exp(-ds_B_coeff*(1/T - 1/Tref))
 
         # Apply DSNU to the input TOA
         # TODO
         DS = Sd*(1+DSNU)
-        toa = Ne (:, toa_act) + DS
+        toa = toa + DS
 
         return toa
