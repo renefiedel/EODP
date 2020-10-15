@@ -143,15 +143,20 @@ class detectionPhase(initIsm):
         # ❑ Apply the factor to the DNs
         # ❑ Save to file (an ASCII txt file for example), the indexes, for validation purposes.
         # TODO
-        step_bad = int(toa/bad_pix)
-        idxbad = range(5, toa, step_bad)
-        # redbad = idxbad - bad_pix_red
+        act = toa.shape[0]
+        pixelbad = int(act * bad_pix/100)
+        pixeldead = int(act * dead_pix/100)
 
-        step_dead = int(toa/dead_pix)
-        idxdead = range(0, toa, step_dead)
-        #reddead =
+        if pixelbad != 0:
+            step_bad = int(act / pixelbad)
+            badpix = np.arange(5, act, step_bad)
+            toa[:, badpix] = toa[:, badpix] * (1 - bad_pix_red)
 
-        #toa =
+
+        if pixeldead != 0:
+            step_dead = int(act / pixeldead)
+            deadpix = np.arange(0, act, step_dead)
+            toa[:, deadpix] = toa[:, deadpix] * (1 - dead_pix_red)
 
         return toa
 
