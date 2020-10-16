@@ -143,7 +143,7 @@ class detectionPhase(initIsm):
         # ❑ Apply the factor to the DNs
         # ❑ Save to file (an ASCII txt file for example), the indexes, for validation purposes.
         # TODO
-        act = toa.shape[0]
+        act = toa.shape[0]  # only along the across track
         pixelbad = int(act * bad_pix/100)
         pixeldead = int(act * dead_pix/100)
 
@@ -193,8 +193,8 @@ class detectionPhase(initIsm):
         """
         # Calculate the 1D DS ACT
         # TODO
-
-        self.logger.debug("Dark signal Sd " + str(toa) + " [e-]")
+        act = toa.shape[0]
+        self.logger.debug("Dark signal Sd " + str(act) + " [e-]")
         DSNU = toa*kdsnu
         Sd = ds_A_coeff(T/Tref) ** 3 * np.exp(-ds_B_coeff*(1/T - 1/Tref))
 

@@ -109,10 +109,10 @@ class opticalPhase(initIsm):
         :return: TOA image in irradiances [mW/m2]
         """
         # TODO
-        GE = fft2(toa)
-        MTF = fftshift(Hsys)
-        conv = GE*MTF
-        toa_ftt = ifft2(conv)
+        GE = fft2(toa)  # fast fourier transform
+        MTF = fftshift(Hsys)  # shift zero frequency component to the centre of the spectrum
+        conv = GE*MTF  # convolution by a filter function
+        toa_ftt = ifft2(conv)  # reverse FFT to obtain the real part of the result
 
         toa_ft = (toa_ftt.real)  # only obtain the real part of the matrix
 
