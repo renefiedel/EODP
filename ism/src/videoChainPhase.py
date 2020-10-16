@@ -71,7 +71,7 @@ class videoChainPhase(initIsm):
         """
         # TODO
         bdepth = 2**bit_depth - 1
-        toa_dn = round((toa / (max_voltage - min_voltage)) * (bdepth))
+        toa_dn = np.round((toa / (max_voltage - min_voltage)) * (bdepth))
 
         # Make sure DN is not above the saturation level
         # TODO

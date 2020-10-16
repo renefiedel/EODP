@@ -108,7 +108,7 @@ class detectionPhase(initIsm):
         """
         # TODO
 
-        toa = self.irrad2Phot(toa, area_pix, self.ismConfig.t_int, self.ismConfig.wv[int[-1]])
+
         Ein = toa*area_pix*tint
         Ephoton = (Planck*c)/wv
         toa_ph = Ein/Ephoton  # units in photons
