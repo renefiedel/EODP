@@ -67,9 +67,19 @@ class l1c(initL1c):
 
         # Create a unique set of all the MGRS tiles in the image
         #TODO
+        m = mgrs.MGRS()
+        mgrs_tiles = set([])
+        for ir in range(lat.shape[0]):  # Loop in ALT rows
+            for ic in range(lat.shape[1]):  # Loop in ACT cols
+                thistile = str(m.toMGRS(lat[ir, ic], lon[ir, ic], MGRSPrecision=self.l1cConfig.mgrs_tile_precision))
+                mgrs_tiles.add(thistile)
+        mgrs_tiles = list(mgrs_tiles)  # Change set to list datatype
 
         # Initialise variables:
         #TODO
+        for itile in range(len(mgrs_tiles)): # For each MGRS tile, get lat,lon and retrieve the TOA
+            lat_l1c[itile], lon_l1c[itile] = m.toLatLon(mgrs_tiles[itile], inDegrees=True)
+            toa_l1c[itile] = bisplev(lat_l1c[itile], lon_l1c[itile], tck)
 
         self.logger.info('Iterate for each MGRS tile found')
         #TODO
