@@ -194,8 +194,9 @@ class detectionPhase(initIsm):
         # Calculate the 1D DS ACT
         # TODO
         act = toa.shape[0]
-        self.logger.debug("Dark signal Sd " + str(act) + " [e-]")
-        DSNU = toa*kdsnu
+
+        # self.logger.debug("Dark signal Sd " + str(act) + " [e-]")
+        DSNU = act*kdsnu
         Sd = ds_A_coeff(T/Tref) ** 3 * np.exp(-ds_B_coeff*(1/T - 1/Tref))
 
         # Apply DSNU to the input TOA

@@ -75,13 +75,14 @@ class videoChainPhase(initIsm):
 
         # Make sure DN is not above the saturation level
         # TODO
-        if toa_dn > bdepth:
-            raise Exception('toa_dn is above the saturation level!!!')
-        print("This is always printed.")
+        #if toa_dn > bdepth:
 
-        if toa_dn <= bdepth:
-            print(toa_dn, "is below the saturation level.")
-        print("This is also always printed.")
+         #   raise Exception('toa_dn is above the saturation level!!!')
+        #print("This is always printed.")
+
+        #if toa_dn <= bdepth:
+         #   print(toa_dn, "is below the saturation level.")
+        #print("This is also always printed.")
 
         # Given range
        # X = 2
