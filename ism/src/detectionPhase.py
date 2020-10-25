@@ -108,9 +108,8 @@ class detectionPhase(initIsm):
         """
         # TODO
 
-
         Ein = toa*area_pix*tint
-        Ephoton = (Planck*c)/wv
+        Ephoton = (Planck*c)/np.array(wv)
         toa_ph = Ein/Ephoton  # units in photons
 
         return toa_ph
@@ -139,7 +138,7 @@ class detectionPhase(initIsm):
         """
         # steps
         # ❑ Calculate the number of pixels affected
-        # ❑ Assign either random index locations or equi-spaced in the bands.
+        # ❑ Assign either random index locations or equally spaced in the bands.
         # ❑ Apply the factor to the DNs
         # ❑ Save to file (an ASCII txt file for example), the indexes, for validation purposes.
         # TODO
@@ -169,13 +168,13 @@ class detectionPhase(initIsm):
         """
         # Calculate the 1D PRNU ACT
         # TODO
-        np.random.seed(self.ismConfig.seed)
+
         prnu_eff = kprnu * np.random.normal(0, 1, toa.shape[1])
 
         # Apply PRNU to the input TOA
         # TODO
         for ialt in range(toa.shape[0]):
-            toa[ialt, :] = toa[ialt, :] * (1 + prnu_eff)  # check for errors
+            toa[ialt, :] = toa[ialt, :] * (1 + prnu_eff)  # checking errors
 
         return toa
 
@@ -193,15 +192,14 @@ class detectionPhase(initIsm):
         """
         # Calculate the 1D DS ACT
         # TODO
-        act = toa.shape[0]
 
-        # self.logger.debug("Dark signal Sd " + str(act) + " [e-]")
-        DSNU = act*kdsnu
+        DSNU = np.abs(np.random.normal(0, 1, toa.shape[1])) * kdsnu
         Sd = ds_A_coeff(T/Tref) ** 3 * np.exp(-ds_B_coeff*(1/T - 1/Tref))
+        DS = Sd * (1 + DSNU)
 
         # Apply DSNU to the input TOA
         # TODO
-        DS = Sd*(1+DSNU)
-        toa = toa + DS
+        for ialt in range(toa.shape[0]):
+            toa[ialt, :] = toa[ialt, :] + DS
 
         return toa

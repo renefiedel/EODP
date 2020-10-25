@@ -109,8 +109,8 @@ class mtf:
         if ncolumns != len(fAct):raise Exception('Error in the frequency calculation. Columns TOA ' + str(ncolumns)
                                                  + 'Sizes of the frequencies ACT' + str(len(fAct)))
 
-        fnAct = fAct / (1 / w)
-        fnAlt = fAlt / (1 / w)
+        fnAct = fAct / (1 / w)  # 1D normalised frequencies 2D ACT
+        fnAlt = fAlt / (1 / w)  # 1D normalised frequencies 2D ALT
 
         [fnAltxx, fnActxx] = np.meshgrid(fnAlt, fnAct, indexing='ij')
         fn2D = np.sqrt(fnAltxx * fnAltxx + fnActxx * fnActxx)
