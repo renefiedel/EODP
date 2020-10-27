@@ -107,7 +107,7 @@ class detectionPhase(initIsm):
         :return: Toa in photons
         """
         # TODO
-        Ein = toa*area_pix*tint
+        Ein = (toa/1000) * area_pix * tint  # Incoming watts conve
         Ephoton = (Planck*c)/np.array(wv)
         toa_ph = Ein/Ephoton  # units in photons
 
@@ -121,7 +121,7 @@ class detectionPhase(initIsm):
         :return: toa in electrons
         """
         # TODO
-        toae = toa*QE  # electrons
+        toae = toa * QE  # electrons
 
         return toae
 
