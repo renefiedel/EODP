@@ -100,7 +100,6 @@ class opticalPhase(initIsm):
 
         return toa
 
-
     def applySysMtf(self, toa, Hsys):
         """
         Application of the system MTF to the TOA
