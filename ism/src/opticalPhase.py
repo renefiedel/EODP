@@ -94,10 +94,11 @@ class opticalPhase(initIsm):
         :return: TOA image in irradiances [mW/m2]
         """
         # TODO
-        toa = Tr*toa*(pi/4)*(D/f)**2
+        Q = (pi/4) * (D/f)**2
+        I = toa * Q  # Irradiance
+        toa = Tr * I
 
         return toa
-
 
     def applySysMtf(self, toa, Hsys):
         """
@@ -107,7 +108,12 @@ class opticalPhase(initIsm):
         :return: TOA image in irradiances [mW/m2]
         """
         # TODO
-        toa_ft = toa*Hsys
+        GE = fft2(toa)  # fast fourier transform
+        MTF = fftshift(Hsys)  # shift zero frequency component to the centre of the spectrum
+        conv = GE*MTF  # convolution by a filter function
+        toa_ftt = ifft2(conv)  # reverse FFT to obtain the real part of the result
+
+        toa_ft = toa_ftt.real  # only obtain the real part of the matrix
 
         return toa_ft
 
@@ -130,11 +136,10 @@ class opticalPhase(initIsm):
         toa = np.zeros((sgm_toa.shape[0], sgm_toa.shape[1]))
         for ialt in range(sgm_toa.shape[0]):
             for iact in range(sgm_toa.shape[1]):
-                cs = scipy.interpolate.interp1d(sgm_wv, sgm_toa[ialt, iact, :], fill_value=(0, 0), sbounds_error=False)
+                cs = scipy.interpolate.interp1d(sgm_wv, sgm_toa[ialt, iact, :], fill_value=(0, 0), bounds_error=False)
                 toa_interp = cs(wv_isrf)
 
                 toa[ialt, iact] = np.sum(toa_interp * isrf_norm)
 
-        toa = sgm_toa[:, :, 0]
         return toa
 

@@ -41,7 +41,7 @@ class videoChainPhase(initIsm):
 
             idalt = int(toa.shape[0]/2)
             saveas_str = saveas_str + '_alt' + str(idalt)
-            plotF([], toa[idalt,:], title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
+            plotF([], toa[idalt, :], title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
 
         return toa
 
@@ -71,17 +71,18 @@ class videoChainPhase(initIsm):
         """
         # TODO
         bdepth = 2**bit_depth - 1
-        toa_dn = round((toa / (max_voltage - min_voltage)) * (bdepth))
+        toa_dn = np.round((toa / (max_voltage - min_voltage)) * (bdepth))
 
         # Make sure DN is not above the saturation level
         # TODO
-        if toa_dn > bdepth:
-            raise Exception('toa_dn is above the saturation level!!!')
-        print("This is always printed.")
+        #if toa_dn > bdepth:
 
-        if toa_dn <= bdepth:
-            print(toa_dn, "is below the saturation level.")
-        print("This is also always printed.")
+         #   raise Exception('toa_dn is above the saturation level!!!')
+        #print("This is always printed.")
+
+        #if toa_dn <= bdepth:
+         #   print(toa_dn, "is below the saturation level.")
+        #print("This is also always printed.")
 
         # Given range
        # X = 2

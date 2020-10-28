@@ -77,6 +77,7 @@ class detectionPhase(initIsm):
                                self.ismConfig.dead_pix_red)
 
 
+
         # Write output TOA
         # -------------------------------------------------------------------------------
         if self.ismConfig.save_detection_stage:
@@ -106,10 +107,8 @@ class detectionPhase(initIsm):
         :return: Toa in photons
         """
         # TODO
-
-        toa = self.irrad2Phot(toa, area_pix, self.ismConfig.t_int, self.ismConfig.wv[int[-1]])
-        Ein = toa*area_pix*tint
-        Ephoton = (Planck*c)/wv
+        Ein = (toa/1000) * area_pix * tint  # Incoming watts conversion from mW to W
+        Ephoton = (Planck*c) / wv
         toa_ph = Ein/Ephoton  # units in photons
 
         return toa_ph
@@ -122,7 +121,7 @@ class detectionPhase(initIsm):
         :return: toa in electrons
         """
         # TODO
-        toae = toa*QE  # electrons
+        toae = toa * QE  # electrons
 
         return toae
 
@@ -136,19 +135,26 @@ class detectionPhase(initIsm):
         :param dead_pix_red: Reduction in the quantum efficiency for the dead pixels [-, over 1]
         :return: toa in e- including bad & dead pixels
         """
+        # steps
+        # ❑ Calculate the number of pixels affected
+        # ❑ Assign either random index locations or equally spaced in the bands.
+        # ❑ Apply the factor to the DNs
+        # ❑ Save to file (an ASCII txt file for example), the indexes, for validation purposes.
         # TODO
-        toa = self.badDeadPixels()
+        act = toa.shape[0]  # only along the across track
+        pixelbad = int(act * bad_pix/100)
+        pixeldead = int(act * dead_pix/100)
 
-        step_bad = int(toa_act / n_bad)
-        bad_pix = range(5, toa_act, step_bad)  # distribute evenly in the CCD idx_bad
-        bad_pix [5]           #Number of bad pixels 1 & dead pixels 0
+        if pixelbad != 0:
+            step_bad = int(act / pixelbad)
+            badpix = np.arange(5, act, step_bad)
+            toa[:, badpix] = toa[:, badpix] * (1 - bad_pix_red)
 
 
-        step_dead = int(toa_act / n_dead)
-        idx_dead = range(0, toa_act, step_dead)
-        idx_dead [0]
-
-        toa =
+        if pixeldead != 0:
+            step_dead = int(act / pixeldead)
+            deadpix = np.arange(0, act, step_dead)
+            toa[:, deadpix] = toa[:, deadpix] * (1 - dead_pix_red)
 
         return toa
 
@@ -161,13 +167,13 @@ class detectionPhase(initIsm):
         """
         # Calculate the 1D PRNU ACT
         # TODO
-        np.random.seed(self.ismConfig.seed)
+
         prnu_eff = kprnu * np.random.normal(0, 1, toa.shape[1])
 
         # Apply PRNU to the input TOA
         # TODO
         for ialt in range(toa.shape[0]):
-            toa[ialt, :] = toa[ialt, :] * (1 + prnu_eff)  # check for errors
+            toa[ialt, :] = toa[ialt, :] * (1 + prnu_eff)  # checking errors
 
         return toa
 
@@ -186,13 +192,13 @@ class detectionPhase(initIsm):
         # Calculate the 1D DS ACT
         # TODO
 
-        self.logger.debug("Dark signal Sd " + str(ds) + " [e-]")
-        DSNU =
+        DSNU = np.abs(np.random.normal(0, 1, toa.shape[1])) * kdsnu
         Sd = ds_A_coeff(T/Tref) ** 3 * np.exp(-ds_B_coeff*(1/T - 1/Tref))
+        DS = Sd * (1 + DSNU)
 
         # Apply DSNU to the input TOA
         # TODO
-        DS = Sd*(1+DSNU)
-        toa = Ne (:, toa_act) + DS
+        for ialt in range(toa.shape[0]):
+            toa[ialt, :] = toa[ialt, :] + DS
 
         return toa

@@ -27,7 +27,7 @@ class l1c(initL1c):
             # Read TOA - output of the L1B in Radiances
             # -------------------------------------------------------------------------------
             toa = readToa(self.l1bdir, self.globalConfig.l1b_toa + band + '.nc')
-            lat,lon = readGeodetic(self.gmdir, self.globalConfig.gm_geoloc)
+            lat, lon = readGeodetic(self.gmdir, self.globalConfig.gm_geoloc)
             self.checkSize(lat,toa)
 
             # L1C reprojection onto the MGRS grid
@@ -64,22 +64,40 @@ class l1c(initL1c):
         '''
         # Create an interpolant with the L1B radiances and geodetic coordinates
         #TODO
-
+        tck = bisplrep(lat, lon, toa)
         # Create a unique set of all the MGRS tiles in the image
         #TODO
+        m = mgrs.MGRS()
+        mgrs_tiles = set([])
+
+        for ir in range(lat.shape[0]):  # Loop in ALT rows
+            for ic in range(lat.shape[1]):  # Loop in ACT cols
+                thistile = str(m.toMGRS(lat[ir, ic], lon[ir, ic], MGRSPrecision=self.l1cConfig.mgrs_tile_precision))
+                # iterating the latitude and longitude
+                mgrs_tiles.add(thistile)
+        mgrs_tiles = list(mgrs_tiles)  # Change set to list datatype/convert to a list array
+        # mgrs_tiles = np.sort(mgrs_tiles)
+        self.logger.debug(str(len(mgrs_tiles)) + 'MGRS tiles found' + str(mgrs_tiles))
 
         # Initialise variables:
         #TODO
 
+        lat_l1c = np.zeros(len(mgrs_tiles))
+        lon_l1c = np.zeros(len(mgrs_tiles))
+        toa_l1c = np.zeros(len(mgrs_tiles))
+
         self.logger.info('Iterate for each MGRS tile found')
         #TODO
+        for itile in range(len(mgrs_tiles)):  # For each MGRS tile, get lat,lon and retrieve the TOA
+            lat_l1c[itile], lon_l1c[itile] = m.toLatLon(mgrs_tiles[itile], inDegrees=True)
+            toa_l1c[itile] = bisplev(lat_l1c[itile], lon_l1c[itile], tck)
 
         if self.l1cConfig.plotL1cGrid:
             self.plotL1cGrid(lat,lon,lat_l1c,lon_l1c,band)
 
         return lat_l1c, lon_l1c, toa_l1c
 
-    def checkSize(self, lat,toa):
+    def checkSize(self, lat, toa):
         '''
         Check the sizes of the input radiances and geodetic coordinates.
         If they don't match, exit.
@@ -90,7 +108,7 @@ class l1c(initL1c):
         if (lat.shape[0] != toa.shape[0]) or (lat.shape[1] != toa.shape[1]):
             raise Exception("Size of the input lat/lon matrices and the TOA doesn't match.")
 
-    def plotL1cGrid(self,lat,lon,lat_l1c,lon_l1c,band):
+    def plotL1cGrid(self, lat, lon, lat_l1c, lon_l1c, band):
         '''
         Plot the L1B and L1C grids superimposed
         :param lat: L1B latitudes [deg]
