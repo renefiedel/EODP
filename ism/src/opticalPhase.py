@@ -95,7 +95,7 @@ class opticalPhase(initIsm):
         """
         # TODO
         Q = (pi/4) * (D/f)**2
-        I = toa*Q  # Irradiance
+        I = toa * Q  # Irradiance
         toa = Tr * I
 
         return toa
@@ -114,7 +114,7 @@ class opticalPhase(initIsm):
         conv = GE*MTF  # convolution by a filter function
         toa_ftt = ifft2(conv)  # reverse FFT to obtain the real part of the result
 
-        toa_ft = (toa_ftt.real)  # only obtain the real part of the matrix
+        toa_ft = toa_ftt.real  # only obtain the real part of the matrix
 
         return toa_ft
 
