@@ -24,11 +24,11 @@ class l1c(initL1c):
 
             self.logger.info("Start of BAND " + band)
 
-            # Read TOA - output of the L1B in Radiances
+            # Read TOA - output of the L1B in Radiance
             # -------------------------------------------------------------------------------
             toa = readToa(self.l1bdir, self.globalConfig.l1b_toa + band + '.nc')
             lat, lon = readGeodetic(self.gmdir, self.globalConfig.gm_geoloc)
-            self.checkSize(lat,toa)
+            self.checkSize(lat, toa)
 
             # L1C reprojection onto the MGRS grid
             # -------------------------------------------------------------------------------
@@ -93,7 +93,7 @@ class l1c(initL1c):
             toa_l1c[itile] = bisplev(lat_l1c[itile], lon_l1c[itile], tck)
 
         if self.l1cConfig.plotL1cGrid:
-            self.plotL1cGrid(lat,lon,lat_l1c,lon_l1c,band)
+            self.plotL1cGrid(lat, lon, lat_l1c, lon_l1c, band)
 
         return lat_l1c, lon_l1c, toa_l1c
 
