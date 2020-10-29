@@ -1,5 +1,4 @@
-from scipy.constants import c, Planck
-
+from scipy.constants import c
 from ism.src.initIsm import initIsm
 import numpy as np
 from common.io.writeToa import writeToa
@@ -105,7 +104,7 @@ class detectionPhase(initIsm):
         """
         # TODO
         Ein = (toa/1000) * area_pix * tint  # Incoming watts conversion from mW to W
-        Ephoton = (Planck * c) / wv
+        Ephoton = (self.constants.h_planck * c) / wv  # avoid scipy planck constant to have the test = 0.0
         toa_ph = Ein/Ephoton  # units in photons
 
         return toa_ph
@@ -122,7 +121,7 @@ class detectionPhase(initIsm):
 
         return toae
 
-    def badDeadPixels(self, toa,bad_pix,dead_pix,bad_pix_red,dead_pix_red):
+    def badDeadPixels(self, toa, bad_pix, dead_pix, bad_pix_red, dead_pix_red):
         """
         Bad and dead pixels simulation
         :param toa: input toa in [e-]

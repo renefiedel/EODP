@@ -9,7 +9,7 @@ def readMat(directory, filename):
 
     ncfile = os.path.join(directory, filename)
     if not os.path.isfile(ncfile):
-        sys.exit('File not found ' +ncfile + ". Exiting.")
+        sys.exit('File not found ' + ncfile + ". Exiting.")
     print('Reading ' + ncfile)
 
     # Load dataset
@@ -47,4 +47,4 @@ def writeMat(outputdir, name, mat):
     # close files
     ncout.close()
 
-    print("Finished writting: " + savetostr)
+    print("Finished writing: " + savetostr)

@@ -66,12 +66,14 @@ class opticalPhase(initIsm):
                                 self.outdir, band)
 
         # Write to file the system MTF
-        writeMat(self.outdir, "mtf" + band, Hsys)
+        writeMat(self.outdir, "mtf_" + band, Hsys)
 
         # Apply system MTF
         toa = self.applySysMtf(toa, Hsys)  # always calculated
 
         self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [e-]")
+
+        # convolution with the PSF
 
         # Write output TOA & plots
         # -------------------------------------------------------------------------------
