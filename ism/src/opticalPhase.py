@@ -15,6 +15,7 @@ from common.plot.plotF import plotF
 from scipy.signal import convolve2d
 from common.src.auxFunc import getIndexBand
 
+
 class opticalPhase(initIsm):
 
     def __init__(self, auxdir, indir, outdir):
@@ -35,7 +36,7 @@ class opticalPhase(initIsm):
         self.logger.info("EODP-ALG-ISM-1010: Spectral modelling. ISRF")
         toa = self.spectralIntegration(sgm_toa, sgm_wv, band)
 
-        self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [e-]")
+        self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [e-]")
 
         if self.ismConfig.save_after_isrf:
             saveas_str = self.globalConfig.ism_toa_isrf + band
@@ -49,7 +50,7 @@ class opticalPhase(initIsm):
                              self.ismConfig.f,
                              self.ismConfig.Tr)
 
-        self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [e-]")
+        self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [e-]")
 
         # Spatial filter
         # -------------------------------------------------------------------------------
@@ -57,14 +58,15 @@ class opticalPhase(initIsm):
         self.logger.info("EODP-ALG-ISM-1030: Spatial modelling. PSF/MTF")
         myMtf = mtf(self.logger)
         Hsys = myMtf.system_mtf(toa.shape[0], toa.shape[1],
-                                self.ismConfig.D, self.ismConfig.wv[getIndexBand(band)], self.ismConfig.f, self.ismConfig.pix_size,
+                                self.ismConfig.D, self.ismConfig.wv[getIndexBand(band)], self.ismConfig.f,
+                                self.ismConfig.pix_size,
                                 self.ismConfig.kLF, self.ismConfig.wLF, self.ismConfig.kHF, self.ismConfig.wHF,
                                 self.ismConfig.defocus, self.ismConfig.ksmear, self.ismConfig.kmotion,
                                 self.outdir, band)
 
-        toa = self.applySysMtf(toa, Hsys) # always calculated
+        toa = self.applySysMtf(toa, Hsys)  # always calculated
 
-        self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [e-]")
+        self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [e-]")
 
         # Write output TOA & plots
         # -------------------------------------------------------------------------------
@@ -74,13 +76,13 @@ class opticalPhase(initIsm):
             writeToa(self.outdir, saveas_str, toa)
 
             title_str = 'TOA after the optical phase [mW/sr/m2]'
-            xlabel_str='ACT'
-            ylabel_str='ALT'
+            xlabel_str = 'ACT'
+            ylabel_str = 'ALT'
             plotMat2D(toa, title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
 
-            idalt = int(toa.shape[0]/2)
+            idalt = int(toa.shape[0] / 2)
             saveas_str = saveas_str + '_alt' + str(idalt)
-            plotF([], toa[idalt,:], title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
+            plotF([], toa[idalt, :], title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
 
         return toa
 
@@ -94,9 +96,9 @@ class opticalPhase(initIsm):
         :return: TOA image in irradiances [mW/m2]
         """
         # TODO
-        Q = (pi/4) * (D/f)**2
-        I = toa * Q  # Irradiance
-        toa = Tr * I
+        q = (pi / 4) * (D / f) ** 2
+        irr = toa * q  # Irradiance
+        toa = Tr * irr
 
         return toa
 
@@ -108,9 +110,9 @@ class opticalPhase(initIsm):
         :return: TOA image in irradiances [mW/m2]
         """
         # TODO
-        GE = fft2(toa)  # fast fourier transform
-        MTF = fftshift(Hsys)  # shift zero frequency component to the centre of the spectrum
-        conv = GE*MTF  # convolution by a filter function
+        ge = fft2(toa)  # fast fourier transform
+        mtf_fft = fftshift(Hsys)  # shift zero frequency component to the centre of the spectrum
+        conv = ge * mtf_fft  # convolution by a filter function
         toa_ftt = ifft2(conv)  # reverse FFT to obtain the real part of the result
 
         toa_ft = toa_ftt.real  # only obtain the real part of the matrix
@@ -142,4 +144,3 @@ class opticalPhase(initIsm):
                 toa[ialt, iact] = np.sum(toa_interp * isrf_norm)
 
         return toa
-
