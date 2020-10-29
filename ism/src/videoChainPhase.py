@@ -19,7 +19,7 @@ class videoChainPhase(initIsm):
                          self.ismConfig.OCF,
                          self.ismConfig.ADC_gain)
 
-        self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [V]")
+        self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [V]")
 
         # Digitisation
         # -------------------------------------------------------------------------------
@@ -75,30 +75,10 @@ class videoChainPhase(initIsm):
 
         # Make sure DN is not above the saturation level
         # TODO
-        #if toa_dn > bdepth:
+        if np.any(toa_dn) > bdepth:
+            raise Exception('toa_dn is above the saturation level!!!')
 
-         #   raise Exception('toa_dn is above the saturation level!!!')
-        #print("This is always printed.")
-
-        #if toa_dn <= bdepth:
-         #   print(toa_dn, "is below the saturation level.")
-        #print("This is also always printed.")
-
-        # Given range
-       # X = 2
-        #Y = 0
-
-        #def checkRange(toa_dh):
-            # using comparison operator
-         #   if X <= toa_dh <= Y:
-          #      print('The number {} is in range ({}, {})'.format(toa_dh, X, Y))
-           # else:
-            #    print('The number {} is not in range ({}, {})'.format(toa_dh, X, Y))
-                # Test Input List
-             #   testInput = [X - 1, X, X + 1, Y + 1, Y, Y - 1]
-
-              #  for eachItem in testInput:
-               #     checkRange(eachItem)
+        if np.any(toa_dn) <= bdepth:
+            print(toa_dn, "is below the saturation level.")
 
         return toa_dn
-

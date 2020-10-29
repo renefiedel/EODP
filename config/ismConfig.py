@@ -27,7 +27,7 @@ class ismConfig:
         self.kernel_step = 0.1                   # [pixels] Sampling of the kernel
 
         # Central wavelength of the band
-        self.wv = np.array([0.49,0.665,0.865,0.945])*1e-6  # [m] Central wavelength
+        self.wv = np.array([0.49, 0.665, 0.865, 0.945])*1e-6  # [m] Central wavelength
 
         # Photonic Stage
         self.QE = 0.8                            # [e-/ph] Quantum efficiency
@@ -74,6 +74,6 @@ class ismConfig:
         # Optical stage. Use the PSF convolution. If False, will use the MTF
         self.do_psf_conv = False
         # Detection stage errors and effects
-        self.apply_prnu = False
-        self.apply_dark_signal = False
-        self.apply_bad_dead = False
+        self.apply_prnu = True
+        self.apply_dark_signal = True
+        self.apply_bad_dead = True

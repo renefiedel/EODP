@@ -108,7 +108,7 @@ class detectionPhase(initIsm):
         """
         # TODO
         Ein = (toa/1000) * area_pix * tint  # Incoming watts conversion from mW to W
-        Ephoton = (Planck*c) / wv
+        Ephoton = (Planck * c) / wv
         toa_ph = Ein/Ephoton  # units in photons
 
         return toa_ph
@@ -150,7 +150,6 @@ class detectionPhase(initIsm):
             badpix = np.arange(5, act, step_bad)
             toa[:, badpix] = toa[:, badpix] * (1 - bad_pix_red)
 
-
         if pixeldead != 0:
             step_dead = int(act / pixeldead)
             deadpix = np.arange(0, act, step_dead)
@@ -177,7 +176,6 @@ class detectionPhase(initIsm):
 
         return toa
 
-
     def darkSignal(self, toa, kdsnu, T, Tref, ds_A_coeff, ds_B_coeff):
         """
         Dark signal simulation
@@ -193,7 +191,7 @@ class detectionPhase(initIsm):
         # TODO
 
         DSNU = np.abs(np.random.normal(0, 1, toa.shape[1])) * kdsnu
-        Sd = ds_A_coeff(T/Tref) ** 3 * np.exp(-ds_B_coeff*(1/T - 1/Tref))
+        Sd = ds_A_coeff*((T/Tref)**3) * np.exp(-ds_B_coeff*(1/T - 1/Tref))
         DS = Sd * (1 + DSNU)
 
         # Apply DSNU to the input TOA
