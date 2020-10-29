@@ -4,6 +4,7 @@ import numpy as np
 from common.plot.plotMat2D import plotMat2D
 from common.plot.plotF import plotF
 
+
 class videoChainPhase(initIsm):
 
     def __init__(self, auxdir, indir, outdir):

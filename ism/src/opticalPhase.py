@@ -2,6 +2,7 @@ import os
 
 import scipy
 
+from common.io.readMat import writeMat
 from ism.src.initIsm import initIsm
 from math import pi
 from ism.src.mtf import mtf
@@ -64,6 +65,10 @@ class opticalPhase(initIsm):
                                 self.ismConfig.defocus, self.ismConfig.ksmear, self.ismConfig.kmotion,
                                 self.outdir, band)
 
+        # Write to file the system MTF
+        writeMat(self.outdir, "mtf" + band, Hsys)
+
+        # Apply system MTF
         toa = self.applySysMtf(toa, Hsys)  # always calculated
 
         self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [e-]")

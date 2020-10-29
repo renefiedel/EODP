@@ -2,6 +2,7 @@
 # ISM CONFIGURATION FILE
 import numpy as np
 
+
 class ismConfig:
 
     def __init__(self):
@@ -73,7 +74,7 @@ class ismConfig:
         #--------------------------------------------------------------------------------
         # Optical stage. Use the PSF convolution. If False, will use the MTF
         self.do_psf_conv = False
-        # Detection stage errors and effects
+        # Detection stage errors and effects. Remember to change then to false when doing E2E
         self.apply_prnu = True
         self.apply_dark_signal = True
         self.apply_bad_dead = True

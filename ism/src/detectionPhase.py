@@ -6,6 +6,7 @@ from common.io.writeToa import writeToa
 from common.plot.plotMat2D import plotMat2D
 from common.plot.plotF import plotF
 
+
 class detectionPhase(initIsm):
 
     def __init__(self, auxdir, indir, outdir):
@@ -13,7 +14,6 @@ class detectionPhase(initIsm):
 
         # Initialise the random see for the PRNU and DSNU
         np.random.seed(self.ismConfig.seed)
-
 
     def compute(self, toa, band):
 
@@ -76,8 +76,6 @@ class detectionPhase(initIsm):
                                self.ismConfig.bad_pix_red,
                                self.ismConfig.dead_pix_red)
 
-
-
         # Write output TOA
         # -------------------------------------------------------------------------------
         if self.ismConfig.save_detection_stage:
@@ -95,7 +93,6 @@ class detectionPhase(initIsm):
             plotF([], toa[idalt,:], title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
 
         return toa
-
 
     def irrad2Phot(self, toa, area_pix, tint, wv):
         """
