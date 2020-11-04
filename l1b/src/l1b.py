@@ -1,4 +1,3 @@
-
 # LEVEL-1B MODULE
 
 from l1b.src.initL1b import initL1b
@@ -8,6 +7,7 @@ from common.io.readFactor import readFactor, EQ_MULT, EQ_ADD, NC_EXT
 import numpy as np
 import os
 import matplotlib.pyplot as plt
+
 
 class l1b(initL1b):
 
@@ -32,8 +32,8 @@ class l1b(initL1b):
                 self.logger.info("EODP-ALG-L1B-1010: Radiometric Correction (equalization)")
 
                 # Read the multiplicative and additive factors from auxiliary/equalization/
-                eq_mult = readFactor(os.path.join(self.auxdir,self.l1bConfig.eq_mult+band+NC_EXT),EQ_MULT)
-                eq_add = readFactor(os.path.join(self.auxdir,self.l1bConfig.eq_add+band+NC_EXT),EQ_ADD)
+                eq_mult = readFactor(os.path.join(self.auxdir, self.l1bConfig.eq_mult + band + NC_EXT), EQ_MULT)
+                eq_add = readFactor(os.path.join(self.auxdir, self.l1bConfig.eq_add + band + NC_EXT), EQ_ADD)
 
                 # Do the equalization and save to file
                 toa = self.equalization(toa, eq_add, eq_mult)
@@ -44,7 +44,6 @@ class l1b(initL1b):
             self.logger.info("EODP-ALG-L1B-1020: Absolute radiometric gain application (restoration)")
             toa = self.restoration(toa, self.l1bConfig.gain[getIndexBand(band)])
 
-
             # -------------------------------------------------------------------------------
             writeToa(self.outdir, self.globalConfig.l1b_toa + band, toa)
 
@@ -52,10 +51,9 @@ class l1b(initL1b):
 
         self.logger.info("End of the L1B Module!")
 
-
     def equalization(self, toa, eq_add, eq_mult):
         """
-        Equlization. Apply an offset and a gain.
+        Equalization. Apply an offset and a gain.
         :param toa: TOA in DN
         :param eq_add: Offset in DN
         :param eq_mult: Gain factor, adimensional
@@ -67,14 +65,13 @@ class l1b(initL1b):
 
         toa_out = np.zeros(toa.shape)
         for ii in range(toa.shape[0]):
-
-            toa_out[ii, :] = (toa[ii, :] - eq_add)/eq_mult
+            toa_out[ii, :] = (toa[ii, :] - eq_add) / eq_mult
 
         return toa_out
 
-    def restoration(self,toa,gain):
+    def restoration(self, toa, gain):
 
-        #gain = np.array([0.09209303, 0.06787323, 0.052162305, 0.047756273])  # [mW/m2/sr/DN]
+        # gain = np.array([0.09209303, 0.06787323, 0.052162305, 0.047756273])  # [mW/m2/sr/DN]
         """
         Absolute Radiometric Gain - restore back to radiances
         :param toa: TOA in DN
@@ -85,7 +82,6 @@ class l1b(initL1b):
 
         toa = toa * gain
 
-        self.logger.debug('Sanity check. TOA in radiances after gain application ' + str(toa[1,-1]) + ' [mW/m2/sr]')
+        self.logger.debug('Sanity check. TOA in radiance after gain application ' + str(toa[1, -1]) + ' [mW/m2/sr]')
 
         return toa
-

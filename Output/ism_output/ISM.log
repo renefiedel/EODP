@@ -3555,3 +3555,9 @@
 2020-10-29 23:54:53,102 - ISM - DEBUG    - TOA [0,0] 2473.0 [DN]
 2020-10-29 23:54:53,643 - ISM - INFO     - End of BAND VNIR-3
 2020-10-29 23:54:53,643 - ISM - INFO     - End of the Instrument Module!
+2020-11-04 21:47:19,313 - ISM - INFO     - Start of the Instrument Module
+2020-11-04 21:47:20,112 - ISM - INFO     - Start of BAND VNIR-0
+2020-11-04 21:47:20,123 - ISM - INFO     - EODP-ALG-ISM-1000: Optical stage
+2020-11-04 21:47:20,124 - ISM - INFO     - EODP-ALG-ISM-1010: Spectral modelling. ISRF
+2020-11-04 21:47:38,241 - ISM - DEBUG    - TOA [0,0] 0.0 [e-]
+2020-11-04 21:47:38,262 - ISM - INFO     - EODP-ALG-ISM-1020: Radiances to Irradiances
