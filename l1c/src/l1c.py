@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from common.io.l1cProduct import writeL1c
 from matplotlib import cm
 
+
 class l1c(initL1c):
 
     def __init__(self, auxdir, indir, outdir):
@@ -75,8 +76,9 @@ class l1c(initL1c):
                 thistile = str(m.toMGRS(lat[ir, ic], lon[ir, ic], MGRSPrecision=self.l1cConfig.mgrs_tile_precision))
                 # iterating the latitude and longitude
                 mgrs_tiles.add(thistile)
+
         mgrs_tiles = list(mgrs_tiles)  # Change set to list datatype/convert to a list array
-        # mgrs_tiles = np.sort(mgrs_tiles)
+        #  mgrs_tiles = np.sort(mgrs_tiles)
         self.logger.debug(str(len(mgrs_tiles)) + 'MGRS tiles found' + str(mgrs_tiles))
 
         # Initialise variables:
