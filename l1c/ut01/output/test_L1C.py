@@ -10,11 +10,11 @@ mytoa = [None]*4
 reftoa = [None]*4
 diff_toa = [None]*4
 
-for ii in range(4):
-    mytoa[ii] = readToa(indir, "l1c_toa_VNIR-" + str(ii) + ".nc")
-    reftoa[ii] = readToa(refoutdir, 'l1c_toa_VNIR-' + str(ii) + '.nc')
-    mytoa[ii] = np.sort(mytoa[ii])
-    reftoa[ii] = np.sort(reftoa[ii])
+for i in range(4):
+    mytoa[i] = readToa(indir, "l1c_toa_VNIR-" + str(i) + ".nc")
+    mytoa[i] = np.sort(mytoa[i])
+    reftoa[i] = readToa(refoutdir, 'l1c_toa_VNIR-' + str(i) + '.nc')
+    reftoa[i] = np.sort(reftoa[i])
 
-    diff_toa[ii] = np.min(np.abs((mytoa[ii] - reftoa[ii])/reftoa[ii]))
-    print('difftoa_VNIR-' + str(ii) + '=', diff_toa[ii]*100)
+    diff_toa[i] = np.min(np.abs((mytoa[i] - reftoa[i])/reftoa[i]))
+    print('difftoa_VNIR-' + str(i) + '=', diff_toa[i]*100)
