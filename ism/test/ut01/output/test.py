@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from common.io.writeToa import readToa
 
 indir = '/home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/ism_output'
-mytoa = readToa(indir, "ism_toa_prnu_VNIR-2.nc")
+mytoa = readToa(indir, "ism_toa_VNIR-1.nc")
 
 refoutdir = '/home/renefiedel/Documents/EO DATA PROCESSING/EODP_TER-20200917T082333Z-001/EODP_TER/EODP-TS-ISM/output'
-reftoa = readToa(refoutdir, "ism_toa_prnu_VNIR-2.nc")
+reftoa = readToa(refoutdir, "ism_toa_VNIR-1.nc")
 
-difftoa = np.max(np.abs(mytoa - reftoa))
-print(difftoa)
+difftoa = np.max(np.abs(mytoa - reftoa)/reftoa)
+print(difftoa*100)

@@ -2,13 +2,13 @@
 <EODP_GM_Local_Configuration version="0.0">
 
     <Global>
-        <parameter description="Epoch of the simulation, expressed in UTC time (YYYY-MM-DD HH:MM:SS.mmm)" name="simulation_epoch" type="STRING">2019-09-14 10:36:13.470081</parameter> 
-        <parameter description="Orbit propagation time value in seconds if the execution mode is 2 (time driven)" name="orbit_propag_time" units="seconds" min="0" type="FLOAT">20</parameter>
-        <parameter description="Sampling time" name="t_sampl" units="seconds" min="0" type="FLOAT">0.00672</parameter>    
-        <parameter description="Focal lengths" name="focal_length" units="m" min="0" type="FLOAT">0.5262</parameter>  
-        <parameter description="Number of pixels" name="n_pix" units="m" min="0" type="INTEGER">1000</parameter>                
+        <parameter description="Epoch of the simulation, expressed in UTC time (YYYY-MM-DD HH:MM:SS.mmm)" name="simulation_epoch" type="STRING">2019-09-26 10:25:57.846905</parameter> 
+        <parameter description="Orbit propagation time value in seconds if the execution mode is 2 (time driven)" name="orbit_propag_time" units="seconds" min="0" type="FLOAT">40.703</parameter>
+        <parameter description="Sampling time" name="t_sampl" units="seconds" min="0" type="FLOAT">0.0428</parameter>    
+        <parameter description="Focal lengths" name="focal_length" units="m" min="0" type="FLOAT">0.2345</parameter>  
+        <parameter description="Number of pixels" name="n_pix" units="m" min="0" type="INTEGER">525</parameter>                
         <parameter description="ALT position on the focal plane" name="focal_plane_alt" units="m" min="0" type="FLOAT">0</parameter>                
-        <parameter description="Pixel size" name="pix_size" units="m" min="0" type="FLOAT">30e-6</parameter>                
+        <parameter description="Pixel size" name="pix_size" units="m" min="0" type="FLOAT">42e-6</parameter>                
     </Global>
 
     
@@ -21,7 +21,7 @@
 		<parameter name="iers_bulletin" description="IERS-A or B bulletin for time initialisation" type="FILE">../auxiliary/iersa_bulletin_aug2019.txt</parameter>
 		
 		<!-- OSF or OSV files -->
-		<parameter name="orbit_config" description="EOCFI OSV or OSF file" type="FILE">../auxiliary/osf_sentinel2a.xml</parameter>                                                                                                                           
+		<parameter name="orbit_config" description="EOCFI OSV or OSF file" type="FILE">../auxiliary/s3_osf.xml</parameter>                                                                                                                           
     </auxiliary_data_files>
 	
 	<output_filenames>

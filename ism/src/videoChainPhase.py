@@ -75,10 +75,14 @@ class videoChainPhase(initIsm):
 
         # Make sure DN is not above the saturation level
         # TODO
-        if np.any(toa_dn) > bdepth:
-            raise Exception('toa_dn is above the saturation level!!!')
+        for iact in range(toa.shape[0]):
+            for ialt in range(toa.shape[1]):
+                if toa_dn[iact, ialt] < 0:
+                    toa_dn[iact, ialt] = 0
+                    print("toa_dn is below the saturation level.")
 
-        if np.any(toa_dn) <= bdepth:
-            print(toa_dn, "is below the saturation level.")
+                    if toa_dn[iact, ialt] > bdepth:
+                        toa_dn[iact, ialt] = bdepth
+                        print("toa_dn is above the saturation level.")
 
         return toa_dn
