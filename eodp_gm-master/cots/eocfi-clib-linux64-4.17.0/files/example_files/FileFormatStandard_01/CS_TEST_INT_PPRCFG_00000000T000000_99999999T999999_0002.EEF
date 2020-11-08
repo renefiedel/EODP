@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Earth_Explorer_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_INT_PPRCFG_0101.XSD"
+  xmlns="http://eop-cfi.esa.int/CFI" schemaVersion="1.1" >
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+      <File_Name>CS_TEST_INT_PPRCFG_00000000T000000_99999999T999999_0002</File_Name>
+      <File_Description>Precise propagation configuration file</File_Description>
+      <Notes>
+                 WARNING: this is an example of file compliant with formats defined and supported
+                          within the Earth Observation Mission CFI Software.
+                          This file does not reflect the actual satellite orbit
+                          attitude or instrument configuration.
+                          This file shall not be used in production environments.
+      </Notes>
+      <Mission>CryoSat</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>INT_PPRCFG</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=0000-00-00T00:00:00</Validity_Start>
+        <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0002</File_Version>
+      <Source>
+        <System>System Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</System>
+        <Creator>Creator Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator>
+        <Creator_Version>Creator Version Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator_Version>
+        <Creation_Date>UTC=2008-10-28T13:00:00</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header/>
+  </Earth_Explorer_Header>
+  <Data_Block type="xml">
+    <Models_Path>/models_full_path/models</Models_Path>
+    <Gravity_Flag>1</Gravity_Flag>
+    <Thirdbody_Flag>1</Thirdbody_Flag>
+    <Atmosphere_Flag>1</Atmosphere_Flag>
+    <Srp_Flag>1</Srp_Flag>
+    <Time_Step unit="s">100.000000</Time_Step>
+    <Gravity_File>gravity_file.grv</Gravity_File>
+    <Gravity_Degree>9</Gravity_Degree>
+    <Gravity_Order>8</Gravity_Order>
+    <Sga_Flag>1</Sga_Flag>
+    <Sga_Ap_File>ap_file.sga</Sga_Ap_File>
+    <Sga_F107_File>f107_file.sga</Sga_F107_File>
+    <AP>100.000000</AP>
+    <F107>30.000000</F107>
+    <F107A>29.000000</F107A>
+    <SC_Mass unit="kg">2000.000000</SC_Mass>
+    <SC_Drag_Area unit="m2">4.000000</SC_Drag_Area>
+    <SC_Drag_Coef>2.000000</SC_Drag_Coef>
+    <SC_Srp_Area unit="m2">3.000000</SC_Srp_Area>
+    <SC_Srp_Coef>1.000000</SC_Srp_Coef>
+  </Data_Block>
+</Earth_Explorer_File>

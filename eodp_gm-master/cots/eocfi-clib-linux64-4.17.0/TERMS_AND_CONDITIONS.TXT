@@ -1,0 +1,214 @@
+The Earth Observation CFI Software (EOCFI SW) is provided under the terms and conditions
+specified at this URL:
+
+http://eop-cfi.esa.int/index.php/mission-cfi-software/eocfi-software/licence
+
+The EOCFI SW requires the use of additional third party libraries that are included within the distribution package.
+Third party libraries are provided under the following terms and conditions:
+
+
+----------------------------------
+libxml2 Library
+----------------------------------
+Terms and conditions are stated at the following URL: http://xmlsoft.org/FAQ.html#License
+The source code can be downloaded at: http://xmlsoft.org/downloads.html
+The Library is provided under the following terms and conditions:
+
+Except where otherwise noted in the source code (e.g. the files hash.c,
+list.c and the trio files, which are covered by a similar licence but
+with different Copyright notices) all the files are:
+
+ Copyright (C) 1998-2003 Daniel Veillard.  All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is fur-
+nished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-
+NESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+DANIEL VEILLARD BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CON-
+NECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of Daniel Veillard shall not
+be used in advertising or otherwise to promote the sale, use or other deal-
+ings in this Software without prior written authorization from him.
+
+----------------------------------
+libgeotiff Library
+----------------------------------
+Terms and conditions are stated at the following URL: https://svn.osgeo.org/metacrs/geotiff/trunk/libgeotiff/LICENSE
+The source code can be downloaded at: http://download.osgeo.org/geotiff/libgeotiff/
+The Library is provided under the following terms and conditions:
+
+	libgeotiff Licensing
+	====================
+
+All the source code in this toolkit are either in the public domain, or under 
+an X style license.  In any event it is all considered to be free to use
+for any purpose (including commercial software).  No credit is required 
+though some of the code requires that the specific source code modules 
+retain their existing copyright statements.  The CSV files, and other tables
+derived from the EPSG coordinate system database are also free to use.  In 
+particular, no part of this code is "copyleft", nor does it imply any 
+requirement for users to disclose this or their own source code.
+
+All components not carrying their own copyright message, but distributed
+with libgeotiff should be considered to be under the same license as
+Niles' code.
+
+---------
+
+Code by Frank Warmerdam has this copyright notice (directly copied from
+X Consortium licence):
+
+ * Copyright (c) 1999, Frank Warmerdam
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included
+ * in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+
+-----------
+
+Code by Niles Ritter is under this licence:
+
+ *    Written By: Niles D. Ritter.
+ *
+ *  copyright (c) 1995   Niles D. Ritter
+ *
+ *  Permission granted to use this software, so long as this copyright
+ *  notice accompanies any products derived therefrom.
+
+-----------
+
+The EPSG Tables (from which the CSV files, and .inc files are derived)
+carried this statement on use of the data (from the EPSG web site):
+
+Use of the Data
+
+The user assumes the entire risk as to the accuracy and the use of this 
+data. The data may be used, copied and distributed subject to the following 
+conditions:
+
+1. INFORMATION PROVIDED IN THIS DOCUMENT IS PROVIDED "AS IS"
+   WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+   MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.
+
+2. The data may be included in any commercial package provided that any 
+   commerciality is based on value added by the provider and not on a value 
+   ascribed to the EPSG dataset which is made available at no charge. The 
+   ownership of the EPSG dataset [OGP] must be acknowledged.
+
+
+3. Subsets of information may be extracted from the dataset. Users are 
+   advised that coordinate reference system and coordinate transformation 
+   descriptions are incomplete unless all elements detailed as essential 
+   in OGP Surveying and Positioning Guidance Note 7-1 annex F are included.
+
+4. Essential elements should preferably be reproduced as described in the 
+   dataset.  Modification of parameter values is permitted as described in 
+   the table below to allow change to the content of the information provided 
+   that numeric equivalence is achieved.  Numeric equivalence refers to the 
+   results of geodetic calculations in which the parameters are used, for 
+   example (i) conversion of ellipsoid defining parameters, or (ii) conversion 
+   of parameters between one and two standard parallel projection methods, 
+   or (iii) conversion of parameters between 7-parameter geocentric 
+   transformation methods.
+
+   (EPSG provides a table at this point with some details)
+
+5. No data that has been modified other than as permitted in these terms 
+   and conditions shall be described as or attributed to the EPSG dataset.
+   
+
+----------------------------------
+proj Library
+----------------------------------
+Terms and conditions are stated at the following URL: http://trac.osgeo.org/proj
+The source code can be downloaded at: http://download.osgeo.org/proj/
+The Library is provided under the following terms and conditions:
+
+All source, data files and other contents of the PROJ.4 package are 
+available under the following terms.  Note that the PROJ 4.3 and earlier
+was "public domain" as is common with US government work, but apparently
+this is not a well defined legal term in many countries.  I am placing 
+everything under the following MIT style license because I believe it is
+effectively the same as public domain, allowing anyone to use the code as
+they wish, including making proprietary derivatives. 
+
+Though I have put my own name as copyright holder, I don't mean to imply
+I did the work.  Essentially all work was done by Gerald Evenden. 
+
+ --------------
+
+ Copyright (c) 2000, Frank Warmerdam
+
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+ 
+----------------------------------
+libtiff Library
+----------------------------------
+Terms and conditions are stated at the following URL: http://www.libtiff.org/misc.html
+The source code can be downloaded at: ftp://ftp.remotesensing.org/pub/libtiff
+The Library is provided under the following terms and conditions:
+
+Copyright (c) 1988-1997 Sam Leffler
+Copyright (c) 1991-1997 Silicon Graphics, Inc.
+
+Permission to use, copy, modify, distribute, and sell this software and 
+its documentation for any purpose is hereby granted without fee, provided
+that (i) the above copyright notices and this permission notice appear in
+all copies of the software and related documentation, and (ii) the names of
+Sam Leffler and Silicon Graphics may not be used in any advertising or
+publicity relating to the software without the specific, prior written
+permission of Sam Leffler and Silicon Graphics.
+
+THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY 
+WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  
+
+IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR
+ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF 
+LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE 
+OF THIS SOFTWARE.

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="3.0">
+	<xsd:include schemaLocation="GeoLocationTypes_0300.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Zone Database Data Types</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Zone_Definition_Type" mixed="false">
+		<xsd:sequence>
+			<xsd:element name="Zone_Id" type="String_Type"/>
+			<xsd:element name="Zone_Description" type="String_Type"/>
+			<xsd:element name="Surface" type="String_Type"/>
+			<xsd:element name="Projection" type="String_Type"/>
+			<xsd:element name="Creator" type="String_Type"/>
+			<xsd:element name="List_of_Polygon_Pts" type="Polygon_Type_Type"/>
+			<xsd:element name="Diameter" type="Distance_Type"/>
+			<xsd:any minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="List_of_Zones_Type" mixed="false">
+		<xsd:sequence>
+			<xsd:element name="Zone" type="Zone_Definition_Type" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		<xsd:attribute name="count" type="PositiveInteger_Type" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="Zone_Database_Data_Block_Type" mixed="false">
+		<xsd:sequence>
+			<xsd:element name="List_of_Zones" type="List_of_Zones_Type">
+				<xsd:unique name="Zone_Id">
+					<xsd:selector xpath="./Zone"/>
+					<xsd:field xpath="Zone_Id"/>
+				</xsd:unique>
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="type" type="String_Type" use="required" fixed="xml"/>
+		<xsd:attribute name="schemaVersion" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:element name="Data_Block" type="Zone_Database_Data_Block_Type"/>
+</xsd:schema>

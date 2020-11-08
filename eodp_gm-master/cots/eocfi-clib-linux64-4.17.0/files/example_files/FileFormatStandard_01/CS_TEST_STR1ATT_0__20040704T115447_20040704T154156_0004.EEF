@@ -1,0 +1,116 @@
+<?xml version ="1.0"?>
+<Earth_Explorer_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_STR1ATT_0__0102.XSD" schemaVersion="1.2" xmlns="http://eop-cfi.esa.int/CFI">
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+      <File_Name>CS_TEST_STR1ATT_0__20040704T115447_20040704T154156_0004</File_Name>
+      <File_Description>Level-0 Star Tracker</File_Description>
+      <Notes>
+                 WARNING: this is an example of file compliant with formats defined and supported
+                          within the Earth Observation Mission CFI Software.
+                          This file does not reflect the actual satellite orbit
+                          attitude or instrument configuration.
+                          This file shall not be used in production environments.
+      </Notes>
+      <Mission>CryoSat</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>STR1ATT_0_</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=2004-07-04T11:54:47</Validity_Start>
+        <Validity_Stop>UTC=2004-07-04T15:41:56</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0004</File_Version>
+      <Source>
+        <System>System Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</System>
+        <Creator>Creator Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator>
+        <Creator_Version>Creator Version Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator_Version>
+        <Creation_Date>UTC=2004-06-09T08:52:38</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header>
+      <MPH>
+        <Product>CS_TEST_STR1ATT_0__20040704T115447_20040704T154156_0001 </Product>
+        <Proc_Stage_Code>TEST</Proc_Stage_Code>
+        <Ref_Doc>CS-ID-ACS-GS-119 </Ref_Doc>
+        <Proc_Time>UTC=2004-06-09T08:52:37.000000</Proc_Time>
+        <Software_Version>BuildL0v1.0 </Software_Version>
+        <Phase>1</Phase>
+        <Cycle>001</Cycle>
+        <Rel_Orbit>04143</Rel_Orbit>
+        <Abs_Orbit>000046</Abs_Orbit>
+        <State_Vector_Time>UTC=2004-07-04T11:54:25.220403</State_Vector_Time>
+        <Delta_UT1 unit="s">+.000000</Delta_UT1>
+        <X_Position unit="m">+7090307.500</X_Position>
+        <Y_Position unit="m">-0113301.406</Y_Position>
+        <Z_Position unit="m">-0000000.112</Z_Position>
+        <X_Velocity unit="m/s">-0012.416765</X_Velocity>
+        <Y_Velocity unit="m/s">-0777.003113</Y_Velocity>
+        <Z_Velocity unit="m/s">+7499.014648</Z_Velocity>
+        <State_Vector_Source>FP</State_Vector_Source>
+        <Product_Err>0</Product_Err>
+        <Tot_Size unit="bytes">000000000000000991010</Tot_Size>
+      </MPH>
+      <SPH>
+        <SPH_Descriptor>STR1ATT_0_ SPECIFIC HEADER </SPH_Descriptor>
+        <Orbit_Information>
+          <Sensing_Start>TAI=2004-07-04T11:55:19.886000</Sensing_Start>
+          <Abs_Orbit_Start>000046</Abs_Orbit_Start>
+          <Rel_Time_ASC_Node_Start unit="s">0022.000000</Rel_Time_ASC_Node_Start>
+          <Sensing_Stop>TAI=2004-07-04T15:42:29.236000</Sensing_Stop>
+          <Abs_Orbit_Stop>000048</Abs_Orbit_Stop>
+          <Rel_Time_ASC_Node_Stop unit="s">1744.000000</Rel_Time_ASC_Node_Stop>
+          <Equator_Cross_Time>UTC=2004-07-04T11:54:25.220403</Equator_Cross_Time>
+          <Equator_Cross_Long unit="10-6deg">-0000915475</Equator_Cross_Long>
+          <Ascending_Flag>A</Ascending_Flag>
+        </Orbit_Information>
+        <Product_Location>
+          <Start_Lat unit="10-6deg">+0001320683</Start_Lat>
+          <Start_Long unit="10-6deg">+0358948462</Start_Long>
+          <Stop_Lat unit="10-6deg">+0074380088</Stop_Lat>
+          <Stop_Long unit="10-6deg">+0129173517</Stop_Long>
+        </Product_Location>
+        <Product_Confidence_Data>
+          <Num_ISPs>0010398</Num_ISPs>
+          <Num_Missing_ISPs>0000000</Num_Missing_ISPs>
+          <Num_Error_ISPs>0000000</Num_Error_ISPs>
+          <Num_Discarded_ISPs>0000000</Num_Discarded_ISPs>
+          <Num_RS_ISPs>0000000</Num_RS_ISPs>
+          <Num_RS_Corrections>0000000</Num_RS_Corrections>
+        </Product_Confidence_Data>
+        <DSDs>
+          <List_of_DSDs count="3">
+            <Data_Set_Descriptor>
+              <Data_Set_Name>STR1ATT_0_ SPECIFIC HEADER </Data_Set_Name>
+              <Data_Set_Type>M</Data_Set_Type>
+              <File_Name> </File_Name>
+              <Data_Set_Offset unit="bytes">+00000000000000003200</Data_Set_Offset>
+              <Data_Set_Size unit="bytes">+00000000000000000095</Data_Set_Size>
+              <Num_of_Records>+0000010398</Num_of_Records>
+              <Record_Size unit="bytes">+0000000095</Record_Size>
+              <Byte_Order>3210</Byte_Order>
+            </Data_Set_Descriptor>
+            <Data_Set_Descriptor>
+              <Data_Set_Name>LEVEL_0_CONFIGURATION_FILE </Data_Set_Name>
+              <Data_Set_Type>M</Data_Set_Type>
+              <File_Name>CryosatL0Processor.xml </File_Name>
+              <Data_Set_Offset unit="bytes">+00000000000000000000</Data_Set_Offset>
+              <Data_Set_Size unit="bytes">+00000000000000000000</Data_Set_Size>
+              <Num_of_Records>+0000000000</Num_of_Records>
+              <Record_Size unit="bytes">+0000000000</Record_Size>
+              <Byte_Order>3210</Byte_Order>
+            </Data_Set_Descriptor>
+            <Data_Set_Descriptor>
+              <Data_Set_Name>ORBIT_STATE_VECTOR_FILE </Data_Set_Name>
+              <Data_Set_Type>M</Data_Set_Type>
+              <File_Name>CS_TEST_MPL_ORBPRE_20040703T224037_20040709T223311_0002.EEF </File_Name>
+              <Data_Set_Offset unit="bytes">+00000000000000000000</Data_Set_Offset>
+              <Data_Set_Size unit="bytes">+00000000000000000000</Data_Set_Size>
+              <Num_of_Records>+0000000000</Num_of_Records>
+              <Record_Size unit="bytes">+0000000000</Record_Size>
+              <Byte_Order>3210</Byte_Order>
+            </Data_Set_Descriptor>
+          </List_of_DSDs>
+        </DSDs>
+      </SPH>
+    </Variable_Header>
+  </Earth_Explorer_Header>
+ </Earth_Explorer_File>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Earth_Explorer_File>
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+      <File_Name>CS_OPER_INT_ATTDEF_00000000T000000_99999999T999999_0001</File_Name>
+      <File_Description>Attitude Definition File</File_Description>
+      <Notes></Notes>
+      <Mission>CryoSat</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>INT_ATTDEF</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=0000-00-00T00:00:00</Validity_Start>
+        <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0001</File_Version>
+      <Source>
+        <System>What system?</System>
+        <Creator>Earth Explorer CFI</Creator>
+        <Creator_Version>EOCFI Library version: 4.5</Creator_Version>
+        <Creation_Date>                       </Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header/>
+  </Earth_Explorer_Header>
+  <Data_Block type="xml">
+    <Attitude_Definition>
+      <Sat_Nominal_Att>
+        <None/>
+      </Sat_Nominal_Att>
+      <Sat_Att>
+        <Angle_Model>
+          <Angle_1 unit="deg">1.00</Angle_1>
+          <Angle_2 unit="deg">2.00</Angle_2>
+          <Angle_3 unit="deg">3.00</Angle_3>
+        </Angle_Model>
+      </Sat_Att>
+      <Instr_Att>
+        <Angle_Model>
+          <Angle_1 unit="deg">1.00</Angle_1>
+          <Angle_2 unit="deg">2.00</Angle_2>
+          <Angle_3 unit="deg">3.00</Angle_3>
+        </Angle_Model>
+        <Offsets>
+          <Offset_X unit="m">4.00</Offset_X>
+          <Offset_Y unit="m">5.00</Offset_Y>
+          <Offset_Z unit="m">6.00</Offset_Z>
+        </Offsets>
+      </Instr_Att>
+    </Attitude_Definition>
+  </Data_Block>
+</Earth_Explorer_File>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XML Oxygen-->
+<!-- Generic Earth Explorer Header type with empty Variable Header -->
+
+<xsd:schema xmlns="http://eop-cfi.esa.int/CFI" targetNamespace="http://eop-cfi.esa.int/CFI"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    attributeFormDefault="unqualified" version="2.3">
+
+    <xsd:include schemaLocation="HeaderTypes_0203.XSD"/>
+
+    <xsd:element name="Earth_Explorer_Header" type="Earth_Explorer_Header_Type"/>
+
+</xsd:schema>

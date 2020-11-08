@@ -1,0 +1,392 @@
+
+
+Reading IERS Bulletin: xd_read_bulletin
+---------------------------------------
+-                  	 Day 	 UT1-UTC 	 UT1-TAI
+-   Table1: 
+-   First Element: 	 52279.000000 	 -0.120280 	 -32.120280 
+-   Last Element: 	 0.000000 	 0.000000 	 0.000000 
+-   Table2: 
+-   First Element: 	 52279.000000 	 -0.120255 	 0.025000
+-   Last Element: 	 0.000000 	 0.000000 	 0.000000
+
+Reading Orbit Files: xd_read_orbit_file
+---------------------------------------
+-   Number of records     : 3 
+-   First State Vector
+-      TAI Time           : -2010.178391 
+-      UT1 Time           : -2010.178806 
+-      UTC Time           : -2010.178796 
+-      Absolute Orbit     : 1000 
+-      Position           : (5388458.259000, 4780263.394000, 205478.132000) 
+-      Velocity           : (932.748682, -1380.744404, 7349.979723) 
+-      Quality            : 0.000000 
+-   Last State Vector
+-      TAI Time           : -2010.037419 
+-      UT1 Time           : -2010.037833 
+-      UTC Time           : -2010.037824 
+-      Absolute Orbit     : 1002 
+-      Position           : (7109308.923000, -1152993.906000, 238370.529000) 
+-      Velocity           : (-513.496854, -1590.568217, 7348.860705) 
+-      Quality            : 1.000000 
+
+Reading Fixed Header: xd_read_fhr
+-----------------------------------
+
+-   Filename:         CS_TEST_MPL_ORBPRE_19940630T194232_19940630T230532_0001 
+-   File Description: Predicted Orbit File 
+-   Mission:          CryoSat 
+-   File Class:       TEST 
+-   File Type:        MPL_ORBPRE 
+-   Version:          1 
+-   Validity start date: UTC=1994-06-30T19:42:32 
+-   Validity stop date: UTC=1994-06-30T23:05:32 
+-   System:          What system? 
+-   Creator:         EXPLORER_GEN_FILES: xg_gen_pof 
+-   Creator Version: 3.3 
+-   Creation Date:   UTC=2002-11-28T18:17:32 
+
+Writing Orbit Files: xd_write_orbit_file
+----------------------------------------
+
+
+Decimating Orbit Files: xd_orbit_file_decimate
+---------------------------------------
+
+-   Records before decimation:         3 
+-   Records after decimation:         2 
+
+Reading DORIS Navigator Files: xd_read_doris_header
+-----------------------------------------------------
+
+-   Filename          : DORIS_NAVIGATOR_FILE_CRYOSAT                                   
+-   Sensing start     : 01-JAN-2000 19:44:25.000000 
+-   Sensing stop      : 01-JAN-2000 22:59:25.000000 
+-   Relative orbit    : 0 
+-   Absolute orbit    : 1000 
+-   Delta UT1         : 0.800000 
+-   Leap UTC          :                             
+-   Leap sign         : 0 
+-   Leap Error        : 0 
+-   Number of DSD     : 4 
+-   DS Offset         : 3200 
+-   Number of DSR     : 1171 
+
+Reading DORIS Navigator Files: xd_read_doris
+----------------------------------------------
+-   Number of records     : 1171 
+-   First State Vector
+-      TAI Time           : 0.822917 
+-      UT1 Time           : 0.822521 
+-      Position           : (5455678.430000, 4591584.870000, 1032740.780000) 
+-      Velocity           : (254.153250, -1953.231870, 7275.096420) 
+-      Quality            : 100.000000 
+-   Last State Vector
+-      TAI Time           : 0.958333 
+-      UT1 Time           : 0.957937 
+-      Position           : (6774831.920000, -505971.420000, -2411397.460000) 
+-      Velocity           : (2316.131810, -1867.932710, 6917.822250) 
+-      Quality            : 100.000000 
+
+Writing DORIS File: xd_write_doris
+------------------------------------
+
+
+Reading Orbit Scenario Files: xd_read_osf
+--------------------------------------------
+-   Number of records     : 5 
+-   First Orbital Change
+-      Absolute Orbit     : 270 
+-      Relative Orbit     : 1 
+-      ANX Cycle          : 1 
+-      ANX Phase          : 1 
+-      Cycle Days         : 369 d
+-      Cycle Orbit        : 5344 
+-      MLST               : 8.666667 h
+-      MLST Drift         : 188.160000 
+-      Drift mode         : 0 
+-      ANX Longitude      : 0.133500 deg
+-      ANX TAI            : -135.083345 
+-      ANX UTC            : -135.083681 
+-      ANX UT1            : -135.083683 
+-   Last State Vector
+-      Absolute Orbit     : 8991 
+-      Relative Orbit     : 1 
+-      ANX Cycle          : 77 
+-      ANX Phase          : 4 
+-      Cycle Days         : 369 d
+-      Cycle Orbit        : 5344 
+-      MLST               : 8.666667 h
+-      MLST Drift         : 188.160000 
+-      Drift mode         : 0 
+-      ANX Longitude      : 0.133500 deg
+-      ANX TAI            : 473.916786 
+-      ANX UTC            : 473.916427 
+-      ANX UT1            : 473.916425 
+
+Reading Fixed Header: xd_read_fhr
+-----------------------------------
+
+-   Filename:         CS_TEST_MPL_ORBREF_19990818T215929_99999999T999999_0001 
+-   File Description: Reference Orbit Scenario File 
+-   Mission:          CryoSat 
+-   File Class:       TEST 
+-   File Type:        MPL_ORBREF 
+-   Version:          1 
+-   Validity start date: UTC=1999-08-18T21:59:29 
+-   Validity stop date: UTC=9999-99-99T99:99:99 
+-   System:          What system? 
+-   Creator:         EXPLORER_GEN_FILES: xg_gen_osf_create 
+-   Creator Version: 3.3 
+-   Creation Date:   UTC=2002-11-28T18:11:45 
+
+Reading Orbit Scenario Files: xd_write_osf
+--------------------------------------------
+
+
+Reading Star Tracker Configuration files: xd_read_star_tracker_conf_file
+------------------------------------------------------------------------
+
+-   Satellite        : CryoSat 
+-   Maximum penalty  : 5.000000 
+-   Norm threshold   : 0.000001 
+-   Maximum gap      : 600.000000 seconds
+-   Satellite Attitude to Star Tracker frame rotation matrix:
+  	 -0.000000 	 -1.000000 	 -0.000000
+  	 1.000000 	 -0.000000 	 0.000000
+  	 -0.000000 	 -0.000000 	 1.000000
+
+Reading Star Tracker files: xd_read_star_tracker
+------------------------------------------------
+
+-   Number of records     : 2000 
+-   Fist Quaternion: Time = 1646.767743, Q= 0.226164, 0.698011, -0.050677, 0.677541
+-   Last Quaternion: Time = 1646.781625, Q= -0.204080, 0.518402, 0.361529, 0.747601
+
+Reading Attitude files: xd_read_att
+-----------------------------------
+-   Target reference frame     : 2 
+-   Source reference frame     : 5 
+-   Maximum gap allowed between attitude records: 200.000000 
+-   Number of records     : 5 
+-   Data Type     : Quaternions 
+-   First record: Time = 1646.768437, Q = 0.205523, 0.694593, -0.029401, 0.688793
+-   Last record: Time = 1646.768465, Q = 0.204691, 0.694443, -0.028549, 0.689228
+
+
+Writing Attitude Files: xd_write_att
+-------------------------------------
+
+
+Decimating Attitude files: xd_attitude_file_decimate
+------------------------------------------------------
+-   Initial attitude records          : 5 
+-   Attitude records after decimation : 3 
+
+Reading DEM Files: xd_read_dem_config_file & xd_read_dem
+----------------------------------------------------------
+
+Number of points along X = 1800
+Number of points along Y = 1800
+1st. point: lon = 0.000000, lat = 45.000000, alt = 70.921005
+Last. point: lon = 14.991667, lat = 59.991667, alt = 283.010986
+
+Reading Swath Definition Files: xd_read_sdf
+-----------------------------------------------
+
+-   Number of records     : 1 
+-   Swath Description     : MERIS 
+-   Swath Id              : MPL_SWTREF 
+-   Swath type            : 0 
+-   Number of swath rec   : 1200 
+-   Refraction mode       : 0 
+-   Frequency             : 440000000000000.000000 
+-   Swath geometry (point 0)
+-      Geometry type      : 0 
+-      Azimuth            : 270.000000 
+-      Elevation          : 55.750000 
+-      Altitude           : 0.000000 
+-   Swath geometry (point 1)
+-      Geometry type      : 0 
+-      Azimuth            : 90.000000 
+-      Elevation          : 90.000000 
+-      Altitude           : 0.000000 
+-   Swath geometry (point 2)
+-      Geometry type      : 0 
+-      Azimuth            : 90.000000 
+-      Elevation          : 55.750000 
+-      Altitude           : 0.000000 
+-  Satellite Nominal Attitude model 
+-      Attitude Model      : 2 
+-      Model               : 1 
+-      Number of parameters: 3 
+-    Model param[0]     : -0.167200 
+-    Model param[1]     : 0.050100 
+-    Model param[2]     : 3.928400 
+-  Satellite Attitude model      
+-      Model       : 5 
+-      Angle       : 0.000000 
+-      Angle       : 0.000000 
+-      Angle       : 0.000000 
+-  Instrument Attitude model  
+-      Model       : 0 
+
+Reading Swath Template Files: xd_read_stf
+----------------------------------------------
+
+-   Swath Type    : 0 
+-   Orbit Geometry 
+-      Repeat Cycle     : 35 day
+-      Cycle Length     : 501 orbits
+-      mlst drift       : 0.000000 s/day
+-   Time Step       : 5.029940 s
+-   Line Altitude 
+-      Left    : 0.000000 s
+-      Middle  : 0.000000 s
+-      Right   : 0.000000 s
+-   Refraction Model       : 0 s
+-   Frequency       : 440000000000000.000000 Hz
+-   Number of records       : 1200 s
+-   First Swath Record:       (355.149180, -1.078218), (-0.000000, -0.000000), (4.850820, 1.078218)
+-   Last Swath Record:       (330.064278, -1.375706), (334.915894, -0.298503), (339.766566, 0.780854)
+
+
+Reading Zone File: xd_read_zone
+---------------------------------
+
+-   Read zone: ZIOS____
+-   Zone type = 3
+-   Description = Indian Ocean South
+-   Surface = Sea
+-   Projection = 2
+-   Creator = TEST DATA
+-   Zone points (longitude, latitude) = 
+    	(132.500000, -50.000000)
+    	(132.500000, -65.000000)
+    	(55.000000, -67.500000)
+    	(20.000000, -70.000000)
+    	(20.000000, -50.000000)
+    	(132.500000, -50.000000)
+
+Reading Station File: xd_read_station
+-------------------------------------
+
+-   Read station: GTAIWAHX
+-   Station type = 
+-   Description = Taiwan (TAIWAN)
+-   Antenna = X-BAND
+-   Purpose = REGIONAL
+-   Type = 
+-   Num points = 5
+-   Station points (azimuth, elevation) = 
+-   	(0.000000, 3.000000)
+-   	(20.000000, 4.000000)
+-   	(180.000000, 4.000000)
+-   	(200.000000, 3.000000)
+-   	(360.000000, 3.000000)
+-   Station longitude = 121.170600
+-   Station latitude = 24.970600
+-   Station altitude = 158.000000
+-   Satellite list = 3
+-   	Spacecraft name = SMOS
+-   	AOS Elevation = 10.000000
+-   	LOS Elevation = 10.000000
+-   	Mask type = AOS_LOS_WITH_MASK
+-   	Spacecraft name = CryoSat
+-   	AOS Elevation = 7.500000
+-   	LOS Elevation = 5.000000
+-   	Mask type = AOS_LOS
+-   	Spacecraft name = Aeolus
+-   	AOS Elevation = 5.000000
+-   	LOS Elevation = 10.000000
+-   	Mask type = MASK_ONLY
+
+Reading Star File: xd_read_star
+---------------------------------
+
+-   Read star: Alp Phe
+
+-   -------------------
+
+-   RA  = 0.114685
+
+-   Dec = -0.738380
+
+-   Parallax = 0.000000
+
+-   RA proper motion (rad/century) = 0.005639
+
+-   DEC proper motion (rad/century) = -0.011000
+
+-   Radial Velocity = 74.599998
+
+
+Validating XML File: xd_xml_validate
+--------------------------------------
+
+Validation status for ../data/CRYOSAT_XML_OSF: [VALID]
+
+
+Reading TLE File: xd_read_tle
+-------------------------------
+
+-   TLE elements for 1st satellite in file: ../data/NOAA_TLE_FILE.
+-   --------------------------------------
+-   Satellite name: TIROS N [P]
+-   NORAD Catalogue number: 11060
+-   Classification: U
+-   International Designator: 78096A
+-   TLE time: 3034.846654
+-   First Time Derivative of the Mean Motion: -0.000000
+-   Second Time Derivative of Mean Motion: 0.000000
+-   BSTAR drag term: 0.000021
+-   Ephemeris type: 0
+-   Element number: 877
+-   Checksum 1: 8
+-   Inclination: 98.872400
+-   ANX Right Ascension: 77.664900
+-   Eccentricity: 0.001100
+-   Argument of Perigee: 131.363700
+-   Mean Anomaly: 228.848200
+-   Mean Motion: 14.174499
+-   Revolution number at epoch: 73940
+-   Checksum 2: 6
+
+Writing TLE File: xd_write_tle
+--------------------------------
+TLE file created: output_tle_file
+
+Reading precise configuration file: xd_read_precise_propag_file
+--------------------------------
+- Models path: /models_full_path/models
+- Gravity file: gravity_file.grv
+- SGA AP file: ap_file.sga
+- SGA F107 file: f107_file.sga
+- Satellite mass: 2000.000000
+- Satellite grad area: 4.000000
+- Satellite srp area: 3.000000
+
+
+Reading attitude definition file: xd_read_att_file
+--------------------------------
+- Sat Attitude Angles = (1.000000, 2.000000, 3.000000)
+
+
+Writing attitude definition file: xd_write_att_file
+--------------------------------
+
+
+Reading SP3 file: xd_read_sp3
+--------------------------------
+- Number of satellites = 31
+- Number of epochs = 96
+
+
+Reading Constraints file: xd_read_fov_constraints_file
+------------------------------------------------------
+- FOV constraints type = 0
+- Number of Inclusive mask points = 4
+- Number of Exclusive mask points = 8
+- Minimum tangent height = 19000.000000
+
+EOCFI_DATA_HANDLING EXAMPLE COMPLETED SUCCESSFULLY

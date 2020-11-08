@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://eop-cfi.esa.int/CFI" elementFormDefault="qualified" attributeFormDefault="unqualified" version="3.0">
+	<xsd:include schemaLocation="OrbitTypes_0300.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Reference Orbit Event Data Types</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Orbit_Event_Data_Block_Type" mixed="false">
+		<xsd:sequence>
+			<xsd:element name="List_of_Orbit_Changes" type="List_of_Orbit_Changes_Type"/>
+			<xsd:element name="List_of_OSVs" type="List_of_OSVs_Type" minOccurs="0"/>
+		</xsd:sequence>
+		<xsd:attribute name="type" type="xsd:string" use="required" fixed="xml"/>
+		<xsd:attribute name="schemaVersion" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:element name="Data_Block" type="Orbit_Event_Data_Block_Type"/>
+</xsd:schema>

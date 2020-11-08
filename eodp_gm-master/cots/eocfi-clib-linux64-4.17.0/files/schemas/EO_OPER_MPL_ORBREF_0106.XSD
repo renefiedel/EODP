@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by name (company) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.6">
+	<xsd:include schemaLocation="EO_OPER_MPL_ORBREF.HeaderTypes_0103.XSD"/>
+	<xsd:include schemaLocation="EO_OPER_MPL_ORBREF.DataBlockTypes_0104.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Reference Orbit Event File</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Orbit_Event_File_Type">
+		<xsd:sequence>
+			<xsd:element name="Earth_Explorer_Header" type="Orbit_Event_Header_Type"/>
+			<xsd:element name="Data_Block" type="Orbit_Event_Data_Block_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="Decimal_Type" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="Earth_Explorer_File" type="Orbit_Event_File_Type"/>
+</xsd:schema>

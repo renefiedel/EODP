@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EODP_GM_Local_Configuration version="0.0">
+
+    <Global>
+        <parameter description="Epoch of the simulation, expressed in UTC time (YYYY-MM-DD HH:MM:SS.mmm)" name="simulation_epoch" type="STRING">2019-09-26 10:25:57.846905</parameter> 
+        <parameter description="Orbit propagation time value in seconds if the execution mode is 2 (time driven)" name="orbit_propag_time" units="seconds" min="0" type="FLOAT">40.703</parameter>
+        <parameter description="Sampling time" name="t_sampl" units="seconds" min="0" type="FLOAT">0.0428</parameter>    
+        <parameter description="Focal lengths" name="focal_length" units="m" min="0" type="FLOAT">0.2345</parameter>  
+        <parameter description="Number of pixels" name="n_pix" units="m" min="0" type="INTEGER">525</parameter>                
+        <parameter description="ALT position on the focal plane" name="focal_plane_alt" units="m" min="0" type="FLOAT">0</parameter>                
+        <parameter description="Pixel size" name="pix_size" units="m" min="0" type="FLOAT">42e-6</parameter>                
+    </Global>
+
+    
+	<auxiliary_data_files>		
+		<!-- AUXILIARY DATA FILES - inputs that are not coming from other modules -->
+		<!-- DEM Config -->
+		<parameter name="dem_config_file" description="Name of the EOCFI DEM configuration file" type="STRING">../auxiliary/dem_config.xml</parameter>
+
+		<!-- IERS bulletin -->
+		<parameter name="iers_bulletin" description="IERS-A or B bulletin for time initialisation" type="FILE">../auxiliary/iersa_bulletin_aug2019.txt</parameter>
+		
+		<!-- OSF or OSV files -->
+		<parameter name="orbit_config" description="EOCFI OSV or OSF file" type="FILE">../auxiliary/s3_osf.xml</parameter>                                                                                                                           
+    </auxiliary_data_files>
+	
+	<output_filenames>
+		<!-- Grid file with the geolocation. Only saved when flag_save_grid is enabled-->
+		<parameter name="grid_file" description="File containing the real orbit" type="STRING" units="" dims="1">geolocation</parameter>
+		<!-- Orbit -->
+		<parameter name="real_orbit_file" description="File containing the real orbit" type="STRING" units="" dims="1">real_orbit</parameter>
+		<!-- Attitude -->
+		<parameter name="real_attitude_file" description="File containing the real attitude" type="STRING" units="" dims="1">real_attitude</parameter>		
+	</output_filenames>
+			
+	<ncmap_filenames>
+		<!-- Real Grid -->
+		<parameter name="real_grid_ncmap_file" description="File containing the real grid product template" type="FILE" units="" dims="1">../auxiliary/real_grid_ncmap.xml</parameter>
+	</ncmap_filenames>
+	
+</EODP_GM_Local_Configuration>
+
+
+

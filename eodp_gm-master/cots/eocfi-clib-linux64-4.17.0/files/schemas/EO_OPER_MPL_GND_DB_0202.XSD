@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by name (company) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://eop-cfi.esa.int/CFI" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.2">
+	<xsd:include schemaLocation="EO_OPER_MPL_GND_DB.HeaderTypes_0202.XSD"/>
+	<xsd:include schemaLocation="EO_OPER_MPL_GND_DB.DataBlockTypes_0201.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Ground Station Database file schema</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Ground_Station_Database_File_Type">
+		<xsd:sequence>
+			<xsd:element name="Earth_Explorer_Header" type="Ground_Station_Database_Header_Type"/>
+			<xsd:element name="Data_Block" type="Ground_Station_Database_Data_Block_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="Decimal_Type" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="Earth_Explorer_File" type="Ground_Station_Database_File_Type"/>
+</xsd:schema>

@@ -1,0 +1,487 @@
+
+
+
+XL_TIME_ID_INIT
+
+Time correctly initialized
+
+
+XL_TIME_REF_INIT_FILE
+
+Time correctly initialized
+
+
+XL_TIME_REF_CLOSE
+
+Memory freed successfully
+
+
+XL_TIME_REF_INIT
+
+Time correctly initialized
+
+
+XL_MODEL_INIT & model accessors 
+
+
+
+XL_MODEL_GET_DATA
+
+Model data
+- Earth model      : 0 
+- Sun model        : 0 
+- Moon model       : 0 
+- Planet model     : 0 
+- Star model       : 0 
+- Nutation model   : 0 
+- Precession model : 0 
+- Constants model  : 0 
+- Earth equatorial radius [m]           : 6378136.000000 
+- Earth's gravitational constant [m3/s2]: 398600440000000.000000 
+- Second zonal harmonic                 : 0.001083 
+- Third zonal harmonic                  : -0.000003 
+- Fourth zonal harmonic                 : -0.000002 
+- Semi-major axis                       : 6378137.000000 
+- Semi-minor axis                       : 6356752.314200 
+- First eccentricity                    : 0.081819 
+- Flattening                            : 0.003353 
+- Earth rotation coeff[0]               : 99.967795 
+- Earth rotation coeff[1]               : 360.985647 
+- Earth rotation coeff[2]               : 0.000000 
+- Sim. Earth rotation coeff[0]          : 99.967795 
+- Sim. Earth rotation coeff[1]          : 360.985647 
+- Sim. Earth rotation coeff[2]          : 0.000000 
+
+
+XL_CHANGE_CART_CS
+
+-   r_out_t[0]     : -6313910.323647 
+-   r_out_t[1]     : 3388282.485785 
+-   r_out_t[2]     : 0.002000 
+-  rd_out_t[0]     : 531.059763 
+-  rd_out_t[1]     : 971.331224 
+-  rd_out_t[2]     : 7377.224410 
+- r2d_out_t[0]     : -0.175235 
+- r2d_out_t[1]     : 0.095468 
+- r2d_out_t[2]     : 0.000000 
+
+
+XL_CART_TO_GEOD
+
+- lon_t            : 312.705860 
+- lat_t            : 0.000000 
+- h_t              : 787469.867428 
+- lond_t           : -0.013030 
+- latd_t           : 0.059341 
+- hd_t             : -8.641157 
+
+
+XL_GEOD_TO_CART
+
+- rr_t[0]          : 4505913.499988 
+- rr_t[1]          : 328521.680567 
+- rr_t[2]          : 4487631.251515 
+- rrd_t[0]         : 0.000000 
+- rrd_t[1]         : 0.000000 
+- rrd_t[2]         : 0.000000 
+
+
+XL_CART_TO_KEPL
+
+- Semi-major axis  : 7357653.190837 
+- Eccenticity      : 0.026127 
+- Inclination      : 102.455769 
+- RAAN             : 312.705860 
+- Arg. of Perigee  : 2.574603 
+- Mean Anomaly     : 357.557295 
+
+
+XL_KEPL_TO_CART
+
+- pos_out[0]       : 4290847.510269 
+- pos_out[1]       : -5514245.034254 
+- pos_out[2]       : -391579.369997 
+- vel_out[0]       : -463.025615 
+- vel_out[1]       : 165.413333 
+- vel_out[2]       : -7532.209359 
+
+
+XL_GEOD_DISTANCE
+
+- d_t              : 3318221.144819 
+- az1_t            : 180.000000 
+- az2_t            : 0.000000 
+
+
+XL_SUN
+
+- rsun[0]          : -135328478167.934174 
+- rsun[1]          : -1814352618.440990 
+- rsun[2]          : -57646094600.116562 
+- rdsun[0]         : -132763.338907 
+- rdsun[1]         : 9838089.719487 
+- rdsun[2]         : 2070.283060 
+
+
+XL_MOON
+
+- rmoon[0]         : -177959198.357779 
+- rmoon[1]         : 353749298.108210 
+- rmoon[2]         : -62674352.672238 
+- rdmoon[0]        : 24976.667701 
+- rdmoon[1]        : 12551.459942 
+- rdmoon[2]        : -319.678130 
+
+
+XL_PLANET
+
+- rplanet[0]       : -122177099651.891693 
+- rplanet[1]       : 105030870286.742172 
+- rplanet[2]       : -53332209867.481064 
+- rdplanet[0]      : 7626795.891734 
+- rdplanet[1]      : 8883748.349326 
+- rdplanet[2]      : -12405.539704 
+
+
+XL_STAR_RADEC
+
+- ra               : 0.354027 [rad]
+- dec              : -1.415871 [rad]
+
+
+XL_TIME_TRANSPORT_TO_ASCII
+
+- trans_id_in      : 0 
+- time_ref_in      : 0 
+- transport_in[0]  : 245 
+- transport_in[1]  : 150 
+- transport_in[2]  : 1500 
+- ascii_id_out     : 14 
+- time_ref_out     : 3 
+- ascii_out        : GPS=2000-09-02_00:02:11.001500 
+
+
+XL_TIME_TRANSPORT_TO_TRANSPORT
+
+- trans_id_in      : 23 
+- time_ref_in      : 1 
+- transport_in[0]  : 245 
+- transport_in[1]  : 6000 
+- transport_in[2]  : 500 
+- transport_in[3]  : 300000 
+- trans_id_out     : 0 
+- time_ref_out     : 0 
+- transport_out[0] : 245 
+- transport_out[1] : 41 
+- transport_out[2] : 619250 
+
+
+XL_TIME_TRANSPORT_TO_TRANSPORT
+
+- trans_id_in      : 0 
+- time_ref_in      : 0 
+- transport_in[0]  : 244 
+- transport_in[1]  : 86371 
+- transport_in[2]  : 619250 
+- trans_id_out     : 23 
+- time_ref_out     : 1 
+- transport_out[0] : 244 
+- transport_out[1] : 86336619 
+- transport_out[2] : 250 
+- transport_out[3] : 0 
+
+
+XL_TIME_TRANSPORT_TO_PROCESSING
+
+- trans_id_in      : 0 
+- time_ref_in      : 0 
+- transport_in[0]  : 245 
+- transport_in[1]  : 60 
+- transport_in[2]  : 1500 
+- proc_id_out      : 0 
+- time_ref_out     : 1 
+- processing_out   : 245.000289369213
+
+
+XL_TIME_PROCESSING_TO_ASCII
+
+- proc_id_in       : 0 
+- time_ref_in      : 2 
+- processing_in    : 3775.591370370370
+- ascii_id_out     : 14 
+- time_ref_out     : 0 
+- ascii_out        : TAI=2010-05-03_14:12:09.699930 
+
+
+XL_TIME_PROCESSING_TO_TRANSPORT
+
+- proc_id_in       : 0 
+- time_ref_in      : 0 
+- processing_in    : 245.100000000000
+- trans_id_out     : 22 
+- time_ref_out     : 1 
+- transport_out[0] : 245 
+- transport_out[1] : 8605000 
+- transport_out[2] : 0 
+
+
+XL_TIME_PROCESSING_TO_PROCESSING
+
+- proc_id_in       : 0 
+- time_ref_in      : 0 
+- processing_in    : 245.100000000000 
+- proc_id_out      : 0 
+- time_ref_out     : 1 
+- processing_out   : 245.099594907407 
+
+
+XL_TIME_ASCII_TO_ASCII
+
+- ascii_id_in      : 11 
+- time_ref_in      : 0 
+- ascii_in         : 2010-05-03_14:12:10 
+- ascii_id_out     : 24 
+- time_ref_out     : 2 
+- ascii_out        : UT1=20100503_141134700070 
+
+
+XL_TIME_ASCII_TO_TRANSPORT
+
+- ascii_id_in      : 11 
+- time_ref_in      : 0 
+- ascii_in         : 2010-05-03_14:12:10 
+- trans_id_out     : 22 
+- time_ref_out     : 2 
+- transport_out[0] : 3775 
+- transport_out[1] : 51094700 
+- transport_out[2] : 70 
+
+
+XL_TIME_ASCII_TO_PROCESSING
+
+- ascii_id_in      : 11 
+- time_ref_in      : 0 
+- ascii_in         : 2010-05-03_14:12:10 
+- proc_id_out      : 0 
+- time_ref_out     : 2 
+- processing_out   : 3775.591373843403
+
+
+TIME ID. ACCESSORS
+
+- Time id is initialized
+- Satellite Id: -1
+- Time Id mode: -1
+- leap flag      : 0 
+- leap_utc time  : 0.000000 
+- TAI time       : -245.100000 
+- UT1 time       : -245.100409 
+- tai_utc        : 35.000000 
+- tai_ut1        : 35.299930 
+- tai_gps        : 19.000000 
+
+
+XL_TIME_ADD
+
+- proc_id          : 0 
+- time_ref         : 0 
+- processing_in    : 245.100001000000 
+- added_duration   : 110.123456000000 
+- processing_out   : 355.223457000000 
+
+
+XL_TIME_DIFF
+
+- proc_id          : 0 
+- time_ref         : 0 
+- processing_in_1  : 245.123456000000 
+- processing_in_2  : 110.100001000000 
+- processing_out   : 135.023455000000 
+
+
+XL_TIME_OBT_TO_TIME
+
+- sat_id           : 21 
+- proc_id          : 0 
+- time0            : 245.12345678899998802081 
+- period0          : 3906250000 
+- obt0[0]          : 4097 
+- obt0[1]          : 69905 
+- obt0[0] (X)      :     1001 
+- obt0[1] (X)      :    11111 
+- obt[0]           : 4294905855 
+- obt[1]           : 1044480 
+- obt[0] (X)       : FFFF0FFF 
+- obt[1] (X)       :    FF000 
+- time_out         : 245.12049373562481946465 
+
+
+XL_TIME_TIME_TO_OBT
+
+- sat_id           : 21 
+- proc_id          : 0 
+- time_in          : 245.12049373562481946465 
+- time0            : 245.12345678899998802081 
+- period0          : 3906250000 
+- obt0[0]          : 4097 
+- obt0[1]          : 69905 
+- obt0[0] (X)      :     1001 
+- obt0[1] (X)      :    11111 
+- obt[0]           : 4294905855 
+- obt[1]           : 1042432 
+- obt[0] (X)       : FFFF0FFF 
+- obt[1] (X)       :    FE800 
+
+
+XL_GET_ROTATION_ANGLES
+
+- Final Vector     :                  
+- x vector         :    0.000    1.000    0.000
+- y vector         :   -1.000    0.000    1.000
+- z vector         :    1.000    0.000    1.000
+- Rotation angles  :                  
+- Roll             :     0.000            
+- Pitch            :   -45.000            
+- Yaw              :    90.000            
+
+
+XL_GET_ROTATED_VECTORS
+
+- Rotation angles  :                  
+- Roll             :     0.000            
+- Pitch            :   -45.000            
+- Yaw              :    90.000            
+- Final Vector     :                  
+- x vector         :    0.000    1.000   -0.000
+- y vector         :   -0.707    0.000    0.707
+- z vector         :    0.707    0.000    0.707
+
+
+XL_POSITION_ON_ORBIT
+
+- Input Values          :                          
+- Time_ref              : 2                      
+- Time                  : 0.000                    
+- Sat Position          : [       0.138,-2365612.059, 6763859.946]
+- Sat Velocity          : [  132.303801,-1203.845511,   73.224410]
+- Sat Acceleration      : [ 0.063416800,-0.024976300,-0.301895600]
+- Output Values                        :           
+- Satellite position angle             :      108.639     
+- Satellite position angle_rate        :     0.009221     
+- Satellite position angle_rate_rate   :  0.000000023     
+
+
+XL_CART_TO_RADEC
+
+- Input Values          :                          
+- X                     : -272156998050000000.000000                       
+- Y                     : -182980838825000000.000000                       
+- Z                     : 114170169250000000.000000                       
+- VX                    : -57700.000000                       
+- VY                    : 31500.000000                       
+- VZ                    : -102300.000000                       
+- Output Values         :                          
+- ra                    : 0.000000                       
+- dec                   : 0.000000                       
+- rad_vel               : 0.000000                       
+- mu_ra                 : 0.000000                       
+- mu_dec                : 0.000000                       
+
+
+XL_RADEC_TO_CART
+
+- Input Values          :                          
+- ra                    : 3.733510                       
+- dec                   : 0.335010                       
+- rad_vel               : -105.703700                       
+- mu_ra                 : -0.000530                       
+- mu_dec                : -0.000969                       
+- Output Values         :                          
+- X                     : 0.000000                       
+- Y                     : 0.000000                       
+- Z                     : 0.000000                       
+- VX                    : 0.000000                       
+- VY                    : 0.000000                       
+- VZ                    : 0.000000                       
+
+
+XL_EULER_TO_MATRIX
+
+- Input Values
+     Euler angles       : 45.000000 	 90.000000 	 20.000000              
+- Output Values
+-    Rotation matrix    : 0.241845 	 0.241845 	 0.939693              
+                        : 0.664463 	 0.664463 	 -0.342020              
+                        : -0.707107 	 0.707107 	 0.000000              
+
+
+XL_MATRIX_TO_EULER
+
+- Input Values
+-    Rotation matrix    : 0.241845 	 0.241845 	 0.939693             
+                        : 0.664463 	 0.664463 	 -0.342020             
+                        : -0.707107 	 0.707107 	 0.000000             
+- Output Values
+     Euler angles       : 45.000000 	 90.000000 	 20.000000             
+
+
+XL_STAR_CATALOG
+
+- Input Values
+       time = 1646.00
+
+       RA = 6.279062, 	Dec = -1.34987
+
+       mu_ra = -0.000139, 	mu_dec = -0.000086
+
+       rad_vel = 0.00, 	parallax = 0.000000
+
+- Output Values
+       RA = 4.949580, 	Dec = -0.39890
+
+
+
+XL_TOPOCENTRIC_TO_EF
+
+   INPUTS.
+
+       Mode = LOCATION
+
+       Deriv = 1st. Derivative
+
+       Center of the Topocentric CS   = 3460675.389,  2903851.443, 4487348.409
+
+       Velocity of the Topocentric CS = 0.000,  0.000, 0.000
+
+       Azimuth, Elevation, Altitude = 20.000,  30.000, 10000.000
+
+       Rates for Azimuth, Elevation, Altitude = 0.000,  0.000, 0.000
+
+   OUTPUTS.
+
+     EF position = 3457071.700, 2904694.181, 4496638.361
+
+     EF velocity = 0.000, 0.000, 0.000
+
+
+
+XL_EF_TO_TOPOCENTRIC
+
+   OUTPUTS.
+
+     Topocentric Azimuth, Elevation, Range = 20.000, 30.000, 10000.000
+
+     Rates for Topocentric Azimuth, Elevation, Range = 0.000, 0.000, 0.000
+
+
+
+XL_GEOID_CALC
+   INPUTS.
+       Number of harmonics = 360
+       UTC time = 0.000000
+       Latitude = 45.000000 deg
+       Longitude = 30.000000 deg
+   OUTPUTS.
+     Undulation = 30.976215
+
+EOCFI_LIB EXAMPLE COMPLETED SUCCESSFULLY

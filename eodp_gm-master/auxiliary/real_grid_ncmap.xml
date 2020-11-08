@@ -1,0 +1,18 @@
+<productFileMap xmlns="http://www.acri-st.fr/s3-ipf/productFileMap" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.acri-st.fr/s3-ipf/productFileMap productFileMap.xsd">
+	<netcdfFile name="YYYYMMDDhhmmss_GM_RealGrd_YYYYMMDDhhmmss_YYYYMMDDhhmmss.nc" keyword="RealGrd">
+		<dimension name="n_lines" keyword="n_lines"/>
+		<dimension name="n_columns" keyword="n_columns"/>
+		<group name="projection" keyword="projection">
+			<attribute name="description" type="NC_STRING">List of the LR CCD real projection grids, in ECEF reference frame, provided by the Geometry module during the sampling period [lat, lon, alt]</attribute>
+			<variable name="latitude" type="NC_DOUBLE" keyword="latitude" dimensions="n_lines n_columns">
+				<attribute name="units" type="NC_STRING">degrees</attribute>
+			</variable>
+			<variable name="longitude" type="NC_DOUBLE" keyword="longitude" dimensions="n_lines n_columns">
+				<attribute name="units" type="NC_STRING">degrees</attribute>
+			</variable>
+			<variable name="altitude" type="NC_DOUBLE" keyword="altitude" dimensions="n_lines n_columns">
+				<attribute name="units" type="NC_STRING">meters</attribute>
+			</variable>
+		</group>		
+	</netcdfFile>
+</productFileMap>

@@ -1,0 +1,802 @@
+
+
+
+XL_MODEL_INIT
+
+
+
+XL_TIME_REF_INIT_FILE
+
+Time correctly initialized
+
+
+XL_TIME_REF_CLOSE
+
+Memory freed successfully
+
+
+XL_TIME_REF_INIT
+
+Time correctly initialized
+
+
+XO_ORBIT_INIT_FILE
+
+
+XP_ATITTUDE_DEFINE: Satellite Nominal, Satellite and Instrument Attitude Transformatiom correctly initialised
+
+
+xp_sat_nominal_att_close
+
+  Memory freed successfully
+
+
+xp_sat_nominal_att_init_file
+
+Satellite Nominal Attitude Transformatiom correctly initialised
+- Init Status      : 1
+- Init Mode        : 3
+- File Model       : 0
+- Validity Start   : 1646.768437
+- Validity Stop    : 1646.768465
+- Data Type        : 0
+- Inertial Frame   : 5
+- Maximum Gap      : 200.000000
+- Number of lines  : 5
+- First line       :
+-     Time   = 1646.768437 (time ref = 0)
+-     Quaternions  : {0.205523, 0.694593, -0.029401, 0.688793}
+
+
+xp_sat_nominal_att_close
+
+  Memory freed successfully
+- Init Status      : 0
+
+
+xp_sat_nominal_att_init_model
+
+Satellite Nominal Attitude Transformatiom correctly initialised
+- Init Status      : 1
+- Init Mode        : 1
+- Model Enum       : 1
+- Model Param      : [-0.167100000, 0.050100000, 3.913000000]
+
+
+xp_sat_att_matrix_init
+
+Satellite Attitude Transformatiom correctly initialised
+- Init Status      : 1
+- Init Mode        : 1
+
+
+xp_sat_att_close
+
+  Memory freed successfully
+- Init Status      : 0
+
+
+xp_sat_att_angle_init
+
+Satellite Attitude Transformatiom correctly initialised
+- Init Status    : 1
+- Init Mode      : 0
+- Angles         : Pitch =  0.100000000, Roll =  0.200000000, Yaw = -0.300000000]
+
+
+xp_instr_att_init_harmonic
+
+Instrument Attitude Transformatiom correctly initialised
+- Init Status      : 1
+- Init Mode        : 2
+- Angle Type       : 0
+- Pitch Type       : 0
+- Pitch Coef       : 0.000000
+- Pitch Type       : 0
+- Pitch Coef       : 0.000000
+- Roll Type       : 0
+- Roll Coef       : 0.000000
+- Roll Type       : 0
+- Roll Coef       : 0.000000
+- Yaw Type       : 0
+- Yaw Coef       : 0.000000
+- Yaw Type       : 0
+- Yaw Coef       : 0.000000
+
+
+xp_instr_att_close
+
+  Memory freed successfully
+- Init Status      : 0
+
+
+xp_instr_att_angle_init
+
+Instrument Attitude Transformation correctly initialised
+- Init Status    : 1
+- Init Mode      : 0
+- Angles         : Pitch =  0.000000000, Roll =  0.000000000, Yaw =  0.000000000]
+
+
+xp_attitude_init
+
+Attitude correctly initialised
+- Init Status      : 1
+- Init Mode        : 0
+
+
+xp_attitude_compute
+
+Attitude correctly calculated
+- Init Status      : 1
+- Init Mode        : 1
+- Model            : 1
+- Time Reference   : 2
+- Time             : 255.345600
+- Sat Position     : [ 4859964.138,-5265612.059,       0.002]
+- Sat Velocity     : [-1203.303801,-1098.845511, 7377.224410]
+- Sat Acceleration : [ 0.000000000, 0.000000000, 0.000000000]
+- Source frame     : 0.000000
+- Target frame     : 0.000000
+- Attitude Matrix  : 0.912525	-0.350807-0.210313
+                     -0.196656	0.074558-0.977634
+                     0.358641	0.933475-0.000952
+Attitude angles correctly calculated:
+   - time   = 255.345600
+   - angles = 68.978214, -90.152274, -77.999138
+
+Attitude Quaternions correctly calculated. Number of records = 1211:
+
+Attitude Quaternion file created correctly in: XXX_TEST_MPL_ATTREF_20080319T000000_20080319T032140_0001.EOF:
+
+
+
+XP_ATMOS_INIT
+
+Atmospheric model correctly initialised
+- Init Status      : 1
+- Init Mode        : 400
+- Std. Atm. geometric altitude: 86000.000000
+- user.Atm. geometric altitude: 100000.000000
+
+
+xp_atmos_close
+
+  Memory freed successfully
+- Init Status      : 0
+
+
+XP_TARGET_INTER
+
+
+
+xp_attitude_init
+
+Attitude correctly initialised
+- Init Status      : 1
+- Init Mode        : 0
+Attitude correctly calculated
+- Init Status      : 1
+- Init Mode        : 1
+Target Inter correctly calculated
+- Init Status      : 1
+- Init Mode        : 0
+- Time             : 255.345607 (time ref. = 2)
+- User Target:
+-      Target Vector    = {6216806.505447, -1424840.734439, 55068.556988} 
+-      Tangent Altitude = 0.000000 
+-      Range            = 790209.856128 
+-      Target-Satellite Vector    = {0.988448, -0.140730, 0.056271} 
+-      Satellite-Target Vector    = {-0.988448, 0.140730, -0.056271} 
+- Atmosphere crossed = 0 
+- Atmos. Exit vector = {-0.988448, 0.140730, -0.056271} 
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 0
+- Intersection Flag: 1
+- LOS Azimuth      : 50.000000
+- LOS Elevation    : 85.000000
+- Geodetic Altitude: 100.000000
+- LOS Azimuth Rate : 1.000000
+- LOS Elev. Rate   : 1.000000
+- Ray Tracing Model: 0
+- Frequency        : 10000000000.000000
+  OUTPUT
+- Target Position  : [ 6216806.505,-1424840.734,   55068.557]
+- Range            : 790209.856128
+- Sat-Target LOS   : [-0.988447636, 0.140729826,-0.056270651]
+
+
+XP_TARGET_GROUND_RANGE
+
+Target Ground Range correctly calculated
+- Init Status      : 1
+- Init Mode        : 4
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 2
+- LOS Azimuth      : 20.000000
+- LOS Elevation    : 80.000000
+- Geodetic Altitude: 100.000000
+- LOS Azimuth Rate : 1.000000
+- LOS Elev. Rate   : 1.000000
+- Distance         : 1000.000000
+  OUTPUT
+- Target Position  : [ 6213703.173,-1439034.698,  -31187.927]
+- Target Velocity  : [     979.978,    4084.310,    6746.466]
+- Range            : 800902.485437
+- Range Rate       : -2810.061904
+- Sat-Target LOS   : [-0.979125937, 0.121128519,-0.163218506]
+- Sat-Tar LOS Rate : [-0.001910890, 0.007543414, 0.017061330]
+
+
+XP_TARGET_INCIDENCE_ANGLE
+
+Target Incidence Angle correctly calculated
+- Init Status      : 1
+- Init Mode        : 5
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 2
+- LOS Azimuth      : 20.000000
+- Geodetic Altitude: 100.000000
+- LOS Azimuth Rate : 1.000000
+- Incidence Angle  : 40.000000
+  OUTPUT
+- Target Position  : [ 6146013.795,-1659978.464, -389704.564]
+- Target Velocity  : [   -2631.612,   -9446.245,   -1257.514]
+- Range            : 990152.779553
+- Range Rate       : 13.229536
+- Sat-Target LOS   : [-0.860345789,-0.125164153,-0.494104298]
+- Sat-Tar LOS Rate : [-0.002402902,-0.007905587, 0.006186594]
+
+
+XP_TARGET_RANGE
+
+Target Range correctly calculated
+- Init Status      : 1
+- Init Mode        : 6
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 2
+- LOS Azimuth      : 20.000000
+- Range            : 900000.000000
+- Geodetic Altitude: 100.000000
+- LOS Azimuth Rate : 1.000000
+- Range Rate       : 40.000000
+  OUTPUT
+- Target Position  : [ 6173820.120,-1580517.862, -259541.252]
+- Target Velocity  : [   -1985.214,   -7296.621,   -2770.533]
+- Range            : 900000.000000
+- Range Rate       : 40.000000
+- Sat-Target LOS   : [-0.915630500,-0.049412257,-0.398972702]
+- Sat-Tar LOS Rate : [-0.001897332,-0.006308660, 0.005135640]
+
+
+XP_TARGET_RANGE_RATE
+
+Target Range Rate correctly calculated
+- Init Status      : 1
+- Init Mode        : 7
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 1
+- EF Range Rate    : 40.000000
+- Range            : 900000.000000
+- Geodetic Altitude: 100.000000
+- EF Range RateRate: 0.000000
+- Range Rate       : 40.000000
+  OUTPUT
+- Target Position  : [ 6129024.384,-1756124.135,  181037.210]
+- Target Velocity  : [       0.000,       0.000,       0.000]
+- Range            : 900000.000000
+- Range Rate       : 40.000000
+- Sat-Target LOS   : [-0.965403540,-0.244530339, 0.090558923]
+- Sat-Tar LOS Rate : [ 0.000310673, 0.001807368, 0.008192253]
+
+
+XP_TARGET_TANGENT
+
+Target Tangent correctly calculated
+- Init Status      : 1
+- Init Mode        : 8
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 1
+- LOS Azimuth      : 20.000000
+- LOS Elevation    : 85.000000
+- LOS Azimuth Rate : 1.000000
+- LOS Elev. Rate   : 1.000000
+- Ray Tracing Model: 0
+- Frequency        : 10000000000.000000
+  OUTPUT
+- Target Position  : [   -3003.076, -321669.896, -540119.590]
+- Target Velocity  : [  -11780.053,   61438.635,  108934.624]
+- Range            : 7134166.953850
+- Range Rate       : 11628.253304
+- Sat-Target LOS   : [-0.981318589, 0.170219865,-0.089660611]
+- Sat-Tar LOS Rate : [-0.000017948, 0.008561073, 0.016449555]
+
+
+XP_TARGET_ALTITUDE
+
+Target Altitude correctly calculated
+- Init Status      : 1
+- Init Mode        : 9
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 1
+- LOS Azimuth      : 20.000000
+- Geodetic Altitude: 100.000000
+- LOS Azimuth Rate : 1.000000
+- Ray Tracing Model: 0
+- Frequency        : 10000000000.000000
+  OUTPUT
+- Target Position  : [ 5243287.417,-2751666.034,-2362322.733]
+- Target Velocity  : [  -12548.186,  -42284.890,   21259.452]
+- Range            : 3258387.823499
+- Range Rate       : 163.600166
+- Sat-Target LOS   : [-0.538487205,-0.373073824,-0.755544474]
+- Sat-Tar LOS Rate : [-0.003750045,-0.012462300, 0.008826362]
+
+
+XP_TARGET_STAR
+
+Target Star correctly calculated
+- Init Status      : 1
+- Init Mode        : 10
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 4859964.138,-5265612.059,       0.002]
+- Sat Velocity     : [-1203.303801,-1098.845511, 7377.224410]
+- Sat Acceleration : [ 0.000000000, 0.000000000, 0.000000000]
+- Derivative Flag  : 1
+- Star R.A.        : 272.000000
+- Star Declination : -73.000000
+- Star R.A. Rate   : 0.000000
+- Star Declin. Rate: 0.000000
+- Ray Tracing Model: 0
+- Frequency        : 10000000000.000000
+  OUTPUT
+- Target Position  : [ 4348924.674,-5037435.674,-1830584.313]
+- Target Velocity  : [   -3035.769,    -235.965,     753.584]
+- Range            : 1914226.927569
+- Range Rate       : 6926.285932
+- Sat-Target LOS   : [-0.266969113, 0.119200280,-0.956304756]
+- Sat-Tar LOS Rate : [ 0.000008692, 0.000019468,-0.000000000]
+
+
+XP_TARGET_TANGENT_SUN
+
+Target Tangent Sun correctly calculated
+- Init Status      : 1
+- Init Mode        : 11
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 1
+- Ray Tracing Model: 0
+- Frequency        : 10000000000.000000
+  OUTPUT
+- Target Position  : [ 6997887.570,-1536046.830,   99534.180]
+- Target Velocity  : [    -240.990,   -1616.850,   -7376.650]
+- Range            : 0.000000
+- Range Rate       : 0.000000
+- Sat-Target LOS   : [ 0.577367806, 0.813484462, 0.069924577]
+- Sat-Tar LOS Rate : [ 0.000059171,-0.000041994,-0.000000029]
+
+
+XP_TARGET_TANGENT_MOON
+
+Target Tangent Moon correctly calculated
+- Init Status      : 1
+- Init Mode        : 12
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 1
+- Ray Tracing Model: 0
+- Frequency        : 10000000000.000000
+  OUTPUT
+- Target Position  : [ 3713189.833,-4213419.248, -904915.357]
+- Target Velocity  : [    1417.933,     131.639,   -6728.959]
+- Range            : 4355052.371585
+- Range Rate       : -2475.513179
+- Sat-Target LOS   : [-0.754226920,-0.614773874,-0.230640059]
+- Sat-Tar LOS Rate : [-0.000047801, 0.000052033, 0.000017621]
+
+
+XP_TARGET_GENERIC
+
+Target Generic correctly calculated
+- Init Status      : 1
+- Init Mode        : 15
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 6997887.570,-1536046.830,   99534.180]
+- Sat Velocity     : [ -240.990000,-1616.850000,-7376.650000]
+- Sat Acceleration : [-7.791040000, 1.693530000,-0.108260000]
+- Derivative Flag  : 2
+- Sat Position     : [ 4859964.138,-5265612.059,       0.002]
+- Sat Velocity     : [-1203.303801,-1098.845511, 7377.224410]
+- Sat Acceleration : [ 0.000000000, 0.000000000, 0.000000000]
+  OUTPUT
+- Target Position  : [ 4859964.138,-5265612.059,       0.002]
+- Target Velocity  : [-1203.303801,-1098.845511, 7377.224410]
+- Target Acc.      : [ 0.000000000, 0.000000000, 0.000000000]
+- Range            : 4300032.610464
+- Range Rate       : -312.344856
+- Sat-Target LOS   : [-0.497187725,-0.867334173,-0.023147308]
+- Sat-Tar LOS Rate : [-0.000259907, 0.000057464, 0.003429426]
+
+
+XP_TARGET_STATION
+
+Target Station correctly calculated
+- Init Status      : 1
+- Init Mode        : 13
+
+
+xp_target_extra_vector
+
+Target Extra Vector correctly executed
+  INPUT
+- Time Reference   : 1
+- Time             : 255.345600
+- Sat Position     : [ 4859964.138,-5265612.059,       0.002]
+- Sat Velocity     : [-1203.303801,-1098.845511, 7377.224410]
+- Sat Acceleration : [ 0.000000000, 0.000000000, 0.000000000]
+- Derivative Flag  : 2
+- Geocentri Long.  : 315.000000
+- Geodetic Lat.    : 5.000000
+- Geodetic Alt.    : 0.000000
+- Min. Link Elev.  : 0.000000
+  OUTPUT
+- Target Position  : [ 4492976.160,-4492976.160,  552183.960]
+- Target Velocity  : [       0.000,       0.000,       0.000]
+- Target Acc.      : [ 0.000000000, 0.000000000, 0.000000000]
+- Range            : 1018112.730715
+- Range Rate       : -3600.952432
+- Sat-Target LOS   : [-0.360459080, 0.758890323, 0.542360331]
+- Sat-Tar LOS Rate : [-0.000093008, 0.003763408,-0.005327711]
+
+
+XP_TARGET_EXTRA_MAIN
+
+  INPUT
+- Choice Flag                : 65535
+  OUTPUT
+- Geocentric Long.           : 315.000000
+- Geocentric Lat.            : 4.966696
+- Geodetic Latitude          : 5.000000
+- Geodetic Altitude          : -0.000001
+- Sat. to target Top. Azimuth: 24.731934
+- Sat. to target Top. Elev.  : -53.335218
+- Target Azimuth             : 37.167430
+- Target Elevation           : 53.293491
+- Topoc. Azimuth             : 204.815996
+- Topoc. Elevation           : 47.835261
+- Geocentric Long. rate      : 0.000000
+- Geocentric Lat. rate       : 0.000000
+- Geodetic Latitude rate     : 0.000000
+- Geodetic Altitude rate     : 0.000000
+- Sat2tar Top. Azimuth rate  : 0.381118
+- Sat2tar Top. Elev.rate     : -0.222962
+- Target Azimuth rate        : 0.383143
+- Target Elevation rate      : 0.221498
+- Topoc. Azimuth rate        : 0.382691
+- Topoc. Elevation rate      : 0.271502
+- Geocentric Long. rate rate : 0.000000
+- Geocentric Lat. rate rate  : 0.000000
+- Geodetic Latitude rate rate: 0.000000
+- Geodetic Altitude rate rate: 0.000000
+- Sat2tar Top. Azimuth rate r: 0.006692
+- Sat2tar Top. Elev.rate rate: -0.000884
+- Target Azimuth rate rate   : 0.006714
+- Target Elevation rate rate : 0.000867
+- Topoc. Azimuth rate rate   : 0.006712
+- Topoc. Elevation rate rate : 0.000649
+
+
+XP_TARGET_EXTRA_AUX
+
+  INPUT
+- Choice Flag          : 65535
+  OUTPUT
+- Curvature Radius at target's nadir                                     = 6343346.447429
+- Distance: target's nadir to satellites's nadir                         = 608882.584743
+- Distance target's nadir to ground track                                = -367645.770986
+- Distance SSP to point in the ground track nearest to the target's nadir= 485626.765917
+- MLST at target                                                         = 5.294055
+- TLST at target                                                         = 5.357949
+- RA throught the atmosphere                                             = 231.467373
+- Dec. throught the atmosphere                                           = 32.844462
+- Curvature Radius rate at target's nadir                                = 214.719481
+- Distance rate: target's nadir to satellites's nadir                    = -5352.963902
+- Distance rate target's nadir to ground track                           = 0.004992
+- Distance rate SSP to point in the ground track nearest to the target's nadir= -6720.029127
+- Target's nadir velocity (relative to the Earth). North                 = 0.000000
+- Target's nadir velocity (relative to the Earth). East                  = 0.000000
+- Target's nadir velocity (relative to the Earth). Azimuth               = 0.000000
+- Target's nadir velocity (relative to the Earth). Magnitude             = 0.000000
+- Curvature Radius rate rate at target's nadir                           = 0.014536
+- Distance rate rate: target's nadir to satellites's nadir               = 0.000000
+- Distance rate rate target's nadir to ground track                      = 0.000000
+- Distance rate rate SSP to point in the ground track nearest to the target's nadir= 0.000000
+
+
+XP_TARGET_EXTRA_TARGET_TO_SUN
+
+  INPUT
+- Choice Flag          : 2
+- Ray Tracing Model    : 0
+- Frequency            : 10000000000.000000
+  OUTPUT
+- Topocentric Azimuth.       : 85.106054
+- Topocentric Elevation.     : -9.222632
+- Topocentric Azimuth rate.  : 0.000425
+- Topocentric Elevation rate : 0.004136
+- Topocentric Az. rate rate  : -0.000000
+- Topocentric Elev. rate rate: 0.000000
+- Tangent Altitude           : -82448.699083
+- Target to sun visibility.  : -1
+
+
+XP_TARGET_EXTRA_TARGET_TO_MOON
+
+  INPUT
+- Choice Flag          : 2
+- Ray Tracing Model    : 0
+- Frequency            : 10000000000.000000
+  OUTPUT
+- Topocentric Azimuth.       : 256.946036
+- Topocentric Elevation.     : -6.907071
+- Topocentric Azimuth rate.  : 0.000299
+- Topocentric Elevation rate : -0.003909
+- Topocentric Az. rate rate  : 0.000000
+- Topocentric Elev. rate rate: 0.000000
+- Tangent Altitude           : -46273.981959
+- Target to moon visibility.  : -1
+
+
+XP_TARGET_EXTRA_EF
+
+  INPUT
+- Choice flag              : 2
+  OUTPUT
+- EF target to satellite range rate             : -3600.952432
+- EF target to satellite azimuth rate (TOP)     : 0.382691
+- EF target to satellite elevation rate (TOP)   : 0.271502
+- Satellite to EF target azimuth rate (TOP)     : 0.381118
+- Satellite to EF target elevation rate (TOP)   : -0.222962
+- Satellite to EF target azimuth rate (attitude): 0.383143
+- Satellite to EF target elev. rate (attitude)  : 0.221498
+- 2 way doppler shift of signal                 : 240230
+- EF target to satellite range rate rate        : 43.327209
+- EF target to satellite az. rate rate (TOP)    : 0.006712
+- EF target to satellite elev. rate rate (TOP)  : 0.000649
+- Satellite to EF target az. rate rate (TOP)    : 0.006692
+- Satellite to EF target elev. rate rate (TOP)  : -0.000884
+- Satellite to EF target az. rate rate (att)    : 0.006714
+- Satellite to EF target elev. rate rate (att)  : 0.000867
+
+
+xp_change_frame
+
+  INPUT VALUES:                                    
+- Mode flag             : 0                      
+- Input frame flag      : 1                      
+- Input frame ID        : 1                      
+- Output frame flag     : 0                      
+- Output frame ID       : 5                      
+- Time Reference        : 2                      
+- Time                  : 255.345600                      
+- Sat Position          : [ 4859964.138,-5265612.059,       0.002]
+- Sat Velocity          : [-1203.303801,-1098.845511, 7377.224410]
+- Sat Acceleration      : [ 0.000000000, 0.000000000, 0.000000000]
+- Input Vector          : [ 6296843.841,-1397383.429,-10319300.71]
+- Vector Rate           : [ -152.260779,-3217.355126,  939.545695]
+- Vector Rate Rate      : [ 0.176318842, 0.886385019,-4.762658393]
+  OUTPUT VALUES:                                   
+- Status ( 0 = OK)      : 0                      
+- Output Vector         : [ 4869965.138,-5275612.059,    8038.440]
+- Vector Rate           : [   26.580000,  -89.580000, -136.660000]
+- Vector Rate Rate      : [ 0.013000000, 0.002000000,-0.000300000]
+
+
+xp_target_close
+
+  Memory freed successfully
+- Init Status      : 0
+
+
+xp_attitude_close
+
+  Memory freed successfully
+- Init Status      : 0
+
+  Memory freed successfully
+- Init Status      : 0
+
+
+xp_sat_nominal_att_close
+
+  Memory freed successfully
+- Init Status      : 0
+
+
+xp_sat_att_close
+
+  Memory freed successfully
+- Init Status      : 0
+
+
+xp_instr_att_close
+
+  Memory freed successfully
+- Init Status      : 0
+
+
+xp_target_sc
+
+
+
+xp_target_list_inter
+
+
+
+xp_target_list_extra_vector
+
+  OUTPUT
+- Number of targets : 3
+
+- Target Position of first target : [ 3803437.200,-5117821.490, -149165.343]
+
+
+xp_target_list_extra_main
+
+  OUTPUT
+- Number of targets : 3
+
+- Geocentric Long of 1st target   : 306.618810
+- Geocentric Lat of 1st target    : -1.340100
+- Geodetic Latitude of 1st target : -1.349128
+- Geodetic Altitude of 1st target : -0.000000
+
+
+xp_target_list_extra_aux
+
+  OUTPUT
+- Number of targets : 3
+
+- MLST at target of 1st target         = 19.575134
+- TLST at target of 1st target         = 19.450996
+
+
+xp_target_list_extra_ef_target
+
+  OUTPUT
+- Number of targets : 3
+
+- EF target to satellite range rate  of 1st target          : -7.888710
+- EF target to satellite azimuth rate (TOP) of 1st target   : -0.556449
+- EF target to satellite elevation rate (TOP) of 1st target : -0.000301
+
+
+xp_target_list_extra_specular_reflection
+
+  OUTPUT
+- Number of targets : 3
+
+- Azimuth of the reflected point direction (Topocentric) of 1st target : 257.622014
+- Elevation of the reflected point direction (Topocentric) of 1st target : 43.765788
+
+
+xp_target_list_extra_target_to_moon
+
+  OUTPUT
+- Number of targets : 3
+
+- Topocentric Azimuth of 1st target       : 101.064203
+- Topocentric Elevation of 1st target     : 6.764320
+
+
+xp_target_list_extra_target_to_sun
+
+  OUTPUT
+- Number of targets : 3
+
+- Topocentric Azimuth of 1st target       : 269.459467
+- Topocentric Elevation of 1st target     : -21.765180
+EOCFI_POINTING EXAMPLE COMPLETED SUCCESSFULLY

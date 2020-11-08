@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Earth_Explorer_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://eop-cfi.esa.int/CFI " xmlns="http://eop-cfi.esa.int/CFI">
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+      <File_Name>CS_OPER_INT_ATTDEF_00000000T000000_99999999T999999_0001</File_Name>
+      <File_Description>Attitude Definition File</File_Description>
+      <Notes/>
+      <Mission>CryoSat</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>INT_ATTDEF</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=0000-00-00T00:00:00</Validity_Start>
+        <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0001</File_Version>
+      <Source>
+        <System>What system?</System>
+        <Creator>Earth Explorer CFI</Creator>
+        <Creator_Version>EOCFI Library version: 4.5</Creator_Version>
+        <Creation_Date>                       </Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header/>
+  </Earth_Explorer_Header>
+  <Data_Block type="xml">
+    <Attitude_Definition>
+      <Sat_Nominal_Att>
+        <AOCS_Model>1</AOCS_Model>
+      </Sat_Nominal_Att>
+      <Sat_Att>
+        <None/>
+      </Sat_Att>
+      <Instr_Att>
+        <None/>
+      </Instr_Att>
+    </Attitude_Definition>
+  </Data_Block>
+</Earth_Explorer_File>

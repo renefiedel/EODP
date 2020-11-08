@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by name (company) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="3.0">
+	<xsd:include schemaLocation="EO_OPER_AUX_ORBDOP.HeaderTypes_0300.XSD"/>
+	<xsd:include schemaLocation="EO_OPER_AUX_ORBDOP.DataBlockTypes_0300.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>DORIS Preliminary Orbit File</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Doris_Preliminary_File_Type">
+		<xsd:sequence>
+			<xsd:element name="Earth_Observation_Header" type="Doris_Preliminary_Header_Type"/>
+			<xsd:element name="Data_Block" type="Doris_Preliminary_Data_Block_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="Decimal_Type" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="Earth_Observation_File" type="Doris_Preliminary_File_Type"/>
+</xsd:schema>

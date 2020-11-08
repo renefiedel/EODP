@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.8">
+	<xsd:include schemaLocation="TimeTypes_0201.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>DEM Configuration Data Types</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="DEM_Configuration_Data_Block_Type" mixed="false">
+		<xsd:sequence>
+			<xsd:element name="DEM" type="DEM"/>
+		</xsd:sequence>
+		<xsd:attribute name="type" type="String_Type" use="required" fixed="xml"/>
+		<xsd:attribute name="schemaVersion" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:element name="Data_Block" type="DEM_Configuration_Data_Block_Type"/>
+	<xsd:simpleType name="DEM_Model">
+		<xsd:restriction base="String_Type">
+			<xsd:enumeration value="GETASSE30_V1"/>
+			<xsd:enumeration value="GETASSE30_V2"/>
+			<xsd:enumeration value="GETASSE30_V3"/>
+			<xsd:enumeration value="ACE2_9SEC"/>
+			<xsd:enumeration value="GDEM_V2"/>
+      <xsd:enumeration value="ACE2_30SEC"/>
+      <xsd:enumeration value="ACE2_3SEC"/>
+      <xsd:enumeration value="ACE2_5MIN"/>
+      <xsd:enumeration value="GENERIC"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="DEM_User_Parameters">
+		<xsd:sequence>
+			<xsd:element name="Directory" type="String_Type"/>
+			<xsd:element name="Cache_Type">
+				<xsd:simpleType>
+					<xsd:restriction base="String_Type">
+						<xsd:enumeration value="NO_CACHE"/>
+						<xsd:enumeration value="PRELOAD_CACHE"/>
+						<xsd:enumeration value="FIFO_CACHE"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="Cache_Max_Size">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="Integer_Type">
+							<xsd:attribute name="size" type="String_Type" use="required" fixed="MB"/>
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="MiniTiles_Configuration">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Filename" type="String_Type"/>
+						<xsd:element name="Lon_Size">
+							<xsd:complexType>
+								<xsd:simpleContent>
+									<xsd:extension base="Decimal_Type">
+										<xsd:attribute name="unit" type="String_Type" use="required" fixed="deg"/>
+									</xsd:extension>
+								</xsd:simpleContent>
+							</xsd:complexType>
+						</xsd:element>
+						<xsd:element name="Lat_Size">
+							<xsd:complexType>
+								<xsd:simpleContent>
+									<xsd:extension base="Decimal_Type">
+										<xsd:attribute name="unit" type="String_Type" use="required" fixed="deg"/>
+									</xsd:extension>
+								</xsd:simpleContent>
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Geoid_Computation">
+				<xsd:simpleType>
+					<xsd:restriction base="String_Type">
+						<xsd:enumeration value="Enabled"/>
+						<xsd:enumeration value="Disabled"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="Geoid_Nof_Harmonics" type="Integer_Type"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="DEM_Metadata">
+		<xsd:sequence>
+			<xsd:element name="Dataset_Model" type="DEM_Model"/>
+			<xsd:element name="Description" type="String_Type"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="DEM">
+		<xsd:sequence>
+			<xsd:element name="DEM_User_Parameters" type="DEM_User_Parameters"/>
+			<xsd:element name="DEM_Metadata" type="DEM_Metadata"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
