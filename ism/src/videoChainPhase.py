@@ -70,7 +70,7 @@ class videoChainPhase(initIsm):
         :return: toa in digital counts
         """
         # TODO
-        bdepth = 2 ** bit_depth - 1
+        bdepth = 2**bit_depth - 1
         toa_dn = np.round((toa / (max_voltage - min_voltage)) * bdepth)
 
         # Make sure DN is not above the saturation level
@@ -81,8 +81,8 @@ class videoChainPhase(initIsm):
                     toa_dn[iact, ialt] = 0
                     print("toa_dn is below the saturation level.")
 
-                    if toa_dn[iact, ialt] > bdepth:
-                        toa_dn[iact, ialt] = bdepth
-                        print("toa_dn is above the saturation level.")
+                if toa_dn[iact, ialt] > bdepth:
+                    toa_dn[iact, ialt] = bdepth
+                    print("toa_dn is above the saturation level.")
 
         return toa_dn
