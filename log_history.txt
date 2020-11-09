@@ -1,0 +1,341 @@
+commit 4c0d63f3e19bce0eff135a01dd42cd5340ec1537
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Mon Nov 9 20:25:23 2020 +0100
+
+    final commit
+
+commit 23c6276ef5d579b45f9f18d63558020d3ddeeaab
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Mon Nov 9 15:42:34 2020 +0100
+
+    More polishing
+
+commit 8c56692db714c2746db5987c7c53e1d44ec20964
+Merge: a080ff9 7029904
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Mon Nov 9 14:45:24 2020 +0100
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+commit a080ff9269604be3f5e1ae841f44b11e3ebce80f
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Mon Nov 9 14:44:57 2020 +0100
+
+    More polishing
+
+commit 70299047d469cc47cc06414567c225a1233cd3f7
+Author: Renetus Fidel Masanja <renefiedel@outlook.com>
+Date:   Mon Nov 9 12:24:26 2020 +0100
+
+    Create __init__.py
+
+commit 7809e9f4fbbdfb2656d9c8f292616b04e31d1395
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Sun Nov 8 21:39:40 2020 +0100
+
+    last minute polish
+
+commit 047966aa28c9f4b9ea33232c6ee43bc92b31cc89
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Sun Nov 8 21:18:44 2020 +0100
+
+    project completition
+
+commit f5a0b091024248d9c057f91ec9020adeacdc11bb
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Sun Nov 8 17:27:50 2020 +0100
+
+    Video chain test is 0.0 and E2E gm is a success.
+
+commit 2ff946b6c3aaafc8d89b39843be42fb577a90ec7
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Sun Nov 8 12:37:00 2020 +0100
+
+    Geometry module
+
+commit 77dcb338064a2d69c520c16ab447b91d49641566
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Nov 6 21:58:15 2020 +0100
+
+    debug
+
+commit 5877fe310418b9be1c556e7c8b7564713196ac58
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Nov 6 12:24:51 2020 +0100
+
+    LIC test debug
+
+commit a2d882055c7360dc87acb9e0319dd958ebe032b5
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Nov 5 21:13:40 2020 +0100
+
+    l1c
+
+commit aedb58df55d7659a7d7dab53d0b7a0c3fd184811
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Nov 5 18:15:17 2020 +0100
+
+    l1c tests done but not 0.0
+
+commit 7e34d678e2f6e06dbac4623e968f64af0a0d0e32
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Nov 5 18:10:41 2020 +0100
+
+    l1c tests done but not 0.0
+
+commit 7d9577c457b5c0900bb6f979f31bd8bf0a2fab73
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Nov 5 16:08:05 2020 +0100
+
+    l1b tests done
+
+commit 1deb9414ebfd67176fa1d73f2baff12ef404355f
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Wed Nov 4 22:00:15 2020 +0100
+
+    L1b pass/fail test
+
+commit 8236a614aff959f735f938a611650ce581189a89
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Oct 30 00:00:34 2020 +0100
+
+    Finally got 0.0
+
+commit e21a2978ec106d9f2c81bfc73bc1df127d04bb36
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 29 19:34:40 2020 +0100
+
+    last day of class [amends]
+
+commit 6dfd2d2546d32b28a6c034ec234713cbe50010c4
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 29 18:02:29 2020 +0100
+
+    last day of class
+
+commit fe4f873c36141fe134558f7b4102b35330809106
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 29 16:02:22 2020 +0100
+
+    15th october
+
+commit bc50367d5346316cf585f5f7b9180d25d20e5cbc
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 29 15:56:24 2020 +0100
+
+    thursday
+
+commit d95c2ec84b89037efdcdb72eeea62c0589684bb9
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 29 12:51:29 2020 +0100
+
+    last day of class
+
+commit 231ebac6eba66c801fdac7735ad835d3a01fbd22
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Wed Oct 28 21:04:03 2020 +0100
+
+    final ubuntu code
+
+commit 696713aaa793f5a6d31a0b01d9c6ab269743ff78
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Wed Oct 28 12:03:28 2020 +0100
+
+    wednesday
+
+commit 2f9b912db2ad024e915f8cd03f519616ce7d1a12
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Tue Oct 27 22:07:30 2020 +0100
+
+    ism debugging
+
+commit bad599c85ca95833fa3fbb5300493c8f26428aa0
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Tue Oct 27 16:00:04 2020 +0100
+
+    ism debugging
+
+commit 718971259bab30a32217b3c7c33a43907e3049f2
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Tue Oct 27 15:39:08 2020 +0100
+
+    ism debugging
+
+commit 93a4a6ce3442fdf020bc72f3b536422ecd7ad258
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Mon Oct 26 13:07:45 2020 +0100
+
+    monday
+
+commit 0389b7376152d5b4ac8fdf6733fc3a36da0db363
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Sun Oct 25 19:55:22 2020 +0100
+
+    hi
+
+commit 00013cef4e0c446b094b8b93aaf21c4e95483e3f
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Sun Oct 25 15:11:37 2020 +0100
+
+    review of the long sunday
+
+commit 06d31a60fcac42439b3322fe0d94d8b2b2c9f1d4
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Wed Oct 21 22:26:14 2020 +0200
+
+    debug
+
+commit b9fda2f37e70d917fa92bcdb0c9d5cd5063c937c
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Wed Oct 21 22:18:12 2020 +0200
+
+    debug
+
+commit abf6cae53e09ea92f608331139bad2dc2a6bc469
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Oct 16 16:56:23 2020 +0200
+
+    friday 15th
+
+commit fff58b12e309fd3a82246cefe12b86afcf1a8dab
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Oct 16 13:49:00 2020 +0200
+
+    friday week 5
+
+commit 84456557947a0618f15366491c8783dbb4a5f610
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Oct 16 13:21:10 2020 +0200
+
+    friday week 5
+
+commit 35daecf73550111db8b266e51208b4e962a9044b
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 15 23:10:59 2020 +0200
+
+    15th october
+
+commit 45d06cbd239bc61964a68f539f0a258437927833
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 15 22:23:58 2020 +0200
+
+    15th october
+
+commit 6b4ef55a4733057d06fd015f8175ec84b8de4382
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Tue Oct 13 16:59:02 2020 +0200
+
+    videoChainPhase.py
+
+commit a8dd2f8b226b684266eaac1460f32c81fd76c2b6
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Tue Oct 13 14:09:33 2020 +0200
+
+    12th october
+
+commit 34e71e8c014ff9839789103aa226078fca43ea30
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Tue Oct 13 14:09:07 2020 +0200
+
+    12th october
+
+commit fbcc0330b0c12487e830ed090ee7d2798755d3fa
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Mon Oct 12 22:53:18 2020 +0200
+
+    12th october
+
+commit c9153c26c20e8b083ba10fc5a566e3a4fd0ce2db
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Oct 9 16:54:34 2020 +0200
+
+    9th october Friday
+
+commit 99e7bd0d5591b6f01bad293906c04962250a9773
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 8 23:06:20 2020 +0200
+
+    8th october
+
+commit cbf227690a072d3a7a77fabe4a7531143cb40344
+Merge: 1cb7f46 0207c53
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 8 18:57:27 2020 +0200
+
+    Merge remote-tracking branch 'origin/develop' into develop
+    
+    # Conflicts:
+    #       Output/ism_output/ISM.log
+    #       ism/src/opticalPhase.py
+
+commit 1cb7f46b1f5b0a5c72f84fae83ddbd1583df5b34
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 8 18:55:10 2020 +0200
+
+    8th october
+
+commit 57ad03be5670d8a76cab5e6cb914c0e22602fe1f
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Wed Oct 7 23:34:09 2020 +0200
+
+    7th october
+
+commit 317e8ce66f026170d9efcb7a61411b4a6137b39d
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Wed Oct 7 14:21:39 2020 +0200
+
+    7th october
+
+commit 575af5c33ac08753a9df724dddd44021bd693d33
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Oct 2 16:52:11 2020 +0200
+
+    review of ism october 2nd
+
+commit 0207c53e8cbc0d0c56a1ba1b0d9d53f1547bc004
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Oct 2 16:52:11 2020 +0200
+
+    review of ism october 2nd
+
+commit 39cf160838b7637d8c7355390803f18185941b77
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 1 23:20:52 2020 +0200
+
+    october
+
+commit f8c2047d64f25895f6e21b0367397e7394645840
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 1 23:17:12 2020 +0200
+
+    review of ism
+
+commit 0b00ed9624d31ae19213126dbdcbe1841b9b76b9
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 1 19:01:40 2020 +0200
+
+    october first
+
+commit fe1d0a3de4e8494f90f77bf781fca3df6cb3f2ca
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Thu Oct 1 18:13:07 2020 +0200
+
+    october first
+
+commit 8eb38d6f9ce9c003b144e4dc6da5a511e6f9aa8e
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Sun Sep 27 15:42:09 2020 +0200
+
+    Add existing file
+
+commit 25391fbeecc0d027aa6a5fc05b307795c7cf810f
+Author: renefiedel <renefiedel@outlook.com>
+Date:   Fri Sep 18 16:07:01 2020 +0200
+
+    start
+
+commit 2c9e58f10ba8519f18260afe19a2af2edfd71fdf
+Author: Renetus Fidel Masanja <33121586+renefiedel@users.noreply.github.com>
+Date:   Thu Sep 17 18:55:55 2020 +0200
+
+    Create guide
