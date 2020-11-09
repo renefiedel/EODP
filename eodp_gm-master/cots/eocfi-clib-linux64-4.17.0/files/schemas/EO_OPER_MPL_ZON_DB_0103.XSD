@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by name (company) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.3">
+	<xsd:include schemaLocation="EO_OPER_MPL_ZON_DB.HeaderTypes_0101.XSD"/>
+	<xsd:include schemaLocation="EO_OPER_MPL_ZON_DB.DataBlockTypes_0102.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Zone Database File</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Zone_Database_File_Type">
+		<xsd:sequence>
+			<xsd:element name="Earth_Explorer_Header" type="Zone_Database_Header_Type"/>
+			<xsd:element name="Data_Block" type="Zone_Database_Data_Block_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="Decimal_Type" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="Earth_Explorer_File" type="Zone_Database_File_Type"/>
+</xsd:schema>

@@ -1,0 +1,282 @@
+#########################################################################################
+#
+# Project    : ExpCFI
+# Copyright  : DEIMOS Space S.L.
+#
+# Module     : make.LINUX64_LEGACY
+# Purpose    : It is the makefile of the C example
+#
+# History:     +----------------------------------------------------------------------------------+
+#              | Version |   Date   |       Name        | Change                                  |
+#              |----------------------------------------------------------------------------------|
+#              |    1.2  | 15/04/02 | DEIMOS Space S.L. | First version from Envisat CFI          |
+#              |----------------------------------------------------------------------------------|
+#              |    1.3  | 19/07/02 | DEIMOS Space S.L. | Maintenance release                     |
+#              +----------------------------------------------------------------------------------+
+#              |    2.0  | 29/11/02 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | Leap Second Function                    |
+#              |         |          |                   | BOM, EOM ASCII times                    |
+#              |         |          |                   | CCSDS compact ASCII                     |
+#              +----------------------------------------------------------------------------------+
+#              |    2.0  | 10/12/02 | DEIMOS Space S.L. | Patch to solve SPRs:                    |
+#              | patch A |          |                   | - EXPCFI-SPR-007                        |
+#              |         |          |                   | - EXPCFI-SPR-008                        |
+#              |         |          |                   | - EXPCFI-SPR-009                        |
+#              |         |          |                   | - EXPCFI-SPR-010                        |
+#              +----------------------------------------------------------------------------------+
+#              |    2.1  | 13/05/03 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | MAC OS Version                          |
+#              +----------------------------------------------------------------------------------+
+#              |    2.2  | 30/09/03 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | New functions added:                    |
+#              |         |          |                   |  + xl_default_sat_init                  |
+#              +----------------------------------------------------------------------------------+
+#              |    3.0  | 21/07/04 | DEIMOS Space S.L. | New interfaces                          |
+#              +----------------------------------------------------------------------------------+
+#              |   3.1   | 13/10/04 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | New functions:                          |
+#              |         |          |                   | + xl_get_rotation_angles                |
+#              |         |          |                   | + xl_get_rotated_vectors                |
+#              |         |          |                   | + xl_position_on_orbit                  |
+#              +----------------------------------------------------------------------------------+
+#              |    3.2  | 15/11/04 | DEIMOS Space S.L. | Maintenance release                     |
+#              +----------------------------------------------------------------------------------+
+#              |    3.3  | 11/07/05 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   | + explorer_data_handling support        |
+#              |         |          |                   | + Id. Accessors                         |
+#              |         |          |                   | + ADM/SMOS OBT<->UTC conversion         |
+#              |         |          |                   | + ENVISAT support removed               |
+#              |         |          |                   | + New tolerances and orbital            |
+#              |         |          |                   |   parameters (METOP, ERS1, ERS2         |
+#              |         |          |                   |   Cryosat Eccentricity)                 |
+#              +----------------------------------------------------------------------------------+
+#              |    3.4  | 18/11/05 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   | + changes in xl_default_sat_init        |
+#              |         |          |                   | + New function xl_defaul_sat_close      |
+#              |         |          |                   | + EXPCFI-SPR-070 Closed                 |
+#              +----------------------------------------------------------------------------------+
+#              |    3.5  | 26/05/06 | DEIMOS Space S.L. | New features:                           |
+#              |         |          |                   |  + Thread safe library                  |
+#              |         |          |                   |  + C99 compliant                        |
+#              |         |          |                   |  + Optimized libray                     |
+#              |         |          |                   |  + 64-Bits library for MACOS,           |
+#              |         |          |                   |    LINUX32_LEGACY and SOLARIS           |
+#              |         |          |                   |  + New time_conv executable             |
+#              |         |          |                   |  + New satellites: SWARM & EARTHCARE    |
+#              |         |          |                   |  + xl_time_ref_init_file improved       |
+#              |         |          |                   |  + New routines:                        |
+#              |         |          |                   |     xl_star_catalog (prototype)         |
+#              |         |          |                   |     xl_radec_to_cart (prototype)        |
+#              |         |          |                   |     xl_cart_to_radec (prototype)        |
+#              |         |          |                   |     xl_topocentric_to_ef (prototype)    |
+#              |         |          |                   |     xl_ef_to_topocentric (prototype)    |
+#              |         |          |                   |  + SPR- 075 corrected                   |
+#              +----------------------------------------------------------------------------------+
+#              |    3.6  | 24/11/06 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + New Coordinate Reference Systems for |
+#              |         |          |                   |    tranformation routines: Barycentric  |
+#              |         |          |                   |    1950 and Galactic                    |
+#              |         |          |                   |  + New time format: SMOS UTC Proteus    |
+#              |         |          |                   |  + New routines:                        |
+#              |         |          |                   |     xl_euler_to_matrix                  |
+#              |         |          |                   |     xl_matrix_to_euler                  |
+#              |         |          |                   |     xl_topocentric_to_ef                |
+#              |         |          |                   |     xl_ef_to_topocentric                |
+#              |         |          |                   |     xl_radec_to_cart                    |
+#              |         |          |                   |     xl_cart_to_radec                    |
+#              |         |          |                   |     xl_star_catalog                     |
+#              +----------------------------------------------------------------------------------+
+#              |    3.7  | 13/07/07 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + expcfi_check_libs                    |
+#              |         |          |                   |  + library version for Mac OS X         |
+#              |         |          |                   |    on Intel (32 and 64 bits)            |
+#              +----------------------------------------------------------------------------------+
+#              |  3.7.2  | 31/07/08 | DEIMOS Space S.L. | Maintenance release                     |
+#              +----------------------------------------------------------------------------------+
+#              |    4.0  | 19/01/09 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + Funtion interfaces changed for model |
+#              |         |          |                   |    support                              |
+#              +----------------------------------------------------------------------------------+
+#              |    4.1  | 07/05/10 | DEIMOS Space S.L. | Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + Time init with list of files         |
+#              |         |          |                   |  + Time initialization with OSF         |
+#              +----------------------------------------------------------------------------------+
+#              |    4.2  | 31/01/11 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + Check and normalization of input     |
+#              |         |          |                   |    vectors and matrices                 |
+#              |         |          |                   |  + Support for curved MLST              |
+#              +----------------------------------------------------------------------------------+
+#              |    4.3  | 06/02/12 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + Pseudo-EF CS added.                  |
+#              |         |          |                   |    Polar motion included in EF CS.      |
+#              |         |          |                   |  + New init function xl_time_id_init    |
+#              |         |          |                   |  + Time init. support IERS Bulletin A   |
+#              |         |          |                   |    and Bulletins A+B                    |
+#              |         |          |                   |  + New time transport formats:          |
+#              |         |          |                   |      - XL_TRANS_GENERIC_GPS             |
+#              |         |          |                   |      - XL_TRANS_GENERIC_GPS_WEEK        |
+#              +----------------------------------------------------------------------------------+
+#              |    4.4  | 05/07/12 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + New non-iterative method to compute  |
+#              |         |          |                   |    transformation from cartesian to     |
+#              |         |          |                   |    geodetic coordinates                 |
+#              |         |          |                   |  + New reference frames for on-board    |
+#              |         |          |                   |    position scheduling: EF and GM2000   |
+#              +----------------------------------------------------------------------------------+
+#              |    4.5  | 01/03/13 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + New function xl_geoid_calc to        |
+#              |         |          |                   |    transform between heights relative to|
+#              |         |          |                   |    the ellipsoid and the geoid.         |
+#              +----------------------------------------------------------------------------------+
+#              |    4.6  | 03/10/13 | DEIMOS Space S.L.U| Maintenance release                     |
+#              +----------------------------------------------------------------------------------+
+#              |    4.7  | 28/03/14 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + Support for SENTINEL-5P, MetOp-SG    |
+#              |         |          |                   |    and Jason-CS satellites              |
+#              +----------------------------------------------------------------------------------+
+#              |    4.8  | 29/10/14 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + New reference frame: Earth Fixed non |
+#              |         |          |                   |    rotating.                            |
+#              |         |          |                   |  + New Sun model to take into account   |
+#              |         |          |                   |    Sun light travel time.               |
+#              |         |          |                   |  + New function for quaternion          |
+#              |         |          |                   |    interpolation:xl_quaternions_interpol|
+#              +----------------------------------------------------------------------------------+
+#              |    4.9  | 23/04/15 | DEIMOS Space S.L.U| Maintenance release                     |
+#              +----------------------------------------------------------------------------------+
+#              |  4.9.1  | 05/06/15 | DEIMOS Space S.L.U| Maintenance release                     |
+#              +----------------------------------------------------------------------------------+
+#              |  4.10   | 29/10/15 | DEIMOS Space S.L.U| Maintenance release                     |
+#              +----------------------------------------------------------------------------------+
+#              |  4.11   | 15/04/16 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + Support for BIOMASS, SENTINEL-5,     |
+#              |         |          |                   |    and SAOCOM-CS satellites             |
+#              +----------------------------------------------------------------------------------+
+#              |   4.12  | 03/11/16 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + Added extrapolation algorithm for    |
+#              |         |          |                   |    quaternions (xl_quaternions_interpol)|
+#              +----------------------------------------------------------------------------------+
+#              |   4.13  | 05/04/17 | DEIMOS Space S.L.U| Maintenance release                     |
+#              +----------------------------------------------------------------------------------+
+#              |   4.14  | 16/11/17 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + New functions for CUC time managing  |
+#              |         |          |                   |    xl_time_cuc_to_processing            |
+#              |         |          |                   |    xl_time_processing_to_cuc            |
+#              |         |          |                   |  + Support for FLEX satellite           |
+#              +----------------------------------------------------------------------------------+
+#              |   4.15  | 20/04/18 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + Refactored code                      |
+#              +----------------------------------------------------------------------------------+
+#              |   4.16  | 09/11/18 | DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |          |                   | New features:                           |
+#              |         |          |                   |  + Improved runtime in time conversions |
+#              +----------------------------------------------------------------------------------+
+#              |   4.17  | 10/05/19 | DEIMOS Space S.L.U| Maintenance release                     |
+#              +----------------------------------------------------------------------------------+
+# 
+#########################################################################################
+
+# set OS to your operating system (SOLARIS, WINDOWS, LINUX64_LEGACY, MACOS)
+
+  OS		= LINUX64
+
+# C standard
+
+STD             = -std=c99
+
+# set CC to your compiler (gcc)
+
+  CC		= gcc $(STD)
+
+# optionally select dynamic linking CFI libraries
+
+  DYN		= 
+
+#
+#  End of Customization Area
+#
+#########################################################################################
+
+CFI		= explorer_lib
+LANGUAGE	= c
+EXT		= _run_c
+
+#------------------------------------------------------------------------------
+#       Set silent mode
+#------------------------------------------------------------------------------
+
+.SILENT :
+
+#------------------------------------------------------------------------------
+#       Bash shell
+#------------------------------------------------------------------------------
+
+SHELL = /bin/bash
+
+#------------------------------------------------------------------------------
+#	Compiler flags
+#	--------------
+#
+#	 I	  = header files directories
+#	 D$(OS)	  = conditional code for SOLARIS/AIX
+#
+#------------------------------------------------------------------------------
+
+CFLAGS = \
+        -m64 \
+	-I../../../include \
+	-D$(OS)
+
+#------------------------------------------------------------------------------
+#       Linker tool, flags and libraries 
+#------------------------------------------------------------------------------
+
+LIBS_DIR = \
+	-L../../../lib/$(OS)
+
+LIBS = 	\
+	-lexplorer_lib$(DYN) \
+	-lexplorer_data_handling$(DYN) \
+	-lexplorer_file_handling$(DYN) \
+	-lgeotiff -ltiff -lproj -lxml2 -lm -lc -lpthread
+
+EXAMPLE = $(CFI)$(EXT)
+
+#------------------------------------------------------------------------------
+#	Makefile default target
+#------------------------------------------------------------------------------
+
+default : example run
+
+example:
+	echo "--------------------"
+	echo "$(CFI): ... creating the example"
+	echo "--------------------"
+	$(CC) $(CFLAGS) $(EXAMPLE).$(LANGUAGE) $(LIBS_DIR) $(LIBS) -o $(EXAMPLE)
+
+run:
+	echo "--------------------"
+	echo "$(CFI): ... running the example (you may want to redirect stderr)"
+	echo "--------------------"
+	sleep 1; echo "--- GO ---"
+	sleep 1 
+	LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:../../../lib/$(OS); ./$(EXAMPLE)
+
+clean: 
+	\rm -f *.o *.out core *%

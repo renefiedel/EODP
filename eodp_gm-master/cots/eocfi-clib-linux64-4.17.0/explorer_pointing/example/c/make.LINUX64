@@ -1,0 +1,270 @@
+#########################################################################################
+#
+# Project    : ExpCFI
+# Copyright  : DEIMOS Space S.L.
+#
+# Module     : make.LINUX64_LEGACY
+# Purpose    : It is the makefile of the C example
+#
+# History:     +--------------------------------------------------------------------------------+
+#              | Version |  Date  |       Name        | Change                                  |
+#              |--------------------------------------------------------------------------------|
+#              |    1.0  |19/07/02| DEIMOS Space S.L. | First version from                      |
+#              |         |        |                   | Envisat CFI                             |
+#              +--------------------------------------------------------------------------------+
+#              |    2.0  |29/11/02| DEIMOS Space S.L. | Maintenance release                     |
+#              +--------------------------------------------------------------------------------+
+#              |    2.1  |13/05/03| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | MAC OS Version                          |
+#              +--------------------------------------------------------------------------------+
+#              |    2.2  |30/09/03| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New Functions:                          |
+#              |         |        |                   | xp_target_extra_target_to_sun           |
+#              |         |        |                   | xp_target_extra_ef_target               |
+#              |         |        |                   | xp_target_extra_aux                     |
+#              |         |        |                   | xp_converter                            |
+#              +--------------------------------------------------------------------------------+
+#              |    3.0  |21/07/04| DEIMOS Space S.L. | New interfaces                          |
+#              +--------------------------------------------------------------------------------+
+#              |    3.1  |13/10/04| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + Attitude models                      |
+#              |         |        |                   |  + Multitarget functions                |
+#              +--------------------------------------------------------------------------------+
+#              |    3.2  |15/11/04| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + DEM implementation                   |
+#              +--------------------------------------------------------------------------------+
+#              |    3.3  |11/07/05| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   | + xp_target_travel_time                 |
+#              |         |        |                   | + Attitude models (Cryosat YSM,         |
+#              |         |        |                   |   ADM model)                            |
+#              |         |        |                   | + New attitude files for                |
+#              |         |        |                   |   initialisation                        |
+#              |         |        |                   | + Id. Accessors                         |
+#              |         |        |                   | + ENVISAT support removed               |
+#              +--------------------------------------------------------------------------------+
+#              |    3.4  |18/11/05| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   | + New Attitude model for ADM            |
+#              |         |        |                   | + Routine xp_dem_compute                |
+#              |         |        |                   | + Interfaces for specular               |
+#              |         |        |                   |   reflection target routines            |
+#              |         |        |                   | + New axis attitude computation         |
+#              +--------------------------------------------------------------------------------+
+#              |    3.5  |26/05/06| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + Thread safe library                  |
+#              |         |        |                   |  + C99 compliant                        |
+#              |         |        |                   |  + Optimized libray                     |
+#              |         |        |                   |  + 64-Bits library for MACOS,           |
+#              |         |        |                   |    LINUX32_LEGACY and SOLARIS           |
+#              |         |        |                   |  + Aberration correction for CryoSat    |
+#              |         |        |                   |    attitude determination               |
+#              +--------------------------------------------------------------------------------+
+#              |    3.6  |24/11/06| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + xp_target_extra_specular_reflection  |
+#              |         |        |                   |  + xp_target_reflected                  |
+#              +--------------------------------------------------------------------------------+
+#              |    3.7  |13/07/07| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + expcfi_check_libs                    |
+#              |         |        |                   |  + library version for Mac OS X         |
+#              |         |        |                   |    on Intel (32 and 64 bits)            |
+#              +--------------------------------------------------------------------------------+
+#              |  3.7.2  |31/07/08| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + Support for misaligment or           |
+#              |         |        |                   |    configuration matrices at attitude   |
+#              |         |        |                   |    frame level                          |
+#              |         |        |                   |  + Azimuth/elevation definitions        |
+#              +--------------------------------------------------------------------------------+
+#              |    4.0  |19/01/09| DEIMOS Space S.L. | Maintenance release                     |
+#              +--------------------------------------------------------------------------------+
+#              |    4.1  |07/05/10| DEIMOS Space S.L. | Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + DEM GETASSEv2 supported              |
+#              |         |        |                   |  + Sentinel-1 att model (roll steering) |
+#              +--------------------------------------------------------------------------------+
+#              |    4.2  |31/01/11| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + New DEM model: ACE2 9secs            |
+#              +--------------------------------------------------------------------------------+
+#              |    4.3  |06/02/12| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + Raytracing model in target fucntions |
+#              |         |        |                   |    determined by input atmos_id         |
+#              |         |        |                   |  + New attitude model for SENTINEL2     |
+#              |         |        |                   |    (XP_MODEL_SENTINEL2)                 |
+#              +--------------------------------------------------------------------------------+
+#              |    4.4  |05/07/12| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + GEO satellites:                      |
+#              |         |        |                   |    - New Yaw flip attitude              |
+#              |         |        |                   |    - xp_target_sc                       |
+#              |         |        |                   |  + xp_target_list_inter                 |
+#              |         |        |                   |  + DEM computation using memory cache   |
+#              +--------------------------------------------------------------------------------+
+#              |    4.5  |01/03/13| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + New functions xp_target_list_extra   |
+#              |         |        |                   |    to compute extra results for targets |
+#              |         |        |                   |    computed with xp_target_list_inter   |
+#              |         |        |                   |  + New DEM algorithm of maximum heights |
+#              +--------------------------------------------------------------------------------+
+#              |    4.6  |03/10/13| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + New function xp_attitude_define      |
+#              |         |        |                   |  + Internal improvements to improve     |
+#              |         |        |                   |    runtime performance in DEM           |
+#              |         |        |                   |    computations                         |
+#              +--------------------------------------------------------------------------------+
+#              |    4.7  |28/03/14| DEIMOS Space S.L.U| Maintenance release                     |
+#              +--------------------------------------------------------------------------------+
+#              |    4.8  |29/10/14| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + Support for Earth Fixed input in     |
+#              |         |        |                   |    satellite nominal attitude           |
+#              |         |        |                   |    initialization with harmonics.       |
+#              |         |        |                   |  + Support for DEM GETASSE v3.0         |
+#              |         |        |                   |  + Support for GDEM v2                  |
+#              +--------------------------------------------------------------------------------+
+#              |    4.9  |23/04/15| DEIMOS Space S.L.U| Maintenance release                     |
+#              +--------------------------------------------------------------------------------+
+#              |  4.9.1  |05/06/15| DEIMOS Space S.L.U| Maintenance release                     |
+#              +--------------------------------------------------------------------------------+
+#              |   4.10  |29/10/15| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + Support for DEM ACE2 30 secs         |
+#              |         |        |                   |  + Target functions: possibility of     |
+#              |         |        |                   |    considering light travel time in     |
+#              |         |        |                   |    target computation                   |
+#              |         |        |                   |  + Run-time improvements in target      |
+#              |         |        |                   |    functions                            |
+#              +--------------------------------------------------------------------------------+
+#              |   4.11  |15/04/16| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + Support for DEM ACE2 3 secs          |
+#              |         |        |                   |  + New functions xp_gen_attiude_data    |
+#              |         |        |                   |    and xp_gen_attitude_file             |
+#              +--------------------------------------------------------------------------------+
+#              |   4.12  |03/11/16| DEIMOS Space S.L.U| Maintenance release                     |
+#              +--------------------------------------------------------------------------------+
+#              |   4.13  |05/04/17| DEIMOS Space S.L.U| Maintenance release                     |
+#              +--------------------------------------------------------------------------------+
+#              |   4.14  |16/11/17| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + Support for MetOp-SG attitude law    |
+#              |         |        |                   |  + New function xp_free_target_id_data  |
+#              +--------------------------------------------------------------------------------+
+#              |   4.15  |20/04/18| DEIMOS Space S.L.U| Maintenance release                     |
+#              +--------------------------------------------------------------------------------+
+#              |   4.16  |09/11/18| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + Support for DEM ACE2 5 minutes       |
+#              +--------------------------------------------------------------------------------+
+#              |   4.17  |10/05/19| DEIMOS Space S.L.U| Maintenance release                     |
+#              |         |        |                   | New features:                           |
+#              |         |        |                   |  + DEM configurable raster              |
+#              |         |        |                   |  + functions xp_dem_get_cell_value and  |
+#              |         |        |                   |    xp_dem_get_cell_geod                 |
+#              +--------------------------------------------------------------------------------+
+#
+#########################################################################################
+
+# set OS to your operating system (SOLARIS, LINUX64_LEGACY)
+
+  OS		= LINUX64
+
+# C standard
+
+  STD           = -std=c99
+
+# set CC to your compiler (gcc)
+
+  CC		= gcc $(STD)
+
+# optionally select dynamic linking CFI libraries
+ 
+# DYN           = _so
+  DYN           = 
+
+#
+#  End of Customization Area
+#
+#########################################################################################
+
+CFI          = explorer_pointing
+LANGUAGE     = c
+EXT          = _c
+
+#------------------------------------------------------------------------------
+#       Set silent mode
+#------------------------------------------------------------------------------
+
+.SILENT :
+
+#------------------------------------------------------------------------------
+#       Bash shell
+#------------------------------------------------------------------------------
+
+SHELL = /bin/bash
+
+#------------------------------------------------------------------------------
+#	Compiler flags
+#	--------------
+#
+#	 I	  = header files directories
+#        D$(OS)   = conditional code for LINUX64_LEGACY
+#
+#------------------------------------------------------------------------------
+
+CFLAGS = \
+        -m64 -fopenmp \
+	-I../../../include \
+	-D$(OS)
+
+#------------------------------------------------------------------------------
+#       Linker tool, flags and libraries
+#------------------------------------------------------------------------------
+
+LIBS_DIR = \
+	-L../../../lib/$(OS) \
+
+LIBS =  \
+        -l$(CFI)$(DYN) \
+        -lexplorer_orbit$(DYN) \
+        -lexplorer_lib$(DYN) \
+        -lexplorer_data_handling \
+        -lexplorer_file_handling \
+        -lgeotiff -ltiff -lproj -lxml2 -lm -lc -lpthread
+
+EXAMPLE = $(CFI)$(EXT)
+
+#------------------------------------------------------------------------------
+#	Makefile default target
+#------------------------------------------------------------------------------
+
+default : example run
+
+example:
+	echo "--------------------"
+	echo "$(CFI): ... creating the example"
+	echo "--------------------"
+	$(CC) $(CFLAGS) $(EXAMPLE).$(LANGUAGE) $(LIBS_DIR) $(LIBS) -o $(EXAMPLE)
+
+run:
+	echo "--------------------"
+	echo "$(CFI): ... running the example (you may want to redirect stderr)"
+	echo "--------------------"
+#	sleep 1; echo "...  3 ..."
+#	sleep 1; echo "...  2 ..."
+#	sleep 1; echo "...  1 ..."
+#	sleep 1; echo "--- GO ---"
+#	sleep 1
+	LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:../../../lib/$(OS); ./$(EXAMPLE)
+
+clean: 
+	\rm -f *.o *.out core *%

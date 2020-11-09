@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by name (company) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.1">
+	<xsd:include schemaLocation="TimeTypes_0102.XSD"/>
+	<xsd:include schemaLocation="HeaderTypes_0104.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Precise propagator configuration file</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Precise_Propag_Header_Type">
+		<xsd:sequence>
+			<xsd:element name="Fixed_Header" type="Fixed_Header_Type"/>
+			<xsd:element name="Variable_Header" type="AnyType_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:complexType name="Mass_Type">
+		<xsd:simpleContent>
+			<xsd:extension base="Decimal_Type">
+				<xsd:attribute name="unit" type="xsd:string" use="required" fixed="kg"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="Area_Type">
+		<xsd:simpleContent>
+			<xsd:extension base="Decimal_Type">
+				<xsd:attribute name="unit" type="xsd:string" use="required" fixed="m2"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="Precise_Propag_Data_Block_Type">
+		<xsd:sequence>
+			<xsd:element name="Models_Path" type="String_Type"/>
+			<xsd:element name="Gravity_Flag" type="Integer_Type"/>
+			<xsd:element name="Thirdbody_Flag" type="Integer_Type"/>
+			<xsd:element name="Atmosphere_Flag" type="Integer_Type"/>
+			<xsd:element name="Srp_Flag" type="Integer_Type"/>
+			<xsd:element name="Time_Step" type="Seconds_Time_Type"/>
+			<xsd:element name="Gravity_File" type="String_Type"/>
+			<xsd:element name="Gravity_Degree" type="Integer_Type"/>
+			<xsd:element name="Gravity_Order" type="Integer_Type"/>
+			<xsd:element name="Sga_Flag" type="Integer_Type"/>
+			<xsd:element name="Sga_Ap_File" type="String_Type"/>
+			<xsd:element name="Sga_F107_File" type="String_Type"/>
+			<xsd:element name="AP" type="Decimal_Type"/>
+			<xsd:element name="F107" type="Decimal_Type"/>
+			<xsd:element name="F107A" type="Decimal_Type"/>
+			<xsd:element name="SC_Mass" type="Mass_Type"/>
+			<xsd:element name="SC_Drag_Area" type="Area_Type"/>
+			<xsd:element name="SC_Drag_Coef" type="Decimal_Type"/>
+			<xsd:element name="SC_Srp_Area" type="Area_Type"/>
+			<xsd:element name="SC_Srp_Coef" type="Decimal_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="type" type="String_Type" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="Precise_Propag_File_Type">
+		<xsd:sequence>
+			<xsd:element name="Earth_Explorer_Header" type="Precise_Propag_Header_Type"/>
+			<xsd:element name="Data_Block" type="Precise_Propag_Data_Block_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="Decimal_Type" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="Earth_Explorer_File" type="Precise_Propag_File_Type"/>
+</xsd:schema>

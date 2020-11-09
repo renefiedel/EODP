@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.10">
+  <xsd:include schemaLocation="BasicTypes_0101.XSD"/>
+  <xsd:annotation>
+    <xsd:documentation>DEM Configuration Data Types</xsd:documentation>
+  </xsd:annotation>
+  <xsd:complexType name="DEM_Configuration_Data_Block_Type" mixed="false">
+    <xsd:sequence>
+      <xsd:element name="DEM_Raster_Configuration" type="DEM_Raster_Configuration"/>
+    </xsd:sequence>
+    <xsd:attribute name="type" type="String_Type" use="required" fixed="xml"/>
+    <xsd:attribute name="schemaVersion" type="xsd:decimal" use="optional"/>
+  </xsd:complexType>
+  <xsd:element name="Data_Block" type="DEM_Configuration_Data_Block_Type"/>
+  <xsd:complexType name="DEM_Raster">
+    <xsd:sequence>
+      <xsd:element name="Data_Type">
+        <xsd:simpleType>
+          <xsd:restriction base="String_Type">
+            <xsd:enumeration value="int16"/>
+            <xsd:enumeration value="int32"/>
+            <xsd:enumeration value="int64"/>
+            <xsd:enumeration value="float32"/>
+            <xsd:enumeration value="float64"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="Data_Unit">
+        <xsd:simpleType>
+          <xsd:restriction base="String_Type">
+            <xsd:enumeration value="meter"/>
+            <xsd:enumeration value="kilometer"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="Rows">
+        <xsd:simpleType>
+          <xsd:restriction base="Integer_Type">
+            <xsd:minInclusive value="1"/>
+            <xsd:maxInclusive value="1800"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="Columns">
+        <xsd:simpleType>
+          <xsd:restriction base="Integer_Type">
+            <xsd:minInclusive value="1"/>
+            <xsd:maxInclusive value="1800"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="Resolution">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="Integer_Type">
+              <xsd:attribute name="unit">
+                <xsd:simpleType>
+                  <xsd:restriction base="String_Type">
+                    <xsd:enumeration value="deg"/>
+                    <xsd:enumeration value="min"/>
+                    <xsd:enumeration value="sec"/>
+                  </xsd:restriction>
+                </xsd:simpleType>
+              </xsd:attribute>
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Reference">
+        <xsd:simpleType>
+          <xsd:restriction base="String_Type">
+            <xsd:enumeration value="WGS84"/>
+            <xsd:enumeration value="EGM96"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+      <xsd:element name="Void_Value" type="Integer_Type"/>
+      <xsd:element name="Flag_Type">
+        <xsd:simpleType>
+          <xsd:restriction base="String_Type">
+            <xsd:enumeration value="int8"/>
+            <xsd:enumeration value="int16"/>
+            <xsd:enumeration value="int32"/>
+            <xsd:enumeration value="int64"/>
+          </xsd:restriction>
+        </xsd:simpleType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DEM_Raster_Configuration">
+    <xsd:sequence>
+      <xsd:element name="DEM_Raster" type="DEM_Raster"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

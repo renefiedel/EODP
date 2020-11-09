@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by name (company) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.3">
+	<xsd:include schemaLocation="HeaderTypes_0104.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Doris Preliminary Header Types</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Doris_Preliminary_Header_Type">
+		<xsd:sequence>
+			<xsd:element name="Fixed_Header" type="Fixed_Header_Type"/>
+			<xsd:element name="Variable_Header" type="Orbit_File_Variable_Header"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:element name="Earth_Explorer_Header" type="Doris_Preliminary_Header_Type"/>
+</xsd:schema>

@@ -1,0 +1,226 @@
+#########################################################################################
+#
+# Project    : ExpCFI
+# Copyright  : DEIMOS Space S.L.
+#
+# Module     : make.LINUX64_LEGACY
+# Purpose    : It is the makefile of the C example
+#
+# History:     +-----------------------------------------------------------------------------+
+#              | Version |   Date   |       Name        | Change                             |
+#              |-----------------------------------------------------------------------------|
+#              |    3.3  | 11/07/05 | DEIMOS Space S.L. | First release                      |
+#              +-----------------------------------------------------------------------------+
+#              |    3.4  | 18/11/05 | DEIMOS Space S.L. | Library exposed to users           |
+#              +-----------------------------------------------------------------------------+
+#              |    3.5  | 26/05/06 | DEIMOS Space S.L. | New features:                      |
+#              |         |          |                   |  + Thread safe library             |
+#              |         |          |                   |  + C99 compliant                   |
+#              |         |          |                   |  + Optimized libray                |
+#              |         |          |                   |  + 64-Bits library for MACOS,      |
+#              |         |          |                   |    LINUX32_LEGACY and SOLARIS      |
+#              +-----------------------------------------------------------------------------+
+#              |    3.6  | 24/11/06 | DEIMOS Space S.L. | New routines:                      |
+#              |         |          |                   |  + xd_xml_validate                 |
+#              |         |          |                   | New executable function:           |
+#              |         |          |                   |  + xml_validator                   |
+#              +-----------------------------------------------------------------------------+
+#              |    3.7  | 13/07/07 | DEIMOS Space S.L. | Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + expcfi_check_libs               |
+#              |         |          |                   |  + library version for Mac OS X    |
+#              |         |          |                   |    on Intel (32 and 64 bits)       |
+#              +-----------------------------------------------------------------------------+
+#              |  3.7.2  | 31/07/08 | DEIMOS Space S.L. | Maintenance release                |
+#              +-----------------------------------------------------------------------------+
+#              |    4.0  | 19/01/09 | DEIMOS Space S.L. | Maintenance release                |
+#              +-----------------------------------------------------------------------------+
+#              |    4.1  | 07/05/10 | DEIMOS Space S.L. | Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + DEM GETASSEv2 supported         |
+#              |         |          |                   |  + IERS B Bulletin format 2010     |
+#              |         |          |                   |  + Ground Station DB 1.4 supported |
+#              +-----------------------------------------------------------------------------+
+#              |    4.2  | 31/01/11 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + New Dem configuration file      |
+#              |         |          |                   |    (schema version 1.3)            |
+#              |         |          |                   |  + NORAD TLE designators for       |
+#              |         |          |                   |    SMOS, GOCE and CRYOSAT          |
+#              |         |          |                   |  + New OSF format for curved MLST  |
+#              +-----------------------------------------------------------------------------+
+#              |    4.3  | 06/02/12 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Support for reading new IERS    |
+#              |         |          |                   |    bulletins A and B               |
+#              |         |          |                   |  + New functions to decimate orbit |
+#              |         |          |                   |    and attitude data               |
+#              |         |          |                   |    (xd_orbit_file_decimate and     |
+#              |         |          |                   |     xd_attitude_file_decimate)     |
+#              +-----------------------------------------------------------------------------+
+#              |    4.4  | 05/07/12 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + New tags in Dem configuration   |
+#              |         |          |                   |    for DEM cache                   |
+#              +-----------------------------------------------------------------------------+
+#              |    4.5  | 01/03/13 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + New tags in Dem configuration   |
+#              |         |          |                   |    for mini-tiles and geoid        |
+#              |         |          |                   |    computation.                    |
+#              |         |          |                   |  + EarthCase filenames compliant   |
+#              |         |          |                   |    with FFS 2.0.                   |
+#              +-----------------------------------------------------------------------------+
+#              |    4.6  | 03/10/13 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Support for new Attitude        |
+#              |         |          |                   |    Definition File                 |
+#              +-----------------------------------------------------------------------------+
+#              |    4.7  | 28/03/14 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Support for Doris files for     |
+#              |         |          |                   |    Sentinel 3.                     |
+#              |         |          |                   |  + Support for files with SP3      |
+#              |         |          |                   |    format (GPS orbit format)       |
+#              +-----------------------------------------------------------------------------+
+#              |    4.8  | 29/10/14 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Support for DEM GETASSE v3.0    |
+#              |         |          |                   |  + Support for GDEM v2             |
+#              |         |          |                   |  + New function to add style sheet |
+#              |         |          |                   |    to files: xd_xslt_add           |
+#              +-----------------------------------------------------------------------------+
+#              |    4.9  | 23/04/15 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Support for Orbit Ephemeris     |
+#              |         |          |                   |    Message files                   |
+#              +-----------------------------------------------------------------------------+
+#              |  4.9.1  | 05/06/15 | DEIMOS Space S.L.U| Maintenance release                |
+#              +-----------------------------------------------------------------------------+
+#              |   4.10  | 29/10/15 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Support for DEM ACE2 30 secs    |
+#              |         |          |                   |  + New diagnostic function for     |
+#              |         |          |                   |    orbit files with state vectors: |
+#              |         |          |                   |    xd_orbit_file_diagnostics       |
+#              |         |          |                   |  + Change of interface in functions|
+#              |         |          |                   |    xd_read_oem and xd_read_sp3     |
+#              +-----------------------------------------------------------------------------+
+#              |   4.11  | 15/04/16 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Support for DEM ACE2 3 secs     |
+#              +-----------------------------------------------------------------------------+
+#              |   4.12  | 03/11/16 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Support for FFS 3               |
+#              +-----------------------------------------------------------------------------+
+#              |   4.13  | 05/04/17 | DEIMOS Space S.L.U| Maintenance release                |
+#              +-----------------------------------------------------------------------------+
+#              |   4.14  | 16/11/17 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Added support for Jason-CS Doris|
+#              +-----------------------------------------------------------------------------+
+#              |   4.15  | 20/04/18 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + Refactored code                 |
+#              +-----------------------------------------------------------------------------+
+#              |   4.16  | 09/11/18 | DEIMOS Space S.L.U| Maintenance release                |
+#              +-----------------------------------------------------------------------------+
+#              |   4.17  | 10/05/19 | DEIMOS Space S.L.U| Maintenance release                |
+#              |         |          |                   | New features:                      |
+#              |         |          |                   |  + DEM configurable raster         |
+#              +-----------------------------------------------------------------------------+
+# 
+#########################################################################################
+
+# set OS to your operating system (SOLARIS, WINDOWS, LINUX64_LEGACY, MACOS)
+
+  OS		= LINUX64
+
+# C standard
+
+  STD = -std=c99
+
+# set CC to your compiler (gcc)
+
+  CC		= gcc $(STD)
+
+# optionally select dynamic linking CFI libraries
+
+  DYN		= 
+
+#
+#  End of Customization Area
+#
+#########################################################################################
+
+CFI		= explorer_data_handling
+LANGUAGE	= c
+EXT		= _c
+
+#------------------------------------------------------------------------------
+#       Set silent mode
+#------------------------------------------------------------------------------
+
+.SILENT :
+
+#------------------------------------------------------------------------------
+#       Bash shell
+#------------------------------------------------------------------------------
+
+SHELL = /bin/bash
+
+#------------------------------------------------------------------------------
+#	Compiler flags
+#	--------------
+#
+#	 I	  = header files directories
+#	 D$(OS)	  = conditional code for SOLARIS/AIX
+#
+#------------------------------------------------------------------------------
+
+CFLAGS = \
+        -m64 \
+        -I../../include \
+	-I../../../include \
+	-D$(OS)
+
+#------------------------------------------------------------------------------
+#       Linker tool, flags and libraries 
+#------------------------------------------------------------------------------
+
+LIBS_DIR = \
+	-L../../../lib/$(OS)
+
+LIBS = 	\
+	-lexplorer_data_handling$(DYN) \
+	-lexplorer_file_handling$(DYN) \
+	-lgeotiff -ltiff -lproj -lxml2 -lm -lc -lpthread
+
+EXAMPLE = $(CFI)$(EXT)
+
+#------------------------------------------------------------------------------
+#	Makefile default target
+#------------------------------------------------------------------------------
+
+default : example run
+
+example:
+	echo "--------------------"
+	echo "$(CFI): ... creating the example"
+	echo "--------------------"
+	$(CC) $(CFLAGS) $(EXAMPLE).$(LANGUAGE) $(LIBS_DIR) $(LIBS) -o $(EXAMPLE)
+
+run:
+	echo "--------------------"
+	echo "$(CFI): ... running the example (you may want to redirect stderr)"
+	echo "--------------------"
+	sleep 1; echo "...  3 ..."
+	sleep 1; echo "...  2 ..."
+	sleep 1; echo "...  1 ..."
+	sleep 1; echo "--- GO ---"
+	sleep 1 
+	LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:../../../lib/$(OS); ./$(EXAMPLE)
+
+clean: 
+	\rm -f *.o *.out core *%

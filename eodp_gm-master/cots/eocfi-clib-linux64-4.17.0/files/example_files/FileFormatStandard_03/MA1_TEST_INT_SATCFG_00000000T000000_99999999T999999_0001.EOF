@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Earth_Observation_File 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+ xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_INT_SATCFG_0300.XSD" schemaVersion="3.0" xmlns="http://eop-cfi.esa.int/CFI">
+  <Earth_Observation_Header>
+    <Fixed_Header>
+      <File_Name>MA1_TEST_INT_SATCFG_00000000T000000_99999999T999999_0001</File_Name>
+      <File_Description>Satellite Configuration</File_Description>
+      <Notes>
+                 WARNING: this is an example of file compliant with formats defined and supported
+                          within the Earth Observation Mission CFI Software.
+                          This file does not reflect the actual satellite orbit
+                          attitude or instrument configuration.
+                          This file shall not be used in production environments.
+      </Notes>
+      <Mission>MetOpSGA1</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>INT_SATCFG</File_Type>
+      <Validity_Period>
+               <Validity_Start>UTC=0000-00-00T00:00:00</Validity_Start>
+               <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0003</File_Version>
+      <EOFFS_Version>3.0</EOFFS_Version>
+      <Source>
+        <System>System Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</System>
+        <Creator>Creator Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator>
+        <Creator_Version>Creator Version Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator_Version>
+        <Creation_Date>UTC=2011-12-01T18:11:45</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header></Variable_Header>
+  </Earth_Observation_Header>
+  <Data_Block type="xml">
+    <Satellite_Name>String</Satellite_Name>
+    <NORAD_Data>
+      <Satellite_Number>1</Satellite_Number>
+      <NORAD_Sat_Name>String</NORAD_Sat_Name>
+      <Int_Designator>00000AAA</Int_Designator>
+    </NORAD_Data>
+    <Lib_Init>
+      <Low_Tolerances>
+        <Min_Semi_Major_Axis>3.14159265358979323846264</Min_Semi_Major_Axis>
+        <Max_Semi_Major_Axis>3.14159265358979323846264</Max_Semi_Major_Axis>
+        <Min_Inclination>3.14159265358979323846264</Min_Inclination>
+        <Max_Inclination>3.14159265358979323846264</Max_Inclination>
+        <Min_Eccentricity>3.14159265358979323846264</Min_Eccentricity>
+        <Max_Eccentricity>3.14159265358979323846264</Max_Eccentricity>
+      </Low_Tolerances>
+      <Tight_Tolerances>
+        <Min_Semi_Major_Axis>3.14159265358979323846264</Min_Semi_Major_Axis>
+        <Max_Semi_Major_Axis>3.14159265358979323846264</Max_Semi_Major_Axis>
+        <Min_Inclination>3.14159265358979323846264</Min_Inclination>
+        <Max_Inclination>3.14159265358979323846264</Max_Inclination>
+        <Min_Eccentricity>3.14159265358979323846264</Min_Eccentricity>
+        <Max_Eccentricity>3.14159265358979323846264</Max_Eccentricity>
+      </Tight_Tolerances>
+    </Lib_Init>
+    <Orbit_Init>
+      <Min_Semi_Major_Axis>3.14159265358979323846264</Min_Semi_Major_Axis>
+      <Nom_Semi_Major_Axis>3.14159265358979323846264</Nom_Semi_Major_Axis>
+      <Max_Semi_Major_Axis>3.14159265358979323846264</Max_Semi_Major_Axis>
+      <Min_Inclination>3.14159265358979323846264</Min_Inclination>
+      <Nom_Inclination>3.14159265358979323846264</Nom_Inclination>
+      <Max_Inclination>3.14159265358979323846264</Max_Inclination>
+      <Nom_Eccentricity>3.14159265358979323846264</Nom_Eccentricity>
+      <Nom_Arg_Perigee>3.14159265358979323846264</Nom_Arg_Perigee>
+    </Orbit_Init>
+  </Data_Block>
+</Earth_Observation_File>

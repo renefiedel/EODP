@@ -2,6 +2,7 @@
 # ISM CONFIGURATION FILE
 import numpy as np
 
+
 class ismConfig:
 
     def __init__(self):
@@ -9,12 +10,16 @@ class ismConfig:
         # Configuration parameters
         #--------------------------------------------------------------------------------
         # CCD
-        self.pix_size = 30e-6                    # [m] Pixel size in microns for the MS channels
-        self.t_int = 0.00672                     # [s] Integration time
+        # self.pix_size = 42e-6                    # [m] Pixel size in microns for the MS channels E2E
+        self.pix_size = 30e-6
+        # self.t_int = 0.0428                     # [s] Integration time E2E
+        self.t_int = 0.00672
 
         # Optical system
-        self.D = 0.150                           # [m] Telescope pupil diameter
-        self.f = 0.5262                          # [m] Focal length
+        # self.D = 0.07565                           # [m] Telescope pupil diameter E2E
+        self.D = 0.150
+        # self.f = 0.2345                          # [m] Focal length E2E
+        self.f = 0.5262
         self.Tr = 0.99                           # [-] Optical transmittance
         self.wLF = 100e-9                        # [m] RMS of low-frequency wavefront errors
         self.wHF = 100e-9                        # [m] RMS of high-frequency wavefront errors
@@ -27,7 +32,7 @@ class ismConfig:
         self.kernel_step = 0.1                   # [pixels] Sampling of the kernel
 
         # Central wavelength of the band
-        self.wv = np.array([0.49,0.665,0.865,0.945])*1e-6  # [m] Central wavelength
+        self.wv = np.array([0.49, 0.665, 0.865, 0.945])*1e-6  # [m] Central wavelength
 
         # Photonic Stage
         self.QE = 0.8                            # [e-/ph] Quantum efficiency
@@ -73,7 +78,7 @@ class ismConfig:
         #--------------------------------------------------------------------------------
         # Optical stage. Use the PSF convolution. If False, will use the MTF
         self.do_psf_conv = False
-        # Detection stage errors and effects
-        self.apply_prnu = False
-        self.apply_dark_signal = False
-        self.apply_bad_dead = False
+        # Detection stage errors and effects. Remember to change then to false when doing E2E
+        self.apply_prnu = True
+        self.apply_dark_signal = True
+        self.apply_bad_dead = True

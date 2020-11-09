@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Earth_Explorer_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_INT_FOVCFG_0200.XSD"
+ xmlns="http://eop-cfi.esa.int/CFI" schemaVersion="2.0" >
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+      <File_Name>S1A_OPER_INT_FOVCFG_00000000T000000_99999999T999999_0001</File_Name>
+      <File_Description>FOV Definition</File_Description>
+      <Notes/>
+      <Mission>Sentinel1A</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>INT_FOVCFG</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=0000-00-00T00:00:00</Validity_Start>
+        <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0001</File_Version>
+      <Source>
+        <System>FOS</System>
+        <Creator>NAPEOS</Creator>
+        <Creator_Version>1.0</Creator_Version>
+        <Creation_Date>UTC=2010-06-01T09:26:32</Creation_Date>
+      </Source>
+    </Fixed_Header>
+ 		<Variable_Header>
+			<Ref_Frame>BAR_MEAN_2000</Ref_Frame>
+			<Time_Reference>TAI</Time_Reference>
+		</Variable_Header>
+  </Earth_Explorer_Header>
+ 	<Data_Block type="xml">
+		<FOV_Constraints type="Link_to_Spacecraft">
+			<List_of_Masks count="2">
+				<Mask type="inclusive">
+					<Status>ENABLED</Status>
+					<List_of_Mask_Points count="4">
+						<Mask_Point>
+							<Azimuth unit="deg">0.0</Azimuth>
+							<Elevation unit="deg">10.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">360.0</Azimuth>
+							<Elevation unit="deg">10.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">360.0</Azimuth>
+							<Elevation unit="deg">-90.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">0.0</Azimuth>
+							<Elevation unit="deg">-90.0</Elevation>
+						</Mask_Point>
+					</List_of_Mask_Points>
+				</Mask>
+ 			  <Mask type="exclusive">
+					<Status>ENABLED</Status>
+					<List_of_Mask_Points count="8">
+						<Mask_Point>
+							<Azimuth unit="deg">0.0</Azimuth>
+							<Elevation unit="deg">-85.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">165.0</Azimuth>
+							<Elevation unit="deg">-85.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">165.0</Azimuth>
+							<Elevation unit="deg">90.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">195.0</Azimuth>
+							<Elevation unit="deg">90.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">195.0</Azimuth>
+							<Elevation unit="deg">-85.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">360.0</Azimuth>
+							<Elevation unit="deg">-85.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">360.0</Azimuth>
+							<Elevation unit="deg">-90.0</Elevation>
+						</Mask_Point>
+						<Mask_Point>
+							<Azimuth unit="deg">0.0</Azimuth>
+							<Elevation unit="deg">-90.0</Elevation>
+						</Mask_Point>
+					</List_of_Mask_Points>
+				</Mask>
+			</List_of_Masks>
+			<Miscellaneous_Parameters>
+				<Min_Tg_Height unit="m">19000.0</Min_Tg_Height>
+			</Miscellaneous_Parameters>
+		</FOV_Constraints>
+	</Data_Block>
+</Earth_Explorer_File>

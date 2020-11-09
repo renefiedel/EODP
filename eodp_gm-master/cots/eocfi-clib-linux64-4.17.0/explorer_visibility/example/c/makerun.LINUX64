@@ -1,0 +1,255 @@
+#########################################################################################
+#
+# Project    : ExpCFI
+# Copyright  : DEIMOS Space S.L.
+#
+# Module     : make.LINUX64_LEGACY
+# Purpose    : It is the makefile of the C example
+#
+# History:    +--------------------------------------------------------------------------------------+
+#             | Version | Date     | Name                  | Change                                  |
+#             +--------------------------------------------------------------------------------------+
+#             |    1.0  | 19/06/02 |   DEIMOS Space, S.L.  | First release from                      |
+#             |         |          |                       | Envisat                                 |
+#             +--------------------------------------------------------------------------------------+
+#             |    2.0  | 29/11/02 |   DEIMOS Space S.L.   | New functions added                     |
+#             |         |          |                       |  + xv_station_vis_time                  |
+#             |         |          |                       |  + xv_star_vis_time                     |
+#             |         |          |                       |  + xv_drs_vis_time                      |
+#             |         |          |                       |  + xv_time_segment_not                  |
+#             |         |          |                       |  + xv_time_segment_add                  |
+#             |         |          |                       |  + xv_time_segment_or                   |
+#             +--------------------------------------------------------------------------------------+
+#             |    2.1  | 13/05/03 |   DEIMOS Space S.L.   | Maintenance release                     |
+#             |         |          |                       | MAC OS Version                          |
+#             |         |          |                       | New functions added                     |
+#             |         |          |                       |  + xv_multizones_vis_time               |
+#             |         |          |                       |  + xv_multistations_vis_time            |
+#             |         |          |                       |  + xv_time_segment_mapping              |
+#             |         |          |                       |  + xv_orbit_extra                       |
+#             +--------------------------------------------------------------------------------------+
+#             |    2.2  | 13/08/03 |   DEIMOS Space S.L.   | Pre-release                             |
+#             +--------------------------------------------------------------------------------------+
+#             |    2.2  | 30/09/03 |   DEIMOS Space S.L.   | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |   2.2.2 | 26/04/04 |   DEIMOS Space S.L.   | Maintenance release                     |
+#             |         |          |                       |* Interface changed for                  |
+#             |         |          |                       |   xv_time_segment_delta                 |
+#             |         |          |                       |* Added Terrasar S/C                     |
+#             +--------------------------------------------------------------------------------------+
+#             |    3.0  | 21/07/04 |   DEIMOS Space S.L.   | New interfaces for the                  |
+#             |         |          |                       | new initialisation                      |
+#             |         |          |                       | strategy                                |
+#             +--------------------------------------------------------------------------------------+
+#             |    3.1  | 13/10/04 |   DEIMOS Space S.L.   | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + Use of the OEF/POF files             |
+#             |         |          |                       |    for xv_zone_vis_time                 |
+#             |         |          |                       |  + Use of Swath Def. files in           |
+#             |         |          |                       |    xv_zone_vis_time                     |
+#             +--------------------------------------------------------------------------------------+
+#             |    3.2  | 15/11/04 |   DEIMOS Space S.L.   | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |    3.3  | 11/07/05 |   DEIMOS Space S.L.   | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       | + Use of the OEF/POF files in           |
+#             |         |          |                       |   all visibility functions              |
+#             |         |          |                       | + Use of Swath Def. Files in            |
+#             |         |          |                       |   all visibility functions              |
+#             |         |          |                       | + ENVISAT support removed               |
+#             +--------------------------------------------------------------------------------------+
+#             |    3.4  | 18/11/05 |   DEIMOS Space S.L.   | Maintenance release:                    |
+#             |         |          |                       | + Changes in the interface              |
+#             |         |          |                       |   of xv_swath_pos                       |
+#             +--------------------------------------------------------------------------------------+
+#             |    3.5  | 26/05/06 |   DEIMOS Space S.L.U  | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + Thread safe library                  |
+#             |         |          |                       |  + C99 compliant                        |
+#             |         |          |                       |  + Optimized libray                     |
+#             |         |          |                       |  + 64-Bits library for MACOS,           |
+#             |         |          |                       |    LINUX32_LEGACY and SOLARIS           |
+#             +--------------------------------------------------------------------------------------+
+#             |    3.6  | 24/11/06 |   DEIMOS Space S.L.   | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |    3.7  | 13/07/07 |   DEIMOS Space S.L  . | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + xv_gen_scf                           |
+#             |         |          |                       |  + expcfi_check_libs                    |
+#             |         |          |                       |  + xv_zone_vis_time_no_file             |
+#             |         |          |                       |  + xv_station_vis_time_no_file          |
+#             |         |          |                       |  + xv_gen_swath_no_file                 |
+#             |         |          |                       |  + library version for Mac OS X         |
+#             |         |          |                       |    on Intel (32 and 64 bits)            |
+#             +--------------------------------------------------------------------------------------+
+#             |  3.7.2  | 31/07/08 |   DEIMOS Space S.L  . | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + Support for area/curved swath        |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.0  | 19/01/09 | DEIMOS Space S.L.     | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.1  | 07/05/10 | DEIMOS Space S.L.     | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + Visib.across orbital changes         |
+#             |         |          |                       |  + AOS/LOS mask mode from GND_DB        |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.2  | 31/01/11 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + Support for curved MLST              |
+#             |         |          |                       |  + Visibility functions adapted         |
+#             |         |          |                       |    for TLE and Precise propagator       |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.3  | 06/02/12 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.4  | 05/07/12 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + xv_sc_vis_time                       |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.5  | 01/03/13 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.6  | 03/10/13 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + Support for new swath ID             |
+#             |         |          |                       |  + New functions:                       |
+#             |         |          |                       |    xv_zonevistime_compute               |
+#             |         |          |                       |    xv_stationvistime_compute            |
+#             |         |          |                       |    xv_swathpos_compute                  |
+#             |         |          |                       |    xv_timesegments_xxx_compute          |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.7  | 28/03/14 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + New function:                        |
+#             |         |          |                       |    xv_zonevistime_coverage              |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.8  | 29/10/14 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |    4.9  | 23/04/15 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |  4.9.1  | 05/06/15 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |   4.10  | 29/10/15 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |   4.11  | 15/04/16 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |   4.12  | 03/11/16 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + New functions:                       |
+#             |         |          |                       |    xv_set_sc_visibility_step            |
+#             +--------------------------------------------------------------------------------------+
+#             |   4.13  | 05/04/17 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |   4.14  | 16/11/17 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + Support for swath defined by         |
+#             |         |          |                       |    incidence angles                     |
+#             |         |          |                       |  + Updated generation of SCF            |
+#             +--------------------------------------------------------------------------------------+
+#             |   4.15  | 20/04/18 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#             |   4.16  | 09/11/18 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             |         |          |                       | New features:                           |
+#             |         |          |                       |  + New functions:                       |
+#             |         |          |                       |     xv_celestial_body_vistime,          |
+#             |         |          |                       |     xv_compute_aoi                      |
+#             +--------------------------------------------------------------------------------------+
+#             |   4.17  | 10/05/19 | DEIMOS Space S.L.U    | Maintenance release                     |
+#             +--------------------------------------------------------------------------------------+
+#
+#########################################################################################
+
+# set OS to your operating system
+
+OS		= LINUX64
+
+# C standard
+
+STD             = -std=c99
+
+# set CC to your compiler
+
+CC		= gcc $(STD)
+
+# optionally select dynamic linking CFI libraries
+
+# DYN		= _so
+DYN		=
+
+#
+#  End of Customization Area
+#
+#########################################################################################
+
+CFI = explorer_visibility_run
+LANGUAGE	= c
+EXT		= _c
+
+#------------------------------------------------------------------------------
+#       Set silent mode
+#------------------------------------------------------------------------------
+
+.SILENT :
+
+#------------------------------------------------------------------------------
+#       Bash shell
+#------------------------------------------------------------------------------
+
+SHELL = /bin/bash
+
+#------------------------------------------------------------------------------
+#	Compiler flags
+#	--------------
+#
+#	 I	  = header files directories
+#        D$(OS)   = conditional code for SOLARIS
+#
+#------------------------------------------------------------------------------
+
+CFLAGS = \
+        -m64 -fopenmp \
+	-D$(OS) \
+	-I../../../include
+
+#------------------------------------------------------------------------------
+#       Linker tool, flags and libraries
+#------------------------------------------------------------------------------
+
+LIBS_DIR = \
+        -L../../../lib/$(OS)
+
+LIBS =  \
+        -lexplorer_visibility$(DYN) \
+	-lexplorer_pointing$(DYN) \
+        -lexplorer_orbit$(DYN) \
+        -lexplorer_lib$(DYN) \
+        -lexplorer_data_handling \
+        -lexplorer_file_handling \
+        -lgeotiff -ltiff -lproj -lxml2 -lm -lc -lpthread
+
+EXAMPLE = $(CFI)$(EXT)
+
+#------------------------------------------------------------------------------
+#	Makefile default target
+#------------------------------------------------------------------------------
+
+default : example run
+
+example:
+	echo "--------------------"
+	echo "$(CFI): ... creating the example"
+	echo "--------------------"
+	$(CC) $(CFLAGS) $(EXAMPLE).$(LANGUAGE) $(LIBS_DIR) $(LIBS) -o $(EXAMPLE)
+
+run:
+	echo "--------------------"
+	echo "$(CFI): ... running the example (you may want to redirect stderr)"
+	echo "--------------------"
+	sleep 1; echo "...  3 ..."
+	sleep 1; echo "...  2 ..."
+	sleep 1; echo "...  1 ..."
+	sleep 1; echo "--- GO ---"
+	sleep 1
+	LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:../../../lib/$(OS); ./$(EXAMPLE)
+
+clean: 
+	\rm -f *.o *.out core *%
+

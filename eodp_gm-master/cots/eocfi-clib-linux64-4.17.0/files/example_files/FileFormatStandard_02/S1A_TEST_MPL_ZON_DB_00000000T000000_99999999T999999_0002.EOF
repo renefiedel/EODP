@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Earth_Explorer_File 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+ xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_MPL_ZON_DB_0202.XSD"  xmlns="http://eop-cfi.esa.int/CFI" schemaVersion="2.2">
+  <Earth_Explorer_Header schemaVersion="2.2">
+    <Fixed_Header>
+      <File_Name>S1A_TEST_MPL_ZON_DB_00000000T000000_99999999T999999_0002</File_Name>
+      <File_Description>Zone Database File</File_Description>
+      <Notes>
+                 WARNING: this is an example of file compliant with formats defined and supported
+                          within the Earth Observation Mission CFI Software.
+                          This file does not reflect the actual satellite orbit
+                          attitude or instrument configuration.
+                          This file shall not be used in production environments.
+      </Notes>
+      <Mission>Sentinel1A</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>MPL_ZON_DB</File_Type>
+      <Validity_Period>
+               <Validity_Start>UTC=0000-00-00T00:00:00</Validity_Start>
+               <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0002</File_Version>
+      <Source>
+        <System>System Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</System>
+        <Creator>Creator Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator>
+        <Creator_Version>Creator Version Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator_Version>
+        <Creation_Date>UTC=2014-04-14T12:00:00</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header></Variable_Header>
+  </Earth_Explorer_Header>
+  <Data_Block type="xml">
+    <List_of_Zones count="3">
+      <Zone>
+            <Zone_Id>GRD_PT_1</Zone_Id>
+            <Zone_Description></Zone_Description>
+            <Surface></Surface>
+            <Projection>RECTANGULAR</Projection>
+            <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="1">
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">+030.000000</Lat>
+          </Polygon_Pt>          
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0010000.000</Diameter>
+      </Zone>
+      <Zone>
+        <Zone_Id>GRD_PT_2</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>RECTANGULAR</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="1">
+          <Polygon_Pt>
+            <Long unit="deg">+010.000000</Long>
+            <Lat unit="deg">-030.000000</Lat>
+          </Polygon_Pt>          
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+          <Zone>
+            <Zone_Id>RECT_ZONE</Zone_Id>
+            <Zone_Description></Zone_Description>
+            <Surface></Surface>
+             <Projection>RECTANGULAR</Projection>
+            <Creator>TEST DATA</Creator>
+            <List_of_Polygon_Pts count="4">
+                <Polygon_Pt>
+                   <Long unit="deg">-030.000000</Long>
+                  <Lat unit="deg">-020.000000</Lat>
+                </Polygon_Pt>
+                <Polygon_Pt>
+                  <Long unit="deg">-030.000000</Long>
+                   <Lat unit="deg">-010.000000</Lat>
+                </Polygon_Pt>
+                <Polygon_Pt>
+                  <Long unit="deg">-011.000000</Long>
+                  <Lat unit="deg">-010.000000</Lat>
+                </Polygon_Pt>
+                <Polygon_Pt>
+                  <Long unit="deg">-011.000000</Long>
+                  <Lat unit="deg">-020.000000</Lat>
+                </Polygon_Pt>
+            </List_of_Polygon_Pts>
+            <Diameter unit="m">+000.000000</Diameter>
+          </Zone>
+    </List_of_Zones>
+  </Data_Block>
+</Earth_Explorer_File>

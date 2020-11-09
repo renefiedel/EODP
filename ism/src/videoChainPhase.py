@@ -1,8 +1,8 @@
-
 from ism.src.initIsm import initIsm
 import numpy as np
 from common.plot.plotMat2D import plotMat2D
 from common.plot.plotF import plotF
+
 
 class videoChainPhase(initIsm):
 
@@ -16,30 +16,30 @@ class videoChainPhase(initIsm):
         # -------------------------------------------------------------------------------
         self.logger.info("EODP-ALG-ISM-3010: Electrons to Voltage – Read-out and Amplification")
         toa = self.electr2Volt(toa,
-                         self.ismConfig.OCF,
-                         self.ismConfig.ADC_gain)
+                               self.ismConfig.OCF,
+                               self.ismConfig.ADC_gain)
 
-        self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [V]")
+        self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [V]")
 
         # Digitisation
         # -------------------------------------------------------------------------------
         self.logger.info("EODP-ALG-ISM-3020: Voltage to Digital Numbers – Digitisation")
         toa = self.digitisation(toa,
-                          self.ismConfig.bit_depth,
-                          self.ismConfig.min_voltage,
-                          self.ismConfig.max_voltage)
+                                self.ismConfig.bit_depth,
+                                self.ismConfig.min_voltage,
+                                self.ismConfig.max_voltage)
 
-        self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [DN]")
+        self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [DN]")
 
         # Plot
         if self.ismConfig.save_vcu_stage:
             saveas_str = self.globalConfig.ism_toa_vcu + band
             title_str = 'TOA after the VCU phase [DN]'
-            xlabel_str='ACT'
-            ylabel_str='ALT'
+            xlabel_str = 'ACT'
+            ylabel_str = 'ALT'
             plotMat2D(toa, title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
 
-            idalt = int(toa.shape[0]/2)
+            idalt = int(toa.shape[0] / 2)
             saveas_str = saveas_str + '_alt' + str(idalt)
             plotF([], toa[idalt, :], title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
 
@@ -56,7 +56,7 @@ class videoChainPhase(initIsm):
         :return: output toa in [V]
         """
         # TODO
-        toa = toa*OCF*gain_adc
+        toa = toa * OCF * gain_adc
 
         return toa
 
@@ -71,34 +71,18 @@ class videoChainPhase(initIsm):
         """
         # TODO
         bdepth = 2**bit_depth - 1
-        toa_dn = np.round((toa / (max_voltage - min_voltage)) * (bdepth))
+        toa_dn = np.round((toa / (max_voltage - min_voltage)) * bdepth)
 
         # Make sure DN is not above the saturation level
         # TODO
-        #if toa_dn > bdepth:
+        for iact in range(toa.shape[0]):
+            for ialt in range(toa.shape[1]):
+                if toa_dn[iact, ialt] < 0:
+                    toa_dn[iact, ialt] = 0
+                    print("toa_dn is below the saturation level.")
 
-         #   raise Exception('toa_dn is above the saturation level!!!')
-        #print("This is always printed.")
-
-        #if toa_dn <= bdepth:
-         #   print(toa_dn, "is below the saturation level.")
-        #print("This is also always printed.")
-
-        # Given range
-       # X = 2
-        #Y = 0
-
-        #def checkRange(toa_dh):
-            # using comparison operator
-         #   if X <= toa_dh <= Y:
-          #      print('The number {} is in range ({}, {})'.format(toa_dh, X, Y))
-           # else:
-            #    print('The number {} is not in range ({}, {})'.format(toa_dh, X, Y))
-                # Test Input List
-             #   testInput = [X - 1, X, X + 1, Y + 1, Y, Y - 1]
-
-              #  for eachItem in testInput:
-               #     checkRange(eachItem)
+                if toa_dn[iact, ialt] > bdepth:
+                    toa_dn[iact, ialt] = bdepth
+                    print("toa_dn is above the saturation level.")
 
         return toa_dn
-

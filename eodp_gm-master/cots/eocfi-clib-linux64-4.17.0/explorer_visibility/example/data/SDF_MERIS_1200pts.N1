@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Earth_Explorer_File>
+  
+  <Earth_Explorer_Header>
+    <Fixed_Header/>
+    <Variable_Header>
+     </Variable_Header>
+  </Earth_Explorer_Header>
+  
+  <Data_Block type="xml">
+      <Swath>
+        <Output_File_Description>MERIS</Output_File_Description>
+        <Output_File_Type>MERIS__501</Output_File_Type>
+        <Swath_Type>line</Swath_Type>
+        <Num_Swath_Records>1200</Num_Swath_Records>
+        <Refraction>
+          <Model>NO_REF</Model>
+          <Freq unit="MHz">000440000000</Freq>
+        </Refraction>
+        <Line_Geometry>
+          <Left_Pt>
+            <Azimuth unit="deg">+270.000000</Azimuth>
+            <Elevation unit="deg">+055.750000</Elevation>
+            <Altitude unit="m">+000000.000</Altitude>
+          </Left_Pt>
+          <Mid_Pt>
+            <Azimuth unit="deg">+090.000000</Azimuth>
+            <Elevation unit="deg">+090.000000</Elevation>
+            <Altitude unit="m">+000000.000</Altitude>
+          </Mid_Pt>
+          <Right_Pt>
+            <Azimuth unit="deg">+090.000000</Azimuth>
+            <Elevation unit="deg">+055.750000</Elevation>
+            <Altitude unit="m">+000000.000</Altitude>
+          </Right_Pt>
+        </Line_Geometry>
+        
+        <Sat_Nominal_Att>
+          <Parameter_Model>
+            <Model>1</Model>
+            <List_of_Parameters count="3">
+              <Parameter>-000.167200</Parameter>
+              <Parameter>+000.050100</Parameter>
+              <Parameter>+003.928400</Parameter>
+            </List_of_Parameters>
+          </Parameter_Model>
+        </Sat_Nominal_Att>
+        <Sat_Att>
+          <Angle_Model>
+            <Angle_1>0</Angle_1>
+            <Angle_2>0</Angle_2>
+            <Angle_3>0</Angle_3>
+          </Angle_Model>
+        </Sat_Att>
+        <Instr_Att>
+          <None></None>
+        </Instr_Att>
+
+      </Swath>
+
+  </Data_Block>
+  
+</Earth_Explorer_File>

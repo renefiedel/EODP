@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Earth_Explorer_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_INT_DEMCFG_0202.XSD"
+  xmlns="http://eop-cfi.esa.int/CFI" schemaVersion="2.2">
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+      <File_Name>CS_TEST_INT_DEMCFG_00000000T000000_99999999T999999_0003</File_Name>
+      <File_Description>DEM Configuration File</File_Description>
+      <Notes></Notes>
+      <Mission>CryoSat</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>INT_DEMCFG</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=0000-00-00T00:00:00</Validity_Start>
+        <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0001</File_Version>
+      <Source>
+        <System>What system?</System>
+        <Creator>Earth Explorer CFI</Creator>
+        <Creator_Version>2.2</Creator_Version>
+        <Creation_Date>UTC=2006-07-01T18:11:45</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header></Variable_Header>
+  </Earth_Explorer_Header>
+  <Data_Block type="xml">
+	  <DEM>
+		  <DEM_User_Parameters>
+			  <Directory>/home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/eodp_gm-master/DEM</Directory> <!-- Set folder where dem files are located -->
+			  <Cache_Type>FIFO_CACHE</Cache_Type>
+				<Cache_Max_Size size="MB">2048</Cache_Max_Size>
+		  </DEM_User_Parameters>
+		  <DEM_Metadata>
+			  <Dataset_Model>GETASSE30_V3</Dataset_Model>
+			  <Description></Description>
+		  </DEM_Metadata>
+	  </DEM>
+  </Data_Block>
+</Earth_Explorer_File>

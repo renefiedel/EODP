@@ -1,0 +1,360 @@
+
+
+
+XV_SWATH_POS
+
+
+Inputs: 
+   Absolute Orbit: 2950
+   ANX Time: 0.000000
+Outputs: 
+   Swath longitude: -81.064105
+   Swath latitude: 0.000000
+   Swath altitude: 0.000000
+
+
+XV_SWATH_ID_INIT
+
+
+
+XV_SWATHPOS_COMPUTE
+
+
+Inputs: 
+   Absolute Orbit: 2950
+   ANX Time: 0.000000
+Outputs: 
+   Swath longitude: -81.064105
+   Swath latitude: 0.000000
+   Swath altitude: 0.000000
+
+
+XV_ZONE_VIS_TIME
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 2900 / 2950
+   Zone File: ../data/MPL_STZ_DBTRGT19970515_120000_00000000_00000000_19950101_000000_20100101_000000.N1
+   Zone Id: ZANA____
+Outputs: 
+   Number of segments: 34
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             (2901, 4703, 847072) -- (2901, 4838, 386473)
+             (2902, 4597, 461718) -- (2902, 4882, 497228)
+             (2903, 4529, 958008) -- (2903, 4828, 410988)
+             (2904, 4464, 608821) -- (2904, 4831, 121890)
+             (2905, 4369, 519698) -- (2905, 4649, 874212)
+   [...]
+
+
+
+XV_ZONEVISTIME_COMPUTE
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 2900 / 2950
+   Zone File: ../data/MPL_STZ_DBTRGT19970515_120000_00000000_00000000_19950101_000000_20100101_000000.N1
+   Zone Id: ZANA____
+Outputs: 
+   Number of segments: 34
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             (2901, 4703, 847072) -- (2901, 4838, 386473)
+             (2902, 4597, 461718) -- (2902, 4882, 497228)
+             (2903, 4529, 958008) -- (2903, 4828, 410988)
+             (2904, 4464, 608821) -- (2904, 4831, 121890)
+             (2905, 4369, 519698) -- (2905, 4649, 874212)
+   [...]
+
+
+
+XV_ZONEVISTIME_COVERAGE
+	-Zone area = 220.000000
+
+
+
+XV_TIME_SEGMENTS_NOT
+
+
+Inputs: Taking segments from xv_zone_vis_time.
+Outputs: 
+   Number of segments: 33
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             (2901, 4838, 386473) -- (2902, 4597, 461718)
+             (2902, 4882, 497228) -- (2903, 4529, 958008)
+             (2903, 4828, 410988) -- (2904, 4464, 608821)
+             (2904, 4831, 121890) -- (2905, 4369, 519698)
+             (2905, 4649, 874212) -- (2906, 4147, 409182)
+   [...]
+
+
+
+XV_TIME_SEGMENTS_OR
+
+
+Inputs: Taking segments from xv_zone_vis_time for both input lists
+Outputs: 
+   Number of segments: 34
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             (2901, 4703, 847072) -- (2901, 4838, 386473)
+             (2902, 4597, 461718) -- (2902, 4882, 497228)
+             (2903, 4529, 958008) -- (2903, 4828, 410988)
+             (2904, 4464, 608821) -- (2904, 4831, 121890)
+             (2905, 4369, 519698) -- (2905, 4649, 874212)
+   [...]
+
+
+
+XV_TIME_SEGMENTS_AND
+
+
+Inputs: Taking segments from xv_zone_vis_time for both input lists
+Outputs: 
+   Number of segments: 34
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             (2901, 4703, 847072) -- (2901, 4838, 386473)
+             (2902, 4597, 461718) -- (2902, 4882, 497228)
+             (2903, 4529, 958008) -- (2903, 4828, 410988)
+             (2904, 4464, 608821) -- (2904, 4831, 121890)
+             (2905, 4369, 519698) -- (2905, 4649, 874212)
+   [...]
+
+
+
+XV_TIME_SEGMENTS_SORT
+
+
+Inputs: Taking segments from xv_time_segment_and
+Outputs: 
+   Number of segments: 34
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             (2901, 4703, 847072) -- (2901, 4838, 386473)
+             (2902, 4597, 461718) -- (2902, 4882, 497228)
+             (2903, 4529, 958008) -- (2903, 4828, 410988)
+             (2904, 4464, 608821) -- (2904, 4831, 121890)
+             (2905, 4369, 519698) -- (2905, 4649, 874212)
+   [...]
+
+
+
+XV_TIME_SEGMENTS_MERGE
+
+
+Inputs: Taking segments from xv_zone_vis_time for both input lists
+Outputs: 
+   Number of segments: 34
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             (2901, 4703, 847072) -- (2901, 4838, 386473)
+             (2902, 4597, 461718) -- (2902, 4882, 497228)
+             (2903, 4529, 958008) -- (2903, 4828, 410988)
+             (2904, 4464, 608821) -- (2904, 4831, 121890)
+             (2905, 4369, 519698) -- (2905, 4649, 874212)
+   [...]
+
+
+
+XV_TIME_SEGMENTS_DELTA
+
+
+Inputs: Taking segments from xv_zone_vis_time for both input lists
+Outputs: 
+   Number of segments: 34
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             (2901, 4713, 970072) -- (2901, 4848, 509473)
+             (2902, 4607, 584718) -- (2902, 4892, 620228)
+             (2903, 4540,  81008) -- (2903, 4838, 533988)
+             (2904, 4474, 731821) -- (2904, 4841, 244890)
+             (2905, 4379, 642698) -- (2905, 4659, 997212)
+   [...]
+
+
+
+XV_MULTIZONES_VIS_TIME
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 2900 / 2930
+   Number of input zones: 6
+Outputs: 
+   Number of segments: 27
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds) -- Zones in segment (coverage)
+             (2901, 4703, 847072) -- (2901, 4838, 386473) --  5(3)  0(3) 
+             (2902, 4597, 461718) -- (2902, 4882, 497228) --  5(3)  0(3) 
+             (2902, 5698, 455525) -- (2902, 6035, 928000) --  2(3) 
+             (2903,   74, 417476) -- (2903,  337, 198187) --  3(3) 
+             (2903, 4529, 958008) -- (2903, 4828, 410988) --  5(3)  0(3) 
+   [...]
+
+
+
+XV_GEN_SCF
+
+
+
+XV_STATION_VIS_TIME
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 2900 / 2910
+   Station: GKOUROUS
+Outputs: 
+   Number of segments: 2
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds) -- (Zero Dopler)
+             (2905,   59, 503697) -- (2905,  288, 675939) -- (2905,  174, 931611) 
+             (2905, 5741,  95320) -- (2906,  444, 970715) -- (2906,   75, 564159) 
+
+
+XV_STATIONVISTIME_COMPUTE
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 2900 / 2910
+   Station: GKOUROUS
+Outputs: 
+   Number of segments: 2
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds) 
+             (2905,   59, 503697) -- (2905,  288, 675939) 
+             (2905, 5741,  95320) -- (2906,  444, 970715) 
+
+
+XV_MULTISTATIONS_VIS_TIME
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 2900 / 2910
+   Stations: GKOUROUS, GMASPABX, GVILFRBX, GKIRUNBX, GFAIRBHX, GPERTH_S, GSPIA__D
+Outputs: 
+   Number of segments: 16
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds) -- Stations in segment (Zero Dopler)
+             (2900, 1017, 217021) -- (2900, 1771, 865696) --
+							  -- GKIRUNBX(2900, 1379, 282916) 
+							  -- GSPIA__D(2900, 1468, 455815) 
+             (2901,  851, 458771) -- (2901, 2194, 820750) --
+							  -- GKIRUNBX(2901, 1247, 225025) 
+							  -- GSPIA__D(2901, 1393, 450319) 
+							  -- GFAIRBHX(2901, 1901, 161304) 
+             (2902,  717, 554024) -- (2902, 2356, 728201) --
+							  -- GKIRUNBX(2902, 1158, 250988) 
+							  -- GSPIA__D(2902, 1337, 989265) 
+							  -- GFAIRBHX(2902, 1939, 828432) 
+             (2903,  357, 508061) -- (2903, 2348, 154335) --
+							  -- GVILFRBX(2903,  743, 779253) 
+							  -- GMASPABX(2903,  625, 925590) 
+							  -- GKIRUNBX(2903, 1125, 425886) 
+							  -- GSPIA__D(2903, 1311, 995429) 
+							  -- GFAIRBHX(2903, 1904, 842902) 
+             (2904,   57, 995987) -- (2904, 2211, 634637) --
+							  -- GMASPABX(2904,  486, 293870) 
+							  -- GVILFRBX(2904,  658, 456034) 
+							  -- GKIRUNBX(2904, 1158, 928829) 
+							  -- GSPIA__D(2904, 1321, 538874) 
+							  -- GFAIRBHX(2904, 1807, 530359) 
+   [...]
+
+
+
+XV_TIME_SEGMENTS_MAPPING
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 2900 / 2950
+   Zone File: ../data/MPL_STZ_DBTRGT19970515_120000_00000000_00000000_19950101_000000_20100101_000000.N1
+   Zone Id: ZANA____
+Outputs: 
+
+   MAPPING 0	Ascending
+   2918 - 319 - 838380 ---- 2918 - 659 - 423544 (right coverage)
+   2932 - 319 - 838380 ---- 2932 - 681 - 968878 (both coverage)
+   2903 - 319 - 838380 ---- 2903 - 700 - 309910 (both coverage)
+   2917 - 319 - 838380 ---- 2917 - 700 - 309910 (both coverage)
+   2931 - 345 - 503560 ---- 2931 - 700 - 309910 (left coverage)
+
+   MAPPING 1	Descending
+   2925 - 2313 - 181984 ---- 2925 - 2674 - 994438 (left coverage)
+   2939 - 2313 - 181984 ---- 2939 - 2693 - 653651 (both coverage)
+   2910 - 2313 - 181984 ---- 2910 - 2693 - 653651 (both coverage)
+   2924 - 2338 - 28126 ---- 2924 - 2693 - 653651 (right coverage)
+
+
+XV_ORBIT_EXTRA
+
+
+Inputs: 
+   Absolute Orbit: 2950
+  Sun Zenit angles: 90 deg, 80 deg
+Outputs: 
+   SZA up - down: 90 --> 4895.993232 - 1876.406210
+                  80 --> 4701.341783 - 2069.897444
+   Eclipse. Entry 5431.686496, Exit 1342.339697
+   Sun-Moon entry: 220.816040, Sun-Moon exit: 1214.433594
+
+
+XV_GEN_SWATH
+
+
+
+XV_GEN_SWATH_NO_FILE
+
+
+Inputs: 
+   Requested Orbit: 3000
+Outputs: 
+   Number of records: 1200
+   First record:
+   Left Pt:   long = 355.149180, lat = -1.078218
+   Middle Pt: long = 0.000000, lat = 0.000000
+   Right Pt:  long = 4.850820, lat = 1.078218
+   Last record:
+   Left Pt:   long = 329.999478, lat = -1.078212
+   Middle Pt: long = 334.850298, lat = 0.000006
+   Right Pt:  long = 339.701118, lat = 1.078225
+
+
+XV_ZONE_VIS_TIME_NO_FILE
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 2900 / 2950
+   Zone File: ../data/MPL_STZ_DBTRGT19970515_120000_00000000_00000000_19950101_000000_20100101_000000.N1
+   Zone Id: ZANA____
+Outputs: 
+   Number of segments: 34
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             (2901, 4703, 847072) -- (2901, 4838, 386473)
+             (2902, 4597, 461718) -- (2902, 4882, 497228)
+             (2903, 4529, 958008) -- (2903, 4828, 410988)
+             (2904, 4464, 608821) -- (2904, 4831, 121890)
+             (2905, 4369, 519698) -- (2905, 4649, 874212)
+   [...]
+
+
+
+XV_STATION_VIS_TIME_NO_FILE
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 2900 / 2910
+   Station: GKOUROUS
+Outputs: 
+   Number of segments: 2
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds) -- (Zero Dopler)
+             (2905,   59, 503697) -- (2905,  288, 675939) -- (2905,  174, 931611) 
+             (2905, 5741,  95320) -- (2906,  444, 970715) -- (2906,   75, 564159) 
+
+
+
+XV_SC_VIS_TIME (and XV_SET_SC_VIS_TIME_STEP)
+
+
+Inputs: 
+   Start/Stop Absolute Orbit: 100 / 300
+Outputs: 
+   Number of segments: 225
+   Segments: Start (Orbit, seconds, microseconds) -- Stop (Orbit, seconds, microseconds)
+             ( 100,    0,      0) -- ( 100, 1175, 919799)
+             ( 100, 3839, 772796) -- ( 101,  118, 918548)
+             ( 101, 2245, 833435) -- ( 101, 4927, 513397)
+             ( 102, 1726,   6347) -- ( 102, 4683, 283660)
+             ( 103, 1595, 744781) -- ( 103, 4588, 372009)
+   [...]
+
+EOCFI_VISIBILITY EXAMPLE COMPLETED SUCCESSFULLY

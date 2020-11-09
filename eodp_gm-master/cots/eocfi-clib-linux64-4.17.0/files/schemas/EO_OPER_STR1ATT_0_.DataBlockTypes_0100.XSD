@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://eop-cfi.esa.int/CFI" targetNamespace="http://eop-cfi.esa.int/CFI" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
+	<xsd:include schemaLocation="OrbitTypes_0102.XSD"/>
+	<xsd:include schemaLocation="TimeTypes_0102.XSD"/>
+	<xsd:include schemaLocation="HeaderTypes_0103.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Star Tracker Header Data Types</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="SPH_Star_tracker">
+		<xsd:sequence>
+			<xsd:element name="SPH_Descriptor" type="xsd:string"/>
+			<xsd:element name="Orbit_Information" type="Orbit_Information_Type"/>
+			<xsd:element name="Product_Location" type="Product_Location_Type"/>
+			<xsd:element name="Product_Confidence_Data" type="Product_Confidence_Data_Type"/>
+			<xsd:element name="DSDs" type="DSD"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Variable_Header">
+		<xsd:sequence>
+			<xsd:element name="MPH" type="MPH_Type"/>
+			<xsd:element name="SPH" type="SPH_Star_tracker"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Star_Tracker_Header">
+		<xsd:sequence>
+			<xsd:element name="Fixed_Header" type="Fixed_Header_Type"/>
+			<xsd:element name="Variable_Header" type="Variable_Header"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="DSD">
+		<xsd:sequence>
+			<xsd:element name="List_of_DSDs">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Data_Set_Descriptor" type="Data_Set_Descriptor" maxOccurs="unbounded"/>
+					</xsd:sequence>
+					<xsd:attribute name="count" type="xsd:integer" use="required"/>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Data_Set_Descriptor">
+		<xsd:sequence>
+			<xsd:element name="Data_Set_Name" type="xsd:string"/>
+			<xsd:element name="Data_Set_Type">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:length value="1"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="File_Name" type="xsd:string"/>
+			<xsd:element name="Data_Set_Offset">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="xsd:integer">
+							<xsd:attribute name="unit" type="xsd:string" use="required" fixed="bytes"/>
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Data_Set_Size">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="xsd:integer">
+							<xsd:attribute name="unit" type="xsd:string" use="required" fixed="bytes"/>
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Num_of_Records" type="xsd:integer"/>
+			<xsd:element name="Record_Size">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="xsd:integer">
+							<xsd:attribute name="unit" type="xsd:string" use="required" fixed="bytes"/>
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Byte_Order" type="xsd:integer"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

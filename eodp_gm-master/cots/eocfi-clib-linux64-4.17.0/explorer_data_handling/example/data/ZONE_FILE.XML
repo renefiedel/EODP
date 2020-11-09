@@ -1,0 +1,4009 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Earth_Explorer_File>
+  <Earth_Explorer_Header/>
+  <Data_Block type="xml">
+    <List_of_Zones count="41">
+      <Zone>
+        <Zone_Id>ZANA____</Zone_Id>
+        <Zone_Description>Antarctic</Zone_Description>
+        <Surface>Land Ice</Surface>
+        <Projection>RECTANGULAR</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="46">
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">-090.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">-069.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+002.500000</Long>
+            <Lat unit="deg">-070.150000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+005.000000</Long>
+            <Lat unit="deg">-070.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+007.000000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+007.500000</Long>
+            <Lat unit="deg">-070.150000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+008.500000</Long>
+            <Lat unit="deg">-069.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+009.200000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.100000</Long>
+            <Lat unit="deg">-069.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+012.800000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+014.000000</Long>
+            <Lat unit="deg">-069.450000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+015.400000</Long>
+            <Lat unit="deg">-069.450000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+015.600000</Long>
+            <Lat unit="deg">-069.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+017.700000</Long>
+            <Lat unit="deg">-069.650000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+019.000000</Long>
+            <Lat unit="deg">-069.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.600000</Long>
+            <Lat unit="deg">-069.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+021.600000</Long>
+            <Lat unit="deg">-070.150000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+023.800000</Long>
+            <Lat unit="deg">-070.350000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+027.000000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+027.600000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+029.400000</Long>
+            <Lat unit="deg">-069.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+031.000000</Long>
+            <Lat unit="deg">-069.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+032.900000</Long>
+            <Lat unit="deg">-069.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+034.000000</Long>
+            <Lat unit="deg">-068.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+034.800000</Long>
+            <Lat unit="deg">-068.520000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+035.000000</Long>
+            <Lat unit="deg">-068.940000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+040.000000</Long>
+            <Lat unit="deg">-068.940000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+043.300000</Long>
+            <Lat unit="deg">-068.160000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+046.400000</Long>
+            <Lat unit="deg">-067.320000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+051.700000</Long>
+            <Lat unit="deg">-066.060000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+055.000000</Long>
+            <Lat unit="deg">-065.850000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+060.000000</Long>
+            <Lat unit="deg">-067.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+069.500000</Long>
+            <Lat unit="deg">-067.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+070.000000</Long>
+            <Lat unit="deg">-068.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+072.690000</Long>
+            <Lat unit="deg">-069.080000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+074.000000</Long>
+            <Lat unit="deg">-069.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+078.000000</Long>
+            <Lat unit="deg">-069.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+078.000000</Long>
+            <Lat unit="deg">-068.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+081.800000</Long>
+            <Lat unit="deg">-067.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+081.700000</Long>
+            <Lat unit="deg">-066.270000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+082.250000</Long>
+            <Lat unit="deg">-066.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+083.000000</Long>
+            <Lat unit="deg">-066.760000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+088.300000</Long>
+            <Lat unit="deg">-066.060000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+089.100000</Long>
+            <Lat unit="deg">-066.760000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+090.000000</Long>
+            <Lat unit="deg">-066.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+090.000000</Long>
+            <Lat unit="deg">-090.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">000000.000</Diameter>
+      </Zone>
+      <Zone>
+        <Zone_Id>ZANB____</Zone_Id>
+        <Zone_Description>Antarctic</Zone_Description>
+        <Surface>Land Ice</Surface>
+        <Projection>GNOMONIC</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="036">
+          <Polygon_Pt>
+            <Long unit="deg">+090.000000</Long>
+            <Lat unit="deg">-090.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+090.000000</Long>
+            <Lat unit="deg">-066.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+094.660000</Long>
+            <Lat unit="deg">-066.550000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+095.650000</Long>
+            <Lat unit="deg">-065.150000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+098.440000</Long>
+            <Lat unit="deg">-064.720000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+099.330000</Long>
+            <Lat unit="deg">-065.750000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+101.170000</Long>
+            <Lat unit="deg">-065.350000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+102.000000</Long>
+            <Lat unit="deg">-065.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+103.070000</Long>
+            <Lat unit="deg">-065.150000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+104.170000</Long>
+            <Lat unit="deg">-065.990000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+108.100000</Long>
+            <Lat unit="deg">-066.480000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+108.790000</Long>
+            <Lat unit="deg">-066.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+110.700000</Long>
+            <Lat unit="deg">-066.130000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+113.300000</Long>
+            <Lat unit="deg">-065.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+116.550000</Long>
+            <Lat unit="deg">-066.480000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+116.790000</Long>
+            <Lat unit="deg">-066.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+120.860000</Long>
+            <Lat unit="deg">-066.480000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+123.970000</Long>
+            <Lat unit="deg">-066.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+129.830000</Long>
+            <Lat unit="deg">-066.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+133.830000</Long>
+            <Lat unit="deg">-066.060000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+134.330000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+135.000000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+135.330000</Long>
+            <Lat unit="deg">-066.060000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+145.690000</Long>
+            <Lat unit="deg">-067.110000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+145.340000</Long>
+            <Lat unit="deg">-067.540000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+151.110000</Long>
+            <Lat unit="deg">-068.520000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+153.700000</Long>
+            <Lat unit="deg">-068.310000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+155.380000</Long>
+            <Lat unit="deg">-069.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+156.300000</Long>
+            <Lat unit="deg">-068.940000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+158.650000</Long>
+            <Lat unit="deg">-069.440000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+162.600000</Long>
+            <Lat unit="deg">-070.280000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+167.700000</Long>
+            <Lat unit="deg">-070.990000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+170.650000</Long>
+            <Lat unit="deg">-071.860000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+168.330000</Long>
+            <Lat unit="deg">-073.590000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-073.380000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-090.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZANC____</Zone_Id>
+        <Zone_Description>Antarctic</Zone_Description>
+        <Surface>Land Ice</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="024">
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-090.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-073.380000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-150.000000</Long>
+            <Lat unit="deg">-073.380000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-145.530000</Long>
+            <Lat unit="deg">-075.420000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-140.280000</Long>
+            <Lat unit="deg">-075.490000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-139.470000</Long>
+            <Lat unit="deg">-074.930000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-135.000000</Long>
+            <Lat unit="deg">-074.580000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-130.000000</Long>
+            <Lat unit="deg">-074.230000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-128.500000</Long>
+            <Lat unit="deg">-074.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-127.380000</Long>
+            <Lat unit="deg">-073.310000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-114.000000</Long>
+            <Lat unit="deg">-073.870000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-110.330000</Long>
+            <Lat unit="deg">-074.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-108.160000</Long>
+            <Lat unit="deg">-075.070000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-108.250000</Long>
+            <Lat unit="deg">-074.440000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-106.750000</Long>
+            <Lat unit="deg">-074.370000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-103.680000</Long>
+            <Lat unit="deg">-075.070000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-101.940000</Long>
+            <Lat unit="deg">-075.070000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-103.640000</Long>
+            <Lat unit="deg">-072.390000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-101.740000</Long>
+            <Lat unit="deg">-071.970000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-098.910000</Long>
+            <Lat unit="deg">-071.760000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-095.830000</Long>
+            <Lat unit="deg">-071.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-095.000000</Long>
+            <Lat unit="deg">-072.540000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-090.000000</Long>
+            <Lat unit="deg">-072.540000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-090.000000</Long>
+            <Lat unit="deg">-090.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZAND____</Zone_Id>
+        <Zone_Description>Antarctic</Zone_Description>
+        <Surface>Land Ice</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="046">
+          <Polygon_Pt>
+            <Long unit="deg">-090.000000</Long>
+            <Lat unit="deg">-090.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-090.000000</Long>
+            <Lat unit="deg">-072.540000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-083.000000</Long>
+            <Lat unit="deg">-073.590000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-082.120000</Long>
+            <Lat unit="deg">-073.870000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-081.250000</Long>
+            <Lat unit="deg">-073.870000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-081.190000</Long>
+            <Lat unit="deg">-073.030000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-078.860000</Long>
+            <Lat unit="deg">-072.320000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-073.810000</Long>
+            <Lat unit="deg">-073.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-072.500000</Long>
+            <Lat unit="deg">-072.750000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-075.430000</Long>
+            <Lat unit="deg">-071.760000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-073.330000</Long>
+            <Lat unit="deg">-071.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-075.000000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-072.120000</Long>
+            <Lat unit="deg">-069.370000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-071.920000</Long>
+            <Lat unit="deg">-069.080000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-070.370000</Long>
+            <Lat unit="deg">-068.730000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-068.650000</Long>
+            <Lat unit="deg">-069.370000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-067.140000</Long>
+            <Lat unit="deg">-067.990000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-067.590000</Long>
+            <Lat unit="deg">-067.250000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-063.870000</Long>
+            <Lat unit="deg">-065.350000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-059.850000</Long>
+            <Lat unit="deg">-063.730000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-057.210000</Long>
+            <Lat unit="deg">-063.170000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-056.890000</Long>
+            <Lat unit="deg">-063.380000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-057.030000</Long>
+            <Lat unit="deg">-064.210000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-059.040000</Long>
+            <Lat unit="deg">-065.250000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-060.740000</Long>
+            <Lat unit="deg">-067.750000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-059.630000</Long>
+            <Lat unit="deg">-067.960000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-059.760000</Long>
+            <Lat unit="deg">-073.030000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-061.840000</Long>
+            <Lat unit="deg">-074.390000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-033.660000</Long>
+            <Lat unit="deg">-077.680000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-026.470000</Long>
+            <Lat unit="deg">-076.340000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-026.470000</Long>
+            <Lat unit="deg">-076.770000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-023.750000</Long>
+            <Lat unit="deg">-075.530000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-024.340000</Long>
+            <Lat unit="deg">-074.790000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.500000</Long>
+            <Lat unit="deg">-074.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.250000</Long>
+            <Lat unit="deg">-074.080000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-018.690000</Long>
+            <Lat unit="deg">-072.680000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-017.140000</Long>
+            <Lat unit="deg">-072.890000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-011.820000</Long>
+            <Lat unit="deg">-071.690000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-012.170000</Long>
+            <Lat unit="deg">-071.340000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.680000</Long>
+            <Lat unit="deg">-070.850000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.360000</Long>
+            <Lat unit="deg">-070.560000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.200000</Long>
+            <Lat unit="deg">-070.280000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-001.100000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-000.700000</Long>
+            <Lat unit="deg">-069.790000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">-069.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">-090.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZGNA____</Zone_Id>
+        <Zone_Description>Greenland</Zone_Description>
+        <Surface>Land Ice</Surface>
+        <Projection>GNOMONIC</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="048">
+          <Polygon_Pt>
+            <Long unit="deg">-043.240000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-045.270000</Long>
+            <Lat unit="deg">+060.140000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-046.220000</Long>
+            <Lat unit="deg">+060.790000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-047.430000</Long>
+            <Lat unit="deg">+060.710000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-052.030000</Long>
+            <Lat unit="deg">+064.210000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-052.260000</Long>
+            <Lat unit="deg">+065.360000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-053.710000</Long>
+            <Lat unit="deg">+066.360000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-052.930000</Long>
+            <Lat unit="deg">+066.930000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-053.790000</Long>
+            <Lat unit="deg">+067.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-053.080000</Long>
+            <Lat unit="deg">+068.640000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-051.350000</Long>
+            <Lat unit="deg">+068.850000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-051.400000</Long>
+            <Lat unit="deg">+069.860000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-054.580000</Long>
+            <Lat unit="deg">+070.770000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-055.650000</Long>
+            <Lat unit="deg">+071.620000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-055.480000</Long>
+            <Lat unit="deg">+073.450000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-058.610000</Long>
+            <Lat unit="deg">+075.350000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-058.340000</Long>
+            <Lat unit="deg">+075.630000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-063.530000</Long>
+            <Lat unit="deg">+076.320000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-066.760000</Long>
+            <Lat unit="deg">+075.970000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-069.710000</Long>
+            <Lat unit="deg">+076.390000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-071.250000</Long>
+            <Lat unit="deg">+077.010000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-072.500000</Long>
+            <Lat unit="deg">+078.540000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.890000</Long>
+            <Lat unit="deg">+079.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.000000</Long>
+            <Lat unit="deg">+079.510000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.000000</Long>
+            <Lat unit="deg">+080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-067.600000</Long>
+            <Lat unit="deg">+080.240000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-061.430000</Long>
+            <Lat unit="deg">+081.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-030.000000</Long>
+            <Lat unit="deg">+083.610000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-012.380000</Long>
+            <Lat unit="deg">+081.670000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.330000</Long>
+            <Lat unit="deg">+078.130000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-019.330000</Long>
+            <Lat unit="deg">+077.740000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-018.530000</Long>
+            <Lat unit="deg">+076.740000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.940000</Long>
+            <Lat unit="deg">+076.940000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.470000</Long>
+            <Lat unit="deg">+076.320000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.000000</Long>
+            <Lat unit="deg">+076.220000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-019.250000</Long>
+            <Lat unit="deg">+074.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.610000</Long>
+            <Lat unit="deg">+071.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.800000</Long>
+            <Lat unit="deg">+070.280000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-026.480000</Long>
+            <Lat unit="deg">+068.660000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-031.850000</Long>
+            <Lat unit="deg">+068.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-033.210000</Long>
+            <Lat unit="deg">+067.740000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-035.000000</Long>
+            <Lat unit="deg">+066.340000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-037.670000</Long>
+            <Lat unit="deg">+065.560000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-039.670000</Long>
+            <Lat unit="deg">+065.630000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-040.610000</Long>
+            <Lat unit="deg">+063.710000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-041.910000</Long>
+            <Lat unit="deg">+062.860000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-042.860000</Long>
+            <Lat unit="deg">+062.640000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-042.290000</Long>
+            <Lat unit="deg">+062.360000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZNAM____</Zone_Id>
+        <Zone_Description>North America</Zone_Description>             
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="050">
+          <Polygon_Pt>
+            <Long unit="deg">-160.100000</Long>
+            <Lat unit="deg">+070.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-135.000000</Long>
+            <Lat unit="deg">+068.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-115.000000</Long>
+            <Lat unit="deg">+067.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-095.000000</Long>
+            <Lat unit="deg">+067.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-092.500000</Long>
+            <Lat unit="deg">+069.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-088.000000</Long>
+            <Lat unit="deg">+065.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-096.000000</Long>
+            <Lat unit="deg">+058.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-078.000000</Long>
+            <Lat unit="deg">+050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-074.000000</Long>
+            <Lat unit="deg">+062.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-067.500000</Long>
+            <Lat unit="deg">+058.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-061.000000</Long>
+            <Lat unit="deg">+055.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-055.400000</Long>
+            <Lat unit="deg">+052.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-066.200000</Long>
+            <Lat unit="deg">+050.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-064.500000</Long>
+            <Lat unit="deg">+046.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-076.400000</Long>
+            <Lat unit="deg">+039.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-077.000000</Long>
+            <Lat unit="deg">+035.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-081.500000</Long>
+            <Lat unit="deg">+031.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-080.200000</Long>
+            <Lat unit="deg">+025.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-081.500000</Long>
+            <Lat unit="deg">+026.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-083.600000</Long>
+            <Lat unit="deg">+030.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-097.300000</Long>
+            <Lat unit="deg">+029.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-097.500000</Long>
+            <Lat unit="deg">+022.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-096.100000</Long>
+            <Lat unit="deg">+019.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-094.300000</Long>
+            <Lat unit="deg">+018.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-091.200000</Long>
+            <Lat unit="deg">+018.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-089.400000</Long>
+            <Lat unit="deg">+021.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-087.200000</Long>
+            <Lat unit="deg">+021.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-089.000000</Long>
+            <Lat unit="deg">+015.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-083.500000</Long>
+            <Lat unit="deg">+015.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-083.500000</Long>
+            <Lat unit="deg">+010.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-084.700000</Long>
+            <Lat unit="deg">+010.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-087.500000</Long>
+            <Lat unit="deg">+013.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-093.500000</Long>
+            <Lat unit="deg">+016.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-096.500000</Long>
+            <Lat unit="deg">+015.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-104.500000</Long>
+            <Lat unit="deg">+019.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-105.200000</Long>
+            <Lat unit="deg">+021.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-113.400000</Long>
+            <Lat unit="deg">+031.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-119.400000</Long>
+            <Lat unit="deg">+034.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-124.100000</Long>
+            <Lat unit="deg">+040.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-123.300000</Long>
+            <Lat unit="deg">+048.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-134.200000</Long>
+            <Lat unit="deg">+058.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-150.000000</Long>
+            <Lat unit="deg">+062.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-157.000000</Long>
+            <Lat unit="deg">+058.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-163.100000</Long>
+            <Lat unit="deg">+059.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-165.800000</Long>
+            <Lat unit="deg">+061.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-160.500000</Long>
+            <Lat unit="deg">+063.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-161.000000</Long>
+            <Lat unit="deg">+064.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-167.900000</Long>
+            <Lat unit="deg">+065.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-161.000000</Long>
+            <Lat unit="deg">+066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-165.000000</Long>
+            <Lat unit="deg">+068.200000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZAUS____</Zone_Id>
+        <Zone_Description>Australia</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="043">
+          <Polygon_Pt>
+            <Long unit="deg">+141.400000</Long>
+            <Lat unit="deg">-038.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+137.700000</Long>
+            <Lat unit="deg">-032.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+135.800000</Long>
+            <Lat unit="deg">-034.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+134.000000</Long>
+            <Lat unit="deg">-031.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+131.000000</Long>
+            <Lat unit="deg">-031.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+128.500000</Long>
+            <Lat unit="deg">-031.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+124.500000</Long>
+            <Lat unit="deg">-032.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+123.600000</Long>
+            <Lat unit="deg">-033.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+120.000000</Long>
+            <Lat unit="deg">-033.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+117.500000</Long>
+            <Lat unit="deg">-034.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+115.200000</Long>
+            <Lat unit="deg">-034.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+116.500000</Long>
+            <Lat unit="deg">-033.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+113.900000</Long>
+            <Lat unit="deg">-026.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+114.300000</Long>
+            <Lat unit="deg">-026.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+114.000000</Long>
+            <Lat unit="deg">-024.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+115.100000</Long>
+            <Lat unit="deg">-021.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+121.000000</Long>
+            <Lat unit="deg">-019.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+123.000000</Long>
+            <Lat unit="deg">-018.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+126.400000</Long>
+            <Lat unit="deg">-014.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+127.200000</Long>
+            <Lat unit="deg">-014.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+128.300000</Long>
+            <Lat unit="deg">-015.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+130.000000</Long>
+            <Lat unit="deg">-015.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+131.000000</Long>
+            <Lat unit="deg">-012.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+136.500000</Long>
+            <Lat unit="deg">-012.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+135.200000</Long>
+            <Lat unit="deg">-014.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+140.000000</Long>
+            <Lat unit="deg">-017.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+141.000000</Long>
+            <Lat unit="deg">-017.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+141.500000</Long>
+            <Lat unit="deg">-016.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+141.800000</Long>
+            <Lat unit="deg">-013.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+142.300000</Long>
+            <Lat unit="deg">-010.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+144.000000</Long>
+            <Lat unit="deg">-014.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+145.000000</Long>
+            <Lat unit="deg">-015.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+146.000000</Long>
+            <Lat unit="deg">-019.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+148.300000</Long>
+            <Lat unit="deg">-020.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+149.300000</Long>
+            <Lat unit="deg">-022.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+152.400000</Long>
+            <Lat unit="deg">-025.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+153.200000</Long>
+            <Lat unit="deg">-029.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+152.600000</Long>
+            <Lat unit="deg">-031.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+149.000000</Long>
+            <Lat unit="deg">-037.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+148.200000</Long>
+            <Lat unit="deg">-037.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+146.400000</Long>
+            <Lat unit="deg">-038.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+145.000000</Long>
+            <Lat unit="deg">-037.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+143.400000</Long>
+            <Lat unit="deg">-038.500000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZICE____</Zone_Id>
+        <Zone_Description>Iceland</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="050">
+          <Polygon_Pt>
+            <Long unit="deg">-022.600000</Long>
+            <Lat unit="deg">+063.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.600000</Long>
+            <Lat unit="deg">+063.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.600000</Long>
+            <Lat unit="deg">+064.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.400000</Long>
+            <Lat unit="deg">+064.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.400000</Long>
+            <Lat unit="deg">+064.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-023.500000</Long>
+            <Lat unit="deg">+064.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-023.800000</Long>
+            <Lat unit="deg">+064.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-024.000000</Long>
+            <Lat unit="deg">+064.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-023.800000</Long>
+            <Lat unit="deg">+064.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.500000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.700000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.700000</Long>
+            <Lat unit="deg">+065.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.000000</Long>
+            <Lat unit="deg">+065.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.500000</Long>
+            <Lat unit="deg">+065.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.900000</Long>
+            <Lat unit="deg">+065.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.600000</Long>
+            <Lat unit="deg">+065.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-023.800000</Long>
+            <Lat unit="deg">+065.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-024.500000</Long>
+            <Lat unit="deg">+065.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-023.000000</Long>
+            <Lat unit="deg">+066.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-022.400000</Long>
+            <Lat unit="deg">+066.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.500000</Long>
+            <Lat unit="deg">+066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.300000</Long>
+            <Lat unit="deg">+065.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.800000</Long>
+            <Lat unit="deg">+065.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.300000</Long>
+            <Lat unit="deg">+065.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.400000</Long>
+            <Lat unit="deg">+066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.100000</Long>
+            <Lat unit="deg">+066.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-019.700000</Long>
+            <Lat unit="deg">+065.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-019.400000</Long>
+            <Lat unit="deg">+065.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-019.400000</Long>
+            <Lat unit="deg">+066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-018.800000</Long>
+            <Lat unit="deg">+066.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-018.000000</Long>
+            <Lat unit="deg">+066.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-017.700000</Long>
+            <Lat unit="deg">+066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-017.400000</Long>
+            <Lat unit="deg">+065.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-016.400000</Long>
+            <Lat unit="deg">+066.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-016.500000</Long>
+            <Lat unit="deg">+066.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-016.000000</Long>
+            <Lat unit="deg">+066.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-015.800000</Long>
+            <Lat unit="deg">+066.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-014.700000</Long>
+            <Lat unit="deg">+065.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-015.000000</Long>
+            <Lat unit="deg">+065.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-013.700000</Long>
+            <Lat unit="deg">+065.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-013.600000</Long>
+            <Lat unit="deg">+065.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-015.000000</Long>
+            <Lat unit="deg">+064.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-015.900000</Long>
+            <Lat unit="deg">+064.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-016.600000</Long>
+            <Lat unit="deg">+063.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-017.800000</Long>
+            <Lat unit="deg">+063.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-018.000000</Long>
+            <Lat unit="deg">+063.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-018.700000</Long>
+            <Lat unit="deg">+063.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.000000</Long>
+            <Lat unit="deg">+063.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.600000</Long>
+            <Lat unit="deg">+063.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-021.300000</Long>
+            <Lat unit="deg">+063.900000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZASI____</Zone_Id>
+        <Zone_Description>Asia</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="049">
+          <Polygon_Pt>
+            <Long unit="deg">+067.000000</Long>
+            <Lat unit="deg">+025.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+060.000000</Long>
+            <Lat unit="deg">+045.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+049.000000</Long>
+            <Lat unit="deg">+067.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+061.400000</Long>
+            <Lat unit="deg">+068.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+072.500000</Long>
+            <Lat unit="deg">+066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+079.000000</Long>
+            <Lat unit="deg">+072.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+112.500000</Long>
+            <Lat unit="deg">+076.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+106.000000</Long>
+            <Lat unit="deg">+074.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+130.800000</Long>
+            <Lat unit="deg">+070.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+142.000000</Long>
+            <Lat unit="deg">+072.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+161.000000</Long>
+            <Lat unit="deg">+068.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-177.500000</Long>
+            <Lat unit="deg">+068.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+177.500000</Long>
+            <Lat unit="deg">+063.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+162.300000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+162.300000</Long>
+            <Lat unit="deg">+056.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+156.400000</Long>
+            <Lat unit="deg">+051.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+155.500000</Long>
+            <Lat unit="deg">+056.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+165.100000</Long>
+            <Lat unit="deg">+062.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+157.500000</Long>
+            <Lat unit="deg">+062.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+154.100000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+143.200000</Long>
+            <Lat unit="deg">+059.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+134.800000</Long>
+            <Lat unit="deg">+054.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+140.400000</Long>
+            <Lat unit="deg">+052.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+140.100000</Long>
+            <Lat unit="deg">+049.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+127.000000</Long>
+            <Lat unit="deg">+040.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+129.000000</Long>
+            <Lat unit="deg">+035.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+127.500000</Long>
+            <Lat unit="deg">+035.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+126.000000</Long>
+            <Lat unit="deg">+040.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+121.500000</Long>
+            <Lat unit="deg">+041.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+117.100000</Long>
+            <Lat unit="deg">+039.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+121.300000</Long>
+            <Lat unit="deg">+029.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+118.100000</Long>
+            <Lat unit="deg">+024.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+114.000000</Long>
+            <Lat unit="deg">+022.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+107.500000</Long>
+            <Lat unit="deg">+022.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+106.400000</Long>
+            <Lat unit="deg">+020.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+105.400000</Long>
+            <Lat unit="deg">+018.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+108.500000</Long>
+            <Lat unit="deg">+015.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+109.000000</Long>
+            <Lat unit="deg">+011.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+105.000000</Long>
+            <Lat unit="deg">+009.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+097.000000</Long>
+            <Lat unit="deg">+017.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+095.000000</Long>
+            <Lat unit="deg">+016.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+092.500000</Long>
+            <Lat unit="deg">+022.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+086.400000</Long>
+            <Lat unit="deg">+021.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+080.300000</Long>
+            <Lat unit="deg">+015.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+079.500000</Long>
+            <Lat unit="deg">+010.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+077.300000</Long>
+            <Lat unit="deg">+008.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+076.900000</Long>
+            <Lat unit="deg">+008.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+072.600000</Long>
+            <Lat unit="deg">+020.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+070.300000</Long>
+            <Lat unit="deg">+020.500000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZSAM____</Zone_Id>
+        <Zone_Description>South America</Zone_Description>            
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="049">
+          <Polygon_Pt>
+            <Long unit="deg">-077.900000</Long>
+            <Lat unit="deg">+007.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-074.500000</Long>
+            <Lat unit="deg">+011.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-069.300000</Long>
+            <Lat unit="deg">+011.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-068.000000</Long>
+            <Lat unit="deg">+010.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-066.400000</Long>
+            <Lat unit="deg">+010.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.000000</Long>
+            <Lat unit="deg">+010.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-064.300000</Long>
+            <Lat unit="deg">+010.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-060.700000</Long>
+            <Lat unit="deg">+008.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-058.400000</Long>
+            <Lat unit="deg">+007.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-057.000000</Long>
+            <Lat unit="deg">+005.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-053.400000</Long>
+            <Lat unit="deg">+005.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-051.600000</Long>
+            <Lat unit="deg">+004.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-050.000000</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-041.500000</Long>
+            <Lat unit="deg">-003.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-040.100000</Long>
+            <Lat unit="deg">-003.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-035.500000</Long>
+            <Lat unit="deg">-006.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-035.000000</Long>
+            <Lat unit="deg">-008.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-039.000000</Long>
+            <Lat unit="deg">-012.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-039.500000</Long>
+            <Lat unit="deg">-017.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-042.000000</Long>
+            <Lat unit="deg">-023.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-046.200000</Long>
+            <Lat unit="deg">-023.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-048.400000</Long>
+            <Lat unit="deg">-025.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-048.800000</Long>
+            <Lat unit="deg">-028.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-054.500000</Long>
+            <Lat unit="deg">-034.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-058.500000</Long>
+            <Lat unit="deg">-034.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-057.000000</Long>
+            <Lat unit="deg">-036.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-057.500000</Long>
+            <Lat unit="deg">-038.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-062.500000</Long>
+            <Lat unit="deg">-039.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-062.500000</Long>
+            <Lat unit="deg">-041.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.300000</Long>
+            <Lat unit="deg">-040.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.500000</Long>
+            <Lat unit="deg">-044.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-068.000000</Long>
+            <Lat unit="deg">-045.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-067.200000</Long>
+            <Lat unit="deg">-047.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.600000</Long>
+            <Lat unit="deg">-047.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-069.200000</Long>
+            <Lat unit="deg">-051.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-068.500000</Long>
+            <Lat unit="deg">-053.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.200000</Long>
+            <Lat unit="deg">-054.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-067.500000</Long>
+            <Lat unit="deg">-055.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-073.500000</Long>
+            <Lat unit="deg">-054.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-074.500000</Long>
+            <Lat unit="deg">-051.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-073.100000</Long>
+            <Lat unit="deg">-036.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-071.400000</Long>
+            <Lat unit="deg">-033.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-070.100000</Long>
+            <Lat unit="deg">-018.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-075.100000</Long>
+            <Lat unit="deg">-015.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-081.200000</Long>
+            <Lat unit="deg">-004.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-079.500000</Long>
+            <Lat unit="deg">-003.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-080.800000</Long>
+            <Lat unit="deg">-002.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-080.400000</Long>
+            <Lat unit="deg">-000.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-077.000000</Long>
+            <Lat unit="deg">+003.600000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZAFR____</Zone_Id>
+        <Zone_Description>Africa</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="049">
+          <Polygon_Pt>
+            <Long unit="deg">+018.300000</Long>
+            <Lat unit="deg">-033.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+018.200000</Long>
+            <Lat unit="deg">-031.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+015.100000</Long>
+            <Lat unit="deg">-026.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+014.300000</Long>
+            <Lat unit="deg">-022.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+012.500000</Long>
+            <Lat unit="deg">-017.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+013.800000</Long>
+            <Lat unit="deg">-012.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+013.500000</Long>
+            <Lat unit="deg">-008.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+012.000000</Long>
+            <Lat unit="deg">-004.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+009.500000</Long>
+            <Lat unit="deg">-000.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.400000</Long>
+            <Lat unit="deg">+005.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+006.000000</Long>
+            <Lat unit="deg">+004.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+004.500000</Long>
+            <Lat unit="deg">+007.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-001.600000</Long>
+            <Lat unit="deg">+005.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.000000</Long>
+            <Lat unit="deg">+005.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-007.400000</Long>
+            <Lat unit="deg">+004.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-012.600000</Long>
+            <Lat unit="deg">+008.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-017.300000</Long>
+            <Lat unit="deg">+014.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-015.600000</Long>
+            <Lat unit="deg">+018.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-016.300000</Long>
+            <Lat unit="deg">+021.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-012.600000</Long>
+            <Lat unit="deg">+027.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-011.000000</Long>
+            <Lat unit="deg">+028.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.400000</Long>
+            <Lat unit="deg">+030.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.200000</Long>
+            <Lat unit="deg">+032.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-006.500000</Long>
+            <Lat unit="deg">+034.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.500000</Long>
+            <Lat unit="deg">+035.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-001.500000</Long>
+            <Lat unit="deg">+035.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+003.000000</Long>
+            <Lat unit="deg">+036.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.000000</Long>
+            <Lat unit="deg">+036.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.000000</Long>
+            <Lat unit="deg">+033.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.500000</Long>
+            <Lat unit="deg">+029.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.500000</Long>
+            <Lat unit="deg">+032.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+029.000000</Long>
+            <Lat unit="deg">+030.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+031.100000</Long>
+            <Lat unit="deg">+031.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+032.200000</Long>
+            <Lat unit="deg">+031.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+032.300000</Long>
+            <Lat unit="deg">+029.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+039.300000</Long>
+            <Lat unit="deg">+015.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+044.500000</Long>
+            <Lat unit="deg">+010.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+051.100000</Long>
+            <Lat unit="deg">+011.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+050.500000</Long>
+            <Lat unit="deg">+009.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+045.000000</Long>
+            <Lat unit="deg">+002.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+040.300000</Long>
+            <Lat unit="deg">-002.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+038.400000</Long>
+            <Lat unit="deg">-006.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+040.400000</Long>
+            <Lat unit="deg">-015.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+034.500000</Long>
+            <Lat unit="deg">-019.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+035.300000</Long>
+            <Lat unit="deg">-023.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+032.400000</Long>
+            <Lat unit="deg">-025.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+031.000000</Long>
+            <Lat unit="deg">-029.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+027.500000</Long>
+            <Lat unit="deg">-033.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+025.400000</Long>
+            <Lat unit="deg">-033.600000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZEUR____</Zone_Id>
+        <Zone_Description>Europe</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="050">
+          <Polygon_Pt>
+            <Long unit="deg">+067.000000</Long>
+            <Lat unit="deg">+025.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+066.300000</Long>
+            <Lat unit="deg">+026.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+049.500000</Long>
+            <Lat unit="deg">+031.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+047.200000</Long>
+            <Lat unit="deg">+029.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+052.000000</Long>
+            <Lat unit="deg">+023.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+054.200000</Long>
+            <Lat unit="deg">+023.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+055.500000</Long>
+            <Lat unit="deg">+025.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+059.500000</Long>
+            <Lat unit="deg">+022.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+045.000000</Long>
+            <Lat unit="deg">+013.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+035.000000</Long>
+            <Lat unit="deg">+029.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+034.000000</Long>
+            <Lat unit="deg">+028.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+032.200000</Long>
+            <Lat unit="deg">+031.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+034.300000</Long>
+            <Lat unit="deg">+030.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+037.000000</Long>
+            <Lat unit="deg">+037.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+027.800000</Long>
+            <Lat unit="deg">+037.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+026.700000</Long>
+            <Lat unit="deg">+040.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+034.900000</Long>
+            <Lat unit="deg">+041.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+039.700000</Long>
+            <Lat unit="deg">+040.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+041.700000</Long>
+            <Lat unit="deg">+041.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+041.000000</Long>
+            <Lat unit="deg">+043.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+037.800000</Long>
+            <Lat unit="deg">+044.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+038.900000</Long>
+            <Lat unit="deg">+047.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+030.800000</Long>
+            <Lat unit="deg">+046.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+026.300000</Long>
+            <Lat unit="deg">+041.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+022.600000</Long>
+            <Lat unit="deg">+040.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+023.400000</Long>
+            <Lat unit="deg">+038.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+022.100000</Long>
+            <Lat unit="deg">+037.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">+042.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+013.500000</Long>
+            <Lat unit="deg">+046.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+011.500000</Long>
+            <Lat unit="deg">+045.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+014.000000</Long>
+            <Lat unit="deg">+042.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+017.200000</Long>
+            <Lat unit="deg">+040.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+015.800000</Long>
+            <Lat unit="deg">+040.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+009.000000</Long>
+            <Lat unit="deg">+045.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+006.000000</Long>
+            <Lat unit="deg">+043.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+003.300000</Long>
+            <Lat unit="deg">+043.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+002.500000</Long>
+            <Lat unit="deg">+042.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">+041.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-001.500000</Long>
+            <Lat unit="deg">+037.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.600000</Long>
+            <Lat unit="deg">+036.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-006.600000</Long>
+            <Lat unit="deg">+037.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-008.400000</Long>
+            <Lat unit="deg">+037.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-008.200000</Long>
+            <Lat unit="deg">+043.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-001.300000</Long>
+            <Lat unit="deg">+043.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-001.000000</Long>
+            <Lat unit="deg">+046.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.600000</Long>
+            <Lat unit="deg">+048.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+001.800000</Long>
+            <Lat unit="deg">+050.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+005.300000</Long>
+            <Lat unit="deg">+053.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+009.100000</Long>
+            <Lat unit="deg">+053.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+060.000000</Long>
+            <Lat unit="deg">+045.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZSCN____</Zone_Id>
+        <Zone_Description>Scandinavia</Zone_Description>               
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="045">
+          <Polygon_Pt>
+            <Long unit="deg">+060.000000</Long>
+            <Lat unit="deg">+045.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+009.100000</Long>
+            <Lat unit="deg">+053.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+008.700000</Long>
+            <Lat unit="deg">+056.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.600000</Long>
+            <Lat unit="deg">+057.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+009.100000</Long>
+            <Lat unit="deg">+055.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+014.600000</Long>
+            <Lat unit="deg">+053.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+022.000000</Long>
+            <Lat unit="deg">+055.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+021.500000</Long>
+            <Lat unit="deg">+057.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+024.200000</Long>
+            <Lat unit="deg">+056.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+024.800000</Long>
+            <Lat unit="deg">+059.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+030.400000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+028.700000</Long>
+            <Lat unit="deg">+060.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+023.000000</Long>
+            <Lat unit="deg">+059.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+022.300000</Long>
+            <Lat unit="deg">+060.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+021.700000</Long>
+            <Lat unit="deg">+062.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+025.500000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+025.000000</Long>
+            <Lat unit="deg">+065.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+022.300000</Long>
+            <Lat unit="deg">+066.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">+064.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+017.300000</Long>
+            <Lat unit="deg">+063.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+017.200000</Long>
+            <Lat unit="deg">+060.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+018.200000</Long>
+            <Lat unit="deg">+059.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+015.600000</Long>
+            <Lat unit="deg">+056.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+013.800000</Long>
+            <Lat unit="deg">+055.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.800000</Long>
+            <Lat unit="deg">+059.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+008.000000</Long>
+            <Lat unit="deg">+058.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+005.900000</Long>
+            <Lat unit="deg">+058.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+005.100000</Long>
+            <Lat unit="deg">+061.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+005.100000</Long>
+            <Lat unit="deg">+062.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+011.000000</Long>
+            <Lat unit="deg">+064.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+019.300000</Long>
+            <Lat unit="deg">+069.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+024.400000</Long>
+            <Lat unit="deg">+070.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+029.100000</Long>
+            <Lat unit="deg">+070.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+033.300000</Long>
+            <Lat unit="deg">+069.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+036.000000</Long>
+            <Lat unit="deg">+068.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+040.800000</Long>
+            <Lat unit="deg">+067.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+038.500000</Long>
+            <Lat unit="deg">+066.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+033.000000</Long>
+            <Lat unit="deg">+067.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+035.000000</Long>
+            <Lat unit="deg">+064.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+037.500000</Long>
+            <Lat unit="deg">+063.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+041.000000</Long>
+            <Lat unit="deg">+064.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+040.000000</Long>
+            <Lat unit="deg">+065.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+042.500000</Long>
+            <Lat unit="deg">+066.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+045.000000</Long>
+            <Lat unit="deg">+066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+049.000000</Long>
+            <Lat unit="deg">+067.400000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZGBR____</Zone_Id>
+        <Zone_Description>United Kingdom</Zone_Description>             
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="050">
+          <Polygon_Pt>
+            <Long unit="deg">-005.400000</Long>
+            <Lat unit="deg">+050.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.100000</Long>
+            <Lat unit="deg">+051.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.000000</Long>
+            <Lat unit="deg">+051.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-002.300000</Long>
+            <Lat unit="deg">+051.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.300000</Long>
+            <Lat unit="deg">+051.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.300000</Long>
+            <Lat unit="deg">+051.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.900000</Long>
+            <Lat unit="deg">+051.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.000000</Long>
+            <Lat unit="deg">+052.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.000000</Long>
+            <Lat unit="deg">+052.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.000000</Long>
+            <Lat unit="deg">+052.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.300000</Long>
+            <Lat unit="deg">+053.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-002.600000</Long>
+            <Lat unit="deg">+053.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-002.900000</Long>
+            <Lat unit="deg">+053.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-002.800000</Long>
+            <Lat unit="deg">+054.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.200000</Long>
+            <Lat unit="deg">+054.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.600000</Long>
+            <Lat unit="deg">+054.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.000000</Long>
+            <Lat unit="deg">+055.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.000000</Long>
+            <Lat unit="deg">+054.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.500000</Long>
+            <Lat unit="deg">+054.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.000000</Long>
+            <Lat unit="deg">+055.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.600000</Long>
+            <Lat unit="deg">+055.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.100000</Long>
+            <Lat unit="deg">+055.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.600000</Long>
+            <Lat unit="deg">+055.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.800000</Long>
+            <Lat unit="deg">+057.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.000000</Long>
+            <Lat unit="deg">+058.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.100000</Long>
+            <Lat unit="deg">+058.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.100000</Long>
+            <Lat unit="deg">+058.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.300000</Long>
+            <Lat unit="deg">+057.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.300000</Long>
+            <Lat unit="deg">+057.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-002.000000</Long>
+            <Lat unit="deg">+057.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.000000</Long>
+            <Lat unit="deg">+056.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.900000</Long>
+            <Lat unit="deg">+056.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-002.700000</Long>
+            <Lat unit="deg">+056.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-002.000000</Long>
+            <Lat unit="deg">+055.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-001.300000</Long>
+            <Lat unit="deg">+054.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.300000</Long>
+            <Lat unit="deg">+053.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-000.200000</Long>
+            <Lat unit="deg">+052.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.400000</Long>
+            <Lat unit="deg">+052.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.700000</Long>
+            <Lat unit="deg">+052.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+001.400000</Long>
+            <Lat unit="deg">+052.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+001.600000</Long>
+            <Lat unit="deg">+052.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+001.500000</Long>
+            <Lat unit="deg">+052.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.400000</Long>
+            <Lat unit="deg">+051.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+001.400000</Long>
+            <Lat unit="deg">+051.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.600000</Long>
+            <Lat unit="deg">+050.900000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.000000</Long>
+            <Lat unit="deg">+050.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.500000</Long>
+            <Lat unit="deg">+050.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.700000</Long>
+            <Lat unit="deg">+050.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.700000</Long>
+            <Lat unit="deg">+050.400000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.200000</Long>
+            <Lat unit="deg">+050.100000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZIRE____</Zone_Id>
+        <Zone_Description>Ireland</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="029">
+          <Polygon_Pt>
+            <Long unit="deg">-006.400000</Long>
+            <Lat unit="deg">+054.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-006.200000</Long>
+            <Lat unit="deg">+053.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-006.100000</Long>
+            <Lat unit="deg">+053.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-006.500000</Long>
+            <Lat unit="deg">+052.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-007.500000</Long>
+            <Lat unit="deg">+052.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.200000</Long>
+            <Lat unit="deg">+051.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.700000</Long>
+            <Lat unit="deg">+052.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-008.800000</Long>
+            <Lat unit="deg">+053.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-008.800000</Long>
+            <Lat unit="deg">+053.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.600000</Long>
+            <Lat unit="deg">+053.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-010.000000</Long>
+            <Lat unit="deg">+053.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.500000</Long>
+            <Lat unit="deg">+053.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.800000</Long>
+            <Lat unit="deg">+054.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-009.600000</Long>
+            <Lat unit="deg">+054.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-008.500000</Long>
+            <Lat unit="deg">+054.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-008.000000</Long>
+            <Lat unit="deg">+054.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-008.000000</Long>
+            <Lat unit="deg">+054.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-008.500000</Long>
+            <Lat unit="deg">+054.700000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-008.200000</Long>
+            <Lat unit="deg">+055.100000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-007.200000</Long>
+            <Lat unit="deg">+055.300000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-007.300000</Long>
+            <Lat unit="deg">+055.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-007.000000</Long>
+            <Lat unit="deg">+055.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-006.500000</Long>
+            <Lat unit="deg">+055.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-006.200000</Long>
+            <Lat unit="deg">+055.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.800000</Long>
+            <Lat unit="deg">+054.800000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-006.000000</Long>
+            <Lat unit="deg">+054.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-006.000000</Long>
+            <Lat unit="deg">+054.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.600000</Long>
+            <Lat unit="deg">+054.600000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.500000</Long>
+            <Lat unit="deg">+054.400000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZAOA____</Zone_Id>
+        <Zone_Description>Atlantic Ocean</Zone_Description>          
+        <Surface>Sea</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="053">
+          <Polygon_Pt>
+            <Long unit="deg">-015.000000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-010.000000</Long>
+            <Lat unit="deg">+007.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+012.500000</Long>
+            <Lat unit="deg">+007.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+013.181800</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+015.000000</Long>
+            <Lat unit="deg">-020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">-035.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-010.000000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-025.000000</Long>
+            <Lat unit="deg">-075.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-062.500000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-075.000000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-042.500000</Long>
+            <Lat unit="deg">-020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-035.000000</Long>
+            <Lat unit="deg">-007.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-047.857100</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.000000</Long>
+            <Lat unit="deg">+010.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-075.000000</Long>
+            <Lat unit="deg">+007.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-102.500000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-095.000000</Long>
+            <Lat unit="deg">+032.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-082.500000</Long>
+            <Lat unit="deg">+032.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-062.500000</Long>
+            <Lat unit="deg">+057.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-075.000000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-080.000000</Long>
+            <Lat unit="deg">+050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-097.500000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-090.000000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.000000</Long>
+            <Lat unit="deg">+067.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-080.000000</Long>
+            <Lat unit="deg">+075.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-072.500000</Long>
+            <Lat unit="deg">+080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-055.000000</Long>
+            <Lat unit="deg">+075.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-045.000000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-040.000000</Long>
+            <Lat unit="deg">+067.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.000000</Long>
+            <Lat unit="deg">+080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+100.000000</Long>
+            <Lat unit="deg">+075.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+045.000000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+025.000000</Long>
+            <Lat unit="deg">+070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+007.500000</Long>
+            <Lat unit="deg">+062.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+015.000000</Long>
+            <Lat unit="deg">+057.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+015.000000</Long>
+            <Lat unit="deg">+062.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+025.000000</Long>
+            <Lat unit="deg">+067.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+030.000000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">+052.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.000000</Long>
+            <Lat unit="deg">+052.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">+047.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-002.500000</Long>
+            <Lat unit="deg">+042.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-007.500000</Long>
+            <Lat unit="deg">+042.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-007.500000</Long>
+            <Lat unit="deg">+037.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.000000</Long>
+            <Lat unit="deg">+037.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.000000</Long>
+            <Lat unit="deg">+047.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+037.500000</Long>
+            <Lat unit="deg">+037.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+037.500000</Long>
+            <Lat unit="deg">+030.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">+030.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+005.000000</Long>
+            <Lat unit="deg">+035.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-005.000000</Long>
+            <Lat unit="deg">+035.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-015.000000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZPON____</Zone_Id>
+        <Zone_Description>Pacific Ocean (North)</Zone_Description>    
+        <Surface>Sea</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="018">
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-172.500000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-160.000000</Long>
+            <Lat unit="deg">+070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-160.000000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-142.500000</Long>
+            <Lat unit="deg">+062.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-122.500000</Long>
+            <Lat unit="deg">+050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-117.500000</Long>
+            <Lat unit="deg">+035.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-102.500000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+105.000000</Long>
+            <Lat unit="deg">+025.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+120.000000</Long>
+            <Lat unit="deg">+027.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+117.500000</Long>
+            <Lat unit="deg">+040.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+140.000000</Long>
+            <Lat unit="deg">+047.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+135.000000</Long>
+            <Lat unit="deg">+055.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+140.000000</Long>
+            <Lat unit="deg">+060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+175.000000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZPOT____</Zone_Id>
+        <Zone_Description>Pacific Ocean Tropical</Zone_Description>      
+        <Surface>Sea</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="019">
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-102.500000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-075.000000</Long>
+            <Lat unit="deg">+007.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-078.000000</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-080.000000</Long>
+            <Lat unit="deg">-005.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-067.500000</Long>
+            <Lat unit="deg">-020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-075.000000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+132.500000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+132.500000</Long>
+            <Lat unit="deg">-030.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+147.500000</Long>
+            <Lat unit="deg">-037.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+152.500000</Long>
+            <Lat unit="deg">-027.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+145.000000</Long>
+            <Lat unit="deg">-020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+130.000000</Long>
+            <Lat unit="deg">-015.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+105.000000</Long>
+            <Lat unit="deg">-005.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+103.750000</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+100.000000</Long>
+            <Lat unit="deg">+015.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+107.500000</Long>
+            <Lat unit="deg">+012.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+105.000000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZPOS____</Zone_Id>
+        <Zone_Description>Pacific Ocean South</Zone_Description>         
+        <Surface>Sea</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="013">
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-075.000000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-062.500000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-080.000000</Long>
+            <Lat unit="deg">-072.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-120.000000</Long>
+            <Lat unit="deg">-072.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-160.000000</Long>
+            <Lat unit="deg">-073.380000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-179.000000</Long>
+            <Lat unit="deg">-073.380000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-073.380000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+160.000000</Long>
+            <Lat unit="deg">-073.380000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+170.000000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+132.500000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+132.500000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZIOT____</Zone_Id>
+        <Zone_Description>Indian Ocean Tropical</Zone_Description>       
+        <Surface>Sea</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="025">
+          <Polygon_Pt>
+            <Long unit="deg">+100.000000</Long>
+            <Lat unit="deg">+015.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+103.750000</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+105.000000</Long>
+            <Lat unit="deg">-005.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+130.000000</Long>
+            <Lat unit="deg">-015.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+120.000000</Long>
+            <Lat unit="deg">-020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+115.000000</Long>
+            <Lat unit="deg">-022.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+117.500000</Long>
+            <Lat unit="deg">-032.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+132.500000</Long>
+            <Lat unit="deg">-030.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+132.500000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">-035.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+030.000000</Long>
+            <Lat unit="deg">-030.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+035.000000</Long>
+            <Lat unit="deg">-020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+040.000000</Long>
+            <Lat unit="deg">-015.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+037.500000</Long>
+            <Lat unit="deg">-005.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+041.666700</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+050.000000</Long>
+            <Lat unit="deg">+010.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+040.000000</Long>
+            <Lat unit="deg">+010.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+055.000000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+045.000000</Long>
+            <Lat unit="deg">+030.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+050.000000</Long>
+            <Lat unit="deg">+030.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+072.500000</Long>
+            <Lat unit="deg">+022.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+077.500000</Long>
+            <Lat unit="deg">+015.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+090.000000</Long>
+            <Lat unit="deg">+025.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+100.000000</Long>
+            <Lat unit="deg">+015.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZIOS____</Zone_Id>
+        <Zone_Description>Indian Ocean South</Zone_Description>
+        <Surface>Sea</Surface>
+        <Projection>RECTANGULAR</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="006">
+          <Polygon_Pt>
+            <Long unit="deg">+132.500000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+132.500000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+055.000000</Long>
+            <Lat unit="deg">-067.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+020.000000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+132.500000</Long>
+            <Lat unit="deg">-050.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZARC____</Zone_Id>
+        <Zone_Description>Arctic</Zone_Description>
+        <Surface>Sea Ice </Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="014">
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+175.000000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+100.000000</Long>
+            <Lat unit="deg">+075.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.000000</Long>
+            <Lat unit="deg">+080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-030.000000</Long>
+            <Lat unit="deg">+070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.000000</Long>
+            <Lat unit="deg">+080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-040.000000</Long>
+            <Lat unit="deg">+082.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-072.500000</Long>
+            <Lat unit="deg">+080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-080.000000</Long>
+            <Lat unit="deg">+075.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-065.000000</Long>
+            <Lat unit="deg">+067.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-090.000000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-160.000000</Long>
+            <Lat unit="deg">+070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-172.500000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">+065.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZANT____</Zone_Id>
+        <Zone_Description>Antarctic</Zone_Description>
+        <Surface>Land Ice</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="027">
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-160.000000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-150.000000</Long>
+            <Lat unit="deg">-066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-115.000000</Long>
+            <Lat unit="deg">-066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-100.000000</Long>
+            <Lat unit="deg">-067.200000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-090.000000</Long>
+            <Lat unit="deg">-067.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-080.000000</Long>
+            <Lat unit="deg">-066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-070.000000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-060.000000</Long>
+            <Lat unit="deg">-063.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-050.000000</Long>
+            <Lat unit="deg">-060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-040.000000</Long>
+            <Lat unit="deg">-060.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-030.000000</Long>
+            <Lat unit="deg">-062.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-020.000000</Long>
+            <Lat unit="deg">-063.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-010.000000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">-066.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+010.000000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+050.000000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+060.000000</Long>
+            <Lat unit="deg">-064.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+070.000000</Long>
+            <Lat unit="deg">-062.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+080.000000</Long>
+            <Lat unit="deg">-061.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+105.000000</Long>
+            <Lat unit="deg">-061.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+118.000000</Long>
+            <Lat unit="deg">-062.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+130.000000</Long>
+            <Lat unit="deg">-063.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+145.000000</Long>
+            <Lat unit="deg">-063.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+155.000000</Long>
+            <Lat unit="deg">-061.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+167.000000</Long>
+            <Lat unit="deg">-063.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+180.000000</Long>
+            <Lat unit="deg">-065.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZACP____</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="004">
+          <Polygon_Pt>
+            <Long unit="deg">+145.015000</Long>
+            <Lat unit="deg">-025.075000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+150.365000</Long>
+            <Lat unit="deg">-026.125000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+147.250000</Long>
+            <Lat unit="deg">-073.390000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+142.350000</Long>
+            <Lat unit="deg">-034.930000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT01___</Zone_Id>
+        <Zone_Description>Blackforest</Zone_Description>                 
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="001">
+          <Polygon_Pt>
+            <Long unit="deg">+008.000000</Long>
+            <Lat unit="deg">+048.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0100000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT02___</Zone_Id>
+        <Zone_Description>Whitecourt</Zone_Description>                  
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="001">
+          <Polygon_Pt>
+            <Long unit="deg">-115.580000</Long>
+            <Lat unit="deg">+054.380000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0080000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT03___</Zone_Id>
+        <Zone_Description>Raco Mich</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="004">
+          <Polygon_Pt>
+            <Long unit="deg">-085.000000</Long>
+            <Lat unit="deg">+046.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-084.330000</Long>
+            <Lat unit="deg">+046.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-084.330000</Long>
+            <Lat unit="deg">+045.500000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-085.000000</Long>
+            <Lat unit="deg">+045.500000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT04___</Zone_Id>
+        <Zone_Description>Duke Forest</Zone_Description>                 
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="001">
+          <Polygon_Pt>
+            <Long unit="deg">-079.000000</Long>
+            <Lat unit="deg">+036.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT05___</Zone_Id>
+        <Zone_Description>Ottawa</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="004">
+          <Polygon_Pt>
+            <Long unit="deg">-076.000000</Long>
+            <Lat unit="deg">+046.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-074.000000</Long>
+            <Lat unit="deg">+046.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-074.000000</Long>
+            <Lat unit="deg">+045.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-076.000000</Long>
+            <Lat unit="deg">+045.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT06___</Zone_Id>
+        <Zone_Description>Calgary</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="004">
+          <Polygon_Pt>
+            <Long unit="deg">-116.000000</Long>
+            <Lat unit="deg">+052.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-114.000000</Long>
+            <Lat unit="deg">+052.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-114.000000</Long>
+            <Lat unit="deg">+051.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-116.000000</Long>
+            <Lat unit="deg">+051.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT07___</Zone_Id>
+        <Zone_Description>Vancouver</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="004">
+          <Polygon_Pt>
+            <Long unit="deg">-124.000000</Long>
+            <Lat unit="deg">+050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-122.000000</Long>
+            <Lat unit="deg">+050.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-122.000000</Long>
+            <Lat unit="deg">+049.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-122.000000</Long>
+            <Lat unit="deg">+049.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT08___</Zone_Id>
+        <Zone_Description>Victoire</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="004">
+          <Polygon_Pt>
+            <Long unit="deg">+005.000000</Long>
+            <Lat unit="deg">+043.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+005.000000</Long>
+            <Lat unit="deg">+044.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+006.000000</Long>
+            <Lat unit="deg">+044.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+006.000000</Long>
+            <Lat unit="deg">+044.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT09___</Zone_Id>
+        <Zone_Description>Wales</Zone_Description>
+        <Surface>Land</Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="004">
+          <Polygon_Pt>
+            <Long unit="deg">-004.000000</Long>
+            <Lat unit="deg">+052.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.000000</Long>
+            <Lat unit="deg">+052.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-003.000000</Long>
+            <Lat unit="deg">+051.250000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-004.000000</Long>
+            <Lat unit="deg">+051.250000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZRT10___</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="001">
+          <Polygon_Pt>
+            <Long unit="deg">-001.000000</Long>
+            <Lat unit="deg">+044.550000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0060000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZAR1____</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="005">
+          <Polygon_Pt>
+            <Long unit="deg">-070.000000</Long>
+            <Lat unit="deg">-080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-070.000000</Long>
+            <Lat unit="deg">-075.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-050.000000</Long>
+            <Lat unit="deg">-075.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-050.000000</Long>
+            <Lat unit="deg">-080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-070.000000</Long>
+            <Lat unit="deg">-080.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZAR2____</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="005">
+          <Polygon_Pt>
+            <Long unit="deg">-010.000000</Long>
+            <Lat unit="deg">-080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-010.000000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">-070.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">-080.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">-010.000000</Long>
+            <Lat unit="deg">-080.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>ZMIK____</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="003">
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">+000.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>SEGMENT_</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="002">
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">+030.000000</Lat>
+          </Polygon_Pt>
+          <Polygon_Pt>
+            <Long unit="deg">+150.000000</Long>
+            <Lat unit="deg">+020.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>POINT_DI</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="001">
+          <Polygon_Pt>
+            <Long unit="deg">+000.000000</Long>
+            <Lat unit="deg">+030.000000</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0100000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>POINT___</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="001">
+          <Polygon_Pt>
+            <Long unit="deg">+002.278785</Long>
+            <Lat unit="deg">-067.992416</Lat>
+          </Polygon_Pt>
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+
+      <Zone>
+        <Zone_Id>Z_WORLD_</Zone_Id>
+        <Zone_Description></Zone_Description>
+        <Surface></Surface>
+        <Projection>ANY</Projection>
+        <Creator>TEST DATA</Creator>
+        <List_of_Polygon_Pts count="000">
+        </List_of_Polygon_Pts>
+        <Diameter unit="m">+0000000.000</Diameter>
+      </Zone>
+    </List_of_Zones>
+  </Data_Block>
+</Earth_Explorer_File>

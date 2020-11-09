@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by name (company) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://eop-cfi.esa.int/CFI" elementFormDefault="qualified" attributeFormDefault="unqualified" version="3.3">
+	<xsd:include schemaLocation="HeaderTypes_0203.XSD"/>
+	<xsd:include schemaLocation="OrbitTypes_0203.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Swath Template Header Types</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="SWTREF_Variable_Header_Type">
+		<xsd:sequence>
+			<xsd:element name="Reference_OSF" type="String_Type"/>
+			<xsd:element name="Reference_SDF" type="String_Type"/>
+			<xsd:element name="Absolute_Orbit" type="Decimal_Type"/>
+			<xsd:element name="Start_Validity_Orbit" type="Decimal_Type"/>
+			<xsd:element name="Stop_Validity_Orbit" type="Decimal_Type"/>
+			<xsd:element name="Swath_Type" type="Swath_Type_Type"/>
+			<xsd:element name="Swath_Point_Type" type="Swath_Point_Type"/>
+			<xsd:choice>
+				<xsd:element name="Orbit_Geometry" type="Orbit_Geometry_Type"/>
+				<xsd:element name="Orbit_State_Vector" type="Orbit_SV_Type"/>
+			</xsd:choice>
+			<xsd:element name="Time_Step" type="Time_Step_Type"/>
+			<xsd:element name="List_of_STF_Altitudes" type="List_of_STF_Altitudes"/>
+			<xsd:element name="Refraction" type="Refraction_Type"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:simpleType name="Swath_Point_Type">
+		<xsd:restriction base="String_Type">
+			<xsd:enumeration value="inertial"/>
+			<xsd:enumeration value="geodetic"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="Swath_Type_Type">
+		<xsd:restriction base="String_Type">
+			<xsd:enumeration value="open"/>
+			<xsd:enumeration value="closed"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="Time_Step_Type">
+		<xsd:simpleContent>
+			<xsd:extension base="Decimal_Type">
+				<xsd:attribute name="unit" type="String_Type" use="required" fixed="s"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="Orbit_SV_Type">
+		<xsd:sequence>
+			<xsd:element name="Absolute_Orbit" type="NonNegativeInteger_Type"/>
+			<xsd:element name="Pos_X" type="Position_Component_Type"/>
+			<xsd:element name="Pos_Y" type="Position_Component_Type"/>
+			<xsd:element name="Pos_Z" type="Position_Component_Type"/>
+			<xsd:element name="Vel_X" type="Velocity_Component_Type"/>
+			<xsd:element name="Vel_Y" type="Velocity_Component_Type"/>
+			<xsd:element name="Vel_Z" type="Velocity_Component_Type"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Orbit_Geometry_Type">
+		<xsd:sequence>
+			<xsd:element name="Repeat_Cycle" type="Repeat_Cycle_Type"/>
+			<xsd:element name="Cycle_Length" type="Cycle_Length_Type"/>
+			<xsd:element name="MLST_Drift" type="MLST_Drift_Type"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="Orbit_Parameters_Type">
+		<xsd:choice/>
+	</xsd:complexType>
+	<xsd:complexType name="Line_Altitude_Type">
+		<xsd:sequence>
+			<xsd:element name="Left_Altitude" type="Height_Type"/>
+			<xsd:element name="Mid_Altitude" type="Height_Type"/>
+			<xsd:element name="Right_Altitude" type="Height_Type"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="STF_Altitude">
+		<xsd:simpleContent>
+			<xsd:extension base="Decimal_Type">
+				<xsd:attribute name="unit" type="String_Type" fixed="m"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="List_of_STF_Altitudes">
+		<xsd:sequence maxOccurs="unbounded">
+			<xsd:element name="STF_Altitude" type="STF_Altitude"/>
+		</xsd:sequence>
+		<xsd:attribute name="count" type="xsd:positiveInteger" use="required"/>
+	</xsd:complexType>
+	<xsd:complexType name="SWTREF_Header_Type">
+		<xsd:sequence>
+			<xsd:element name="Fixed_Header" type="Fixed_Header_Type"/>
+			<xsd:element name="Variable_Header" type="SWTREF_Variable_Header_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:element name="Earth_Explorer_Header" type="SWTREF_Header_Type"/>
+</xsd:schema>

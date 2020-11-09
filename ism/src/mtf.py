@@ -137,7 +137,7 @@ class mtf:
         Hdiff[fr2D * fr2D > 1] = 0
         return Hdiff
 
-    def mtfDefocus(self, fr2D, defocus, focal, D):
+    def mtfDefocus(self, fr2D, defocus, focal, D):  # foal and D were omitted as the freq is dimensional
         """
         Defocus MTF
         :param fr2D: 2D relative frequencies (f/fc), where fc is the optics cut-off frequency
@@ -147,8 +147,7 @@ class mtf:
         :return: Defocus MTF
         """
         # TODO
-        x = pi * (defocus / (focal / D)) * fr2D * (1 - fr2D)
-        scipy.special.j1(x)
+        x = pi * defocus * fr2D * (1 - fr2D)
         Hdefoc = 2 * j1(x) / x
 
         return Hdefoc
@@ -169,6 +168,7 @@ class mtf:
         a = -fr2D + fr2D**2
         b = kLF*((wLF/lambd)**2) + kHF*((wHF/lambd)**2)
         # Vectorisation
+
         def expf(x):
             return math.exp(x)
 

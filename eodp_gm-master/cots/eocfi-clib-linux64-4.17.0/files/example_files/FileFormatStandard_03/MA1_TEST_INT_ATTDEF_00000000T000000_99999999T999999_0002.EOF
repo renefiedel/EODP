@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Earth_Observation_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_INT_ATTDEF_0302.XSD" schemaVersion="3.2" xmlns="http://eop-cfi.esa.int/CFI">
+  <Earth_Observation_Header>
+    <Fixed_Header>
+      <File_Name>MA1_TEST_INT_ATTDEF_00000000T000000_99999999T999999_0002</File_Name>
+      <File_Description>Attitude Definition File</File_Description>
+      <Notes>
+               WARNING: this is an example of file compliant with formats defined and supported
+                        within the Earth Observation Mission CFI Software.
+                        This file does not reflect the actual satellite orbit
+                        attitude or instrument configuration.
+                        This file shall not be used in production environments.
+      </Notes>
+      <Mission>MetOpSGA1</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>INT_ATTDEF</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=0000-00-00T00:00:00</Validity_Start>
+        <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0002</File_Version>
+      <EOFFS_Version>3.0</EOFFS_Version>
+      <Source>
+        <System>System Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</System>
+        <Creator>Creator Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator>
+        <Creator_Version>Creator Version Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator_Version>
+        <Creation_Date>UTC=2015-01-01T00:00:00</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header/>
+  </Earth_Observation_Header>
+  <Data_Block type="xml">
+    <Attitude_Definition>
+      <Sat_Nominal_Att>
+        <AOCS_Model>YAW_STEERING_MODE</AOCS_Model>
+      </Sat_Nominal_Att>
+      <Sat_Att>
+        <None/>
+      </Sat_Att>
+      <Instr_Att>
+        <None/>
+      </Instr_Att>
+    </Attitude_Definition>
+  </Data_Block>
+</Earth_Observation_File>

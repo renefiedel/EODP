@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by paat (dms) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="3.0">
+	<xsd:include schemaLocation="BasicTypes_0300.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>FOV Configuration Data Types</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="FOV_Data_Block_Type" mixed="false">
+		<xsd:sequence>
+			<xsd:element name="FOV_Constraints">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="List_of_Masks">
+							<xsd:complexType>
+								<xsd:sequence maxOccurs="unbounded">
+									<xsd:element name="Mask">
+										<xsd:complexType>
+											<xsd:sequence>
+												<xsd:element name="Status">
+													<xsd:simpleType>
+														<xsd:restriction base="xsd:string">
+															<xsd:enumeration value="DISABLED"/>
+															<xsd:enumeration value="ENABLED"/>
+														</xsd:restriction>
+													</xsd:simpleType>
+												</xsd:element>
+												<xsd:element name="List_of_Mask_Points">
+													<xsd:complexType>
+														<xsd:sequence maxOccurs="unbounded">
+															<xsd:element name="Mask_Point">
+																<xsd:complexType>
+																	<xsd:sequence>
+																		<xsd:element name="Azimuth" type="Angle_Type"/>
+																		<xsd:element name="Elevation" type="Angle_Type"/>
+																	</xsd:sequence>
+																</xsd:complexType>
+															</xsd:element>
+														</xsd:sequence>
+														<xsd:attribute name="count" type="xsd:nonNegativeInteger" use="required"/>
+													</xsd:complexType>
+												</xsd:element>
+											</xsd:sequence>
+											<xsd:attribute name="type" type="Mask_Type" use="required"/>
+										</xsd:complexType>
+									</xsd:element>
+								</xsd:sequence>
+								<xsd:attribute name="count" type="xsd:nonNegativeInteger" use="required"/>
+							</xsd:complexType>
+						</xsd:element>
+						<xsd:element name="Miscellaneous_Parameters">
+							<xsd:complexType>
+								<xsd:sequence>
+									<xsd:element name="Min_Tg_Height">
+										<xsd:complexType>
+											<xsd:simpleContent>
+												<xsd:extension base="xsd:double">
+													<xsd:attribute name="unit" type="xsd:string" use="required" fixed="m"/>
+												</xsd:extension>
+											</xsd:simpleContent>
+										</xsd:complexType>
+									</xsd:element>
+								</xsd:sequence>
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+					<xsd:attribute name="type" type="xsd:string" use="required"/>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="type" type="String_Type" use="required" fixed="xml"/>
+		<xsd:attribute name="schemaVersion" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:element name="Data_Block" type="FOV_Data_Block_Type"/>
+	<xsd:simpleType name="Mask_Type">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="inclusive"/>
+			<xsd:enumeration value="exclusive"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="FOV_Constraints_Type">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Link_to_Spacecraft"/>
+			<xsd:enumeration value="Link_to_Celestial_Body"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

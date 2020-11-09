@@ -1,0 +1,5 @@
+if(BUILD_TESTS)
+  enable_testing()
+  unset(CMAKE_RUNTIME_OUTPUT_DIRECTORY)
+  add_subdirectory(ut02)    
+endif()

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Earth_Explorer_File>
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+      <File_Name>CS_TEST_MPL_ORBREF_20040701T092917_99999999T999999_0001</File_Name>
+      <File_Description>Reference Orbit Scenario File</File_Description>
+      <Notes/>
+      <Mission>CryoSat</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>MPL_ORBREF</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=2001-03-12T14:00:35</Validity_Start>
+        <Validity_Stop>UTC=9999-99-99T99:99:99</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0001</File_Version>
+      <Source>
+        <System>CFI Example</System>
+        <Creator>EXPLORER_GEN_FILES: xg_gen_osf_create</Creator>
+        <Creator_Version>2.0</Creator_Version>
+        <Creation_Date>UTC=2002-11-30T15:14:46</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header/>
+  </Earth_Explorer_Header>
+   <Data_Block type="xml">
+      <List_of_Orbit_Changes count="2">
+         <Orbit_Change>
+            <Orbit>
+               <Absolute_Orbit>1</Absolute_Orbit>
+               <Relative_Orbit>1</Relative_Orbit>
+               <Cycle_Number>1</Cycle_Number>
+               <Phase_Number>1</Phase_Number>
+            </Orbit>
+            <Cycle>
+               <Repeat_Cycle unit="day">2</Repeat_Cycle>
+               <Cycle_Length unit="orbit">29</Cycle_Length>
+               <ANX_Longitude unit="deg">23.6</ANX_Longitude>
+               <MLST>22:17:19.999999</MLST>
+               <MLST_Drift unit="s/day">009.000000</MLST_Drift>
+            </Cycle>
+            <Time_of_ANX>
+               <TAI_of_ANX>TAI=2001-03-12T14:00:34.999999</TAI_of_ANX>
+               <UTC_of_ANX>UTC=2001-03-12T14:00:02.999999</UTC_of_ANX>
+               <UT1_of_ANX>UT1=2001-03-12T14:00:02.777777</UT1_of_ANX>
+            </Time_of_ANX>
+         </Orbit_Change>
+         <Orbit_Change>
+            <Orbit>
+               <Absolute_Orbit>2</Absolute_Orbit>
+               <Relative_Orbit>2</Relative_Orbit>
+               <Cycle_Number>1</Cycle_Number>
+               <Phase_Number>1</Phase_Number>
+            </Orbit>
+            <Cycle>
+               <Repeat_Cycle unit="day">2</Repeat_Cycle>
+               <Cycle_Length unit="orbit">29</Cycle_Length>
+               <ANX_Longitude unit="deg">21.6</ANX_Longitude>
+               <MLST>23:17:17.999999</MLST>
+               <MLST_Drift unit="s/day">010.000000</MLST_Drift>
+            </Cycle>
+            <Time_of_ANX>
+               <TAI_of_ANX>TAI=2001-03-12T15:00:34.999999</TAI_of_ANX>
+               <UTC_of_ANX>UTC=2001-03-12T15:00:02.999999</UTC_of_ANX>
+               <UT1_of_ANX>UT1=2001-03-12T15:00:02.777777</UT1_of_ANX>
+            </Time_of_ANX>
+         </Orbit_Change>
+      </List_of_Orbit_Changes>
+   </Data_Block>
+</Earth_Explorer_File>

@@ -1,0 +1,155 @@
+
+*** Loading the file ../data/mpl_orb_sc.xml ***
+
+
+File ../data/mpl_orb_sc.xml loaded OK
+
+*** Reading element as string ***
+
+Element: TAI_of_ANX *** Value: TAI=2001-03-12T14:00:34.999999
+
+*** Reading all the TAI_of_ANX elements as strings ***
+
+Element: TAI_of_ANX
+ Value [ 0 ]: TAI=2001-03-12T14:00:34.999999
+ Value [ 1 ]: TAI=2001-03-12T15:00:34.999999
+
+*** Reading element as integer ***
+
+Element: Cycle_Length *** Value: 29
+
+*** Reading all the Cycle_Length elements as integers ***
+
+Element: Cycle_Length
+ Value [ 0 ]: 29
+ Value [ 1 ]: 30
+
+*** Reading element as double ***
+
+Element: ANX_Longitude *** Value: 23.600000
+
+*** Reading all the ANX_Longitude elements as doubles ***
+
+Element: ANX_Longitude
+ Value [ 0 ]: 23.600000
+ Value [ 1 ]: 21.600000
+
+*** Reading an element as string given a path ***
+
+Element: /Earth_Explorer_File/Data_Block/List_of_Orbit_Changes/Orbit_Change[1]/Time_of_ANX/UTC_of_ANX *** Value: UTC=2001-03-12T14:00:02.999999
+
+*** Reading an element as integer given a path ***
+
+Element: ../../../Orbit_Change[2]/Orbit/Absolute_Orbit *** Value: 2
+
+*** Reading a double element given a path ***
+
+Element: ../../../Orbit_Change[2]/Cycle/ANX_Longitude *** Value: 21.6
+
+*** Reading the attribute of an element given a path ***
+
+Attribute: ../Repeat_Cycle/@unit *** Value: day
+
+*** Reading an array of strings given a path ***
+
+Path: /Earth_Explorer_File/Data_Block/List_of_Orbit_Changes/Orbit_Change[*]/Time_of_ANX/UTC_of_ANX
+ Value [ 0 ]: UTC=2001-03-12T14:00:02.999999
+ Value [ 1 ]: UTC=2001-03-12T15:00:02.999999
+
+*** Reading an array of integers given a path ***
+
+Path: /Earth_Explorer_File/Data_Block/List_of_Orbit_Changes/Orbit_Change[*]/Orbit/Absolute_Orbit
+ Value [ 0 ]: 1
+ Value [ 1 ]: 2
+
+*** Reading an array of doubles given a path ***
+
+Path: /Earth_Explorer_File/Data_Block/List_of_Orbit_Changes/Orbit_Change[*]/Cycle/MLST_Drift
+ Value [ 0 ]: 9.000000
+ Value [ 1 ]: 10.000000
+
+*** Rewinding ***
+
+
+*** Moving to the element List_of_Orbit_Changes ***
+
+
+*** Reading the integer attribute count from the current element List_of_Orbit_Changes ***
+
+Attribute: count *** Value: 2
+
+*** Moving to the element Repeat_Cycle ***
+
+
+*** Reading the string attribute unit from the current element Repeat_Cycle ***
+
+Attribute: unit *** Value: day
+
+*** Moving to the node /Earth_Explorer_File/Data_Block/List_of_Orbit_Changes/Orbit_Change[1]/Cycle/MLST_Drift ***
+
+
+*** Getting the current node path ***
+
+Path: /Earth_Explorer_File/Data_Block/List_of_Orbit_Changes/Orbit_Change[1]/Cycle/MLST_Drift
+
+*** Search Functions ***
+
+	*** Search using the element name:
+	Search element Absolute_Orbit with value = 2
+
+	Found path = /Earth_Explorer_File/Data_Block/List_of_Orbit_Changes/Orbit_Change[2]/Orbit/Absolute_Orbit
+
+	*** Search using an XPath expression:
+	Search path /Earth_Explorer_File/Data_Block/List_of_Orbit_Changes/Orbit_Change[*]/Orbit/Absolute_Orbit with value = 1
+
+	Found path = /Earth_Explorer_File/Data_Block/List_of_Orbit_Changes/Orbit_Change[1]/Orbit/Absolute_Orbit
+
+*** Loading the file ../data/mpl_orb_sc.second.xml ***
+
+
+File ../data/mpl_orb_sc.second.xml loaded OK
+
+*** Freeing the file ../data/mpl_orb_sc.second.xml ***
+
+
+*** Creating the XML file mpl_orb_sc.written.xml ***
+
+
+	... Creating Header ...
+
+
+	... Setting fixed-header element value ...
+
+
+	... Writing filename ...
+
+
+ ... filename ---> CS_CCCC_TTTTTTTTTT_yyyymmddThhmmss_YYYYMMDDTHHMMSS_vvvv
+
+ ... Reading an item in the Fixed header ...
+
+
+ ... value is: ---> This is a example of adding value to a Header element
+
+ ... Reading the complete Fixed header ...
+
+
+ ... File_Name: ---> CS_CCCC_TTTTTTTTTT_yyyymmddThhmmss_YYYYMMDDTHHMMSS_vvvv
+
+ ... Notes    : ---> This is a example of adding value to a Header element
+
+	... Reading filename ...
+
+
+ ... satellite_id ---> 41
+
+ ... file_class   ---> CCCC
+
+ ... file_type    ---> TTTTTTTTTT
+
+ ... instance_id  ---> yyyymmddThhmmss_YYYYMMDDTHHMMSS_vvvv
+
+File written
+
+
+EOCFI_FILE_HANDLING EXAMPLE COMPLETED SUCCESSFULLY

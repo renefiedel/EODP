@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by name (company) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.5">
+	<xsd:include schemaLocation="EO_OPER_MPL_ORBPRE.HeaderTypes_0104.XSD"/>
+	<xsd:include schemaLocation="EO_OPER_MPL_ORBPRE.DataBlockTypes_0103.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Predicted Orbit File</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Predicted_Orbit_File_Type">
+		<xsd:sequence>
+			<xsd:element name="Earth_Explorer_Header" type="Predicted_Orbit_Header_Type"/>
+			<xsd:element name="Data_Block" type="Predicted_Orbit_Data_Block_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="xsd:decimal" use="required"/>
+	</xsd:complexType>
+	<xsd:element name="Earth_Explorer_File" type="Predicted_Orbit_File_Type"/>
+</xsd:schema>

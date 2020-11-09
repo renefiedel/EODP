@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by name (company) -->
+<xsd:schema targetNamespace="http://eop-cfi.esa.int/CFI" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://eop-cfi.esa.int/CFI" elementFormDefault="qualified" attributeFormDefault="unqualified" version="3.0">
+	<xsd:include schemaLocation="HeaderTypes_0300.XSD"/>
+	<xsd:annotation>
+		<xsd:documentation>Satellite Configuration Header Types</xsd:documentation>
+	</xsd:annotation>
+	<xsd:complexType name="Satellite_Configuration_Header_Type">
+		<xsd:sequence>
+			<xsd:element name="Fixed_Header" type="Fixed_Header_Type"/>
+			<xsd:element name="Variable_Header" type="AnyType_Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="schemaVersion" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:element name="Earth_Observation_Header" type="Satellite_Configuration_Header_Type"/>
+</xsd:schema>

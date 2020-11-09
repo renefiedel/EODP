@@ -1,10 +1,10 @@
-from scipy.constants import c, Planck
-
+from scipy.constants import c
 from ism.src.initIsm import initIsm
 import numpy as np
 from common.io.writeToa import writeToa
 from common.plot.plotMat2D import plotMat2D
 from common.plot.plotF import plotF
+
 
 class detectionPhase(initIsm):
 
@@ -13,7 +13,6 @@ class detectionPhase(initIsm):
 
         # Initialise the random see for the PRNU and DSNU
         np.random.seed(self.ismConfig.seed)
-
 
     def compute(self, toa, band):
 
@@ -76,8 +75,6 @@ class detectionPhase(initIsm):
                                self.ismConfig.bad_pix_red,
                                self.ismConfig.dead_pix_red)
 
-
-
         # Write output TOA
         # -------------------------------------------------------------------------------
         if self.ismConfig.save_detection_stage:
@@ -96,7 +93,6 @@ class detectionPhase(initIsm):
 
         return toa
 
-
     def irrad2Phot(self, toa, area_pix, tint, wv):
         """
         Conversion of the input Irradiances to Photons
@@ -108,7 +104,7 @@ class detectionPhase(initIsm):
         """
         # TODO
         Ein = (toa/1000) * area_pix * tint  # Incoming watts conversion from mW to W
-        Ephoton = (Planck*c) / wv
+        Ephoton = (self.constants.h_planck * c) / wv  # avoid scipy planck constant to have the test = 0.0
         toa_ph = Ein/Ephoton  # units in photons
 
         return toa_ph
@@ -125,7 +121,7 @@ class detectionPhase(initIsm):
 
         return toae
 
-    def badDeadPixels(self, toa,bad_pix,dead_pix,bad_pix_red,dead_pix_red):
+    def badDeadPixels(self, toa, bad_pix, dead_pix, bad_pix_red, dead_pix_red):
         """
         Bad and dead pixels simulation
         :param toa: input toa in [e-]
@@ -149,7 +145,6 @@ class detectionPhase(initIsm):
             step_bad = int(act / pixelbad)
             badpix = np.arange(5, act, step_bad)
             toa[:, badpix] = toa[:, badpix] * (1 - bad_pix_red)
-
 
         if pixeldead != 0:
             step_dead = int(act / pixeldead)
@@ -177,7 +172,6 @@ class detectionPhase(initIsm):
 
         return toa
 
-
     def darkSignal(self, toa, kdsnu, T, Tref, ds_A_coeff, ds_B_coeff):
         """
         Dark signal simulation
@@ -193,7 +187,7 @@ class detectionPhase(initIsm):
         # TODO
 
         DSNU = np.abs(np.random.normal(0, 1, toa.shape[1])) * kdsnu
-        Sd = ds_A_coeff(T/Tref) ** 3 * np.exp(-ds_B_coeff*(1/T - 1/Tref))
+        Sd = ds_A_coeff*((T/Tref)**3) * np.exp(-ds_B_coeff*(1/T - 1/Tref))
         DS = Sd * (1 + DSNU)
 
         # Apply DSNU to the input TOA

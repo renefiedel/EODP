@@ -1,0 +1,6034 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Earth_Explorer_File>
+  
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+    </Fixed_Header>
+    <Variable_Header>
+      <Swath_Def_File></Swath_Def_File>
+      <Swath_Type>point</Swath_Type>
+      <Orbit_Geometry>
+        <Repeat_Cycle unit="day">35</Repeat_Cycle>
+        <Cycle_Length unit="orbit">501</Cycle_Length>
+        <MLST_Drift unit="s/day">+000.000000</MLST_Drift>
+      </Orbit_Geometry>
+      <Time_Step unit="s">5.0299400</Time_Step>
+      <Point_Altitude unit="m">+000000.000</Point_Altitude>
+      <Refraction>
+        <Model>NO_REF</Model>
+        <Freq unit="MHz">0000013575</Freq>
+      </Refraction>
+    </Variable_Header>
+  </Earth_Explorer_Header>
+
+  <Data_Block type="xml">
+  
+    <List_of_Point_Swaths count="1201">
+      <Point_Swath>
+        <Long unit="deg">-000.000000</Long>
+        <Lat unit="deg">-000.000000</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.065595</Long>
+        <Lat unit="deg">+000.298507</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.131193</Long>
+        <Lat unit="deg">+000.597017</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.196797</Long>
+        <Lat unit="deg">+000.895530</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.262408</Long>
+        <Lat unit="deg">+001.194045</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.328030</Long>
+        <Lat unit="deg">+001.492563</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.393664</Long>
+        <Lat unit="deg">+001.791082</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.459312</Long>
+        <Lat unit="deg">+002.089603</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.524979</Long>
+        <Lat unit="deg">+002.388125</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.590664</Long>
+        <Lat unit="deg">+002.686647</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.656373</Long>
+        <Lat unit="deg">+002.985170</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.722105</Long>
+        <Lat unit="deg">+003.283692</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.787865</Long>
+        <Lat unit="deg">+003.582214</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.853654</Long>
+        <Lat unit="deg">+003.880735</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.919475</Long>
+        <Lat unit="deg">+004.179255</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.985330</Long>
+        <Lat unit="deg">+004.477772</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.051222</Long>
+        <Lat unit="deg">+004.776288</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.117153</Long>
+        <Lat unit="deg">+005.074802</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.183126</Long>
+        <Lat unit="deg">+005.373312</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.249143</Long>
+        <Lat unit="deg">+005.671819</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.315206</Long>
+        <Lat unit="deg">+005.970323</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.381319</Long>
+        <Lat unit="deg">+006.268822</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.447483</Long>
+        <Lat unit="deg">+006.567318</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.513702</Long>
+        <Lat unit="deg">+006.865808</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.579977</Long>
+        <Lat unit="deg">+007.164293</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.646311</Long>
+        <Lat unit="deg">+007.462773</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.712708</Long>
+        <Lat unit="deg">+007.761247</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.779168</Long>
+        <Lat unit="deg">+008.059714</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.845696</Long>
+        <Lat unit="deg">+008.358174</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.912292</Long>
+        <Lat unit="deg">+008.656628</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.978961</Long>
+        <Lat unit="deg">+008.955074</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.045705</Long>
+        <Lat unit="deg">+009.253512</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.112526</Long>
+        <Lat unit="deg">+009.551941</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.179428</Long>
+        <Lat unit="deg">+009.850362</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.246412</Long>
+        <Lat unit="deg">+010.148774</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.313481</Long>
+        <Lat unit="deg">+010.447176</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.380639</Long>
+        <Lat unit="deg">+010.745569</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.447887</Long>
+        <Lat unit="deg">+011.043951</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.515229</Long>
+        <Lat unit="deg">+011.342323</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.582667</Long>
+        <Lat unit="deg">+011.640683</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.650205</Long>
+        <Lat unit="deg">+011.939032</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.717845</Long>
+        <Lat unit="deg">+012.237369</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.785589</Long>
+        <Lat unit="deg">+012.535694</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.853441</Long>
+        <Lat unit="deg">+012.834006</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.921404</Long>
+        <Lat unit="deg">+013.132305</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.989481</Long>
+        <Lat unit="deg">+013.430590</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.057674</Long>
+        <Lat unit="deg">+013.728861</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.125986</Long>
+        <Lat unit="deg">+014.027119</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.194421</Long>
+        <Lat unit="deg">+014.325361</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.262981</Long>
+        <Lat unit="deg">+014.623589</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.331670</Long>
+        <Lat unit="deg">+014.921800</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.400491</Long>
+        <Lat unit="deg">+015.219996</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.469446</Long>
+        <Lat unit="deg">+015.518176</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.538539</Long>
+        <Lat unit="deg">+015.816338</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.607773</Long>
+        <Lat unit="deg">+016.114484</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.677152</Long>
+        <Lat unit="deg">+016.412612</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.746678</Long>
+        <Lat unit="deg">+016.710722</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.816354</Long>
+        <Lat unit="deg">+017.008813</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.886185</Long>
+        <Lat unit="deg">+017.306886</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.956174</Long>
+        <Lat unit="deg">+017.604939</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.026323</Long>
+        <Lat unit="deg">+017.902972</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.096637</Long>
+        <Lat unit="deg">+018.200986</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.167118</Long>
+        <Lat unit="deg">+018.498978</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.237771</Long>
+        <Lat unit="deg">+018.796950</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.308598</Long>
+        <Lat unit="deg">+019.094900</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.379604</Long>
+        <Lat unit="deg">+019.392829</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.450792</Long>
+        <Lat unit="deg">+019.690735</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.522166</Long>
+        <Lat unit="deg">+019.988618</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.593730</Long>
+        <Lat unit="deg">+020.286478</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.665486</Long>
+        <Lat unit="deg">+020.584315</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.737440</Long>
+        <Lat unit="deg">+020.882127</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.809595</Long>
+        <Lat unit="deg">+021.179915</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.881955</Long>
+        <Lat unit="deg">+021.477678</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.954524</Long>
+        <Lat unit="deg">+021.775415</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.027306</Long>
+        <Lat unit="deg">+022.073127</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.100305</Long>
+        <Lat unit="deg">+022.370812</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.173525</Long>
+        <Lat unit="deg">+022.668471</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.246971</Long>
+        <Lat unit="deg">+022.966102</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.320646</Long>
+        <Lat unit="deg">+023.263705</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.394556</Long>
+        <Lat unit="deg">+023.561280</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.468704</Long>
+        <Lat unit="deg">+023.858826</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.543095</Long>
+        <Lat unit="deg">+024.156344</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.617734</Long>
+        <Lat unit="deg">+024.453831</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.692624</Long>
+        <Lat unit="deg">+024.751289</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.767771</Long>
+        <Lat unit="deg">+025.048715</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.843180</Long>
+        <Lat unit="deg">+025.346111</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.918855</Long>
+        <Lat unit="deg">+025.643475</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.994802</Long>
+        <Lat unit="deg">+025.940807</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.071024</Long>
+        <Lat unit="deg">+026.238106</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.147528</Long>
+        <Lat unit="deg">+026.535372</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.224317</Long>
+        <Lat unit="deg">+026.832605</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.301399</Long>
+        <Lat unit="deg">+027.129803</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.378777</Long>
+        <Lat unit="deg">+027.426967</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.456457</Long>
+        <Lat unit="deg">+027.724095</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.534445</Long>
+        <Lat unit="deg">+028.021188</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.612746</Long>
+        <Lat unit="deg">+028.318244</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.691366</Long>
+        <Lat unit="deg">+028.615264</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.770311</Long>
+        <Lat unit="deg">+028.912246</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.849586</Long>
+        <Lat unit="deg">+029.209190</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.929197</Long>
+        <Lat unit="deg">+029.506096</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.009150</Long>
+        <Lat unit="deg">+029.802963</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.089453</Long>
+        <Lat unit="deg">+030.099790</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.170110</Long>
+        <Lat unit="deg">+030.396577</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.251128</Long>
+        <Lat unit="deg">+030.693323</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.332513</Long>
+        <Lat unit="deg">+030.990027</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.414273</Long>
+        <Lat unit="deg">+031.286690</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.496414</Long>
+        <Lat unit="deg">+031.583310</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.578943</Long>
+        <Lat unit="deg">+031.879886</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.661867</Long>
+        <Lat unit="deg">+032.176419</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.745192</Long>
+        <Lat unit="deg">+032.472908</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.828927</Long>
+        <Lat unit="deg">+032.769351</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.913078</Long>
+        <Lat unit="deg">+033.065749</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.997653</Long>
+        <Lat unit="deg">+033.362100</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.082660</Long>
+        <Lat unit="deg">+033.658404</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.168106</Long>
+        <Lat unit="deg">+033.954660</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.253999</Long>
+        <Lat unit="deg">+034.250868</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.340348</Long>
+        <Lat unit="deg">+034.547027</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.427161</Long>
+        <Lat unit="deg">+034.843136</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.514446</Long>
+        <Lat unit="deg">+035.139194</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.602212</Long>
+        <Lat unit="deg">+035.435201</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.690468</Long>
+        <Lat unit="deg">+035.731157</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.779222</Long>
+        <Lat unit="deg">+036.027059</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.868483</Long>
+        <Lat unit="deg">+036.322908</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.958262</Long>
+        <Lat unit="deg">+036.618702</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.048567</Long>
+        <Lat unit="deg">+036.914441</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.139409</Long>
+        <Lat unit="deg">+037.210125</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.230796</Long>
+        <Lat unit="deg">+037.505752</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.322740</Long>
+        <Lat unit="deg">+037.801321</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.415251</Long>
+        <Lat unit="deg">+038.096832</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.508338</Long>
+        <Lat unit="deg">+038.392283</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.602014</Long>
+        <Lat unit="deg">+038.687675</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.696289</Long>
+        <Lat unit="deg">+038.983005</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.791173</Long>
+        <Lat unit="deg">+039.278274</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.886680</Long>
+        <Lat unit="deg">+039.573480</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.982820</Long>
+        <Lat unit="deg">+039.868622</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.079606</Long>
+        <Lat unit="deg">+040.163699</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.177050</Long>
+        <Lat unit="deg">+040.458711</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.275164</Long>
+        <Lat unit="deg">+040.753655</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.373962</Long>
+        <Lat unit="deg">+041.048533</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.473456</Long>
+        <Lat unit="deg">+041.343341</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.573660</Long>
+        <Lat unit="deg">+041.638080</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.674588</Long>
+        <Lat unit="deg">+041.932747</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.776254</Long>
+        <Lat unit="deg">+042.227343</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.878672</Long>
+        <Lat unit="deg">+042.521866</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.981857</Long>
+        <Lat unit="deg">+042.816314</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.085824</Long>
+        <Lat unit="deg">+043.110687</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.190589</Long>
+        <Lat unit="deg">+043.404983</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.296167</Long>
+        <Lat unit="deg">+043.699201</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.402576</Long>
+        <Lat unit="deg">+043.993341</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.509830</Long>
+        <Lat unit="deg">+044.287399</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.617948</Long>
+        <Lat unit="deg">+044.581376</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.726948</Long>
+        <Lat unit="deg">+044.875270</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.836846</Long>
+        <Lat unit="deg">+045.169080</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.947661</Long>
+        <Lat unit="deg">+045.462803</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.059412</Long>
+        <Lat unit="deg">+045.756440</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.172119</Long>
+        <Lat unit="deg">+046.049987</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.285801</Long>
+        <Lat unit="deg">+046.343444</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.400479</Long>
+        <Lat unit="deg">+046.636809</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.516173</Long>
+        <Lat unit="deg">+046.930081</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.632904</Long>
+        <Lat unit="deg">+047.223258</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.750696</Long>
+        <Lat unit="deg">+047.516337</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.869569</Long>
+        <Lat unit="deg">+047.809319</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.989548</Long>
+        <Lat unit="deg">+048.102200</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.110656</Long>
+        <Lat unit="deg">+048.394979</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.232918</Long>
+        <Lat unit="deg">+048.687653</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.356358</Long>
+        <Lat unit="deg">+048.980222</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.481003</Long>
+        <Lat unit="deg">+049.272684</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.606879</Long>
+        <Lat unit="deg">+049.565035</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.734012</Long>
+        <Lat unit="deg">+049.857275</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.862432</Long>
+        <Lat unit="deg">+050.149400</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.992166</Long>
+        <Lat unit="deg">+050.441409</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.123245</Long>
+        <Lat unit="deg">+050.733300</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.255698</Long>
+        <Lat unit="deg">+051.025070</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.389558</Long>
+        <Lat unit="deg">+051.316716</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.524855</Long>
+        <Lat unit="deg">+051.608237</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.661624</Long>
+        <Lat unit="deg">+051.899630</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.799899</Long>
+        <Lat unit="deg">+052.190892</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.939714</Long>
+        <Lat unit="deg">+052.482020</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.081106</Long>
+        <Lat unit="deg">+052.773013</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.224112</Long>
+        <Lat unit="deg">+053.063866</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.368770</Long>
+        <Lat unit="deg">+053.354577</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.515121</Long>
+        <Lat unit="deg">+053.645143</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.663204</Long>
+        <Lat unit="deg">+053.935561</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.813062</Long>
+        <Lat unit="deg">+054.225827</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.964738</Long>
+        <Lat unit="deg">+054.515939</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.118276</Long>
+        <Lat unit="deg">+054.805893</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.273724</Long>
+        <Lat unit="deg">+055.095685</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.431128</Long>
+        <Lat unit="deg">+055.385312</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.590538</Long>
+        <Lat unit="deg">+055.674769</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.752004</Long>
+        <Lat unit="deg">+055.964054</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.915578</Long>
+        <Lat unit="deg">+056.253161</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.081315</Long>
+        <Lat unit="deg">+056.542087</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.249270</Long>
+        <Lat unit="deg">+056.830828</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.419502</Long>
+        <Lat unit="deg">+057.119379</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.592069</Long>
+        <Lat unit="deg">+057.407735</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.767033</Long>
+        <Lat unit="deg">+057.695892</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.944459</Long>
+        <Lat unit="deg">+057.983844</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.124411</Long>
+        <Lat unit="deg">+058.271587</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.306958</Long>
+        <Lat unit="deg">+058.559115</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.492171</Long>
+        <Lat unit="deg">+058.846423</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.680123</Long>
+        <Lat unit="deg">+059.133505</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.870888</Long>
+        <Lat unit="deg">+059.420355</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.064546</Long>
+        <Lat unit="deg">+059.706967</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.261178</Long>
+        <Lat unit="deg">+059.993334</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.460867</Long>
+        <Lat unit="deg">+060.279451</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.663700</Long>
+        <Lat unit="deg">+060.565310</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.869768</Long>
+        <Lat unit="deg">+060.850904</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.079165</Long>
+        <Lat unit="deg">+061.136225</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.291987</Long>
+        <Lat unit="deg">+061.421267</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.508334</Long>
+        <Lat unit="deg">+061.706021</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.728313</Long>
+        <Lat unit="deg">+061.990478</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.952030</Long>
+        <Lat unit="deg">+062.274630</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.179598</Long>
+        <Lat unit="deg">+062.558469</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.411135</Long>
+        <Lat unit="deg">+062.841984</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.646762</Long>
+        <Lat unit="deg">+063.125166</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.886606</Long>
+        <Lat unit="deg">+063.408005</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.130796</Long>
+        <Lat unit="deg">+063.690491</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.379471</Long>
+        <Lat unit="deg">+063.972611</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.632772</Long>
+        <Lat unit="deg">+064.254356</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.890847</Long>
+        <Lat unit="deg">+064.535712</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.153849</Long>
+        <Lat unit="deg">+064.816668</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.421938</Long>
+        <Lat unit="deg">+065.097210</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.695282</Long>
+        <Lat unit="deg">+065.377324</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.974053</Long>
+        <Lat unit="deg">+065.656997</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.258432</Long>
+        <Lat unit="deg">+065.936213</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.548609</Long>
+        <Lat unit="deg">+066.214957</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.844779</Long>
+        <Lat unit="deg">+066.493213</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-025.147148</Long>
+        <Lat unit="deg">+066.770964</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-025.455928</Long>
+        <Lat unit="deg">+067.048192</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-025.771344</Long>
+        <Lat unit="deg">+067.324877</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-026.093628</Long>
+        <Lat unit="deg">+067.601001</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-026.423023</Long>
+        <Lat unit="deg">+067.876544</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-026.759782</Long>
+        <Lat unit="deg">+068.151483</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-027.104172</Long>
+        <Lat unit="deg">+068.425796</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-027.456468</Long>
+        <Lat unit="deg">+068.699460</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-027.816961</Long>
+        <Lat unit="deg">+068.972449</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-028.185952</Long>
+        <Lat unit="deg">+069.244738</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-028.563759</Long>
+        <Lat unit="deg">+069.516299</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-028.950711</Long>
+        <Lat unit="deg">+069.787103</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-029.347156</Long>
+        <Lat unit="deg">+070.057121</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-029.753455</Long>
+        <Lat unit="deg">+070.326320</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-030.169986</Long>
+        <Lat unit="deg">+070.594666</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-030.597147</Long>
+        <Lat unit="deg">+070.862125</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-031.035353</Long>
+        <Lat unit="deg">+071.128659</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-031.485037</Long>
+        <Lat unit="deg">+071.394229</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-031.946655</Long>
+        <Lat unit="deg">+071.658794</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-032.420683</Long>
+        <Lat unit="deg">+071.922310</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-032.907620</Long>
+        <Lat unit="deg">+072.184731</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-033.407987</Long>
+        <Lat unit="deg">+072.446009</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-033.922331</Long>
+        <Lat unit="deg">+072.706092</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-034.451224</Long>
+        <Lat unit="deg">+072.964926</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-034.995266</Long>
+        <Lat unit="deg">+073.222453</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-035.555082</Long>
+        <Lat unit="deg">+073.478614</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-036.131330</Long>
+        <Lat unit="deg">+073.733344</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-036.724693</Long>
+        <Lat unit="deg">+073.986576</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-037.335891</Long>
+        <Lat unit="deg">+074.238237</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-037.965671</Long>
+        <Lat unit="deg">+074.488253</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-038.614817</Long>
+        <Lat unit="deg">+074.736542</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-039.284145</Long>
+        <Lat unit="deg">+074.983019</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-039.974507</Long>
+        <Lat unit="deg">+075.227595</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-040.686790</Long>
+        <Lat unit="deg">+075.470173</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-041.421917</Long>
+        <Lat unit="deg">+075.710653</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-042.180847</Long>
+        <Lat unit="deg">+075.948928</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-042.964576</Long>
+        <Lat unit="deg">+076.184883</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-043.774135</Long>
+        <Lat unit="deg">+076.418399</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-044.610589</Long>
+        <Lat unit="deg">+076.649348</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-045.475038</Long>
+        <Lat unit="deg">+076.877594</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-046.368612</Long>
+        <Lat unit="deg">+077.102996</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-047.292470</Long>
+        <Lat unit="deg">+077.325401</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-048.247797</Long>
+        <Lat unit="deg">+077.544650</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-049.235796</Long>
+        <Lat unit="deg">+077.760573</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-050.257688</Long>
+        <Lat unit="deg">+077.972992</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-051.314701</Long>
+        <Lat unit="deg">+078.181719</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-052.408061</Long>
+        <Lat unit="deg">+078.386554</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-053.538985</Long>
+        <Lat unit="deg">+078.587289</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-054.708669</Long>
+        <Lat unit="deg">+078.783704</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-055.918271</Long>
+        <Lat unit="deg">+078.975568</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-057.168902</Long>
+        <Lat unit="deg">+079.162641</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-058.461601</Long>
+        <Lat unit="deg">+079.344670</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-059.797319</Long>
+        <Lat unit="deg">+079.521393</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-061.176896</Long>
+        <Lat unit="deg">+079.692537</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-062.601037</Long>
+        <Lat unit="deg">+079.857820</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-064.070285</Long>
+        <Lat unit="deg">+080.016952</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-065.584993</Long>
+        <Lat unit="deg">+080.169634</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-067.145296</Long>
+        <Lat unit="deg">+080.315561</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-068.751076</Long>
+        <Lat unit="deg">+080.454425</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-070.401938</Long>
+        <Lat unit="deg">+080.585912</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-072.097178</Long>
+        <Lat unit="deg">+080.709709</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-073.835753</Long>
+        <Lat unit="deg">+080.825507</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-075.616261</Long>
+        <Lat unit="deg">+080.932998</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-077.436920</Long>
+        <Lat unit="deg">+081.031884</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-079.295552</Long>
+        <Lat unit="deg">+081.121878</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-081.189582</Long>
+        <Lat unit="deg">+081.202707</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-083.116034</Long>
+        <Lat unit="deg">+081.274117</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-085.071548</Long>
+        <Lat unit="deg">+081.335874</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-087.052400</Long>
+        <Lat unit="deg">+081.387772</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-089.054532</Long>
+        <Lat unit="deg">+081.429631</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-091.073600</Long>
+        <Lat unit="deg">+081.461304</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-093.105021</Long>
+        <Lat unit="deg">+081.482677</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-095.144037</Long>
+        <Lat unit="deg">+081.493672</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-097.185780</Long>
+        <Lat unit="deg">+081.494250</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-099.225340</Long>
+        <Lat unit="deg">+081.484408</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-101.257840</Long>
+        <Lat unit="deg">+081.464183</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-103.278507</Long>
+        <Lat unit="deg">+081.433647</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-105.282736</Long>
+        <Lat unit="deg">+081.392911</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-107.266152</Long>
+        <Lat unit="deg">+081.342118</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-109.224665</Long>
+        <Lat unit="deg">+081.281444</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-111.154512</Long>
+        <Lat unit="deg">+081.211093</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-113.052290</Long>
+        <Lat unit="deg">+081.131296</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-114.914981</Long>
+        <Lat unit="deg">+081.042305</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-116.739964</Long>
+        <Lat unit="deg">+080.944391</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-118.525018</Long>
+        <Lat unit="deg">+080.837839</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-120.268318</Long>
+        <Lat unit="deg">+080.722947</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-121.968420</Long>
+        <Lat unit="deg">+080.600021</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-123.624243</Long>
+        <Lat unit="deg">+080.469371</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-125.235046</Long>
+        <Lat unit="deg">+080.331310</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-126.800401</Long>
+        <Lat unit="deg">+080.186151</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-128.320162</Long>
+        <Lat unit="deg">+080.034202</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-129.794436</Long>
+        <Lat unit="deg">+079.875771</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-131.223554</Long>
+        <Lat unit="deg">+079.711155</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-132.608040</Long>
+        <Lat unit="deg">+079.540647</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-133.948581</Long>
+        <Lat unit="deg">+079.364529</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-135.246004</Long>
+        <Lat unit="deg">+079.183075</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-136.501249</Long>
+        <Lat unit="deg">+078.996549</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-137.715347</Long>
+        <Lat unit="deg">+078.805204</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-138.889400</Long>
+        <Lat unit="deg">+078.609282</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-140.024562</Long>
+        <Lat unit="deg">+078.409015</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-141.122027</Long>
+        <Lat unit="deg">+078.204624</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-142.183009</Long>
+        <Lat unit="deg">+077.996319</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-143.208734</Long>
+        <Lat unit="deg">+077.784299</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-144.200431</Long>
+        <Lat unit="deg">+077.568756</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-145.159320</Long>
+        <Lat unit="deg">+077.349867</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-146.086608</Long>
+        <Lat unit="deg">+077.127804</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-146.983482</Long>
+        <Lat unit="deg">+076.902727</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-147.851103</Long>
+        <Lat unit="deg">+076.674788</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-148.690606</Long>
+        <Lat unit="deg">+076.444133</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-149.503094</Long>
+        <Lat unit="deg">+076.210895</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-150.289635</Long>
+        <Lat unit="deg">+075.975204</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-151.051264</Long>
+        <Lat unit="deg">+075.737181</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-151.788982</Long>
+        <Lat unit="deg">+075.496940</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-152.503751</Long>
+        <Lat unit="deg">+075.254589</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-153.196499</Long>
+        <Lat unit="deg">+075.010230</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-153.868117</Long>
+        <Lat unit="deg">+074.763959</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-154.519459</Long>
+        <Lat unit="deg">+074.515867</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-155.151347</Long>
+        <Lat unit="deg">+074.266039</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-155.764567</Long>
+        <Lat unit="deg">+074.014556</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-156.359872</Long>
+        <Lat unit="deg">+073.761495</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-156.937983</Long>
+        <Lat unit="deg">+073.506927</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-157.499588</Long>
+        <Lat unit="deg">+073.250922</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-158.045347</Long>
+        <Lat unit="deg">+072.993543</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-158.575890</Long>
+        <Lat unit="deg">+072.734851</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-159.091818</Long>
+        <Lat unit="deg">+072.474904</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-159.593708</Long>
+        <Lat unit="deg">+072.213756</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-160.082107</Long>
+        <Lat unit="deg">+071.951459</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-160.557541</Long>
+        <Lat unit="deg">+071.688063</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-161.020511</Long>
+        <Lat unit="deg">+071.423612</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-161.471496</Long>
+        <Lat unit="deg">+071.158151</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-161.910952</Long>
+        <Lat unit="deg">+070.891722</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-162.339317</Long>
+        <Lat unit="deg">+070.624364</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-162.757007</Long>
+        <Lat unit="deg">+070.356114</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-163.164421</Long>
+        <Lat unit="deg">+070.087008</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-163.561940</Long>
+        <Lat unit="deg">+069.817079</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-163.949927</Long>
+        <Lat unit="deg">+069.546361</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-164.328731</Long>
+        <Lat unit="deg">+069.274882</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-164.698684</Long>
+        <Lat unit="deg">+069.002673</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-165.060104</Long>
+        <Lat unit="deg">+068.729760</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-165.413294</Long>
+        <Lat unit="deg">+068.456170</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-165.758547</Long>
+        <Lat unit="deg">+068.181927</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-166.096139</Long>
+        <Lat unit="deg">+067.907057</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-166.426337</Long>
+        <Lat unit="deg">+067.631580</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-166.749397</Long>
+        <Lat unit="deg">+067.355519</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-167.065563</Long>
+        <Lat unit="deg">+067.078895</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-167.375068</Long>
+        <Lat unit="deg">+066.801727</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-167.678137</Long>
+        <Lat unit="deg">+066.524033</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-167.974984</Long>
+        <Lat unit="deg">+066.245833</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-168.265815</Long>
+        <Lat unit="deg">+065.967142</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-168.550828</Long>
+        <Lat unit="deg">+065.687977</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-168.830212</Long>
+        <Lat unit="deg">+065.408354</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-169.104148</Long>
+        <Lat unit="deg">+065.128288</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-169.372812</Long>
+        <Lat unit="deg">+064.847793</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-169.636370</Long>
+        <Lat unit="deg">+064.566883</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-169.894983</Long>
+        <Lat unit="deg">+064.285570</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-170.148806</Long>
+        <Lat unit="deg">+064.003868</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-170.397986</Long>
+        <Lat unit="deg">+063.721789</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-170.642667</Long>
+        <Lat unit="deg">+063.439343</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-170.882986</Long>
+        <Lat unit="deg">+063.156543</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-171.119074</Long>
+        <Lat unit="deg">+062.873398</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-171.351059</Long>
+        <Lat unit="deg">+062.589920</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-171.579061</Long>
+        <Lat unit="deg">+062.306116</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-171.803200</Long>
+        <Lat unit="deg">+062.021998</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-172.023587</Long>
+        <Lat unit="deg">+061.737575</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-172.240332</Long>
+        <Lat unit="deg">+061.452853</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-172.453540</Long>
+        <Lat unit="deg">+061.167843</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-172.663311</Long>
+        <Lat unit="deg">+060.882553</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-172.869744</Long>
+        <Lat unit="deg">+060.596989</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-173.072931</Long>
+        <Lat unit="deg">+060.311159</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-173.272964</Long>
+        <Lat unit="deg">+060.025070</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-173.469931</Long>
+        <Lat unit="deg">+059.738730</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-173.663914</Long>
+        <Lat unit="deg">+059.452145</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-173.854997</Long>
+        <Lat unit="deg">+059.165321</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-174.043256</Long>
+        <Lat unit="deg">+058.878265</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-174.228769</Long>
+        <Lat unit="deg">+058.590982</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-174.411608</Long>
+        <Lat unit="deg">+058.303478</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-174.591845</Long>
+        <Lat unit="deg">+058.015759</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-174.769547</Long>
+        <Lat unit="deg">+057.727829</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-174.944781</Long>
+        <Lat unit="deg">+057.439695</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-175.117611</Long>
+        <Lat unit="deg">+057.151361</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-175.288099</Long>
+        <Lat unit="deg">+056.862832</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-175.456303</Long>
+        <Lat unit="deg">+056.574112</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-175.622284</Long>
+        <Lat unit="deg">+056.285206</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-175.786095</Long>
+        <Lat unit="deg">+055.996119</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-175.947792</Long>
+        <Lat unit="deg">+055.706853</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-176.107427</Long>
+        <Lat unit="deg">+055.417415</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-176.265051</Long>
+        <Lat unit="deg">+055.127807</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-176.420713</Long>
+        <Lat unit="deg">+054.838033</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-176.574461</Long>
+        <Lat unit="deg">+054.548097</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-176.726342</Long>
+        <Lat unit="deg">+054.258003</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-176.876399</Long>
+        <Lat unit="deg">+053.967754</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-177.024677</Long>
+        <Lat unit="deg">+053.677352</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-177.171217</Long>
+        <Lat unit="deg">+053.386803</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-177.316061</Long>
+        <Lat unit="deg">+053.096107</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-177.459248</Long>
+        <Lat unit="deg">+052.805270</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-177.600817</Long>
+        <Lat unit="deg">+052.514293</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-177.740805</Long>
+        <Lat unit="deg">+052.223180</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-177.879249</Long>
+        <Lat unit="deg">+051.931932</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-178.016183</Long>
+        <Lat unit="deg">+051.640554</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-178.151642</Long>
+        <Lat unit="deg">+051.349047</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-178.285660</Long>
+        <Lat unit="deg">+051.057415</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-178.418267</Long>
+        <Lat unit="deg">+050.765658</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-178.549497</Long>
+        <Lat unit="deg">+050.473781</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-178.679379</Long>
+        <Lat unit="deg">+050.181785</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-178.807943</Long>
+        <Lat unit="deg">+049.889673</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-178.935218</Long>
+        <Lat unit="deg">+049.597446</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-179.061231</Long>
+        <Lat unit="deg">+049.305107</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-179.186011</Long>
+        <Lat unit="deg">+049.012658</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-179.309584</Long>
+        <Lat unit="deg">+048.720101</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-179.431975</Long>
+        <Lat unit="deg">+048.427437</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-179.553209</Long>
+        <Lat unit="deg">+048.134670</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-179.673312</Long>
+        <Lat unit="deg">+047.841800</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-179.792307</Long>
+        <Lat unit="deg">+047.548830</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-179.910218</Long>
+        <Lat unit="deg">+047.255761</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+179.972934</Long>
+        <Lat unit="deg">+046.962596</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+179.857126</Long>
+        <Lat unit="deg">+046.669334</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+179.742337</Long>
+        <Lat unit="deg">+046.375980</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+179.628546</Long>
+        <Lat unit="deg">+046.082533</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+179.515732</Long>
+        <Lat unit="deg">+045.788995</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+179.403876</Long>
+        <Lat unit="deg">+045.495369</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+179.292957</Long>
+        <Lat unit="deg">+045.201655</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+179.182959</Long>
+        <Lat unit="deg">+044.907855</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+179.073861</Long>
+        <Lat unit="deg">+044.613971</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.965646</Long>
+        <Lat unit="deg">+044.320003</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.858296</Long>
+        <Lat unit="deg">+044.025953</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.751795</Long>
+        <Lat unit="deg">+043.731823</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.646125</Long>
+        <Lat unit="deg">+043.437614</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.541271</Long>
+        <Lat unit="deg">+043.143326</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.437216</Long>
+        <Lat unit="deg">+042.848962</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.333945</Long>
+        <Lat unit="deg">+042.554522</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.231443</Long>
+        <Lat unit="deg">+042.260007</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.129694</Long>
+        <Lat unit="deg">+041.965420</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+178.028685</Long>
+        <Lat unit="deg">+041.670760</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.928402</Long>
+        <Lat unit="deg">+041.376030</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.828830</Long>
+        <Lat unit="deg">+041.081229</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.729955</Long>
+        <Lat unit="deg">+040.786359</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.631766</Long>
+        <Lat unit="deg">+040.491422</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.534249</Long>
+        <Lat unit="deg">+040.196418</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.437390</Long>
+        <Lat unit="deg">+039.901348</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.341179</Long>
+        <Lat unit="deg">+039.606213</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.245603</Long>
+        <Lat unit="deg">+039.311015</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.150650</Long>
+        <Lat unit="deg">+039.015753</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+177.056308</Long>
+        <Lat unit="deg">+038.720429</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.962566</Long>
+        <Lat unit="deg">+038.425045</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.869414</Long>
+        <Lat unit="deg">+038.129600</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.776840</Long>
+        <Lat unit="deg">+037.834096</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.684834</Long>
+        <Lat unit="deg">+037.538533</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.593385</Long>
+        <Lat unit="deg">+037.242913</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.502484</Long>
+        <Lat unit="deg">+036.947236</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.412120</Long>
+        <Lat unit="deg">+036.651502</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.322283</Long>
+        <Lat unit="deg">+036.355714</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.232964</Long>
+        <Lat unit="deg">+036.059872</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.144155</Long>
+        <Lat unit="deg">+035.763975</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+176.055844</Long>
+        <Lat unit="deg">+035.468026</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.968025</Long>
+        <Lat unit="deg">+035.172025</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.880687</Long>
+        <Lat unit="deg">+034.875972</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.793822</Long>
+        <Lat unit="deg">+034.579869</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.707422</Long>
+        <Lat unit="deg">+034.283716</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.621478</Long>
+        <Lat unit="deg">+033.987513</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.535983</Long>
+        <Lat unit="deg">+033.691263</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.450928</Long>
+        <Lat unit="deg">+033.394964</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.366305</Long>
+        <Lat unit="deg">+033.098618</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.282108</Long>
+        <Lat unit="deg">+032.802226</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.198327</Long>
+        <Lat unit="deg">+032.505787</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.114957</Long>
+        <Lat unit="deg">+032.209304</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+175.031989</Long>
+        <Lat unit="deg">+031.912776</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.949417</Long>
+        <Lat unit="deg">+031.616204</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.867233</Long>
+        <Lat unit="deg">+031.319589</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.785431</Long>
+        <Lat unit="deg">+031.022931</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.704004</Long>
+        <Lat unit="deg">+030.726232</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.622946</Long>
+        <Lat unit="deg">+030.429490</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.542249</Long>
+        <Lat unit="deg">+030.132708</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.461908</Long>
+        <Lat unit="deg">+029.835886</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.381916</Long>
+        <Lat unit="deg">+029.539023</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.302267</Long>
+        <Lat unit="deg">+029.242122</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.222955</Long>
+        <Lat unit="deg">+028.945182</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.143974</Long>
+        <Lat unit="deg">+028.648204</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+174.065319</Long>
+        <Lat unit="deg">+028.351189</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.986983</Long>
+        <Lat unit="deg">+028.054137</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.908960</Long>
+        <Lat unit="deg">+027.757048</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.831246</Long>
+        <Lat unit="deg">+027.459924</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.753835</Long>
+        <Lat unit="deg">+027.162764</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.676721</Long>
+        <Lat unit="deg">+026.865570</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.599899</Long>
+        <Lat unit="deg">+026.568341</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.523364</Long>
+        <Lat unit="deg">+026.271079</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.447111</Long>
+        <Lat unit="deg">+025.973784</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.371134</Long>
+        <Lat unit="deg">+025.676455</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.295429</Long>
+        <Lat unit="deg">+025.379095</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.219991</Long>
+        <Lat unit="deg">+025.081703</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.144815</Long>
+        <Lat unit="deg">+024.784280</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+173.069896</Long>
+        <Lat unit="deg">+024.486826</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.995230</Long>
+        <Lat unit="deg">+024.189342</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.920812</Long>
+        <Lat unit="deg">+023.891828</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.846637</Long>
+        <Lat unit="deg">+023.594285</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.772701</Long>
+        <Lat unit="deg">+023.296713</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.699000</Long>
+        <Lat unit="deg">+022.999113</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.625529</Long>
+        <Lat unit="deg">+022.701485</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.552284</Long>
+        <Lat unit="deg">+022.403830</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.479260</Long>
+        <Lat unit="deg">+022.106148</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.406455</Long>
+        <Lat unit="deg">+021.808439</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.333862</Long>
+        <Lat unit="deg">+021.510705</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.261480</Long>
+        <Lat unit="deg">+021.212945</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.189302</Long>
+        <Lat unit="deg">+020.915160</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.117326</Long>
+        <Lat unit="deg">+020.617350</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+172.045548</Long>
+        <Lat unit="deg">+020.319516</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.973963</Long>
+        <Lat unit="deg">+020.021659</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.902568</Long>
+        <Lat unit="deg">+019.723778</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.831360</Long>
+        <Lat unit="deg">+019.425875</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.760334</Long>
+        <Lat unit="deg">+019.127949</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.689487</Long>
+        <Lat unit="deg">+018.830001</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.618815</Long>
+        <Lat unit="deg">+018.532032</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.548315</Long>
+        <Lat unit="deg">+018.234042</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.477983</Long>
+        <Lat unit="deg">+017.936031</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.407815</Long>
+        <Lat unit="deg">+017.638000</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.337809</Long>
+        <Lat unit="deg">+017.339949</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.267961</Long>
+        <Lat unit="deg">+017.041878</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.198267</Long>
+        <Lat unit="deg">+016.743789</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.128725</Long>
+        <Lat unit="deg">+016.445682</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+171.059330</Long>
+        <Lat unit="deg">+016.147556</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.990080</Long>
+        <Lat unit="deg">+015.849412</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.920972</Long>
+        <Lat unit="deg">+015.551252</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.852001</Long>
+        <Lat unit="deg">+015.253074</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.783166</Long>
+        <Lat unit="deg">+014.954880</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.714463</Long>
+        <Lat unit="deg">+014.656670</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.645888</Long>
+        <Lat unit="deg">+014.358445</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.577440</Long>
+        <Lat unit="deg">+014.060204</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.509114</Long>
+        <Lat unit="deg">+013.761949</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.440908</Long>
+        <Lat unit="deg">+013.463679</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.372819</Long>
+        <Lat unit="deg">+013.165395</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.304843</Long>
+        <Lat unit="deg">+012.867098</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.236979</Long>
+        <Lat unit="deg">+012.568787</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.169223</Long>
+        <Lat unit="deg">+012.270464</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.101572</Long>
+        <Lat unit="deg">+011.972129</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+170.034023</Long>
+        <Lat unit="deg">+011.673781</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.966574</Long>
+        <Lat unit="deg">+011.375422</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.899221</Long>
+        <Lat unit="deg">+011.077052</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.831962</Long>
+        <Lat unit="deg">+010.778671</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.764795</Long>
+        <Lat unit="deg">+010.480280</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.697716</Long>
+        <Lat unit="deg">+010.181879</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.630723</Long>
+        <Lat unit="deg">+009.883468</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.563812</Long>
+        <Lat unit="deg">+009.585048</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.496982</Long>
+        <Lat unit="deg">+009.286620</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.430230</Long>
+        <Lat unit="deg">+008.988183</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.363553</Long>
+        <Lat unit="deg">+008.689738</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.296948</Long>
+        <Lat unit="deg">+008.391286</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.230413</Long>
+        <Lat unit="deg">+008.092826</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.163946</Long>
+        <Lat unit="deg">+007.794359</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.097542</Long>
+        <Lat unit="deg">+007.495887</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+169.031201</Long>
+        <Lat unit="deg">+007.197408</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.964920</Long>
+        <Lat unit="deg">+006.898923</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.898695</Long>
+        <Lat unit="deg">+006.600434</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.832525</Long>
+        <Lat unit="deg">+006.301939</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.766407</Long>
+        <Lat unit="deg">+006.003440</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.700338</Long>
+        <Lat unit="deg">+005.704937</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.634316</Long>
+        <Lat unit="deg">+005.406430</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.568338</Long>
+        <Lat unit="deg">+005.107920</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.502402</Long>
+        <Lat unit="deg">+004.809407</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.436506</Long>
+        <Lat unit="deg">+004.510892</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.370647</Long>
+        <Lat unit="deg">+004.212374</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.304823</Long>
+        <Lat unit="deg">+003.913855</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.239030</Long>
+        <Lat unit="deg">+003.615335</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.173267</Long>
+        <Lat unit="deg">+003.316813</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.107532</Long>
+        <Lat unit="deg">+003.018291</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+168.041821</Long>
+        <Lat unit="deg">+002.719768</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.976133</Long>
+        <Lat unit="deg">+002.421246</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.910465</Long>
+        <Lat unit="deg">+002.122724</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.844814</Long>
+        <Lat unit="deg">+001.824204</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.779179</Long>
+        <Lat unit="deg">+001.525684</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.713556</Long>
+        <Lat unit="deg">+001.227167</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.647944</Long>
+        <Lat unit="deg">+000.928651</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.582340</Long>
+        <Lat unit="deg">+000.630138</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.516741</Long>
+        <Lat unit="deg">+000.331627</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.451146</Long>
+        <Lat unit="deg">+000.033120</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.385551</Long>
+        <Lat unit="deg">-000.265383</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.319955</Long>
+        <Lat unit="deg">-000.563882</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.254355</Long>
+        <Lat unit="deg">-000.862377</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.188748</Long>
+        <Lat unit="deg">-001.160868</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.123133</Long>
+        <Lat unit="deg">-001.459353</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+167.057506</Long>
+        <Lat unit="deg">-001.757832</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.991866</Long>
+        <Lat unit="deg">-002.056306</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.926210</Long>
+        <Lat unit="deg">-002.354774</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.860536</Long>
+        <Lat unit="deg">-002.653234</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.794840</Long>
+        <Lat unit="deg">-002.951688</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.729122</Long>
+        <Lat unit="deg">-003.250134</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.663378</Long>
+        <Lat unit="deg">-003.548573</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.597606</Long>
+        <Lat unit="deg">-003.847003</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.531803</Long>
+        <Lat unit="deg">-004.145424</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.465968</Long>
+        <Lat unit="deg">-004.443837</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.400097</Long>
+        <Lat unit="deg">-004.742241</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.334188</Long>
+        <Lat unit="deg">-005.040634</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.268240</Long>
+        <Lat unit="deg">-005.339018</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.202248</Long>
+        <Lat unit="deg">-005.637391</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.136211</Long>
+        <Lat unit="deg">-005.935753</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.070127</Long>
+        <Lat unit="deg">-006.234104</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+166.003992</Long>
+        <Lat unit="deg">-006.532443</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.937804</Long>
+        <Lat unit="deg">-006.830770</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.871562</Long>
+        <Lat unit="deg">-007.129085</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.805261</Long>
+        <Lat unit="deg">-007.427387</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.738901</Long>
+        <Lat unit="deg">-007.725676</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.672477</Long>
+        <Lat unit="deg">-008.023952</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.605988</Long>
+        <Lat unit="deg">-008.322213</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.539431</Long>
+        <Lat unit="deg">-008.620460</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.472804</Long>
+        <Lat unit="deg">-008.918693</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.406103</Long>
+        <Lat unit="deg">-009.216910</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.339326</Long>
+        <Lat unit="deg">-009.515112</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.272471</Long>
+        <Lat unit="deg">-009.813298</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.205535</Long>
+        <Lat unit="deg">-010.111468</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.138515</Long>
+        <Lat unit="deg">-010.409621</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.071408</Long>
+        <Lat unit="deg">-010.707758</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+165.004212</Long>
+        <Lat unit="deg">-011.005876</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.936924</Long>
+        <Lat unit="deg">-011.303977</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.869542</Long>
+        <Lat unit="deg">-011.602060</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.802061</Long>
+        <Lat unit="deg">-011.900124</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.734481</Long>
+        <Lat unit="deg">-012.198170</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.666797</Long>
+        <Lat unit="deg">-012.496196</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.599007</Long>
+        <Lat unit="deg">-012.794202</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.531108</Long>
+        <Lat unit="deg">-013.092188</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.463098</Long>
+        <Lat unit="deg">-013.390153</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.394973</Long>
+        <Lat unit="deg">-013.688098</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.326730</Long>
+        <Lat unit="deg">-013.986021</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.258366</Long>
+        <Lat unit="deg">-014.283923</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.189879</Long>
+        <Lat unit="deg">-014.581803</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.121265</Long>
+        <Lat unit="deg">-014.879660</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+164.052521</Long>
+        <Lat unit="deg">-015.177494</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.983645</Long>
+        <Lat unit="deg">-015.475304</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.914632</Long>
+        <Lat unit="deg">-015.773092</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.845481</Long>
+        <Lat unit="deg">-016.070855</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.776187</Long>
+        <Lat unit="deg">-016.368593</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.706747</Long>
+        <Lat unit="deg">-016.666307</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.637159</Long>
+        <Lat unit="deg">-016.963995</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.567419</Long>
+        <Lat unit="deg">-017.261657</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.497523</Long>
+        <Lat unit="deg">-017.559294</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.427469</Long>
+        <Lat unit="deg">-017.856904</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.357252</Long>
+        <Lat unit="deg">-018.154487</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.286870</Long>
+        <Lat unit="deg">-018.452042</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.216319</Long>
+        <Lat unit="deg">-018.749570</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.145595</Long>
+        <Lat unit="deg">-019.047070</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.074695</Long>
+        <Lat unit="deg">-019.344541</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+163.003615</Long>
+        <Lat unit="deg">-019.641983</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.932351</Long>
+        <Lat unit="deg">-019.939395</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.860901</Long>
+        <Lat unit="deg">-020.236778</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.789259</Long>
+        <Lat unit="deg">-020.534130</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.717423</Long>
+        <Lat unit="deg">-020.831451</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.645388</Long>
+        <Lat unit="deg">-021.128742</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.573151</Long>
+        <Lat unit="deg">-021.426001</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.500708</Long>
+        <Lat unit="deg">-021.723228</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.428054</Long>
+        <Lat unit="deg">-022.020422</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.355185</Long>
+        <Lat unit="deg">-022.317583</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.282098</Long>
+        <Lat unit="deg">-022.614711</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.208789</Long>
+        <Lat unit="deg">-022.911806</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.135252</Long>
+        <Lat unit="deg">-023.208866</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+162.061484</Long>
+        <Lat unit="deg">-023.505891</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.987480</Long>
+        <Lat unit="deg">-023.802881</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.913237</Long>
+        <Lat unit="deg">-024.099836</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.838749</Long>
+        <Lat unit="deg">-024.396754</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.764012</Long>
+        <Lat unit="deg">-024.693636</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.689021</Long>
+        <Lat unit="deg">-024.990481</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.613772</Long>
+        <Lat unit="deg">-025.287289</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.538260</Long>
+        <Lat unit="deg">-025.584059</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.462480</Long>
+        <Lat unit="deg">-025.880790</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.386427</Long>
+        <Lat unit="deg">-026.177482</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.310096</Long>
+        <Lat unit="deg">-026.474135</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.233483</Long>
+        <Lat unit="deg">-026.770748</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.156582</Long>
+        <Lat unit="deg">-027.067321</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.079387</Long>
+        <Lat unit="deg">-027.363853</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+161.001894</Long>
+        <Lat unit="deg">-027.660344</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.924097</Long>
+        <Lat unit="deg">-027.956792</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.845990</Long>
+        <Lat unit="deg">-028.253199</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.767569</Long>
+        <Lat unit="deg">-028.549562</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.688827</Long>
+        <Lat unit="deg">-028.845882</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.609759</Long>
+        <Lat unit="deg">-029.142158</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.530358</Long>
+        <Lat unit="deg">-029.438390</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.450619</Long>
+        <Lat unit="deg">-029.734576</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.370536</Long>
+        <Lat unit="deg">-030.030717</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.290103</Long>
+        <Lat unit="deg">-030.326812</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.209313</Long>
+        <Lat unit="deg">-030.622860</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.128160</Long>
+        <Lat unit="deg">-030.918861</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+160.046637</Long>
+        <Lat unit="deg">-031.214814</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.964738</Long>
+        <Lat unit="deg">-031.510719</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.882455</Long>
+        <Lat unit="deg">-031.806575</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.799784</Long>
+        <Lat unit="deg">-032.102381</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.716715</Long>
+        <Lat unit="deg">-032.398137</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.633242</Long>
+        <Lat unit="deg">-032.693842</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.549358</Long>
+        <Lat unit="deg">-032.989496</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.465055</Long>
+        <Lat unit="deg">-033.285098</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.380327</Long>
+        <Lat unit="deg">-033.580647</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.295164</Long>
+        <Lat unit="deg">-033.876143</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.209560</Long>
+        <Lat unit="deg">-034.171585</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.123506</Long>
+        <Lat unit="deg">-034.466972</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+159.036994</Long>
+        <Lat unit="deg">-034.762305</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.950016</Long>
+        <Lat unit="deg">-035.057581</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.862564</Long>
+        <Lat unit="deg">-035.352800</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.774629</Long>
+        <Lat unit="deg">-035.647962</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.686201</Long>
+        <Lat unit="deg">-035.943066</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.597273</Long>
+        <Lat unit="deg">-036.238112</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.507834</Long>
+        <Lat unit="deg">-036.533097</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.417876</Long>
+        <Lat unit="deg">-036.828023</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.327389</Long>
+        <Lat unit="deg">-037.122887</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.236363</Long>
+        <Lat unit="deg">-037.417690</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.144788</Long>
+        <Lat unit="deg">-037.712430</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+158.052655</Long>
+        <Lat unit="deg">-038.007106</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.959952</Long>
+        <Lat unit="deg">-038.301719</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.866669</Long>
+        <Lat unit="deg">-038.596266</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.772795</Long>
+        <Lat unit="deg">-038.890747</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.678320</Long>
+        <Lat unit="deg">-039.185162</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.583232</Long>
+        <Lat unit="deg">-039.479509</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.487519</Long>
+        <Lat unit="deg">-039.773787</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.391169</Long>
+        <Lat unit="deg">-040.067996</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.294171</Long>
+        <Lat unit="deg">-040.362134</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.196512</Long>
+        <Lat unit="deg">-040.656202</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+157.098179</Long>
+        <Lat unit="deg">-040.950196</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.999160</Long>
+        <Lat unit="deg">-041.244118</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.899442</Long>
+        <Lat unit="deg">-041.537965</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.799010</Long>
+        <Lat unit="deg">-041.831737</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.697851</Long>
+        <Lat unit="deg">-042.125432</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.595951</Long>
+        <Lat unit="deg">-042.419050</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.493296</Long>
+        <Lat unit="deg">-042.712589</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.389870</Long>
+        <Lat unit="deg">-043.006049</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.285658</Long>
+        <Lat unit="deg">-043.299427</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.180646</Long>
+        <Lat unit="deg">-043.592724</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+156.074816</Long>
+        <Lat unit="deg">-043.885937</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+155.968153</Long>
+        <Lat unit="deg">-044.179066</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+155.860639</Long>
+        <Lat unit="deg">-044.472109</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+155.752259</Long>
+        <Lat unit="deg">-044.765065</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+155.642993</Long>
+        <Lat unit="deg">-045.057932</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+155.532825</Long>
+        <Lat unit="deg">-045.350710</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+155.421736</Long>
+        <Lat unit="deg">-045.643397</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+155.309707</Long>
+        <Lat unit="deg">-045.935991</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+155.196718</Long>
+        <Lat unit="deg">-046.228491</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+155.082750</Long>
+        <Lat unit="deg">-046.520896</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+154.967782</Long>
+        <Lat unit="deg">-046.813203</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+154.851794</Long>
+        <Lat unit="deg">-047.105412</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+154.734764</Long>
+        <Lat unit="deg">-047.397521</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+154.616669</Long>
+        <Lat unit="deg">-047.689528</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+154.497488</Long>
+        <Lat unit="deg">-047.981432</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+154.377197</Long>
+        <Lat unit="deg">-048.273230</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+154.255772</Long>
+        <Lat unit="deg">-048.564921</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+154.133189</Long>
+        <Lat unit="deg">-048.856503</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+154.009422</Long>
+        <Lat unit="deg">-049.147974</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+153.884447</Long>
+        <Lat unit="deg">-049.439333</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+153.758235</Long>
+        <Lat unit="deg">-049.730577</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+153.630761</Long>
+        <Lat unit="deg">-050.021704</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+153.501995</Long>
+        <Lat unit="deg">-050.312712</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+153.371909</Long>
+        <Lat unit="deg">-050.603599</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+153.240474</Long>
+        <Lat unit="deg">-050.894363</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+153.107658</Long>
+        <Lat unit="deg">-051.185001</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+152.973431</Long>
+        <Lat unit="deg">-051.475511</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+152.837760</Long>
+        <Lat unit="deg">-051.765891</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+152.700612</Long>
+        <Lat unit="deg">-052.056138</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+152.561953</Long>
+        <Lat unit="deg">-052.346249</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+152.421747</Long>
+        <Lat unit="deg">-052.636223</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+152.279959</Long>
+        <Lat unit="deg">-052.926055</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+152.136550</Long>
+        <Lat unit="deg">-053.215744</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+151.991483</Long>
+        <Lat unit="deg">-053.505286</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+151.844717</Long>
+        <Lat unit="deg">-053.794678</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+151.696212</Long>
+        <Lat unit="deg">-054.083918</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+151.545926</Long>
+        <Lat unit="deg">-054.373002</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+151.393814</Long>
+        <Lat unit="deg">-054.661927</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+151.239834</Long>
+        <Lat unit="deg">-054.950689</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+151.083937</Long>
+        <Lat unit="deg">-055.239284</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+150.926077</Long>
+        <Lat unit="deg">-055.527711</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+150.766204</Long>
+        <Lat unit="deg">-055.815963</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+150.604267</Long>
+        <Lat unit="deg">-056.104038</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+150.440214</Long>
+        <Lat unit="deg">-056.391932</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+150.273991</Long>
+        <Lat unit="deg">-056.679640</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+150.105542</Long>
+        <Lat unit="deg">-056.967158</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+149.934809</Long>
+        <Lat unit="deg">-057.254482</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+149.761732</Long>
+        <Lat unit="deg">-057.541607</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+149.586249</Long>
+        <Lat unit="deg">-057.828528</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+149.408297</Long>
+        <Lat unit="deg">-058.115241</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+149.227810</Long>
+        <Lat unit="deg">-058.401740</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+149.044719</Long>
+        <Lat unit="deg">-058.688020</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+148.858953</Long>
+        <Lat unit="deg">-058.974075</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+148.670439</Long>
+        <Lat unit="deg">-059.259900</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+148.479102</Long>
+        <Lat unit="deg">-059.545490</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+148.284864</Long>
+        <Lat unit="deg">-059.830837</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+148.087642</Long>
+        <Lat unit="deg">-060.115935</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+147.887353</Long>
+        <Lat unit="deg">-060.400778</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+147.683910</Long>
+        <Lat unit="deg">-060.685360</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+147.477221</Long>
+        <Lat unit="deg">-060.969672</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+147.267194</Long>
+        <Lat unit="deg">-061.253708</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+147.053732</Long>
+        <Lat unit="deg">-061.537460</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+146.836732</Long>
+        <Lat unit="deg">-061.820920</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+146.616091</Long>
+        <Lat unit="deg">-062.104079</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+146.391700</Long>
+        <Lat unit="deg">-062.386929</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+146.163447</Long>
+        <Lat unit="deg">-062.669462</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+145.931213</Long>
+        <Lat unit="deg">-062.951667</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+145.694878</Long>
+        <Lat unit="deg">-063.233535</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+145.454315</Long>
+        <Lat unit="deg">-063.515056</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+145.209392</Long>
+        <Lat unit="deg">-063.796219</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+144.959973</Long>
+        <Lat unit="deg">-064.077014</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+144.705915</Long>
+        <Lat unit="deg">-064.357428</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+144.447071</Long>
+        <Lat unit="deg">-064.637451</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+144.183287</Long>
+        <Lat unit="deg">-064.917068</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+143.914403</Long>
+        <Lat unit="deg">-065.196268</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+143.640251</Long>
+        <Lat unit="deg">-065.475036</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+143.360659</Long>
+        <Lat unit="deg">-065.753359</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+143.075444</Long>
+        <Lat unit="deg">-066.031222</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+142.784419</Long>
+        <Lat unit="deg">-066.308608</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+142.487387</Long>
+        <Lat unit="deg">-066.585502</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+142.184143</Long>
+        <Lat unit="deg">-066.861887</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+141.874473</Long>
+        <Lat unit="deg">-067.137745</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+141.558153</Long>
+        <Lat unit="deg">-067.413057</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+141.234952</Long>
+        <Lat unit="deg">-067.687804</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+140.904626</Long>
+        <Lat unit="deg">-067.961965</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+140.566920</Long>
+        <Lat unit="deg">-068.235519</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+140.221571</Long>
+        <Lat unit="deg">-068.508443</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+139.868302</Long>
+        <Lat unit="deg">-068.780714</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+139.506822</Long>
+        <Lat unit="deg">-069.052306</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+139.136830</Long>
+        <Lat unit="deg">-069.323194</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+138.758009</Long>
+        <Lat unit="deg">-069.593351</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+138.370029</Long>
+        <Lat unit="deg">-069.862747</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+137.972545</Long>
+        <Lat unit="deg">-070.131352</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+137.565194</Long>
+        <Lat unit="deg">-070.399135</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+137.147598</Long>
+        <Lat unit="deg">-070.666062</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+136.719361</Long>
+        <Lat unit="deg">-070.932097</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+136.280069</Long>
+        <Lat unit="deg">-071.197204</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+135.829289</Long>
+        <Lat unit="deg">-071.461343</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+135.366565</Long>
+        <Lat unit="deg">-071.724473</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+134.891425</Long>
+        <Lat unit="deg">-071.986551</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+134.403369</Long>
+        <Lat unit="deg">-072.247531</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+133.901877</Long>
+        <Lat unit="deg">-072.507363</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+133.386404</Long>
+        <Lat unit="deg">-072.765997</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+132.856381</Long>
+        <Lat unit="deg">-073.023379</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+132.311209</Long>
+        <Lat unit="deg">-073.279452</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+131.750265</Long>
+        <Lat unit="deg">-073.534154</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+131.172895</Long>
+        <Lat unit="deg">-073.787423</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+130.578417</Long>
+        <Lat unit="deg">-074.039191</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+129.966116</Long>
+        <Lat unit="deg">-074.289386</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+129.335246</Long>
+        <Lat unit="deg">-074.537932</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+128.685031</Long>
+        <Lat unit="deg">-074.784749</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+128.014656</Long>
+        <Lat unit="deg">-075.029753</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+127.323276</Long>
+        <Lat unit="deg">-075.272854</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+126.610009</Long>
+        <Lat unit="deg">-075.513955</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+125.873938</Long>
+        <Lat unit="deg">-075.752958</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+125.114111</Long>
+        <Lat unit="deg">-075.989754</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+124.329540</Long>
+        <Lat unit="deg">-076.224231</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+123.519202</Long>
+        <Lat unit="deg">-076.456268</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+122.682041</Long>
+        <Lat unit="deg">-076.685740</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+121.816967</Long>
+        <Lat unit="deg">-076.912511</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+120.922862</Long>
+        <Lat unit="deg">-077.136439</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+119.998578</Long>
+        <Lat unit="deg">-077.357374</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+119.042943</Long>
+        <Lat unit="deg">-077.575157</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+118.054769</Long>
+        <Lat unit="deg">-077.789619</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+117.032850</Long>
+        <Lat unit="deg">-078.000584</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+115.975976</Long>
+        <Lat unit="deg">-078.207863</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+114.882937</Long>
+        <Lat unit="deg">-078.411261</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+113.752535</Long>
+        <Lat unit="deg">-078.610569</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+112.583596</Long>
+        <Lat unit="deg">-078.805569</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+111.374980</Long>
+        <Lat unit="deg">-078.996034</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+110.125601</Long>
+        <Lat unit="deg">-079.181724</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+108.834442</Long>
+        <Lat unit="deg">-079.362389</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+107.500575</Long>
+        <Lat unit="deg">-079.537769</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+106.123183</Long>
+        <Lat unit="deg">-079.707596</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+104.701586</Long>
+        <Lat unit="deg">-079.871590</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+103.235263</Long>
+        <Lat unit="deg">-080.029464</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+101.723883</Long>
+        <Lat unit="deg">-080.180922</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+100.167332</Long>
+        <Lat unit="deg">-080.325665</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+098.565745</Long>
+        <Lat unit="deg">-080.463386</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+096.919532</Long>
+        <Lat unit="deg">-080.593778</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+095.229409</Long>
+        <Lat unit="deg">-080.716532</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+093.496424</Long>
+        <Lat unit="deg">-080.831342</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+091.721981</Long>
+        <Lat unit="deg">-080.937905</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+089.907857</Long>
+        <Lat unit="deg">-081.035929</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+088.056216</Long>
+        <Lat unit="deg">-081.125131</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+086.169617</Long>
+        <Lat unit="deg">-081.205241</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+084.251006</Long>
+        <Lat unit="deg">-081.276011</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+082.303711</Long>
+        <Lat unit="deg">-081.337211</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+080.331413</Long>
+        <Lat unit="deg">-081.388638</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+078.338119</Long>
+        <Lat unit="deg">-081.430116</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+076.328120</Long>
+        <Lat unit="deg">-081.461499</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+074.305937</Long>
+        <Lat unit="deg">-081.482676</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+072.276263</Long>
+        <Lat unit="deg">-081.493572</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+070.243900</Long>
+        <Lat unit="deg">-081.494147</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+068.213688</Long>
+        <Lat unit="deg">-081.484398</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+066.190437</Long>
+        <Lat unit="deg">-081.464360</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+064.178855</Long>
+        <Lat unit="deg">-081.434107</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+062.183487</Long>
+        <Lat unit="deg">-081.393746</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+060.208650</Long>
+        <Lat unit="deg">-081.343418</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+058.258385</Long>
+        <Lat unit="deg">-081.283295</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+056.336413</Long>
+        <Lat unit="deg">-081.213579</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+054.446100</Long>
+        <Lat unit="deg">-081.134495</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+052.590438</Long>
+        <Lat unit="deg">-081.046291</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+050.772027</Long>
+        <Lat unit="deg">-080.949235</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+048.993075</Long>
+        <Lat unit="deg">-080.843607</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+047.255403</Long>
+        <Lat unit="deg">-080.729700</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+045.560455</Long>
+        <Lat unit="deg">-080.607814</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+043.909317</Long>
+        <Lat unit="deg">-080.478256</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+042.302740</Long>
+        <Lat unit="deg">-080.341335</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+040.741169</Long>
+        <Lat unit="deg">-080.197358</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+039.224766</Long>
+        <Lat unit="deg">-080.046632</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+037.753444</Long>
+        <Lat unit="deg">-079.889457</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+036.326894</Long>
+        <Lat unit="deg">-079.726129</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+034.944617</Long>
+        <Lat unit="deg">-079.556937</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+033.605947</Long>
+        <Lat unit="deg">-079.382161</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+032.310082</Long>
+        <Lat unit="deg">-079.202070</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+031.056105</Long>
+        <Lat unit="deg">-079.016927</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+029.843007</Long>
+        <Lat unit="deg">-078.826981</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+028.669710</Long>
+        <Lat unit="deg">-078.632474</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+027.535079</Long>
+        <Lat unit="deg">-078.433634</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+026.437944</Long>
+        <Lat unit="deg">-078.230681</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+025.377107</Long>
+        <Lat unit="deg">-078.023823</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+024.351360</Long>
+        <Lat unit="deg">-077.813259</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+023.359492</Long>
+        <Lat unit="deg">-077.599176</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+022.400298</Long>
+        <Lat unit="deg">-077.381754</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+021.472585</Long>
+        <Lat unit="deg">-077.161162</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+020.575180</Long>
+        <Lat unit="deg">-076.937559</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+019.706933</Long>
+        <Lat unit="deg">-076.711097</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+018.866721</Long>
+        <Lat unit="deg">-076.481919</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+018.053453</Long>
+        <Lat unit="deg">-076.250160</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+017.266067</Long>
+        <Lat unit="deg">-076.015949</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+016.503537</Long>
+        <Lat unit="deg">-075.779405</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+015.764872</Long>
+        <Lat unit="deg">-075.540642</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+015.049115</Long>
+        <Lat unit="deg">-075.299769</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+014.355344</Long>
+        <Lat unit="deg">-075.056886</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+013.682676</Long>
+        <Lat unit="deg">-074.812089</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+013.030259</Long>
+        <Lat unit="deg">-074.565469</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+012.397277</Long>
+        <Lat unit="deg">-074.317111</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+011.782948</Long>
+        <Lat unit="deg">-074.067095</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+011.186523</Long>
+        <Lat unit="deg">-073.815499</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+010.607285</Long>
+        <Lat unit="deg">-073.562394</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+010.044546</Long>
+        <Lat unit="deg">-073.307847</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+009.497652</Long>
+        <Lat unit="deg">-073.051924</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+008.965973</Long>
+        <Lat unit="deg">-072.794684</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+008.448911</Long>
+        <Lat unit="deg">-072.536187</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+007.945892</Long>
+        <Lat unit="deg">-072.276485</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+007.456367</Long>
+        <Lat unit="deg">-072.015631</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+006.979815</Long>
+        <Lat unit="deg">-071.753673</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+006.515735</Long>
+        <Lat unit="deg">-071.490657</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+006.063648</Long>
+        <Lat unit="deg">-071.226628</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+005.623101</Long>
+        <Lat unit="deg">-070.961626</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+005.193655</Long>
+        <Lat unit="deg">-070.695692</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+004.774896</Long>
+        <Lat unit="deg">-070.428863</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+004.366424</Long>
+        <Lat unit="deg">-070.161173</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+003.967860</Long>
+        <Lat unit="deg">-069.892658</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+003.578840</Long>
+        <Lat unit="deg">-069.623348</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+003.199018</Long>
+        <Lat unit="deg">-069.353275</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+002.828059</Long>
+        <Lat unit="deg">-069.082466</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+002.465648</Long>
+        <Lat unit="deg">-068.810951</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+002.111480</Long>
+        <Lat unit="deg">-068.538754</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+001.765264</Long>
+        <Lat unit="deg">-068.265902</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+001.426722</Long>
+        <Lat unit="deg">-067.992416</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+001.095587</Long>
+        <Lat unit="deg">-067.718322</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+000.771605</Long>
+        <Lat unit="deg">-067.443639</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+000.454532</Long>
+        <Lat unit="deg">-067.168388</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">+000.144134</Long>
+        <Lat unit="deg">-066.892590</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.159815</Long>
+        <Lat unit="deg">-066.616263</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.457527</Long>
+        <Lat unit="deg">-066.339424</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-000.749211</Long>
+        <Lat unit="deg">-066.062092</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.035062</Long>
+        <Lat unit="deg">-065.784281</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.315271</Long>
+        <Lat unit="deg">-065.506008</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.590019</Long>
+        <Lat unit="deg">-065.227289</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-001.859481</Long>
+        <Lat unit="deg">-064.948136</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.123824</Long>
+        <Lat unit="deg">-064.668564</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.383209</Long>
+        <Lat unit="deg">-064.388586</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.637792</Long>
+        <Lat unit="deg">-064.108215</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-002.887720</Long>
+        <Lat unit="deg">-063.827462</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.133136</Long>
+        <Lat unit="deg">-063.546339</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.374178</Long>
+        <Lat unit="deg">-063.264857</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.610977</Long>
+        <Lat unit="deg">-062.983026</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-003.843661</Long>
+        <Lat unit="deg">-062.700858</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.072351</Long>
+        <Lat unit="deg">-062.418361</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.297166</Long>
+        <Lat unit="deg">-062.135546</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.518218</Long>
+        <Lat unit="deg">-061.852420</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.735617</Long>
+        <Lat unit="deg">-061.568993</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-004.949469</Long>
+        <Lat unit="deg">-061.285273</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.159873</Long>
+        <Lat unit="deg">-061.001268</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.366928</Long>
+        <Lat unit="deg">-060.716986</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.570728</Long>
+        <Lat unit="deg">-060.432434</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.771363</Long>
+        <Lat unit="deg">-060.147619</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-005.968922</Long>
+        <Lat unit="deg">-059.862549</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.163488</Long>
+        <Lat unit="deg">-059.577229</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.355144</Long>
+        <Lat unit="deg">-059.291666</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.543968</Long>
+        <Lat unit="deg">-059.005867</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.730035</Long>
+        <Lat unit="deg">-058.719836</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-006.913421</Long>
+        <Lat unit="deg">-058.433581</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.094194</Long>
+        <Lat unit="deg">-058.147106</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.272425</Long>
+        <Lat unit="deg">-057.860416</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.448179</Long>
+        <Lat unit="deg">-057.573518</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.621521</Long>
+        <Lat unit="deg">-057.286415</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.792512</Long>
+        <Lat unit="deg">-056.999113</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-007.961212</Long>
+        <Lat unit="deg">-056.711616</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.127680</Long>
+        <Lat unit="deg">-056.423929</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.291971</Long>
+        <Lat unit="deg">-056.136055</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.454140</Long>
+        <Lat unit="deg">-055.848000</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.614241</Long>
+        <Lat unit="deg">-055.559766</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.772322</Long>
+        <Lat unit="deg">-055.271359</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-008.928435</Long>
+        <Lat unit="deg">-054.982782</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.082626</Long>
+        <Lat unit="deg">-054.694038</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.234943</Long>
+        <Lat unit="deg">-054.405131</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.385431</Long>
+        <Lat unit="deg">-054.116064</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.534132</Long>
+        <Lat unit="deg">-053.826842</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.681089</Long>
+        <Lat unit="deg">-053.537466</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.826343</Long>
+        <Lat unit="deg">-053.247940</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-009.969934</Long>
+        <Lat unit="deg">-052.958267</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.111901</Long>
+        <Lat unit="deg">-052.668450</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.252281</Long>
+        <Lat unit="deg">-052.378492</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.391111</Long>
+        <Lat unit="deg">-052.088396</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.528425</Long>
+        <Lat unit="deg">-051.798164</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.664259</Long>
+        <Lat unit="deg">-051.507798</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.798645</Long>
+        <Lat unit="deg">-051.217302</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-010.931616</Long>
+        <Lat unit="deg">-050.926678</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.063203</Long>
+        <Lat unit="deg">-050.635928</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.193437</Long>
+        <Lat unit="deg">-050.345054</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.322348</Long>
+        <Lat unit="deg">-050.054059</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.449965</Long>
+        <Lat unit="deg">-049.762945</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.576316</Long>
+        <Lat unit="deg">-049.471713</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.701428</Long>
+        <Lat unit="deg">-049.180367</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.825328</Long>
+        <Lat unit="deg">-048.888908</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-011.948041</Long>
+        <Lat unit="deg">-048.597338</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.069593</Long>
+        <Lat unit="deg">-048.305659</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.190010</Long>
+        <Lat unit="deg">-048.013872</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.309313</Long>
+        <Lat unit="deg">-047.721980</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.427527</Long>
+        <Lat unit="deg">-047.429984</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.544675</Long>
+        <Lat unit="deg">-047.137886</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.660778</Long>
+        <Lat unit="deg">-046.845688</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.775858</Long>
+        <Lat unit="deg">-046.553391</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-012.889936</Long>
+        <Lat unit="deg">-046.260997</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.003033</Long>
+        <Lat unit="deg">-045.968507</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.115168</Long>
+        <Lat unit="deg">-045.675923</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.226361</Long>
+        <Lat unit="deg">-045.383246</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.336631</Long>
+        <Lat unit="deg">-045.090478</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.445995</Long>
+        <Lat unit="deg">-044.797620</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.554473</Long>
+        <Lat unit="deg">-044.504673</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.662082</Long>
+        <Lat unit="deg">-044.211640</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.768839</Long>
+        <Lat unit="deg">-043.918520</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.874761</Long>
+        <Lat unit="deg">-043.625316</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-013.979864</Long>
+        <Lat unit="deg">-043.332028</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.084164</Long>
+        <Lat unit="deg">-043.038658</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.187677</Long>
+        <Lat unit="deg">-042.745208</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.290417</Long>
+        <Lat unit="deg">-042.451677</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.392400</Long>
+        <Lat unit="deg">-042.158067</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.493641</Long>
+        <Lat unit="deg">-041.864380</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.594153</Long>
+        <Lat unit="deg">-041.570617</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.693950</Long>
+        <Lat unit="deg">-041.276778</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.793046</Long>
+        <Lat unit="deg">-040.982864</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.891454</Long>
+        <Lat unit="deg">-040.688877</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-014.989188</Long>
+        <Lat unit="deg">-040.394818</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.086259</Long>
+        <Lat unit="deg">-040.100687</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.182680</Long>
+        <Lat unit="deg">-039.806485</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.278463</Long>
+        <Lat unit="deg">-039.512214</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.373620</Long>
+        <Lat unit="deg">-039.217875</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.468163</Long>
+        <Lat unit="deg">-038.923467</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.562103</Long>
+        <Lat unit="deg">-038.628993</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.655451</Long>
+        <Lat unit="deg">-038.334453</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.748218</Long>
+        <Lat unit="deg">-038.039847</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.840415</Long>
+        <Lat unit="deg">-037.745177</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-015.932051</Long>
+        <Lat unit="deg">-037.450444</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.023137</Long>
+        <Lat unit="deg">-037.155648</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.113684</Long>
+        <Lat unit="deg">-036.860790</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.203701</Long>
+        <Lat unit="deg">-036.565871</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.293196</Long>
+        <Lat unit="deg">-036.270892</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.382181</Long>
+        <Lat unit="deg">-035.975853</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.470664</Long>
+        <Lat unit="deg">-035.680755</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.558654</Long>
+        <Lat unit="deg">-035.385599</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.646160</Long>
+        <Lat unit="deg">-035.090385</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.733190</Long>
+        <Lat unit="deg">-034.795115</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.819753</Long>
+        <Lat unit="deg">-034.499789</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.905857</Long>
+        <Lat unit="deg">-034.204407</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-016.991511</Long>
+        <Lat unit="deg">-033.908971</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.076723</Long>
+        <Lat unit="deg">-033.613481</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.161499</Long>
+        <Lat unit="deg">-033.317937</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.245849</Long>
+        <Lat unit="deg">-033.022341</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.329779</Long>
+        <Lat unit="deg">-032.726692</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.413297</Long>
+        <Lat unit="deg">-032.430992</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.496411</Long>
+        <Lat unit="deg">-032.135241</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.579126</Long>
+        <Lat unit="deg">-031.839440</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.661451</Long>
+        <Lat unit="deg">-031.543590</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.743393</Long>
+        <Lat unit="deg">-031.247690</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.824957</Long>
+        <Lat unit="deg">-030.951742</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.906151</Long>
+        <Lat unit="deg">-030.655746</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-017.986982</Long>
+        <Lat unit="deg">-030.359703</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.067454</Long>
+        <Lat unit="deg">-030.063613</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.147576</Long>
+        <Lat unit="deg">-029.767476</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.227353</Long>
+        <Lat unit="deg">-029.471294</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.306791</Long>
+        <Lat unit="deg">-029.175068</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.385896</Long>
+        <Lat unit="deg">-028.878796</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.464674</Long>
+        <Lat unit="deg">-028.582481</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.543131</Long>
+        <Lat unit="deg">-028.286122</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.621272</Long>
+        <Lat unit="deg">-027.989720</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.699103</Long>
+        <Lat unit="deg">-027.693275</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.776630</Long>
+        <Lat unit="deg">-027.396789</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.853857</Long>
+        <Lat unit="deg">-027.100261</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-018.930791</Long>
+        <Lat unit="deg">-026.803693</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.007436</Long>
+        <Lat unit="deg">-026.507084</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.083798</Long>
+        <Lat unit="deg">-026.210435</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.159882</Long>
+        <Lat unit="deg">-025.913746</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.235692</Long>
+        <Lat unit="deg">-025.617019</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.311233</Long>
+        <Lat unit="deg">-025.320253</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.386512</Long>
+        <Lat unit="deg">-025.023449</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.461531</Long>
+        <Lat unit="deg">-024.726608</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.536296</Long>
+        <Lat unit="deg">-024.429730</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.610811</Long>
+        <Lat unit="deg">-024.132815</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.685082</Long>
+        <Lat unit="deg">-023.835864</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.759112</Long>
+        <Lat unit="deg">-023.538877</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.832906</Long>
+        <Lat unit="deg">-023.241855</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.906468</Long>
+        <Lat unit="deg">-022.944799</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-019.979803</Long>
+        <Lat unit="deg">-022.647708</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.052914</Long>
+        <Lat unit="deg">-022.350583</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.125807</Long>
+        <Lat unit="deg">-022.053425</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.198485</Long>
+        <Lat unit="deg">-021.756234</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.270951</Long>
+        <Lat unit="deg">-021.459010</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.343211</Long>
+        <Lat unit="deg">-021.161755</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.415269</Long>
+        <Lat unit="deg">-020.864467</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.487127</Long>
+        <Lat unit="deg">-020.567149</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.558790</Long>
+        <Lat unit="deg">-020.269799</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.630261</Long>
+        <Lat unit="deg">-019.972420</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.701545</Long>
+        <Lat unit="deg">-019.675010</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.772646</Long>
+        <Lat unit="deg">-019.377571</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.843566</Long>
+        <Lat unit="deg">-019.080103</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.914309</Long>
+        <Lat unit="deg">-018.782606</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-020.984879</Long>
+        <Lat unit="deg">-018.485081</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.055280</Long>
+        <Lat unit="deg">-018.187528</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.125515</Long>
+        <Lat unit="deg">-017.889948</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.195587</Long>
+        <Lat unit="deg">-017.592341</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.265501</Long>
+        <Lat unit="deg">-017.294707</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.335258</Long>
+        <Lat unit="deg">-016.997047</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.404863</Long>
+        <Lat unit="deg">-016.699361</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.474319</Long>
+        <Lat unit="deg">-016.401650</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.543629</Long>
+        <Lat unit="deg">-016.103913</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.612796</Long>
+        <Lat unit="deg">-015.806153</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.681824</Long>
+        <Lat unit="deg">-015.508368</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.750715</Long>
+        <Lat unit="deg">-015.210559</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.819474</Long>
+        <Lat unit="deg">-014.912727</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.888102</Long>
+        <Lat unit="deg">-014.614872</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-021.956603</Long>
+        <Lat unit="deg">-014.316995</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.024980</Long>
+        <Lat unit="deg">-014.019095</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.093237</Long>
+        <Lat unit="deg">-013.721174</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.161375</Long>
+        <Lat unit="deg">-013.423231</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.229398</Long>
+        <Lat unit="deg">-013.125268</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.297309</Long>
+        <Lat unit="deg">-012.827284</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.365111</Long>
+        <Lat unit="deg">-012.529279</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.432806</Long>
+        <Lat unit="deg">-012.231255</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.500398</Long>
+        <Lat unit="deg">-011.933211</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.567890</Long>
+        <Lat unit="deg">-011.635149</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.635283</Long>
+        <Lat unit="deg">-011.337068</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.702582</Long>
+        <Lat unit="deg">-011.038968</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.769788</Long>
+        <Lat unit="deg">-010.740851</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.836904</Long>
+        <Lat unit="deg">-010.442716</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.903934</Long>
+        <Lat unit="deg">-010.144565</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-022.970879</Long>
+        <Lat unit="deg">-009.846396</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.037743</Long>
+        <Lat unit="deg">-009.548211</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.104529</Long>
+        <Lat unit="deg">-009.250011</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.171238</Long>
+        <Lat unit="deg">-008.951795</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.237873</Long>
+        <Lat unit="deg">-008.653563</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.304438</Long>
+        <Lat unit="deg">-008.355318</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.370935</Long>
+        <Lat unit="deg">-008.057057</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.437365</Long>
+        <Lat unit="deg">-007.758783</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.503733</Long>
+        <Lat unit="deg">-007.460495</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.570040</Long>
+        <Lat unit="deg">-007.162194</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.636289</Long>
+        <Lat unit="deg">-006.863880</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.702482</Long>
+        <Lat unit="deg">-006.565554</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.768623</Long>
+        <Lat unit="deg">-006.267215</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.834713</Long>
+        <Lat unit="deg">-005.968865</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.900755</Long>
+        <Lat unit="deg">-005.670504</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-023.966752</Long>
+        <Lat unit="deg">-005.372132</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.032705</Long>
+        <Lat unit="deg">-005.073749</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.098618</Long>
+        <Lat unit="deg">-004.775356</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.164493</Long>
+        <Lat unit="deg">-004.476953</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.230332</Long>
+        <Lat unit="deg">-004.178541</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.296138</Long>
+        <Lat unit="deg">-003.880120</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.361914</Long>
+        <Lat unit="deg">-003.581690</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.427661</Long>
+        <Lat unit="deg">-003.283252</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.493382</Long>
+        <Lat unit="deg">-002.984806</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.559080</Long>
+        <Lat unit="deg">-002.686353</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.624757</Long>
+        <Lat unit="deg">-002.387893</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.690415</Long>
+        <Lat unit="deg">-002.089426</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.756056</Long>
+        <Lat unit="deg">-001.790952</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.821684</Long>
+        <Lat unit="deg">-001.492473</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.887301</Long>
+        <Lat unit="deg">-001.193988</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-024.952908</Long>
+        <Lat unit="deg">-000.895498</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-025.018509</Long>
+        <Lat unit="deg">-000.597003</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-025.084106</Long>
+        <Lat unit="deg">-000.298503</Lat>
+      </Point_Swath>
+
+      <Point_Swath>
+        <Long unit="deg">-025.149706</Long>
+        <Lat unit="deg">+000.000000</Lat>
+      </Point_Swath>
+
+    </List_of_Point_Swaths>
+  </Data_Block>  
+</Earth_Explorer_File>

@@ -1,0 +1,1090 @@
+This is the first user's log message
+This is the second user's log message
+
+
+	TIME INITIALIZATION
+
+
+
+XL_MODEL_INIT
+
+
+	XO_ORBIT_INIT_DEF - XO_OSV_COMPUTE
+
+
+	XO_OSV_COMPUTE_EXTRA
+	- time at ANX = -2455.538095 
+	- absolute orbit = 0 Time since anx = 0.000000
+
+	XO_OSV_COMPUTE # 0
+	-    time = -2455.538095
+	-  pos[0] = 5723432.059440
+	-  pos[1] = -4201019.259703
+	-  pos[2] = 0.000000
+	-  vel[0] = -467.858744
+	-  vel[1] = -620.943083
+	-  vel[2] = 7490.006172
+	-  acc[0] = -6.443300
+	-  acc[1] = 4.731167
+	-  acc[2] = 0.000000
+
+	XO_OSV_COMPUTE # 1
+	-    time = -2455.537400
+	-  pos[0] = 5683809.412703
+	-  pos[1] = -4229703.637234
+	-  pos[2] = 449099.700810
+	-  vel[0] = -852.060959
+	-  vel[1] = -334.303800
+	-  vel[2] = 7474.932948
+	-  acc[0] = -6.358949
+	-  acc[1] = 4.820104
+	-  acc[2] = -0.502292
+
+	XO_OSV_COMPUTE # 2
+	-    time = -2455.536706
+	-  pos[0] = 5621302.494364
+	-  pos[1] = -4241041.744709
+	-  pos[2] = 896391.634140
+	-  vel[0] = -1230.407575
+	-  vel[1] = -42.934634
+	-  vel[2] = 7429.766570
+	-  acc[0] = -6.248209
+	-  acc[1] = 4.888738
+	-  acc[2] = -1.002748
+
+	XO_OSV_COMPUTE # 3
+	-    time = -2455.536012
+	-  pos[0] = 5536309.778852
+	-  pos[1] = -4234786.652187
+	-  pos[2] = 1340074.754906
+	-  vel[0] = -1601.333123
+	-  vel[1] = 251.930246
+	-  vel[2] = 7354.679771
+	-  acc[0] = -6.111697
+	-  acc[1] = 4.936554
+	-  acc[2] = -1.499285
+
+	XO_OSV_COMPUTE # 4
+	-    time = -2455.535317
+	-  pos[0] = 5429322.478554
+	-  pos[1] = -4210766.343156
+	-  pos[2] = 1778362.119164
+	-  vel[0] = -1963.312724
+	-  vel[1] = 549.028675
+	-  vel[2] = 7249.969646
+	-  acc[0] = -5.950149
+	-  acc[1] = 4.963133
+	-  acc[2] = -1.989842
+
+	XO_ORBIT_EXTRA
+	- orbit_extra_out[0] = 322.204269
+	- orbit_extra_out[1] = 14.595398
+	- orbit_extra_out[2] = 720440.721566
+	- orbit_extra_out[3] = -0.006416
+	- orbit_extra_out[4] = 0.060800
+	- orbit_extra_out[5] = -0.027560
+	- orbit_extra_out[6] = -0.000001
+	- orbit_extra_out[7] = -0.000000
+	- orbit_extra_out[8] = 0.038344
+	- orbit_extra_out[9] = 6339481.188490
+	- orbit_extra_out[10] = 6379493.078761
+	- orbit_extra_out[11] = 6339896.700954
+	- orbit_extra_out[12] = 6727.233195
+	- orbit_extra_out[13] = -691.300717
+	- orbit_extra_out[14] = 6762.659473
+	- orbit_extra_out[15] = 354.132793
+	- orbit_extra_out[16] = 0.026673
+	- orbit_extra_out[17] = 0.247146
+	- orbit_extra_out[18] = 0.001270
+	- orbit_extra_out[19] = 83.840155
+	- orbit_extra_out[20] = 0.000000
+	- orbit_extra_out[21] = 50.041864
+	- orbit_extra_out[22] = 8.632243
+	- orbit_extra_out[23] = 8.615083
+	- orbit_extra_out[24] = 19.942867
+	- orbit_extra_out[25] = 8.411811
+	- orbit_extra_out[26] = 0.265967
+	- orbit_extra_out[27] = 263.349812
+	- orbit_extra_out[28] = -22.371346
+	- orbit_extra_out[29] = 0.261925
+	- orbit_extra_out[30] = 0.740715
+	- orbit_extra_out[31] = 7101698.899731
+	- orbit_extra_out[32] = 0.001599
+	- orbit_extra_out[33] = 91.985901
+	- orbit_extra_out[34] = 329.683050
+	- orbit_extra_out[35] = 81.429773
+	- orbit_extra_out[36] = 293.258953
+	- orbit_extra_out[37] = 7097229.572141
+	- orbit_extra_out[38] = -11.020918
+	- orbit_extra_out[39] = 7496.535563
+	- orbit_extra_out[40] = 7496.543664
+	- orbit_extra_out[41] = 329.168830
+	- orbit_extra_out[42] = 14.511322
+	- orbit_extra_out[43] = 6.964561
+	- orbit_extra_out[44] = -0.002238
+	- orbit_extra_out[45] = -0.000001
+	- orbit_extra_out[46] = 14.520235
+	- orbit_extra_out[47] = 0.060519
+	- orbit_extra_out[48] = 0.000000
+
+	- orbit_model_out[0] = 5953.519656
+	- orbit_model_out[1] = -2455.538095
+	- orbit_model_out[2] = 0.000000
+	- orbit_model_out[3] = 240.000000
+	- orbit_model_out[4] = 7093561.017303
+	- orbit_model_out[5] = 0.001300
+	- orbit_model_out[6] = 91.987040
+	- orbit_model_out[7] = 329.683694
+	- orbit_model_out[8] = 89.998112
+	- orbit_model_out[9] = 284.663102
+
+
+	XO_ORBIT_CART_INIT... an error example... 
+
+	... This is what happens when a wrong satellite flag is set as input
+
+	XO_ORBIT_CART_INIT - XO_OSV_COMPUTE
+
+
+	XO_OSV_COMPUTE # 0
+	-    time = -2452.569000
+	-  pos[0] = 6427291.958548
+	-  pos[1] = -3019465.966708
+	-  pos[2] = -1.370454
+	-  vel[0] = -681.133848
+	-  vel[1] = -1449.860664
+	-  vel[2] = 7419.514102
+	-  acc[0] = -7.340958
+	-  acc[1] = 3.448693
+	-  acc[2] = -0.000000
+
+	XO_OSV_COMPUTE # 1
+	-    time = -2452.568306
+	-  pos[0] = 6373260.125991
+	-  pos[1] = -3100155.660777
+	-  pos[2] = 444871.416165
+	-  vel[0] = -1119.017112
+	-  vel[1] = -1238.258927
+	-  vel[2] = 7404.596597
+	-  acc[0] = -7.249965
+	-  acc[1] = 3.601964
+	-  acc[2] = -0.497126
+
+	XO_OSV_COMPUTE # 2
+	-    time = -2452.567611
+	-  pos[0] = 6293137.703661
+	-  pos[1] = -3167882.633333
+	-  pos[2] = 887955.217350
+	-  vel[0] = -1550.520025
+	-  vel[1] = -1017.921480
+	-  vel[2] = 7359.903125
+	-  acc[0] = -7.128374
+	-  acc[1] = 3.739728
+	-  acc[2] = -0.992171
+
+
+	XO_ORBIT_CLOSE
+
+
+	XO_ORBIT_INIT_FILE - XO_OSV_COMPUTE 
+
+	- validity times = ( 0.750429 , 1.032271 )
+
+	XO_OSV_COMPUTE # 1
+	-    time = 0.778613
+	-  pos[0] = -2635028.933779
+	-  pos[1] = -5257429.849088
+	-  pos[2] = 4154619.198528
+	-  vel[0] = -3511.241368
+	-  vel[1] = -2969.023797
+	-  vel[2] = -5967.019513
+	-  acc[0] = 2.364187
+	-  acc[1] = 6.093408
+	-  acc[2] = -4.443892
+	- absolute orbit = 999 Time since anx = 2435.913089
+
+	XO_OSV_COMPUTE # 2
+	-    time = 0.806798
+	-  pos[0] = 770903.113960
+	-  pos[1] = 2350568.100828
+	-  pos[2] = -6774091.046984
+	-  vel[0] = 5238.227263
+	-  vel[1] = 4866.654765
+	-  vel[2] = 2285.635572
+	-  acc[0] = -0.101670
+	-  acc[1] = -3.238859
+	-  acc[2] = 7.186168
+	- absolute orbit = 999 Time since anx = 4871.026178
+
+	XO_OSV_COMPUTE # 3
+	-    time = 0.834982
+	-  pos[0] = 2388119.461978
+	-  pos[1] = 493282.603790
+	-  pos[2] = 6769785.514312
+	-  vel[0] = -5424.877448
+	-  vel[1] = -4700.523465
+	-  vel[2] = 2251.292766
+	-  acc[0] = -3.216835
+	-  acc[1] = 0.268431
+	-  acc[2] = -7.229866
+	- absolute orbit = 1000 Time since anx = 1218.356545
+
+	XO_OSV_COMPUTE # 4
+	-    time = 0.863166
+	-  pos[0] = -5481366.439818
+	-  pos[1] = -2035038.194554
+	-  pos[2] = -4218924.853989
+	-  vel[0] = 3370.192828
+	-  vel[1] = 3186.766571
+	-  vel[2] = -5922.988162
+	-  acc[0] = 6.259276
+	-  acc[1] = 1.659753
+	-  acc[2] = 4.493868
+	- absolute orbit = 1000 Time since anx = 3653.469634
+
+	XO_OSV_COMPUTE # 5
+	-    time = 0.891350
+	-  pos[0] = 6907184.084285
+	-  pos[1] = 2054958.483409
+	-  pos[2] = 5883.887742
+	-  vel[0] = 456.860517
+	-  vel[1] = -1587.458308
+	-  vel[2] = 7353.045800
+	-  acc[0] = -7.560890
+	-  acc[1] = -2.247198
+	-  acc[2] = -0.006289
+	- absolute orbit = 1001 Time since anx = 0.800000
+
+	XO_OSV_COMPUTE # 6
+	-    time = 0.919534
+	-  pos[0] = -5738035.792810
+	-  pos[1] = -1287812.537625
+	-  pos[2] = 4154297.775662
+	-  vel[0] = -4521.124408
+	-  vel[1] = 839.411200
+	-  vel[2] = -5967.236993
+	-  acc[0] = 6.213917
+	-  acc[1] = 2.026520
+	-  acc[2] = -4.443876
+	- absolute orbit = 1001 Time since anx = 2435.913089
+
+	XO_OSV_COMPUTE # 7
+	-    time = 0.947718
+	-  pos[0] = 2308222.799918
+	-  pos[1] = 891296.938650
+	-  pos[2] = -6773960.620636
+	-  vel[0] = 7083.048372
+	-  vel[1] = -975.151513
+	-  vel[2] = 2286.021962
+	-  acc[0] = -2.571847
+	-  acc[1] = -1.971303
+	-  acc[2] = 7.186177
+	- absolute orbit = 1001 Time since anx = 4871.026178
+
+	XO_OSV_COMPUTE # 8
+	-    time = 0.975903
+	-  pos[0] = 1893011.426325
+	-  pos[1] = -1536687.062827
+	-  pos[2] = 6769766.670469
+	-  vel[0] = -7073.090885
+	-  vel[1] = 1224.737043
+	-  vel[2] = 2250.797269
+	-  acc[0] = -1.828270
+	-  acc[1] = 2.660388
+	-  acc[2] = -7.229877
+	- absolute orbit = 1002 Time since anx = 1218.356545
+
+	XO_OSV_COMPUTE # 9
+	-    time = 1.004087
+	-  pos[0] = -5044238.880155
+	-  pos[1] = 2955450.180017
+	-  pos[2] = -4219807.846678
+	-  vel[0] = 4601.126010
+	-  vel[1] = -592.470826
+	-  vel[2] = -5922.395378
+	-  acc[0] = 5.246737
+	-  acc[1] = -3.795434
+	-  acc[2] = 4.493853
+	- absolute orbit = 1002 Time since anx = 3653.469634
+
+
+
+	XO_ORBIT_INIT_FILE - XO_OSV_COMPUTE (second part)
+
+	- validity times = ( 792.477431 , 792.546254 )
+
+	XO_OSV_COMPUTE # 1
+	-    time = 792.484314
+	-  pos[0] = -4292165.774387
+	-  pos[1] = 3799646.556026
+	-  pos[2] = 4168666.616865
+	-  vel[0] = 3796.563928
+	-  vel[1] = -2373.297245
+	-  vel[2] = 6054.409431
+	-  acc[0] = 4.431105
+	-  acc[1] = -4.782753
+	-  acc[2] = -4.674236
+
+	XO_OSV_COMPUTE # 2
+	-    time = 792.491196
+	-  pos[0] = -1444041.188677
+	-  pos[1] = 1643155.237931
+	-  pos[2] = 6736692.813548
+	-  vel[0] = 5432.889585
+	-  vel[1] = -4664.200587
+	-  vel[2] = 2297.139385
+	-  acc[0] = 0.924372
+	-  acc[1] = -2.618224
+	-  acc[2] = -7.541452
+
+	XO_OSV_COMPUTE # 3
+	-    time = 792.498078
+	-  pos[0] = 1728141.418859
+	-  pos[1] = -1399931.635497
+	-  pos[2] = 6724672.590545
+	-  vel[0] = 4876.803933
+	-  vel[1] = -5225.763649
+	-  vel[2] = -2336.266715
+	-  acc[0] = -2.682381
+	-  acc[1] = 0.844274
+	-  acc[2] = -7.528210
+
+	XO_OSV_COMPUTE # 4
+	-    time = 792.504961
+	-  pos[0] = 3991354.038989
+	-  pos[1] = -4145924.234438
+	-  pos[2] = 4137185.056517
+	-  vel[0] = 2506.583071
+	-  vel[1] = -3670.498531
+	-  vel[2] = -6078.716160
+	-  acc[0] = -4.977794
+	-  acc[1] = 4.248949
+	-  acc[2] = -4.639344
+
+	XO_OSV_COMPUTE # 5
+	-    time = 792.511843
+	-  pos[0] = 4558677.501181
+	-  pos[1] = -5435009.447299
+	-  pos[2] = -36616.433340
+	-  vel[0] = -614.470321
+	-  vel[1] = -476.646138
+	-  vel[2] = -7493.114127
+	-  acc[0] = -5.141891
+	-  acc[1] = 6.137075
+	-  acc[2] = 0.040627
+
+	XO_OSV_COMPUTE # 6
+	-    time = 792.518725
+	-  pos[0] = 3369095.420746
+	-  pos[1] = -4627426.775864
+	-  pos[2] = -4196988.359390
+	-  vel[0] = -3200.191163
+	-  vel[1] = 3139.213651
+	-  vel[2] = -6037.199907
+	-  acc[0] = -3.276212
+	-  acc[1] = 5.595358
+	-  acc[2] = 4.685658
+
+	XO_OSV_COMPUTE # 7
+	-    time = 792.525607
+	-  pos[0] = 1053502.510550
+	-  pos[1] = -1911317.079293
+	-  pos[2] = -6755403.133319
+	-  vel[0] = -4294.248772
+	-  vel[1] = 5711.513794
+	-  vel[2] = -2286.625858
+	-  acc[0] = -0.329844
+	-  acc[1] = 2.735784
+	-  acc[2] = 7.510660
+
+	XO_OSV_COMPUTE # 8
+	-    time = 792.532490
+	-  pos[0] = -1384712.956368
+	-  pos[1] = 1734141.665608
+	-  pos[2] = -6743465.688051
+	-  vel[0] = -3632.165959
+	-  vel[1] = 6139.298924
+	-  vel[2] = 2325.448087
+	-  acc[0] = 2.423415
+	-  acc[1] = -1.383960
+	-  acc[2] = 7.497657
+
+	XO_OSV_COMPUTE # 9
+	-    time = 792.539372
+	-  pos[0] = -3003618.329623
+	-  pos[1] = 4899560.125253
+	-  pos[2] = -4165650.230425
+	-  vel[0] = -1662.830952
+	-  vel[1] = 4127.979103
+	-  vel[2] = 6061.268894
+	-  acc[0] = 3.930919
+	-  acc[1] = -5.187660
+	-  acc[2] = 4.651159
+
+
+
+	XO_ORBIT_INIT_GEO - XO_OSV_COMPUTE
+
+	-    time = 5000.000000
+	-  pos[0] = 39257164.974674
+	-  pos[1] = 15384714.722931
+	-  pos[2] = 0.000000
+	-  vel[0] = 0.000000
+	-  vel[1] = 0.000000
+	-  vel[2] = 0.000000
+	-  acc[0] = 0.000000
+	-  acc[1] = 0.000000
+	-  acc[2] = 0.000000
+
+
+
+	XO_INTERPOL_INIT
+
+	- validity times = ( -284.997911 , -284.986105 )
+
+	XO_INTERPOL # 1
+	-    time = -284.996730
+	-  pos[0] = -134894.272856
+	-  pos[1] = -1159597.205895
+	-  pos[2] = 7058024.421032
+	-  vel[0] = -6495.193142
+	-  vel[1] = 3797.582573
+	-  vel[2] = 498.669322
+	-  acc[0] = 0.699256
+	-  acc[1] = 2.197251
+	-  acc[2] = -7.665507
+
+	XO_INTERPOL # 2
+	-    time = -284.995550
+	-  pos[0] = -792478.906978
+	-  pos[1] = -761569.916467
+	-  pos[2] = 7068954.517330
+	-  vel[0] = -6386.053963
+	-  vel[1] = 3999.301260
+	-  vel[2] = -284.556291
+	-  acc[0] = 1.437507
+	-  acc[1] = 1.752279
+	-  acc[2] = -7.677327
+
+	XO_INTERPOL # 3
+	-    time = -284.994369
+	-  pos[0] = -1435126.920843
+	-  pos[1] = -345337.154914
+	-  pos[2] = 7000084.118748
+	-  vel[0] = -6202.705721
+	-  vel[1] = 4154.034167
+	-  vel[2] = -1064.593581
+	-  acc[0] = 2.152911
+	-  acc[1] = 1.276892
+	-  acc[2] = -7.603040
+
+	XO_INTERPOL # 4
+	-    time = -284.993189
+	-  pos[0] = -2055402.338849
+	-  pos[1] = 84159.877965
+	-  pos[2] = 6852185.317084
+	-  vel[0] = -5947.904575
+	-  vel[1] = 4258.962216
+	-  vel[2] = -1832.691334
+	-  acc[0] = 2.837183
+	-  acc[1] = 0.776718
+	-  acc[2] = -7.443422
+
+	XO_INTERPOL # 5
+	-    time = -284.992008
+	-  pos[0] = -2646192.731036
+	-  pos[1] = 521722.420100
+	-  pos[2] = 6626917.164649
+	-  vel[0] = -5625.232221
+	-  vel[1] = 4311.861262
+	-  vel[2] = -2580.223126
+	-  acc[0] = 3.482435
+	-  acc[1] = 0.257785
+	-  acc[2] = -7.200144
+
+	XO_INTERPOL # 6
+	-    time = -284.990828
+	-  pos[0] = -3200791.211609
+	-  pos[1] = 961956.814879
+	-  pos[2] = 6326808.322718
+	-  vel[0] = -5239.051294
+	-  vel[1] = 4311.140387
+	-  vel[2] = -3298.778743
+	-  acc[0] = 4.081255
+	-  acc[1] = -0.273533
+	-  acc[2] = -6.875771
+
+	XO_INTERPOL # 7
+	-    time = -284.989647
+	-  pos[0] = -3712973.492757
+	-  pos[1] = 1399340.793905
+	-  pos[2] = 5955230.398702
+	-  vel[0] = -4794.452788
+	-  vel[1] = 4255.873713
+	-  vel[2] = -3980.255086
+	-  acc[0] = 4.626787
+	-  acc[1] = -0.810581
+	-  acc[2] = -6.473756
+
+	XO_INTERPOL # 8
+	-    time = -284.988466
+	-  pos[0] = -4177069.174663
+	-  pos[1] = 1828292.632986
+	-  pos[2] = 5516362.074020
+	-  vel[0] = -4297.195500
+	-  vel[1] = 4145.825157
+	-  vel[2] = -4616.946025
+	-  acc[0] = 5.112804
+	-  acc[1] = -1.346501
+	-  acc[2] = -5.998427
+
+	XO_INTERPOL # 9
+	-    time = -284.987286
+	-  pos[0] = -4588026.460323
+	-  pos[1] = 2243242.453348
+	-  pos[2] = 5015144.120558
+	-  vel[0] = -3753.637458
+	-  vel[1] = 3981.465094
+	-  vel[2] = -5201.630473
+	-  acc[0] = 5.533795
+	-  acc[1] = -1.874315
+	-  acc[2] = -5.454962
+
+	- orbit_extra_out[0] = 153.944415
+	- orbit_extra_out[1] = 44.650861
+	- orbit_extra_out[2] = 790162.691224
+	- orbit_extra_out[3] = -0.021631
+	- orbit_extra_out[4] = -0.058435
+	- orbit_extra_out[5] = -12.549667
+	- orbit_extra_out[6] = 0.000035
+	- orbit_extra_out[7] = -0.000003
+	- orbit_extra_out[8] = 0.006297
+	- orbit_extra_out[9] = 6366990.919278
+	- orbit_extra_out[10] = 6388707.549591
+	- orbit_extra_out[11] = 6368403.758852
+	- orbit_extra_out[12] = -6493.532490
+	- orbit_extra_out[13] = -1715.845848
+	- orbit_extra_out[14] = 6716.404632
+	- orbit_extra_out[15] = 194.801489
+	- orbit_extra_out[16] = 0.155327
+	- orbit_extra_out[17] = -0.669356
+	- orbit_extra_out[18] = 0.020828
+	- orbit_extra_out[19] = 283.064504
+	- orbit_extra_out[20] = 0.000000
+	- orbit_extra_out[21] = 48.847051
+	- orbit_extra_out[22] = 10.567744
+	- orbit_extra_out[23] = 10.448540
+	- orbit_extra_out[24] = 0.861339
+	- orbit_extra_out[25] = 0.373081
+	- orbit_extra_out[26] = 0.267578
+	- orbit_extra_out[27] = 57.847497
+	- orbit_extra_out[28] = 14.909538
+	- orbit_extra_out[29] = 0.273742
+	- orbit_extra_out[30] = 0.241808
+	- orbit_extra_out[31] = 7159540.952426
+	- orbit_extra_out[32] = 0.001264
+	- orbit_extra_out[33] = 98.552817
+	- orbit_extra_out[34] = 149.098648
+	- orbit_extra_out[35] = 56.039278
+	- orbit_extra_out[36] = 78.702671
+	- orbit_extra_out[37] = 7157778.569856
+	- orbit_extra_out[38] = 9.256087
+	- orbit_extra_out[39] = 7463.333858
+	- orbit_extra_out[40] = 7463.339598
+	- orbit_extra_out[41] = 337.591534
+	- orbit_extra_out[42] = 44.479699
+	- orbit_extra_out[43] = 183.647119
+	- orbit_extra_out[44] = -0.017453
+	- orbit_extra_out[45] = 0.000035
+	- orbit_extra_out[46] = 134.884075
+	- orbit_extra_out[47] = 0.059742
+	- orbit_extra_out[48] = -0.000000
+
+	- orbit_model_out[0] = 6036.034942
+	- orbit_model_out[1] = -285.013418
+	- orbit_model_out[2] = 212.000000
+	- orbit_model_out[3] = 2257.819065
+	- orbit_model_out[4] = 0.000000
+	- orbit_model_out[5] = 0.000000
+	- orbit_model_out[6] = 0.000000
+	- orbit_model_out[7] = 0.000000
+	- orbit_model_out[8] = 0.000000
+	- orbit_model_out[9] = 0.000000
+
+
+	XO_ORBIT_CLOSE
+
+
+	XO_INTERPOL_INIT_FILE (second example)
+
+	- validity times = ( 1646.474271 , 1646.667442 )
+
+	XO_OSV_COMPUTE # 1
+	-    time = 1646.493588
+	-  pos[0] = 6901219.354091
+	-  pos[1] = 56494.903537
+	-  pos[2] = -1629084.230192
+	-  vel[0] = 1728.225467
+	-  vel[1] = -756.309518
+	-  vel[2] = 7297.970032
+	-  acc[0] = -7.795778
+	-  acc[1] = -0.314964
+	-  acc[2] = 1.827662
+
+	XO_OSV_COMPUTE # 2
+	-    time = 1646.512905
+	-  pos[0] = 239406.329512
+	-  pos[1] = -277173.542380
+	-  pos[2] = 7086791.074770
+	-  vel[0] = -7448.770460
+	-  vel[1] = 880.270231
+	-  vel[2] = 294.952291
+	-  acc[0] = -0.135996
+	-  acc[1] = 1.392430
+	-  acc[2] = -7.884379
+
+	XO_OSV_COMPUTE # 3
+	-    time = 1646.532222
+	-  pos[0] = -6813035.964985
+	-  pos[1] = 1728722.746668
+	-  pos[2] = -1058982.616438
+	-  vel[0] = 1272.990983
+	-  vel[1] = 476.517013
+	-  vel[2] = -7396.926782
+	-  acc[0] = 7.603213
+	-  acc[1] = -2.097243
+	-  acc[2] = 1.179706
+
+	XO_OSV_COMPUTE # 4
+	-    time = 1646.551539
+	-  pos[0] = 2281599.159785
+	-  pos[1] = -622880.061789
+	-  pos[2] = -6688326.595608
+	-  vel[0] = 6523.772706
+	-  vel[1] = -2768.163665
+	-  vel[2] = 2490.225001
+	-  acc[0] = -2.927311
+	-  acc[1] = -0.262498
+	-  acc[2] = 7.452887
+
+	XO_OSV_COMPUTE # 5
+	-    time = 1646.570856
+	-  pos[0] = 5342380.358675
+	-  pos[1] = -2966919.025769
+	-  pos[2] = 3598007.588257
+	-  vel[0] = -3685.862495
+	-  vel[1] = 1192.110917
+	-  vel[2] = 6459.224065
+	-  acc[0] = -5.766647
+	-  acc[1] = 3.836647
+	-  acc[2] = -4.030535
+
+	XO_OSV_COMPUTE # 6
+	-    time = 1646.590174
+	-  pos[0] = -3965200.490541
+	-  pos[1] = 2535335.031209
+	-  pos[2] = 5320760.895045
+	-  vel[0] = -4326.650260
+	-  vel[1] = 3638.712821
+	-  vel[2] = -4944.773437
+	-  acc[0] = 4.908437
+	-  acc[1] = -2.168114
+	-  acc[2] = -5.918143
+
+	XO_OSV_COMPUTE # 7
+	-    time = 1646.609491
+	-  pos[0] = -3116697.811282
+	-  pos[1] = 3049012.073058
+	-  pos[2] = -5607425.616939
+	-  vel[0] = 4739.517864
+	-  vel[1] = -3600.396024
+	-  vel[2] = -4579.006437
+	-  acc[0] = 2.915266
+	-  acc[1] = -4.056864
+	-  acc[2] = 6.235888
+
+	XO_OSV_COMPUTE # 8
+	-    time = 1646.628808
+	-  pos[0] = 4252170.901435
+	-  pos[1] = -4685198.085112
+	-  pos[2] = -3202878.540635
+	-  vel[0] = 1716.883079
+	-  vel[1] = -3011.749407
+	-  vel[2] = 6688.080780
+	-  acc[0] = -5.168982
+	-  acc[1] = 4.961008
+	-  acc[2] = 3.589037
+
+	XO_OSV_COMPUTE # 9
+	-    time = 1646.648125
+	-  pos[0] = 887750.901255
+	-  pos[1] = -1724570.169424
+	-  pos[2] = 6824367.489087
+	-  vel[0] = -4240.733887
+	-  vel[1] = 5853.485065
+	-  vel[2] = 2038.099077
+	-  acc[0] = -0.127786
+	-  acc[1] = 2.525114
+	-  acc[2] = -7.601110
+
+	- orbit_extra_out[0] = 297.237891
+	- orbit_extra_out[1] = 74.224065
+	- orbit_extra_out[2] = 736318.160569
+	- orbit_extra_out[3] = -0.032240
+	- orbit_extra_out[4] = 0.059699
+	- orbit_extra_out[5] = 18.681670
+	- orbit_extra_out[6] = -0.000207
+	- orbit_extra_out[7] = -0.000004
+	- orbit_extra_out[8] = -0.032094
+	- orbit_extra_out[9] = 6394814.562929
+	- orbit_extra_out[10] = 6398000.208108
+	- orbit_extra_out[11] = 6394881.820786
+	- orbit_extra_out[12] = 6663.092644
+	- orbit_extra_out[13] = -978.792164
+	- orbit_extra_out[14] = 6734.600039
+	- orbit_extra_out[15] = 351.643157
+	- orbit_extra_out[16] = 0.103659
+	- orbit_extra_out[17] = 0.939296
+	- orbit_extra_out[18] = -0.033957
+	- orbit_extra_out[19] = 83.702412
+	- orbit_extra_out[20] = 0.000000
+	- orbit_extra_out[21] = 51.729528
+	- orbit_extra_out[22] = 11.370726
+	- orbit_extra_out[23] = 11.296049
+	- orbit_extra_out[24] = 104.104958
+	- orbit_extra_out[25] = 22.806992
+	- orbit_extra_out[26] = 0.262194
+	- orbit_extra_out[27] = 317.798567
+	- orbit_extra_out[28] = -21.516761
+	- orbit_extra_out[29] = 0.270638
+	- orbit_extra_out[30] = 0.929673
+	- orbit_extra_out[31] = 7085717.154917
+	- orbit_extra_out[32] = 0.001566
+	- orbit_extra_out[33] = 91.986984
+	- orbit_extra_out[34] = 100.553850
+	- orbit_extra_out[35] = 290.497682
+	- orbit_extra_out[36] = 143.651405
+	- orbit_extra_out[37] = 7094662.469635
+	- orbit_extra_out[38] = 6.945506
+	- orbit_extra_out[39] = 7490.805517
+	- orbit_extra_out[40] = 7490.808737
+	- orbit_extra_out[41] = 93.542657
+	- orbit_extra_out[42] = 74.133567
+	- orbit_extra_out[43] = 156.304766
+	- orbit_extra_out[44] = -0.028062
+	- orbit_extra_out[45] = -0.000207
+	- orbit_extra_out[46] = 74.255303
+	- orbit_extra_out[47] = 0.060495
+	- orbit_extra_out[48] = -0.000000
+
+	- orbit_model_out[0] = 5953.503086
+	- orbit_model_out[1] = 1646.633938
+	- orbit_model_out[2] = 48.000000
+	- orbit_model_out[3] = 1225.790936
+	- orbit_model_out[4] = 0.000000
+	- orbit_model_out[5] = 0.000000
+	- orbit_model_out[6] = 0.000000
+	- orbit_model_out[7] = 0.000000
+	- orbit_model_out[8] = 0.000000
+	- orbit_model_out[9] = 0.000000
+
+
+	XO_ORBIT_CLOSE
+
+
+	XO_ORBIT_TO_TIME
+
+	-    orbit = 1034
+	-   second = 3000
+	- microsec = 50
+	-     time = -81.735644
+
+
+	XO_TIME_TO_ORBIT
+
+	-     time = -81.735644
+	-    orbit = 1034
+	-   second = 3000
+	- microsec = 50
+
+
+	XO_ORBIT_INFO_FROM_ABS
+
+	-                  Absolute orbit = 2800
+	-                  Relative orbit = 2531
+	-                    Cycle number = 1
+	-                    Phase number = 1
+	-                    Repeat cycle = 369.000000
+	-                    Cycle length = 5344.000000
+	-                      MLST drift = 188.160000
+	-                            MLST = 17.817319
+	-                         Phasing = 109.938889
+	-                 UTC time at ANX = 40.437035
+	-               X position at ANX = -2428218.216738
+	-               Y position at ANX = 6693679.896222
+	-               Z position at ANX = -0.000000
+	-               X velocity at ANX = 2325.408892
+	-               Y velocity at ANX = 833.224148
+	-               Z velocity at ANX = 7225.011263
+	-     Mean semi-major axis at ANX = 7115384.671638
+	-        Mean eccentricity at ANX = 0.001300
+	-         Mean inclination at ANX = 105.120262
+	-     Mean right ascension at ANX = 47.089607
+	- Mean argument of perigee at ANX = 90.000000
+	-      Mean (mean) anomaly at ANX = 270.148845
+	-     Osc. semi-major axis at ANX = 7124037.493481
+	-        Osc. eccentricity at ANX = 0.001391
+	-         Osc. inclination at ANX = 105.110848
+	-     Osc. right ascension at ANX = 47.089523
+	- Osc. argument of perigee at ANX = 69.194498
+	-        Osc. mean anomaly at ANX = 290.954467
+	-                    Nodal Period = 5978.888955
+
+	XO_ORBIT_ABS_FROM_REL
+
+	-                  Absolute orbit = 2800
+	-                  Relative orbit = 2531
+	-                    Cycle number = 1
+	-                    Phase number = 1
+
+	XO_ORBIT_INFO_FROM_PHASE
+
+	-                  Absolute orbit = 270
+	-                  Relative orbit = 1
+	-                    Cycle number = 1
+	-                    Phase number = 1
+
+	XO_ORBIT ID ACCESSORS (with OSF)
+
+	- Orbit Id is initialized
+	- Satellite Id = 41
+	- Orbit Mode = 3
+	- List of 5 orbital changes:
+	-    Orbital Change 1
+	-      Absolute Orbit  = 270
+	-      Relative Orbit  = 1
+	-      Cycle Number    = 1
+	-      Phase           = 1
+	-      Drift mode      = 10
+	-      Inclination     = 0.000000
+	-      Repeat Cycle    = 369
+	-      Cycle Length    = 5344
+	-      ANX Longitude   = 0.133500
+	-      MLST            = 8.666667
+	-      MLST Drift      = 188.160000
+	-      ANX TAI         = -134.638907
+	-      ANX UTC         = -134.639243
+	-      ANX UT1         = -134.639245
+	-      ANX Position    = {7120485.868560, 16590.865711, -0.000000, }
+	-      ANX Velocity    = {-3.971938, -2470.176758, 7225.011263, }
+	-      Nodal Period    = 5978.888955
+	-      Keplerian Elem. = {7115384.671638, 0.001300, 105.120262, 97.266373, 90.000000, 270.148845, }
+	-    Orbital Change 2
+	-      Absolute Orbit  = 3004
+	-      Relative Orbit  = 1
+	-      Cycle Number    = 7
+	-      Phase           = 2
+	-      Drift mode      = 10
+	-      Inclination     = 0.000000
+	-      Repeat Cycle    = 2
+	-      Cycle Length    = 29
+	-      ANX Longitude   = 0.860000
+	-      MLST            = 8.666667
+	-      MLST Drift      = 188.160000
+	-      ANX TAI         = 56.359092
+	-      ANX UTC         = 56.358745
+	-      ANX UT1         = 56.358737
+	-      ANX Position    = {7113933.212517, 106786.958945, 0.000000, }
+	-      ANX Velocity    = {27.267526, -2464.868416, 7229.433705, }
+	-      Nodal Period    = 5971.625563
+	-      Keplerian Elem. = {7109603.990345, 0.001300, 105.076409, 285.523018, 90.000000, 270.148844, }
+	-    Orbital Change 3
+	-      Absolute Orbit  = 5713
+	-      Relative Orbit  = 230
+	-      Cycle Number    = 70
+	-      Phase           = 2
+	-      Drift mode      = 10
+	-      Inclination     = 0.000000
+	-      Repeat Cycle    = 369
+	-      Cycle Length    = 5344
+	-      ANX Longitude   = 0.851828
+	-      MLST            = 8.666667
+	-      MLST Drift      = 188.160000
+	-      ANX TAI         = 245.359117
+	-      ANX UTC         = 245.358770
+	-      ANX UT1         = 245.358760
+	-      ANX Position    = {7119718.275621, 105858.098281, -0.000000, }
+	-      ANX Velocity    = {26.996635, -2470.032424, 7225.011263, }
+	-      Nodal Period    = 5978.888955
+	-      Keplerian Elem. = {7115384.671638, 0.001300, 105.120262, 111.810380, 90.000000, 270.148845, }
+	-    Orbital Change 4
+	-      Absolute Orbit  = 7488
+	-      Relative Orbit  = 1
+	-      Cycle Number    = 74
+	-      Phase           = 3
+	-      Drift mode      = 10
+	-      Inclination     = 0.000000
+	-      Repeat Cycle    = 2
+	-      Cycle Length    = 29
+	-      ANX Longitude   = 0.133500
+	-      MLST            = 8.666667
+	-      MLST Drift      = 188.160000
+	-      ANX TAI         = 369.361116
+	-      ANX UTC         = 369.360758
+	-      ANX UT1         = 369.360755
+	-      ANX Position    = {7114715.341874, 16577.420275, 0.000000, }
+	-      ANX Velocity    = {-3.987909, -2465.016009, 7229.433705, }
+	-      Nodal Period    = 5971.625563
+	-      Keplerian Elem. = {7109603.990345, 0.001300, 105.076409, 234.032612, 90.000000, 270.148844, }
+	-    Orbital Change 5
+	-      Absolute Orbit  = 8991
+	-      Relative Orbit  = 1
+	-      Cycle Number    = 77
+	-      Phase           = 4
+	-      Drift mode      = 10
+	-      Inclination     = 0.000000
+	-      Repeat Cycle    = 369
+	-      Cycle Length    = 5344
+	-      ANX Longitude   = 0.133500
+	-      MLST            = 8.666667
+	-      MLST Drift      = 188.160000
+	-      ANX TAI         = 474.361116
+	-      ANX UTC         = 474.360758
+	-      ANX UT1         = 474.360755
+	-      ANX Position    = {7120485.868560, 16590.865711, -0.000000, }
+	-      ANX Velocity    = {-3.971938, -2470.176758, 7225.011263, }
+	-      Nodal Period    = 5978.888955
+	-      Keplerian Elem. = {7115384.671638, 0.001300, 105.120262, 337.525578, 90.000000, 270.148845, }
+	- Validity Period = {-134.639245, 36524.000000} (time ref = 2)
+
+	XO_PROPAG ID ACCESSORS
+
+	- Double propagation = Yes
+	- Propagation data:
+	-   Validity period: (-134.639245, -134.570045)  (time ref = 2)
+	-   Absolute Orbit = 270
+	-   Time since ANX = 0.000000 s
+	-   Time           = -134.639245 (time ref = 2)
+	-   Position       = {7120485.868560, 16590.865711, -0.000000, }
+	-   Velocity       = {-3.971938, -2470.176758, 7225.011263, }
+	-   Acceleration   = {-8.194310, -0.017674, 0.000000, }
+	-   Osculating Kepler. Elem. = {7124037.574874, 0.001391, 105.110850, 97.263216, 69.194059, 290.954907, }
+
+	XO_INTERPOL ID ACCESSORS
+
+	- Interpolation data:
+	-   Absolute Orbit = 212
+	-   Time since ANX = 1339.319065 s
+	-   Time           = -284.997911 (time ref = 2)
+	-   Position       = {533217.699000, -1536569.663000, 6966777.648000, }
+	-   Velocity       = {-6528.201733, 3550.944245, 1280.082635, }
+	-   Acceleration   = {-0.056947, 2.608555, -7.567016, }
+	-   Osculating Kepler. Elem. = {7151065.896243, 0.000557, 98.557803, 149.081264, 219.900807, 220.130650, }
+
+	XO_ORBIT_CLOSE
+
+
+	XL_TIME_ID_INIT - XO_ORBIT_ID_INIT 
+
+
+
+xo_gen_osf_create
+
+
+
+xo_gen_osf_append_orbit_change
+
+
+
+xo_gen_osf_change_repeat_cycle
+
+
+
+xo_gen_osf_add_drift_cycle
+
+
+
+xo_gen_rof
+
+
+
+xo_gen_rof
+
+
+
+xo_gen_rof
+
+
+
+xo_gen_pof
+
+
+
+xo_gen_dnf
+
+
+
+xo_gen_oef
+
+	- xo_check_osf outputs. Differences in transition number 0:
+	-   UTC at ANX                 = 0.2815060019
+	-   ANX Longitude              = 0.0000100001
+	-   MLST at ANX                = 0.2839064032
+	-   Osculating semi-major axis = 0.0000000000
+	-   Osculating inclination     = 0.0000000000
+	-   Nodal Period               = 0.0000000000
+
+
+xo_check_oef
+	- xo_check_oef outputs. Differences and standard deviation
+	-   UTC at ANX                 maximum diferences = 0.000000  rms = 0.000000
+	-   ANX Longitude              maximum diferences = 0.000000  rms = 0.000000
+	-   MLST at ANX                maximum diferences = 0.005994  rms = 0.000001
+	-   Osculating semi-major axis maximum diferences = 0.028193  rms = 0.000830
+	-   Osculating inclination     maximum diferences = 0.000003  rms = 0.000000
+	-   Nodal Period               maximum diferences = 0.000035  rms = 0.000001
+
+
+
+xo_gen_tle
+
+
+
+xo_position_on_orbit_to_time
+
+	-   Time           = -2010.105928
+	-   Position       = {6804776.101487, 1625754.826401, 1718144.619134, }
+	-   Velocity       = {-1326.146823, -2034.183377, 7135.108151, }
+	-   Acceleration   = {-7.521465, -1.532701, -1.837994, }
+
+
+ xo_orbit_data_filter
+##############################################
+                OUTPUT REPORT                 
+
+> NUM_FILES: 1
+  > FILE[0] Num_rec: 239
+> nof_OSV_in      : 240
+> nof_OSV_filtered: 1
+> min_time_gap    : 100.000009
+> max_time_gap    : 200.000019
+> min_RMS_pos     : 0.037262
+> max_RMS_pos     : 100000.001587
+> min_RMS_vel     : 0.000058
+> max_RMS_vel     : 0.000058
+
+##############################################
+
+
+
+ xo_orbit_id_change
+
+ TEST 4 - Call xo_orbit_id_init with OSF change mode
+
+ TEST 5 - Call xo_orbit_id_init with Time/Orbit change mode
+
+==================================
+=      EXAMPLE RUN FINISHED      =
+==================================
+
+EOCFI_ORBIT EXAMPLE COMPLETED SUCCESSFULLY
