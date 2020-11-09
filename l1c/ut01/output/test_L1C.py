@@ -1,20 +1,18 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from common.io.writeToa import readToa
+from common.io.l1cProduct import readL1c
 
-
+# output l1c
 indir = '/home/renefiedel/Documents/EO DATA PROCESSING/EODP/EODP/Output/l1c_output'
+# reference l1c
 refoutdir = '/home/renefiedel/Documents/EO DATA PROCESSING/EODP_TER-20200917T082333Z-001/EODP_TER/EODP-TS-L1C/output'
 
-mytoa = [None]*4
-reftoa = [None]*4
-diff_toa = [None]*4
-
 for i in range(4):
-    mytoa[i] = readToa(indir, "l1c_toa_VNIR-" + str(i) + ".nc")
-    mytoa[i] = np.sort(mytoa[i])
-    reftoa[i] = readToa(refoutdir, 'l1c_toa_VNIR-' + str(i) + '.nc')
-    reftoa[i] = np.sort(reftoa[i])
+    mytoa1 = readToa(indir, "l1c_toa_VNIR-" + str(i) + ".nc")
+    mytoa = np.sort(mytoa1)
+    reftoa1 = readToa(refoutdir, "l1c_toa_VNIR-" + str(i) + ".nc")
+    reftoa = np.sort(reftoa1)
 
-    diff_toa[i] = np.min(np.abs((mytoa[i] - reftoa[i])/reftoa[i]))
-    print('difftoa_VNIR-' + str(i) + '=', diff_toa[i]*100)
+    diff_toa = np.max(np.abs(mytoa - reftoa)/reftoa)
+    print('difftoa_VNIR-' + str(i) + '=', diff_toa*100)

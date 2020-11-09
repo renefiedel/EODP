@@ -29,7 +29,7 @@ class l1c(initL1c):
             lat, lon = readGeodetic(self.gmdir, self.globalConfig.gm_geoloc)
             self.checkSize(lat, toa)
 
-            # L1C reprojection onto the MGRS grid
+            # L1C re-projection onto the MGRS grid
             # -------------------------------------------------------------------------------
             lat_l1c, lon_l1c, toa_l1c = self.l1cProjtoa(lat, lon, toa, band)
 
@@ -43,7 +43,7 @@ class l1c(initL1c):
 
     def l1cProjtoa(self, lat, lon, toa, band):
         '''
-        This function reprojects the L1B radiances into the MGRS grid.
+        This function re-projects the L1B radiances into the MGRS grid.
 
         The MGRS reference system
         https://www.bluemarblegeo.com/knowledgebase/calculator-2020/Military_Grid_Reference_System_(MGRS).htm
