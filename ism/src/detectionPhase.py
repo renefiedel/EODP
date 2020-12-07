@@ -21,17 +21,17 @@ class detectionPhase(initIsm):
         # Irradiance to photons conversion
         # -------------------------------------------------------------------------------
         self.logger.info("EODP-ALG-ISM-2010: Irradiances to Photons")
-        area_pix = self.ismConfig.pix_size * self.ismConfig.pix_size # [m2]
+        area_pix = self.ismConfig.pix_size * self.ismConfig.pix_size  # [m2]
         toa = self.irrad2Phot(toa, area_pix, self.ismConfig.t_int, self.ismConfig.wv[int(band[-1])])
 
-        self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [ph]")
+        self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [ph]")
 
         # Photon to electrons conversion
         # -------------------------------------------------------------------------------
         self.logger.info("EODP-ALG-ISM-2030: Photons to Electrons")
         toa = self.phot2Electr(toa, self.ismConfig.QE)
 
-        self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [e-]")
+        self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [e-]")
 
         if self.ismConfig.save_after_ph2e:
             saveas_str = self.globalConfig.ism_toa_e + band
@@ -44,7 +44,7 @@ class detectionPhase(initIsm):
             self.logger.info("EODP-ALG-ISM-2020: PRNU")
             toa = self.prnu(toa, self.ismConfig.kprnu)
 
-            self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [e-]")
+            self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [e-]")
 
             if self.ismConfig.save_after_prnu:
                 saveas_str = self.globalConfig.ism_toa_prnu + band
@@ -58,7 +58,7 @@ class detectionPhase(initIsm):
             toa = self.darkSignal(toa, self.ismConfig.kdsnu, self.ismConfig.T, self.ismConfig.Tref,
                                   self.ismConfig.ds_A_coeff, self.ismConfig.ds_B_coeff)
 
-            self.logger.debug("TOA [0,0] " +str(toa[0,0]) + " [e-]")
+            self.logger.debug("TOA [0,0] " + str(toa[0, 0]) + " [e-]")
 
             if self.ismConfig.save_after_ds:
                 saveas_str = self.globalConfig.ism_toa_ds + band
@@ -67,13 +67,12 @@ class detectionPhase(initIsm):
         # Bad/dead pixels
         # -------------------------------------------------------------------------------
         if self.ismConfig.apply_bad_dead:
-
             self.logger.info("EODP-ALG-ISM-2050: Bad/dead pixels")
             toa = self.badDeadPixels(toa,
-                               self.ismConfig.bad_pix,
-                               self.ismConfig.dead_pix,
-                               self.ismConfig.bad_pix_red,
-                               self.ismConfig.dead_pix_red)
+                                     self.ismConfig.bad_pix,
+                                     self.ismConfig.dead_pix,
+                                     self.ismConfig.bad_pix_red,
+                                     self.ismConfig.dead_pix_red)
 
         # Write output TOA
         # -------------------------------------------------------------------------------
@@ -83,13 +82,13 @@ class detectionPhase(initIsm):
             writeToa(self.outdir, saveas_str, toa)
 
             title_str = 'TOA after the detection phase [e-]'
-            xlabel_str='ACT'
-            ylabel_str='ALT'
+            xlabel_str = 'ACT'
+            ylabel_str = 'ALT'
             plotMat2D(toa, title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
 
-            idalt = int(toa.shape[0]/2)
+            idalt = int(toa.shape[0] / 2)
             saveas_str = saveas_str + '_alt' + str(idalt)
-            plotF([], toa[idalt,:], title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
+            plotF([], toa[idalt, :], title_str, xlabel_str, ylabel_str, self.outdir, saveas_str)
 
         return toa
 
@@ -103,9 +102,9 @@ class detectionPhase(initIsm):
         :return: Toa in photons
         """
         # TODO
-        Ein = (toa/1000) * area_pix * tint  # Incoming watts conversion from mW to W
-        Ephoton = (self.constants.h_planck * c) / wv  # avoid scipy planck constant to have the test = 0.0
-        toa_ph = Ein/Ephoton  # units in photons
+        e_in = (toa / 1000) * area_pix * tint  # Incoming watts conversion from mW to W
+        e_photon = (self.constants.h_planck * c) / wv  # avoid scipy planck constant to have the test = 0.0
+        toa_ph = e_in / e_photon  # units in photons
 
         return toa_ph
 
@@ -138,8 +137,8 @@ class detectionPhase(initIsm):
         # ❑ Save to file (an ASCII txt file for example), the indexes, for validation purposes.
         # TODO
         act = toa.shape[0]  # only along the across track
-        pixelbad = int(act * bad_pix/100)
-        pixeldead = int(act * dead_pix/100)
+        pixelbad = int(act * bad_pix / 100)
+        pixeldead = int(act * dead_pix / 100)
 
         if pixelbad != 0:
             step_bad = int(act / pixelbad)
@@ -186,13 +185,17 @@ class detectionPhase(initIsm):
         # Calculate the 1D DS ACT
         # TODO
 
-        DSNU = np.abs(np.random.normal(0, 1, toa.shape[1])) * kdsnu
-        Sd = ds_A_coeff*((T/Tref)**3) * np.exp(-ds_B_coeff*(1/T - 1/Tref))
-        DS = Sd * (1 + DSNU)
+        DSNU = kdsnu * np.abs(np.random.normal(0, 1, toa.shape[1]))
+        a = ds_A_coeff * np.power((T / Tref), 3)
+        b = np.exp(-ds_B_coeff * (1 / T - 1 / Tref))
+        sd = a * b
+        ds = sd * (1 + DSNU)
+
+        self.logger.debug("Dark signal Sd" + str(ds) + " [e-]")
 
         # Apply DSNU to the input TOA
         # TODO
         for ialt in range(toa.shape[0]):
-            toa[ialt, :] = toa[ialt, :] + DS
+            toa[ialt, :] = toa[ialt, :] + ds
 
         return toa

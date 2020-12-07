@@ -381,3 +381,21 @@
 2020-11-27 17:08:43,444 - L1B - DEBUG    - Sanity check. TOA in radiance after gain application 12.235602 [mW/m2/sr]
 2020-11-27 17:08:43,447 - L1B - INFO     - End of BAND VNIR-3
 2020-11-27 17:08:43,447 - L1B - INFO     - End of the L1B Module!
+2020-11-28 23:35:45,201 - L1B - INFO     - Start of the L1B Processing Module
+2020-11-28 23:35:45,202 - L1B - INFO     - Start of BAND VNIR-0
+2020-11-28 23:35:45,206 - L1B - INFO     - EODP-ALG-L1B-1020: Absolute radiometric gain application (restoration)
+2020-11-28 23:35:45,206 - L1B - DEBUG    - Sanity check. TOA in radiance after gain application 7.3779893 [mW/m2/sr]
+2020-11-28 23:35:45,208 - L1B - INFO     - End of BAND VNIR-0
+2020-11-28 23:35:45,208 - L1B - INFO     - Start of BAND VNIR-1
+2020-11-28 23:35:45,212 - L1B - INFO     - EODP-ALG-L1B-1020: Absolute radiometric gain application (restoration)
+2020-11-28 23:35:45,213 - L1B - DEBUG    - Sanity check. TOA in radiance after gain application 17.389462 [mW/m2/sr]
+2020-11-28 23:35:45,215 - L1B - INFO     - End of BAND VNIR-1
+2020-11-28 23:35:45,216 - L1B - INFO     - Start of BAND VNIR-2
+2020-11-28 23:35:45,217 - L1B - INFO     - EODP-ALG-L1B-1020: Absolute radiometric gain application (restoration)
+2020-11-28 23:35:45,217 - L1B - DEBUG    - Sanity check. TOA in radiance after gain application 13.367543 [mW/m2/sr]
+2020-11-28 23:35:45,219 - L1B - INFO     - End of BAND VNIR-2
+2020-11-28 23:35:45,219 - L1B - INFO     - Start of BAND VNIR-3
+2020-11-28 23:35:45,221 - L1B - INFO     - EODP-ALG-L1B-1020: Absolute radiometric gain application (restoration)
+2020-11-28 23:35:45,221 - L1B - DEBUG    - Sanity check. TOA in radiance after gain application 12.235602 [mW/m2/sr]
+2020-11-28 23:35:45,222 - L1B - INFO     - End of BAND VNIR-3
+2020-11-28 23:35:45,223 - L1B - INFO     - End of the L1B Module!
